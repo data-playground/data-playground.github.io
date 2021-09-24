@@ -1,12 +1,12 @@
 # main links
 main:
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Youtube"
     url: https://youtube.com/channel/UCodxIOYMfJHqPcP9XMQNDyw
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Programs"
+    url: /collection-archive/
+  - title: "Github"
+    url: /sitemap/
