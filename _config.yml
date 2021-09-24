@@ -78,7 +78,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : @PlaygroundData
+  username               : &twitter "PlaygroundData"
 facebook:
   username               :
   app_id                 :
@@ -90,6 +90,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+   - "https://twitter.com/PlaygroundData"
 
 # Analytics
 analytics:
@@ -131,7 +132,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: twitter.com/PlaygroundData
+      url: "https://twitter.com/PlaygroundData"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
