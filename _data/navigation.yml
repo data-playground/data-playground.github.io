@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: https://data-playground.github.io/about/
+    url: /about/
   - title: "Youtube"
     url: https://youtube.com/channel/UCodxIOYMfJHqPcP9XMQNDyw
   - title: "Posts"
