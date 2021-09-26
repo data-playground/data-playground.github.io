@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-date: 2022-01-04T18:00:00+00:00
+date: 2021-01-04T18:00:00+00:00
 ---
 
 Use this page as the about page for Data Playground. Include some images and topics.
