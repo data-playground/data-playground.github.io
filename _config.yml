@@ -210,7 +210,7 @@ kramdown:
 
 # Defaults
 defaults:
-  # _posts
+  # posts
   - scope:
       path: ""
       type: posts
@@ -221,9 +221,9 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # pages
   - scope:
-      path: "_pages"
+      path: "pages"
       type: pages
     values:
       layout: single
