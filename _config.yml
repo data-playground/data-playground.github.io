@@ -210,10 +210,10 @@ kramdown:
 
 # Collections
 collections:
-  posts:
+  pages:
     output: true
     permalink: /:collection/:path/
-  pages:
+  posts:
     output: true
     permalink: /:collection/:path/
   programs:
@@ -233,7 +233,6 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
