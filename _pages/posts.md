@@ -1,9 +1,6 @@
 ---
 title: "Posts"
-layout: collection
-collection: posts
+layout: posts
 permalink: /posts/
-entries_layout: grid
-classes: wide
 author_profile: true
 ---
