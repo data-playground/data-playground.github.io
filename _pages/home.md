@@ -1,6 +1,6 @@
 ---
 title: "Home - Data Playground"
-permalink: /home/
+permalink: /
 date: 2021-01-04T18:00:00+00:00
 ---
 
