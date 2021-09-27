@@ -5,7 +5,7 @@ main:
   - title: "Youtube"
     url: https://youtube.com/channel/UCodxIOYMfJHqPcP9XMQNDyw
   - title: "Posts"
-    url: /year-archive/
+    url: /posts/
   - title: "Programs"
     url: /collection-archive/
   - title: "Github"
