@@ -1,7 +1,6 @@
 ---
 title: "Posts"
 layout: collection
-collection: posts
+collection: a_posts
 permalink: /posts/
-author_profile: true
 ---
