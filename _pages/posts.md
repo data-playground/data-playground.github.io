@@ -1,6 +1,6 @@
 ---
 title: "Posts - Data Playground"
-layout: collection
+layout: category
 permalink: /posts/
 collection: posts
 entries_layout: grid
