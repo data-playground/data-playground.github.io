@@ -7,6 +7,6 @@ main:
   - title: "Posts"
     url: /posts/
   - title: "Programs"
-    url: /collection-archive/
+    url: /programs/
   - title: "Github"
     url: https://github.com/data-playground/data-playground.github.io
