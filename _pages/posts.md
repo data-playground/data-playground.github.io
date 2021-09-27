@@ -1,12 +1,9 @@
 ---
 title: "Posts - Data Playground"
+layout: collection
 permalink: /posts/
-layout: posts
+collection: portfolio
+entries_layout: grid
+classes: wide
 author_profile: true
 ---
-
-{% for post in site.posts %}
-  {% unless post.hidden %}
-    {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
