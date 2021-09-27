@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-layout: posts
+layout: collection
 collection: posts
 permalink: /posts/
 author_profile: true
