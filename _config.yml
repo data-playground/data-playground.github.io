@@ -235,7 +235,7 @@ defaults:
       share: true
   # _pages
   - scope:
-      path: "_pages"
+      path: "_posts"
       type: pages
     values:
       layout: single
