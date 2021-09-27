@@ -210,13 +210,13 @@ kramdown:
 
 # Collections
 collections:
-  programs:
+  programs_col:
     output: true
     permalink: /:collection/:path/
-  posts:
+  posts_col:
     output: true
     permalink: /:collection/:path/
-  pages:
+  pages_col:
     output: true
     permalink: /:collection/:path/
     
@@ -225,8 +225,19 @@ collections:
 defaults:
   # posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # posts_col
+  - scope:
+      path: "_posts"
+      type: posts_col
     values:
       layout: single
       author_profile: true
@@ -238,6 +249,13 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _pages_col
+  - scope:
+      path: "_pages"
+      type: pages_col
     values:
       layout: single
       author_profile: true
