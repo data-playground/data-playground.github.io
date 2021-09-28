@@ -213,7 +213,10 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-  a_posts:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+  poststest:
     output: true
     permalink: /:collection/:path/
   programs:
@@ -233,6 +236,18 @@ defaults:
       read_time: true
       comments: true
       share: true
+      related: true
+  # _poststest
+  - scope:
+      path: ""
+      type: poststest
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
