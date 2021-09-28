@@ -1,5 +1,5 @@
 ---
 title: "Posts"
 layout: postcollection
-permalink: /archive/
+permalink: /en/archive/
 ---
