@@ -37,7 +37,7 @@
       function getURL(lang) {
         let url_str = window.location.href
         let url_lang = url_str.split("/")[3]
-        alert(window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(4).join('/')));
+        window.location.replace(window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(4).join('/')));
       }
       </script>
 
