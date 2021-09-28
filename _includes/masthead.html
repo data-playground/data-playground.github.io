@@ -37,16 +37,18 @@
       function getURL(lang) {
         let url_str = window.location.href
         let url_lang = url_str.split("/")[3]
-          if (url_lang == 'es') {
-            alert(window.location.href)
+          if (url_lang == 'en') {
+            let new_url = window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(3).join('/'));
           } else {
-            alert(window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(4).join('/')));
-          }
+            let new_url = window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(4).join('/'));
+          } 
+        
+        window.location.replace(new_url)
       }
       </script>
 
       <div class="btn-lang-group" style="width:50%;height:50%;">
-        <button class="btn-lang" onclick="getURL('');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" style="width:10px;height:8px;">  English</button>
+        <button class="btn-lang" onclick="getURL('en');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" style="width:10px;height:8px;">  English</button>
         <button class="btn-lang" onclick="getURL('es');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" style="width:10px;height:8px;">  Español</button>
         <button class="btn-lang" onclick="getURL('pt');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png" style="width:10px;height:8px;">  Português</button>
       </div>
