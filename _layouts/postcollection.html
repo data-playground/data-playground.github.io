@@ -4,7 +4,7 @@ layout: archivepost
 
 {{ content }}
 
-{% assign entries_layout = post.entries_layout | default: 'list' %}
+{% assign entries_layout = site.posts | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include documents-postcollection.html collection=post.collection sort_by=post.sort_by sort_order=post.sort_order type=entries_layout %}
 </div>
