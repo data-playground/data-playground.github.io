@@ -216,7 +216,7 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  youtube:
     output: true
     permalink: /:collection/:path/
   programs:
@@ -242,7 +242,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: youtube
     values:
       layout: single
       author_profile: true
