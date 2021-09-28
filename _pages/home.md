@@ -1,5 +1,5 @@
 ---
-title: "Home - Data Playground"
+title: "Home"
 permalink: /
 date: 2021-01-04T18:00:00+00:00
 ---
