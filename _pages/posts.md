@@ -1,6 +1,6 @@
 ---
 title: "Posts"
 layout: posts
-collection: portfolio
+collection: posts
 permalink: /posts/
 ---
