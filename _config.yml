@@ -149,7 +149,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
     - label: "Tableau Public"
-      icon: "ion:logo-tableau"
+      icon: "fas fa-chart-bar"
       url: "https://public.tableau.com/app/profile/data.playground"
 
 
