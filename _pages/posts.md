@@ -1,6 +1,6 @@
 ---
 title: "Posts"
 layout: postcollection
-collection: poststest
+collection: posts
 permalink: /posts/
 ---
