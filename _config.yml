@@ -148,6 +148,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Tableau Public"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 # Reading Files
