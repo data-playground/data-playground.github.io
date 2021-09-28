@@ -213,9 +213,6 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-  posts:
-    output: true
-    permalink: /:collection/:path/
   youtube:
     output: true
     permalink: /:collection/:path/
@@ -228,7 +225,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
