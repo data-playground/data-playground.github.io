@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-layout: post_collection
-collection: posts
+layout: collection
+collection: poststest
 permalink: /posts/
 ---
