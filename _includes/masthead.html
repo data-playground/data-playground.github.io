@@ -12,12 +12,6 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         
-        <div class="btn-lang-group">
-          <button class="btn-lang"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" style="width:10px;height:8px;">  English</button>
-          <button class="btn-lang"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" style="width:10px;height:8px;">  Español</button>
-          <button class="btn-lang"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png" style="width:10px;height:8px;">  Português</button>
-        </div>
-        
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
@@ -37,6 +31,13 @@
         </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      
+      <div class="btn-lang-group">
+        <button class="btn-lang"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" style="width:10px;height:8px;">  English</button>
+        <button class="btn-lang"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" style="width:10px;height:8px;">  Español</button>
+        <button class="btn-lang"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png" style="width:10px;height:8px;">  Português</button>
+      </div>
+      
     </div>
   </div>
 </div>
