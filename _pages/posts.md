@@ -1,6 +1,6 @@
 ---
 title: "Posts"
 layout: post_collection
-collection: a_posts
+collection: posts
 permalink: /posts/
 ---
