@@ -149,8 +149,8 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
     - label: "Tableau Public"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      icon: "ion:logo-tableau"
+      url: "https://public.tableau.com/app/profile/data.playground"
 
 
 # Reading Files
