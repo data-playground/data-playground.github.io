@@ -6,5 +6,5 @@ layout: archivepost
 
 {% assign entries_layout = site.posts | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% include documents-postcollection.html collection=site.posts sort_by=site.posts.sort_by sort_order=site.posts.sort_order type=entries_layout %}
+  {% include documents-postcollection.html collection=posts sort_by=posts.sort_by sort_order=posts.sort_order type=entries_layout %}
 </div>
