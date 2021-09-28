@@ -1,5 +1,5 @@
 ---
 title: "Posts"
-layout: posts
+layout: postcollection
 permalink: /archive/
 ---
