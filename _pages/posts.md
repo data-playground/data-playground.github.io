@@ -1,6 +1,6 @@
 ---
-title: "Posts"
-layout: posts
-collection: posts
-permalink: /posts/
+title: "Channel Posts"
+layout: collection
+collection: youtube
+permalink: /channel-posts/
 ---
