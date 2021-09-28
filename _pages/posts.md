@@ -1,6 +1,5 @@
 ---
 title: "Posts"
 layout: posts
-collection: posts
-permalink: /posts/
+permalink: /archive/
 ---
