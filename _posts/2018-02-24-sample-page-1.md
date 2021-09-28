@@ -2,7 +2,7 @@
 title: "Sample Page 1"
 date: 2018-02-24T03:02:20+00:00
 hidden: true
-redirect: /en/sample-page
+redirect: /sample-page
 layout: redirect
 ---
 
