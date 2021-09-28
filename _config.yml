@@ -228,26 +228,17 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
+      words_per_minute: 200
       comments: true
       share: true
       related: true
-  # _poststest
-  - scope:
-      path: ""
-      type: poststest
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
