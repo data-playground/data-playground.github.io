@@ -239,9 +239,9 @@ defaults:
       share: true
       related: true
       show_date: true
-  # _portfolio
+  # _youtube
   - scope:
-      path: ""
+      path: "_youtube"
       type: youtube
     values:
       layout: single
