@@ -51,8 +51,8 @@
       document.onload = function getcurrURL() {
         let url_str = window.location.href
         let url_lang = url_str.split("/")[3]
-        for (i in document.getElementById("masthead__menu-item").href) {
-          document.getElementById("masthead__menu-item").href = document.getElementById("masthead__menu-item").href.split("/").slice(0,3).join('/').concat('/').concat(url_lang).concat('/').concat(document.getElementById("masthead__menu-item").href.split("/").slice(4).join('/')) 
+        for (menu_url in document.getElementsByClassName("masthead__menu-item").href) {
+          menu_url = menu_url.split("/").slice(0,3).join('/').concat('/').concat(url_lang).concat('/').concat(menu_url.split("/").slice(4).join('/')) 
         }
       }
       </script>
