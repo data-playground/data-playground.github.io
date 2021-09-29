@@ -13,16 +13,6 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<script>
-document.onload = function getcurrURL() {
-  let url_str = window.location.href
-  let url_lang = url_str.split("/")[3]
-  for (menu_url in document.getElementsByClassName("masthead__menu-item").href) {
-    menu_url = menu_url.split("/").slice(0,3).join('/').concat('/').concat(url_lang).concat('/').concat(menu_url.split("/").slice(4).join('/')) 
-  }
-}
-</script>
-
 <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 <script src="https://kit.fontawesome.com/787134893c.js" crossorigin="anonymous"></script>
 
