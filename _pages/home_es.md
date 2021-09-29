@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: "Inicio"
 permalink: /es/
 hidden: true
 header:
