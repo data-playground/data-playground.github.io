@@ -51,7 +51,7 @@
       function getcurrURL(elmnt) {
         let url_str = window.location.href
         let url_lang = url_str.split("/")[3]
-        window.location.replace(elmnt.getAttribute("href").split("/").slice(0,2).join('/').concat('/').concat(url_lang).concat('/').concat(elmnt.getAttribute("href").split("/").slice(3).join('/')));
+        window.location.replace(url_lang.concat('/').concat(elmnt.getAttribute("href")));
       }
       </script>
       
