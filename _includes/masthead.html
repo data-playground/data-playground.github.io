@@ -15,7 +15,7 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a onclick="getcurrURL(this);" href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
@@ -48,12 +48,10 @@
       </div>
       
       <script>
-      document.onload = function getcurrURL() {
+      function getcurrURL(elmnt) {
         let url_str = window.location.href
         let url_lang = url_str.split("/")[3]
-        for (menu_url in document.getElementsByClassName("masthead__menu-item")) {
-          menu_url.setAttribute(menu_url.href.split("/").slice(0,3).join('/').concat('/').concat(url_lang).concat('/').concat(menu_url.href.split("/").slice(4).join('/')))
-        }
+        window.location.replace(elmnt.href.split("/").slice(0,3).join('/').concat('/').concat(url_lang).concat('/').concat(elmnt.href.split("/").slice(4).join('/')))
       }
       </script>
       
