@@ -51,7 +51,7 @@
       function getcurrURL(elmnt) {
         let url_str = window.location.href
         let url_lang = url_str.split("/")[3]
-        elem.setAttribute('href', "https://data-playground.github.io/".concat(url_lang).concat('/').concat(elmnt.getAttribute("href")));
+        window.location.replace(elmnt.getAttribute("href").split("/").slice(0,3).join('/').concat('/').concat(url_lang).concat('/').concat(elmnt.getAttribute("href").split("/").slice(4).join('/')));
         return false;
       }
       </script>
