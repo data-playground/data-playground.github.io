@@ -12,7 +12,7 @@ layout: archive
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
         {% assign cat = post.categories %}
-        {% assign loc = site.locate %}
+        {% assign loc = site.locate.slice(0,2) %}
         {% if cat contains loc %}
           {% include archive-single.html type=entries_layout %}
         {% endif %}
