@@ -4,15 +4,6 @@ layout: archive
 
 {{ content }}
 
-      <script>
-      function getURL() {
-        let url_str = window.location.href;
-        let url_lang = url_str.split("/")[3];
-        return url_lang;
-      }
-        window.onload = getURL;
-      </script>
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
@@ -21,7 +12,8 @@ layout: archive
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
         {% assign cat = post.categories %}
-        {% if cat contains url_lang %}
+        {% assign loc = site.locate %}
+        {% if cat contains loc %}
           {% include archive-single.html type=entries_layout %}
         {% endif %}
       {% endfor %}
