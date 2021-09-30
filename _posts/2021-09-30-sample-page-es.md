@@ -1,7 +1,7 @@
 ---
 title: "Sample Page es"
 date: 2018-02-24T03:02:20+00:00
-lang: en
+lang: es
 permalink: /es/2021-09-30-sample-page-es
 ---
 
