@@ -35,8 +35,8 @@
       
       <script>
       function getURL(lang) {
-        let url_str = window.location.href
-        let url_lang = url_str.split("/")[3]
+        let url_str = window.location.href;
+        let url_lang = url_str.split("/")[3];
         window.location.replace(window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(4).join('/')));
       }
       </script>
@@ -49,9 +49,9 @@
       
       <script>
       function getcurrURL(elmnt) {
-        let url_str = window.location.href
-        let url_lang = url_str.split("/")[3]
-        let url_init = url_str.split("/").slice(0,4).join('/')
+        let url_str = window.location.href;
+        let url_lang = url_str.split("/")[3];
+        let url_init = url_str.split("/").slice(0,4).join('/');
         elmnt.setAttribute('href', url_init.concat(elmnt.getAttribute("href")));
         return false;
       }
