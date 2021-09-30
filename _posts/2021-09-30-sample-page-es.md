@@ -1,5 +1,5 @@
 ---
-title: "Sample Page 1"
+title: "Sample Page es"
 date: 2018-02-24T03:02:20+00:00
 lang: es
 redirect: /sample-page
