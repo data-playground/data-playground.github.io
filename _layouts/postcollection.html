@@ -21,7 +21,7 @@ layout: archive
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
         {% assign cat = post.categories %}
-        {% if cat contains "en" %}
+        {% if cat contains url_lang %}
           {% include archive-single.html type=entries_layout %}
         {% endif %}
       {% endfor %}
