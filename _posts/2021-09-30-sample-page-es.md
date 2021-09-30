@@ -1,7 +1,6 @@
 ---
 title: "Sample Page es"
-category:
-  - es
+category: es
 date: 2018-02-24T03:02:20+00:00
 ---
 
