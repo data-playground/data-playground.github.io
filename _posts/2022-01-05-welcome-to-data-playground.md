@@ -14,7 +14,7 @@ We are glad to present you this channel and website where we are going to have a
 
 Data Playground is a space to have fun with data. We want to show all aspects around an analysis including the gathering of data (from excel files to scraping off of websites), managing the data (storing and cleaning), analyzing and visualizing the results.
 
-As our name states, in Data Playground we intend to have fun with our discoveries. We will definitely work on the basics of our analysis, where we understand the data we are dealing with, but we are also going to move away from the commn place and have some fun while exploring new insigths the data can provide us.
+As our name states, at Data Playground we intend to have fun with our discoveries. We will definitely work on the basics of our analysis, where we understand the data we are dealing with, but we are also going to move away from the commn place and have some fun while exploring new insigths the data can provide us.
 
 ### Playing Instructions
 
