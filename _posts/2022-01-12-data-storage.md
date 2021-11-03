@@ -6,7 +6,7 @@ date: 2022-01-12T17:00:00+00:00
 
 ---
 
-## What is Data Storage?
+# What is Data Storage?
 
 Data Storage is the the act of storing data (duh!). Data Storage is to decide where you are going to keep the data for your process. The decision to how and where the data is kept can be done based on multiple reasons: ease of access, security, size...
 
@@ -18,21 +18,21 @@ When we start to store and communicate with a large amount of data (a million ro
 
 As you start to see different flavors of databases, you will see differences on the languages, but they have many similarities between tools of the same type. Much like in our human languages, where, as we travel to different places, even if they speak the same language they have differences on how they speak and which words they use to describe the same thing, querying language also differs from one another as we travel between the available tools, but they tends to have the same backbone that are very much relatable between them.
 
-### What Data Playground will use?
+## What Data Playground will use?
 
 As we mentioned before, a lot of datasets are available in Excel and csv files, so at Data Playground we will use a lot of sets based on those format. Even some of the datasets created by us by gathering data, we will save on those two formats just for ease of use.
 
 In other projects, the amount of data starts to become to big for Excel and would demand breaking the data in mutiple files, which could lead to errors. For those projects, we will use a Rational Database tool, called MySQL. MySQL is an open-source tool that can be downloaded and installed for free with a giant community, which helps us find solutions for some of the problems we may find as we go through the journey.
 
-### What do I need to do?
+## What do I need to do?
 
-##### Excel
+### Excel
 
 For Excel files, there is the Microsoft Excel path, that most professional and personal computers currently have. If you do not have the full Office version you can sign up for free to use the online version of Excel.
 
 Other free versions of excel file readers are Google Sheets, Apache OpenOffice Calc and LibreOffice Calc. All those options are fairly good to read the data, all with its small differences from the Microsoft product.
 
-##### CSV and other delimiter-separated files
+### CSV and other delimiter-separated files
 
 For most delimiter separated files, Excel readers are very reliable and do a good job to read the data and even transform in Excel-like files.
 
@@ -42,7 +42,7 @@ An option I personally like to have is Notepad++. Notepad++ is source code edito
 
 Unfortunately, Notepad++ is only available for Windows, but Mac users can find very good alternatives like Brackets that provides pretty much the same capabilties (you may see Brackets some times here as well).
 
-##### Database
+### Database
 
 There a lot of different providers for database management solutions, some on premise (in a computer you have access to) while others in the cloud (a third party hosting the solution). Microsoft SQL Server, Oracle RDBMS, SAP Sybase ASE and IBM DB2 are some on premise tools, while AmazonRDS is a great example of cloud-based data management tool.
 
@@ -50,7 +50,7 @@ All the example above are commercial tools that you need a license or a paid acc
 
 If you decide to follow us and use MySQL, please download the [MySQL Community Edition](https://dev.mysql.com/downloads/installer/)
 
-### Why Data Storage?
+## Why Data Storage?
 
 Data is always stored somewhere somehow and we will be exposed to it if we decide to go on this analytics journey. At Data Playground, we will go through a variety of projects with data being sourced from different locations. This will give us a great understanding on why this topic is so important and a baseline for many companies when hiring data analysts, engineers and scientists.
 
