@@ -6,41 +6,41 @@ date: 2022-01-19T17:00:00+00:00
 
 ---
 
-## What is Scripting?
+# What is Scripting?
 
 
 
-### What Data Playground will use?
+## What Data Playground will use?
 
 
 
-### What do I need to do?
+## What do I need to do?
 
-##### Python
-
-
-
-##### R
+### Python
 
 
 
-##### IDEs (Integrated Development Environment)
+### R
 
 
 
-##### Spyder
+### IDEs (Integrated Development Environment)
 
 
 
-##### Jupyter
+#### Spyder
 
 
 
-##### RStudio
+#### Jupyter
 
 
 
-### Why Scripting?
+#### RStudio
+
+
+
+## Why Scripting?
 
 
 
