@@ -23,6 +23,7 @@ weeks = today.strftime("%Y") + '-W' + today.strftime("%V")
 
 recipes_df = pd.DataFrame()
 
+print('Pulling recipes')
 recipes_df = recipes_df.append(Recipes.sunbasket())
 recipes_df = recipes_df.append(Recipes.blueapron())
 recipes_df = recipes_df.append(Recipes.homechef())
@@ -58,6 +59,7 @@ sites = recipes_df['Site'].drop_duplicates()
 
 for site in sites:
 
+    print('Writing recipes for' + site)
     site_str = '''
     ### {0}
     '''.format(site)
