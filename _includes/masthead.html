@@ -11,10 +11,11 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+        
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a onclick="getcurrURL(this);" href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
@@ -30,6 +31,32 @@
         </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      
+      
+      <script>
+      function getURL(lang) {
+        let url_str = window.location.href;
+        let url_lang = url_str.split("/")[3];
+        window.location.replace(window.location.href.split("/").slice(0,3).join('/').concat('/').concat(lang).concat('/').concat(window.location.href.split("/").slice(4).join('/')));
+      }
+      </script>
+
+      <div class="btn-lang-group" style="width:50%;height:50%;">
+        <button class="btn-lang" onclick="getURL('en');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" style="width:10px;height:8px;">  English</button>
+        <button class="btn-lang" onclick="getURL('es');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" style="width:10px;height:8px;">  Español</button>
+        <button class="btn-lang" onclick="getURL('pt');"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png" style="width:10px;height:8px;">  Português</button>
+      </div>
+      
+      <script>
+      function getcurrURL(elmnt) {
+        let url_str = window.location.href;
+        let url_lang = url_str.split("/")[3];
+        let url_init = url_str.split("/").slice(0,4).join('/');
+        elmnt.setAttribute('href', url_init.concat(elmnt.getAttribute("href")));
+        return false;
+      }
+      </script>
+      
     </div>
   </div>
 </div>

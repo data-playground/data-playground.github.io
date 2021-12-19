@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /en/
+permalink: /es/
 hidden: true
 header:
   overlay_color: "#5e616c"

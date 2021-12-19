@@ -1,6 +1,7 @@
 ---
 layout: splash
-permalink: /en/
+title: "Inicio"
+permalink: /es/
 hidden: true
 header:
   overlay_color: "#5e616c"

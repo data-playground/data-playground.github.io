@@ -1,10 +1,7 @@
 ---
-title: "About"
-permalink: /en/about/
-date: 2021-01-04T18:00:00+00:00
+title: "Sample Page ES test"
+date: 2016-02-24T03:02:20+00:00
 ---
-
-Use this page as the about page for Data Playground. Include some images and topics.
 
 This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
 
