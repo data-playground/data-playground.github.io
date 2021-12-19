@@ -80,7 +80,7 @@ for site in sites:
 full_string = head + recipes_str
 
 
-with open('../../../_posts/1900-01-01-Recipes.md', 'w') as f:
+with open('../../_posts/1900-01-01-Recipes.md', 'w') as f:
     f.write(full_string)
     
 ##### Commit updates to Github 
