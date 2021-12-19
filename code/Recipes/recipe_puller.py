@@ -61,7 +61,7 @@ for site in sites:
 
     print('Writing recipes for' + site)
     site_str = '''
-    ### {0}
+### {0}
     '''.format(site)
     
     site_df = recipes_df[recipes_df['Site'] == site]
