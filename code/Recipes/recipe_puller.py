@@ -4,17 +4,31 @@ Created on Fri Dec 17 21:02:37 2021
 
 @author: c20460
 """
+import git 
 
+##### Connect to GIthub Repository
+# Instantiate repo object
+repo = git.Repo(r"C:\Users\Llubr\Documents\GitHub\data-playground.github.io")
+# pull down 
+repo.remotes.origin.pull()
+
+
+##### Get data and update files
 import recipe_func as Recipes
 import pandas as pd
-import numpy as np
+import datetime
+
+today = datetime.date.today()
+weeks = today.strftime("%Y") + '-W' + today.strftime("%V")
 
 recipes_df = pd.DataFrame()
 
 recipes_df = recipes_df.append(Recipes.sunbasket())
 recipes_df = recipes_df.append(Recipes.blueapron())
 recipes_df = recipes_df.append(Recipes.homechef())
-recipes_df = recipes_df.append(Recipes.everyplate())
+recipes_df = recipes_df.append(Recipes.everyplate(weeks = weeks))
+recipes_df = recipes_df.append(Recipes.greenchef(weeks = weeks))
+recipes_df = recipes_df.append(Recipes.hellofresh(weeks = weeks))
 
 # recipes_df.to_excel(r'C:\Users\c20460\Downloads\Recipes\Recipes.xlsx', index = False)
 
@@ -38,62 +52,39 @@ categories:
 
 '''
 
-sunbasket = '''
-### Sunbasket
-'''
+recipes_str = ''
 
-sunbasket_df = recipes_df[recipes_df['Site'] == 'Sunbasket']
-sunbasket_df = sunbasket_df.reset_index()
+sites = recipes_df['Site'].drop_duplicates()
 
-for i in range(0,len(sunbasket_df)):
-    name = sunbasket_df.loc[i,'Title']
-    url = sunbasket_df.loc[i,'Link']
-    sunbasket = sunbasket + '''
-* [{0}]({1})'''.format(name, url)
+for site in sites:
 
-blueapron = '''
-
-### Blue Apron
-'''
-
-blueapron_df = recipes_df[recipes_df['Site'] == 'Blue Apron']
-blueapron_df = blueapron_df.reset_index()
-
-for i in range(0,len(blueapron_df)):
-    name = blueapron_df.loc[i,'Title']
-    url = blueapron_df.loc[i,'Link']
-    blueapron = blueapron + '''
-* [{0}]({1})'''.format(name, url)
-
-homechef = '''
-
-### Home Chef
-'''
-
-homechef_df = recipes_df[recipes_df['Site'] == 'Home Chef']
-homechef_df = homechef_df.reset_index()
-
-for i in range(0,len(homechef_df)):
-    name = homechef_df.loc[i,'Title']
-    url = homechef_df.loc[i,'Link']
-    homechef = homechef + '''
-* [{0}]({1})'''.format(name, url)
-
-everyplate = '''
-
-### EveryPlate
-'''
-
-everyplate_df = recipes_df[recipes_df['Site'] == 'Blue Apron']
-everyplate_df = everyplate_df.reset_index()
-
-for i in range(0,len(everyplate_df)):
-    name = everyplate_df.loc[i,'Title']
-    url = everyplate_df.loc[i,'Link']
-    everyplate = everyplate + '''
-* [{0}]({1})'''.format(name, url)
+    site_str = '''
+    ### {0}
+    '''.format(site)
     
-full_string = head + sunbasket + blueapron + homechef + everyplate
+    site_df = recipes_df[recipes_df['Site'] == site]
+    site_df = site_df.reset_index()
+
+    for i in range(0,len(site_df)):
+        name = site_df.loc[i,'Title']
+        url = site_df.loc[i,'Link']
+        site_str = site_str + '''
+* [{0}]({1})'''.format(name, url)
+
+    site_str = site_str + '''
+    
+    '''
+    
+    recipes_str = recipes_str + site_str
+    
+full_string = head + recipes_str
+
 
 with open('../../../_posts/1900-01-01-Recipes.md', 'w') as f:
     f.write(full_string)
+    
+##### Commit updates to Github 
+COMMIT_MESSAGE = input("Commit Message: ")
+repo.git.add(update=True)
+repo.index.commit(COMMIT_MESSAGE)
+repo.remote(name='origin').push()
