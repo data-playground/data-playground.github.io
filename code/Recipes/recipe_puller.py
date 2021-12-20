@@ -35,7 +35,9 @@ recipes_df = recipes_df.append(Recipes.hellofresh(weeks = weeks))
 
 recipes_df_full = pd.read_excel('Recipes.xlsx')
 recipes_df_full = recipes_df_full.append(recipes_df)
-recipes_df_full = recipes_df_full.drop_duplicates(subset=['Title', 'Link'])
+recipes_df_full = recipes_df_full.drop_duplicates(subset=['Title', 'Site'])
+
+recipes_df_full.sort_values(by=['Site', 'Title'])
 
 recipes_df_full.to_excel('Recipes.xlsx', index = False)
 
@@ -48,7 +50,11 @@ title: "Recipes"
 date: 1900-01-01T00:00:00+00:00
 categories: 
   - en
+toc: true
+toc_sticky: true
 ---
+
+
 
 
 '''
