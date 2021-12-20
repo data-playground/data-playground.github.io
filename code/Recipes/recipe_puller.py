@@ -45,7 +45,7 @@ recipes_df_full.to_excel('Recipes.xlsx', index = False)
 
 recipes_df = recipes_df_full
 
-head = '''---
+head = """---
 title: "Recipes"
 date: 1900-01-01T00:00:00+00:00
 categories: 
@@ -55,9 +55,17 @@ toc_sticky: true
 ---
 
 
+Cooking is always seen as an art and a science. Recipes give you the steps to achieve the expected results, while plating and tasting variations use your artistic vein to improve on known dishes.
 
+Data analysis can be seen the same way. A science by design, where one follows its many rules and models to achieve results, but what separate the majority from the greats is their creative touches on the known ideas, to improve on ongoing process.
 
-'''
+To celebrate cooking and data similarities, we gathered recipes from some of the most famous meal kit companies currently available. You can click on the recipe's names below to see the complete recipe in the meal prep company's website.
+
+To see the scripts that gathers the data from each website (recipe_funcs.py) and that creates this page you are currently reading (recipe_puller.py), please navigate to [this Github folder](https://github.com/data-playground/data-playground.github.io/tree/main/code/Recipes) in the Data Playground repository.
+
+Enjoy the recipes below and please let us know if anything could be improved.
+
+"""
 
 recipes_str = ''
 
@@ -67,7 +75,7 @@ for site in sites:
 
     print('Writing recipes for' + site)
     site_str = '''
-### {0}
+## {0}
     '''.format(site)
     
     site_df = recipes_df[recipes_df['Site'] == site]
