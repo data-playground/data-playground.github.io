@@ -91,7 +91,7 @@ for site in sites:
         else:
             url = site_df.loc[i,'Link']
             site_str = site_str + '''
-    * [{0}]({1})'''.format(name, url)
+* [{0}]({1})'''.format(name, url)
 
     site_str = site_str + '''
     
@@ -108,5 +108,5 @@ with open('../../_posts/1900-01-01-Recipes.md', 'w', encoding="utf-8") as f:
 ##### Commit updates to Github 
 COMMIT_MESSAGE = input("Commit Message: ")
 repo.git.add(update=True)
-repo.index.commit(COMMIT_MESSAGE)
+repo.index.commit("Updating Data" if COMMIT_MESSAGE == "" else COMMIT_MESSAGE)
 repo.remote(name='origin').push()
