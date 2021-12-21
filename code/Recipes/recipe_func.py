@@ -24,6 +24,8 @@ def sunbasket(init_url = 'https://sunbasket.com/menu/', week = ''):
     df['Link'] = ['https://sunbasket.com' + i for i in tables.xpath('//*[@class="recipe-name"]/a/@href')]
     df['Title'] = [i.text.strip() for i in tables.xpath('//*[@class="recipe-name"]/a')]
     df['Site'] = 'Sunbasket'
+    
+    print('Done - Sunbasket')
 
     return df
 
@@ -39,6 +41,8 @@ def blueapron(url = 'https://www.blueapron.com/cookbook/all/all/This%20Week'):
     df['Link'] = ['https://www.blueapron.com' + i for i in tables.xpath('//*[@class="recipe-thumb col-md-4"]/a/@href')]
     df['Title'] = [i.text.strip() + ' ' + j.text.strip() for i,j in zip(tables.xpath('//*[@class="recipe-thumb col-md-4"]/a/h3'),tables.xpath('//*[@class="recipe-thumb col-md-4"]/a/h4'))]
     df['Site'] = 'Blue Apron'
+    
+    print('Done - Blue Apron')
 
     return df
 
@@ -57,6 +61,8 @@ def homechef(url = 'https://www.homechef.com/our-menu'):
     df['Link'] = ['https://www.homechef.com' + i for i in tables.xpath('//*[@id="meal"]/article/div/a/@href')]
     df['Title'] = [i.text.strip() + ' ' + j.text.strip() for i,j in zip(tables.xpath('//*[@id="meal"]/article[1]/div/a/div[2]/h1'),tables.xpath('//*[@id="meal"]/article[1]/div/a/div[2]/p[2]'))]
     df['Site'] = 'Home Chef'
+    
+    print('Done - Home Chef')
 
     return df
 
@@ -87,6 +93,8 @@ def everyplate(url = 'https://www.everyplate.com/gw/menus-service/menus', weeks 
     df['Link'] = full_df['recipe.websiteUrl']
     df['Title'] = full_df['recipe.name'] + ' ' + full_df['recipe.headline']
     df['Site'] = 'EveryPlate'
+    
+    print('Done - EveryPlate')
 
     return df
 
@@ -110,6 +118,8 @@ def greenchef(url = 'https://chef.greenchef.com/gw/menus-service/menus', weeks =
     df['Link'] = full_df['recipe.websiteUrl']
     df['Title'] = full_df['recipe.name'] + ' ' + full_df['recipe.headline']
     df['Site'] = 'Green Chef'
+    
+    print('Done - Green Chef')
 
     return df
 
@@ -133,6 +143,8 @@ def hellofresh(url = 'https://www.hellofresh.com/gw/menus-service/menus', weeks 
     df['Link'] = full_df['recipe.websiteUrl']
     df['Title'] = full_df['recipe.name'] + ' ' + full_df['recipe.headline']
     df['Site'] = 'Hello Fresh'
+    
+    print('Done - Hello Fresh')
 
     return df
 

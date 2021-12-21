@@ -69,13 +69,14 @@ Enjoy the recipes below and please let us know if anything could be improved.
 
 """
 
+print('Writing recipes')
+
 recipes_str = ''
 
 sites = recipes_df['Site'].drop_duplicates()
 
 for site in sites:
 
-    print('Writing recipes for' + site)
     site_str = '''
 ## {0}
     '''.format(site)
@@ -85,9 +86,12 @@ for site in sites:
 
     for i in range(0,len(site_df)):
         name = site_df.loc[i,'Title']
-        url = site_df.loc[i,'Link']
-        site_str = site_str + '''
-* [{0}]({1})'''.format(name, url)
+        if 'Servings Plan:' in name:
+            pass
+        else:
+            url = site_df.loc[i,'Link']
+            site_str = site_str + '''
+    * [{0}]({1})'''.format(name, url)
 
     site_str = site_str + '''
     
