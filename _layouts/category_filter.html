@@ -25,16 +25,10 @@ layout: archive
   {% endfor %}
 </ul>
 
-<p>Absolute: {{ page.url | absolute_url }}</p>
-<p>Link: {{ page.categories }}</p>
-
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
-    {% assign cat = site.pageurl | split: "/" %}
-    {% assign cat_filter = cat[1] | remove: "#" %} 
-    {% if category[0] == cat_filter %}
+    {% if category[0] == page.categories %}
     {% if category[1].size == i %}
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ category[0] }}</h2>
