@@ -25,7 +25,8 @@ layout: archive
   {% endfor %}
 </ul>
 
-<p>{{ page.url }}</p>
+<p>Category: {{ page.category }}</p>
+<p>Tag: {{ page.tag }}</p>
 
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
