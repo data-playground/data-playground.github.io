@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
+language: en-US
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
