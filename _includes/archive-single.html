@@ -11,7 +11,7 @@
 {% endif %}
 
 {% if post.categories %}
-  {% assign cats = post.categories | jsonify %}
+  {% assign cats = post.categories | jsonify | remove '"' | remove '[' | remove ']' %}
 {% else %}
   {% assign cats = "" %}
 {% endif %}
