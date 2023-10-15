@@ -13,9 +13,7 @@ layout: archive
   </button>
 {% endfor %}
 
-{% assign id = 0 %}
 {% for post in site.posts %}
-  {% assign id = id | plus:1 %}
   <div class="post" id="{{id}}">
     <p class="itemInteriorSection">
       <a href="{{post.url}}">{{ post.articletitle }}</a><br />
