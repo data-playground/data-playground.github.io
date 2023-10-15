@@ -12,6 +12,11 @@ layout: archive
 {% endfor %}
 
 <ul class="taxonomy__index">
+        <li>
+          <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
+            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.posts.size }}</span>
+          </a>
+        </li>  
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
       {% if category[1].size == i %}
@@ -42,16 +47,9 @@ layout: archive
   {% endfor %}
 {% endfor %}
 
-<button id="All" onclick="filterUsingCategory('All')">
-  *Show All Posts*
-</button>
-{% assign categories = site.categories | sort %}
-{% for category in categories %}
-  {% assign cat = category | first %}
-  <button id="{{ cat }}" onclick="filterUsingCategory(this.id)">
-    {{ cat }}
-  </button>
-{% endfor %}
+
+
+
 
 {% assign id = 0 %}
 {% for post in site.posts %}
@@ -70,7 +68,7 @@ layout: archive
     {% for post in site.posts %}
       var cats = {{ post.categories | jsonify }}
 
-      var postDiv = document.getElementById(++id);
+      var postDiv = document.getElementById(id);
       postDiv.style.display =
         (selectedCategory == 'All' || cats.includes(selectedCategory)) 
           ? 'unset' 
