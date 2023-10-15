@@ -16,7 +16,7 @@
   {% assign cats = [] %}
 {% endif %}
 
-  {% assign cats_str = cats | remove: "& quot;" | remove: "[" | remove: "]" %}
+  {% assign cats_str = cats | remove: '& quot;' | remove '"' | remove: "[" | remove: "]" %}
 
 <div class="{{ include.type | default: 'list' }}__item" categories="{{ cats_str }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
