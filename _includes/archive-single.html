@@ -10,7 +10,13 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
+{% if post.categories %}
+  {% assign cats = post.categories | jsonify %}
+{% else %}
+  {% assign cats = "" %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item" categories="{{ cats }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
