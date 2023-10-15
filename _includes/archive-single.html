@@ -11,10 +11,12 @@
 {% endif %}
 
 {% if post.categories %}
-  {% assign cats = post.categories | jsonify | remove: '& quot;' %}
+  {% assign cats = post.categories | jsonify %}
 {% else %}
   {% assign cats = [] %}
 {% endif %}
+
+  {% assign cats_str = cats | remove: "& quot;" | remove: "[" | remove: "]" %}
 
 <div class="{{ include.type | default: 'list' }}__item" categories="{{ cats }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
