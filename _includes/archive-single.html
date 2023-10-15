@@ -18,7 +18,7 @@
 
   {% assign cats_str = cats | remove: "& quot;" | remove: "[" | remove: "]" %}
 
-<div class="{{ include.type | default: 'list' }}__item" categories="{{ cats }}">
+<div class="{{ include.type | default: 'list' }}__item" categories="{{ cats_str }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
