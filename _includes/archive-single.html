@@ -13,12 +13,10 @@
 {% if post.categories %}
   {% assign cats = post.categories | jsonify %}
 {% else %}
-  {% assign cats = [] %}
+  {% assign cats = [""] %}
 {% endif %}
 
-  {% assign cats_str = cats | join: ";" %}
-
-<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories="{{ cats_str }}">
+<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories="{{ cats[0] }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
