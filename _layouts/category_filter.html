@@ -30,49 +30,21 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..categories_max) reversed %}
-  {% for category in site.categories %}
-    {% if category[1].size == i %}
-      <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ category[0] }}</h2>
-        <div class="entries-{{ entries_layout }}">
-          {% for post in category.last %}
+
+          {% for post in site.posts %}
             {% include archive-single.html type=entries_layout %}
           {% endfor %}
-        </div>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
 
-
-
-
-
-{% assign id = 0 %}
-{% for post in site.posts %}
-  {% assign id = id | plus:1 %}
-  <div class="post" id="{{id}}">
-    <p class="itemInteriorSection">
-      <a href="{{post.url}}">{{ post.articletitle }}</a><br />
-      <!-- more post details here -->
-    </p>
-  </div>
-{% endfor %}
 
 <script type="text/javascript">
   function filterUsingCategory(selectedCategory) {
-    var id = 0;
-    {% for post in site.posts %}
-      var cats = {{ post.categories | jsonify }}
-
-      var postDiv = document.getElementById(id);
-      postDiv.style.display =
-        (selectedCategory == 'All' || cats.includes(selectedCategory)) 
-          ? 'unset' 
-          : 'none';
-    {% endfor %}
+    for (p in posts){
+        cats = posts[p].getAttribute("categories");
+        posts[p].style.display = 
+          (selectedCategory == 'All' || cats.includes(selectedCategory)) 
+              ? 'unset' 
+              : 'none';
+    }
   }
 </script>
