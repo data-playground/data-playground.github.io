@@ -16,9 +16,9 @@
   {% assign cats = [""] %}
 {% endif %}
 
-<p>{{ cats[0] }}</p>
+<p>{{ cats | join: ";" }}</p>
 
-<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories="{{ cats[1] }}">
+<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories="{{ cats | join: ";" }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
