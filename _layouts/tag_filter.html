@@ -14,7 +14,7 @@ layout: archive
 <ul class="taxonomy__index">
         <li>
           <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
-            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.tags.size }}</span>
+            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.posts.size }}</span>
           </a>
         </li>  
   {% for i in (1..tags_max) reversed %}
