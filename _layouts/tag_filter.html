@@ -1,0 +1,52 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign tags_max = 0 %}
+{% for tag in site.tags %}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+        <li>
+          <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
+            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.tags.size }}</span>
+          </a>
+        </li>  
+  {% for i in (1..tags_max) reversed %}
+    {% for tag in site.tags %}
+      {% if tag[1].size == i %}
+        <li>
+          <a href="javascript:;" id="{{ tag[0] }}" onclick="filterUsingCategory(this.id)">
+            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+
+          {% for post in site.posts %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
+
+<script type="text/javascript">
+  function filterUsingCategory(selectedTag) {
+    posts = $(".list__item")
+    for (p=0; p<= posts.length-1;p++){
+        tags = posts[p].getAttribute("tags");
+        posts[p].style.display = 
+          (selectedTag == 'All' || tags.includes(";" + selectedTag + ";")) 
+              ? 'unset' 
+              : 'none';
+    }
+  }
+</script>
