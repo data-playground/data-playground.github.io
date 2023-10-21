@@ -4,8 +4,10 @@ layout: archive
 
 {{ content }}
 
+{% assign langs =  site.posts | map: 'language' | join: ','  | split: ',' | uniq %}
+
 {% assign lang_max = 0 %}
-{% for lang in site.language %}
+{% for lang in langs %}
   {% if lang[1].size > lang_max %}
     {% assign lang_max = lang[1].size %}
   {% endif %}
@@ -18,7 +20,7 @@ layout: archive
           </a>
         </li>  
   {% for i in (1..lang_max) reversed %}
-    {% for lang in site.language %}
+    {% for lang in langs %}
       {% if lang[1].size == i %}
         <li>
           <a href="javascript:;" id="{{ lang[0] }}" onclick="filterUsingCategory(this.id)">
