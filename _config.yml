@@ -320,6 +320,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+language_archive:
+  type: liquid
+  path: /language/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
