@@ -7,7 +7,7 @@ layout: archive
 {% assign langs =  site.posts | map: 'language' | join: ','  | split: ',' | uniq %}
 
 {% for post in site.posts %}
-  <p>{{ post.language }}</p>
+  <p>{{ post.title }}: {{ post.language }}</p>
 {% endfor %}
 
 {% assign lang_max = 0 %}
