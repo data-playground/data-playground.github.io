@@ -4,8 +4,8 @@ layout: archive
 
 {{ content }}
 
-{% for post in site.posts %}
-  <p>{{ post.title }}: {{ post.language }}</p>
+{% for lang in site.languages %}
+  <p>{{ lang[1] }}: {{ lang[0] }}</p>
 {% endfor %}
 
 {% assign lang_max = 0 %}
