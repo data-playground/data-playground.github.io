@@ -5,7 +5,7 @@ layout: archive
 {{ content }}
 
 {% for lang in site.categories %}
-  <p>{{ lang }}</p>
+  <p>{{ lang[1].size }}</p>
 {% endfor %}
 
 {% assign lang_max = 0 %}
