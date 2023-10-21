@@ -1,0 +1,52 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign lang_max = 0 %}
+{% for lang in site.language %}
+  {% if lang[1].size > lang_max %}
+    {% assign lang_max = lang[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+        <li>
+          <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
+            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.posts.size }}</span>
+          </a>
+        </li>  
+  {% for i in (1..lang_max) reversed %}
+    {% for lang in site.language %}
+      {% if lang[1].size == i %}
+        <li>
+          <a href="javascript:;" id="{{ lang[0] }}" onclick="filterUsingCategory(this.id)">
+            <strong>{{ lang[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+
+          {% for post in site.posts %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
+
+<script type="text/javascript">
+  function filterUsingCategory(selectedLanguage) {
+    posts = $(".list__item")
+    for (p=0; p<= posts.length-1;p++){
+        lang = posts[p].getAttribute("language");
+        posts[p].style.display = 
+          (selectedLanguage == 'All' || lang.includes(";" + selectedLanguage + ";")) 
+              ? 'unset' 
+              : 'none';
+    }
+  }
+</script>
