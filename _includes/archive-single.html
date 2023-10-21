@@ -23,12 +23,12 @@
 {% endif %}
 
 {% if post.language %}
-  {% assign lang = post.language | json %}
+  {% assign lang = post.path %}
 {% else %}
   {% assign lang = [""] %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories=";{{ cats | join: ';' }};" tags=";{{ tags | join: ';' }};" language=";{{ lang | join: ';' }};">
+<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories=";{{ cats | join: ';' }};" tags=";{{ tags | join: ';' }};" language=";{{ lang }};">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
