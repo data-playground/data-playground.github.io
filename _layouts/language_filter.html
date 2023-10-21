@@ -4,33 +4,19 @@ layout: archive
 
 {{ content }}
 
-{% for lang in site.categories %}
-  <p>{{ lang[1].size }}</p>
-{% endfor %}
-
-{% assign lang_max = 0 %}
-{% for lang in site.languages %}
-  {% if lang[1].size > lang_max %}
-    {% assign lang_max = lang[1].size %}
-  {% endif %}
-{% endfor %}
-
 <ul class="taxonomy__index">
         <li>
           <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
             <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.posts.size }}</span>
           </a>
         </li>  
-  {% for i in (1..lang_max) reversed %}
-    {% for lang in site.languages %}
-      {% if lang[1].size == i %}
-        <li>
-          <a href="javascript:;" id="{{ lang[0] }}" onclick="filterUsingCategory(this.id)">
-            <strong>{{ lang[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
+  {% for lang in site.languages %}
+    {% assign i = site.posts.size | where: lang, post.language %}
+      <li>
+        <a href="javascript:;" id="{{ lang }}" onclick="filterUsingCategory(this.id)">
+          <strong>{{ lang }}</strong> <span class="taxonomy__count">{{ i }}</span>
+        </a>
+      </li>
   {% endfor %}
 </ul>
 
