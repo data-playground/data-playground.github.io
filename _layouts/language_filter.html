@@ -11,10 +11,10 @@ layout: archive
           </a>
         </li>  
   {% for lang in site.languages %}
-    {% assign i = site.posts.size | where: lang, post.language %}
+    {% assign lang_posts = site.posts | where: 'language', lang %}
       <li>
         <a href="javascript:;" id="{{ lang }}" onclick="filterUsingCategory(this.id)">
-          <strong>{{ lang }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          <strong>{{ lang }}</strong> <span class="taxonomy__count">{{ lang_posts.size }}</span>
         </a>
       </li>
   {% endfor %}
