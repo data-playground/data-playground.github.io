@@ -303,6 +303,10 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+languages:
+  - English
+  - Español
+  - Português
 
 # Archives
 #  Type
