@@ -9,7 +9,10 @@ tags:
   - edge case
   - lists
   - markup
-language: Español 
+language: Español
+author:
+  - name: Test Name
+  - bio: Testing Bio
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
