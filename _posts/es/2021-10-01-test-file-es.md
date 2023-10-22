@@ -11,8 +11,17 @@ tags:
   - markup
 language: Español
 author:
-  - name: Test Name
-  - bio: Testing Bio
+  name        : "Pedro Mano"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:billyrick@rick.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pedromanodemoura.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
