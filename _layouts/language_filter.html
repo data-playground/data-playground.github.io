@@ -35,7 +35,7 @@ layout: archive
     window.history.pushState(null, '', url.toString());
     let posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
-        lang = posts[p].getAttribute("language");
+        //lang = posts[p].getAttribute("language");
         posts[p].style.display = 
           (selectedLanguage == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.languages')).some(function(e){return e.value === selectedLanguage}))
               ? 'unset' 
