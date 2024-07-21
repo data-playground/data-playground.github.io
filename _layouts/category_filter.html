@@ -38,6 +38,19 @@ layout: archive
 
 
 <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    let urlParams = new URLSearchParams(window.location.search)
+    let selectedCategory = urlParams.get("cat")
+    for (p=0; p<= posts.length-1;p++){
+        //cats = posts[p].getAttribute("categories");
+        posts[p].style.display = 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.categories')).some(function(e){return e.value === selectedCategory})) 
+              ? 'unset' 
+              : 'none';
+    }
+  });
+
+  
   function filterUsingCategory(selectedCategory) {
     let url = new URL(window.location.href);
     url.searchParams.set('cat', selectedCategory);
