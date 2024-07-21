@@ -43,7 +43,7 @@ layout: archive
     for (p=0; p<= posts.length-1;p++){
         //cats = posts[p].getAttribute("categories");
         posts[p].style.display = 
-          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('input.categories')).some(function(e){return e.value === selectedCategory})) 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.categories')).some(function(e){return e.value === selectedCategory})) 
               ? 'unset' 
               : 'none';
     }
