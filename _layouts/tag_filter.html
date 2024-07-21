@@ -44,7 +44,7 @@ layout: archive
     for (p=0; p<= posts.length-1;p++){
         tags = posts[p].getAttribute("tags");
         posts[p].style.display = 
-          (selectedTag == 'All' || tags.includes(";" + selectedTag + ";")) 
+          (selectedTag == 'All' || Array.from(posts[p].querySelectorAll('input.tags')).some(function(e){return e.value === selectedCategory}))
               ? 'unset' 
               : 'none';
     }
