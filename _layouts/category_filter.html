@@ -39,7 +39,10 @@ layout: archive
 
 <script type="text/javascript">
   function filterUsingCategory(selectedCategory) {
-    posts = $(".list__item")
+    let url = new URL(window.location.href);
+    url.searchParams.set('cat', selectedCategory);
+    window.history.pushState(null, '', url.toString());
+    let posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
         //cats = posts[p].getAttribute("categories");
         posts[p].style.display = 
