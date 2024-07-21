@@ -40,9 +40,12 @@ layout: archive
 
 <script type="text/javascript">
   function filterUsingCategory(selectedTag) {
-    posts = $(".list__item")
+    let url = new URL(window.location.href);
+    url.searchParams.set('tag', selectedTag);
+    window.history.pushState(null, '', url.toString());
+    let posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
-        tags = posts[p].getAttribute("tags");
+        //tags = posts[p].getAttribute("tags");
         posts[p].style.display = 
           (selectedTag == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.tags')).some(function(e){return e.value === selectedTag}))
               ? 'unset' 
