@@ -41,9 +41,9 @@ layout: archive
   function filterUsingCategory(selectedCategory) {
     posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
-        cats = posts[p].getAttribute("categories");
+        //cats = posts[p].getAttribute("categories");
         posts[p].style.display = 
-          (selectedCategory == 'All' || cats.includes(";" + selectedCategory + ";")) 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('input.categories')).some(function(e){return e.value === selectedCategory})) 
               ? 'unset' 
               : 'none';
     }
