@@ -31,7 +31,7 @@ layout: archive
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
     let urlParams = new URLSearchParams(window.location.search)
-    let selectedLanguage = urlParams.get("lang")
+    let selectedLanguage = !urlParams.get("lang") ? 'All' : urlParams.get("lang")
           
     let posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
