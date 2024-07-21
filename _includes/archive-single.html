@@ -28,16 +28,18 @@
   {% assign lang = "" %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }} categories=";{{ cats | join: ';' }};" tags=";{{ tags | join: ';' }};" language=";{{ lang }};">
-  {% for cat in post.categories %}
-    <input class="categories" value="{{ cat }}" type="hidden">
-  {% endfor %}
-  {% for tag in post.tags %}
-    <input class="tags" value="{{ tag }}" type="hidden">
-  {% endfor %}
-  {% for lgn in post.language %}
-    <input class="languages" value="{{ lgn }}" type="hidden">
-  {% endfor %}
+<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }}>
+  <div id="filter-inputs">
+    {% for cat in post.categories %}
+      <input class="categories" value="{{ cat }}" type="hidden">
+    {% endfor %}
+    {% for tag in post.tags %}
+      <input class="tags" value="{{ tag }}" type="hidden">
+    {% endfor %}
+    {% for lgn in post.language %}
+      <input class="languages" value="{{ lgn }}" type="hidden">
+    {% endfor %}
+  </div>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
