@@ -41,7 +41,7 @@ layout: archive
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
     let urlParams = new URLSearchParams(window.location.search)
-    let selectedTag = urlParams.get("tag")
+    let selectedTag = !urlParams.get("tag") ? 'All' : urlParams.get("tag")
           
     let posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
