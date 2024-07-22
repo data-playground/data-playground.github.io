@@ -40,7 +40,8 @@ layout: archive
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
     let urlParams = new URLSearchParams(window.location.search)
-    let selectedCategory = urlParams.get("cat")
+    let selectedCategory = !urlParams.get("cat") ? 'All' : urlParams.get("cat")
+    
     let posts = $(".list__item")
     for (p=0; p<= posts.length-1;p++){
         //cats = posts[p].getAttribute("categories");
