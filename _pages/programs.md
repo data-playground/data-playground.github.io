@@ -1,7 +1,7 @@
 ---
 title: "Programs"
 layout: collection
-collection: pages
+collection: programs
 permalink: /programs/
 author_profile: false
 ---
