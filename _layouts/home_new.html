@@ -5,14 +5,12 @@ layout: archive
 {{ content }}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' | sample: 1 %}
-{% for year in postsByYear %}
+{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | sort: 'post', 'post.date | date: "%Y%m%d"' %}
 <section id="{{ year.name }}" class="taxonomy__section">
   <h2 class="archive__subtitle">Latest Article</h2>
   <div class="entries-{{ entries_layout }}">
-    {% for post in year.items %}
+    {% for post in postsByYear.last %}
       {% include archive-single.html type=entries_layout %}
     {% endfor %}
   </div>
 </section>
-{% endfor %}
