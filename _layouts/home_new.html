@@ -9,7 +9,7 @@ layout: archive
 <section id="{{ year.name }}" class="taxonomy__section">
   <h2 class="archive__subtitle">Latest Article</h2>
   <div class="entries-{{ entries_layout }}">
-    {% for post in postsByYear.last %}
+    {% for post in site.posts.last %}
       {% include archive-single.html type=entries_layout %}
     {% endfor %}
   </div>
