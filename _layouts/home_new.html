@@ -5,10 +5,12 @@ layout: archive
 {{ content }}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign last_post = site.posts | last %}
+
 <section id="{{ year.name }}" class="taxonomy__section">
   <h2 class="archive__subtitle">Latest Article</h2>
   <div class="entries-{{ entries_layout }}">
-    {% for post in site.posts.last %}
+    {% for post in last_post %}
       {% include archive-single.html type=entries_layout %}
     {% endfor %}
   </div>
