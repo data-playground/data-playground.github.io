@@ -6,13 +6,12 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | sort: 'post.date | date: "%Y%m%d"' | sample: 1 %}
-{% for year in postsByYear %}
-  <section id="{{ year.name }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">Latest Article</h2>
-    <div class="entries-{{ entries_layout }}">
-      {% for post in year.items %}
-        {% include archive-single.html type=entries_layout %}
-      {% endfor %}
-    </div>
-  </section>
+<section id="{{ year.name }}" class="taxonomy__section">
+  <h2 class="archive__subtitle">Latest Article</h2>
+  <div class="entries-{{ entries_layout }}">
+    {% for post in postsByYear.items %}
+      {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+  </div>
+</section>
 {% endfor %}
