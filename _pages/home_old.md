@@ -1,5 +1,6 @@
 ---
 layout: splash
+published: false
 permalink: /
 hidden: true
 language: en-US
