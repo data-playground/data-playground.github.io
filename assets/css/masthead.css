@@ -1,0 +1,16 @@
+.masthead {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.site-logo img {
+    -webkit-transition: none;
+    transition: none;
+    mix-blend-mode: multiply;
+}
+
+.initial-content {
+    padding-top: 90px;
+}
