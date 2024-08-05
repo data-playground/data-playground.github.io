@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<style>
+.initial-content {
+    padding-top: 100px;
+    height: calc(100vh - 300px) !important;
+}
+
+#main {
+    max-width: 1280px;
+    height: 100%;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.column-flex .archive {
+    padding: 0px;
+}
+</style>
+
+	<div id="main" role="main">
+		<div class="row-flex">
+			<div class="column-flex"></div>
+			<div class="column-flex">
+				<div class="archive">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+	</div>
