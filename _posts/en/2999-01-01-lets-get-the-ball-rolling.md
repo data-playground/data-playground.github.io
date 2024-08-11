@@ -6,4 +6,5 @@ categories:
   - soccer
   - pipeline
   - sports
+  - world cup
 ---
