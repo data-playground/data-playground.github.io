@@ -21,9 +21,8 @@ layout: default
 }
 	
 body {
-    height: 100dvh;
+    height: calc(100dvh-100px);
     margin: 0;
-    overflow: hidden;
 }
 	
 .initial-content {
@@ -72,7 +71,10 @@ body {
 }
 
 @media (max-width:768px) {
-	
+body {
+    height: calc(100dvh-65px);
+}
+
     .initial-content {
         padding-top: 65px;
     }
