@@ -17,7 +17,7 @@ layout: default
 <style>
 .initial-content {
     padding-top: 100px;
-    height: 60vh !important;
+    /*height: 60vh !important;*/
 }
 
 #main {
@@ -46,6 +46,16 @@ layout: default
 
 .archive__subtitle {
     margin: 0em 0 0.5em;
+}
+
+@media (max-height:768px) {
+    .row-flex {
+	flex-direction: column;
+    }
+	
+    .column-flex {
+	min-height: 200px;
+    }
 }
 </style>
 
