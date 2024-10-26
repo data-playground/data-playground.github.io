@@ -16,14 +16,15 @@ layout: default
 
 <style>
 body {
-    height: 100vh;
+    height: clamp(95vh, 100dvh, 100vh);
     max-height: -webkit-fill-available;
 }
 	
 .initial-content {
     margin-top: 100px;
     /*height: calc(100vh - 150px);*/
-    flex: 20 0 auto !important;
+    /*flex: 20 0 auto !important;*/
+    height: calc(100% - 170px);
 }
 
 #main {
@@ -61,7 +62,8 @@ body {
 
 #footer {
     margin: 0;
-    flex: 1 0 auto;
+    /*flex: 1 0 auto;*/
+    height: 170px;
     /*position: absolute;*/
     /*bottom: 0;*/
 }
