@@ -18,13 +18,14 @@ layout: default
 body {
     height: clamp(95vh, 100svh, 100vh);
     /*max-height: -webkit-fill-available;*/
+    min-height: 0;
 }
 	
 .initial-content {
     margin-top: 100px;
     /*height: calc(100vh - 150px);*/
     /*flex: 20 0 auto !important;*/
-    height: calc(clamp(95vh, 100svh, 100vh) - 150px);
+    height: calc(100% - 150px);
 }
 
 #main {
