@@ -130,7 +130,7 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "X"
+    - label: "X/Twitter"
       icon: "fa-brands fa-x-twitter"
       url: "https://twitter.com/PlaygroundData"
     - label: "Facebook"
@@ -148,7 +148,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-    - label: "Tableau Public"
+    - label: "Tableau"
       icon: "fas fa-chart-bar"
       url: "https://public.tableau.com/app/profile/data.playground"
 
