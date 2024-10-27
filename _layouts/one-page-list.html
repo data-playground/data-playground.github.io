@@ -14,6 +14,15 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{%- assign post = site.posts | first -%}
+
+{% if post.thumbnail %}
+  {%- assign thumbnail = post.thumbnail -%}
+{% else %}
+  {%- assign thumbnail = page.thumbnail_default -%}
+{% endif %}
+
+
 <style>
 html, body {
     /*height: clamp(95vh, 100svh, 100vh);*/
@@ -98,7 +107,9 @@ html, body {
 
 	<div id="main" role="main">
 		<div class="row-flex">
-			<div class="column-flex"></div>
+			<div class="column-flex">
+				<img class="post-thumbnail" src="{{ thumbnail }}">
+			</div>
 			<div class="column-flex">
 				<div class="archive">
 					{{ content }}
