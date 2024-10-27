@@ -35,7 +35,7 @@ html, body {
 }
 	
 .initial-content {
-    margin-top: 100px;
+    margin-top: 50px;
     /*height: calc(100vh - 150px);*/
     /*flex: 20 0 auto !important;*/
     height: calc(100% - 150px);
@@ -59,6 +59,7 @@ html, body {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    padding: 0 0.5em;
 }
 
 .column-flex .archive {
@@ -85,6 +86,13 @@ html, body {
 #footer footer {
     padding: 0 1.2em !important;
 }
+
+.post-thumbnail {
+    height: auto;
+    width: auto;
+    max-height: 50vh;
+    margin: 0 auto;
+}
 	
 
 @media (max-width:768px) {
@@ -101,6 +109,7 @@ html, body {
 	
     .column-flex {
         min-height: 180px;
+	padding: 0.5em 0;
     }
 }
 </style>
