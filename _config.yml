@@ -221,6 +221,7 @@ collections:
     permalink: /:collection/:path/
   programs:
     output: true
+    future: false
     permalink: /:collection/:path/
     
 
