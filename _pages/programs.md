@@ -1,7 +1,6 @@
 ---
 title: "Programs"
-layout: collection
-collection: pages
-permalink: /programs
+layout: programs
+permalink: /programs/
 author_profile: false
 ---
