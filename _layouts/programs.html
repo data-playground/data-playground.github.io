@@ -4,6 +4,8 @@ layout: archive
 
 {{ content }}
 
-          {% for program in site.programs %}
+{% assign programs = site.programs | where_exp: "item", "item.hidden != true" %}
+
+          {% for program in programs %}
             {% include archive-single-programs.html type=entries_layout %}
           {% endfor %}
