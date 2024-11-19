@@ -68,23 +68,23 @@ Its Notebook tool provide a clean and slick area to interact and run your script
 
 Jupyter Labs, on the other hand, provides a complete and complex environment, allowing the user to interact with a variety of files, console, terminal as well as the notebooks mentioned above.
 
-We will definitely see some Jupyter Notebooks being used in the post as it is a pleasing way to include guidance and documentation alongside your code (great for someone trying to follow along).
+Jupyter Notebooks will appear often in the posts,  as it is a pleasing way to include guidance and documentation alongside your code (great for someone trying to follow along).
 
 ### Other IDEs
 
 Even though Jupyter is great to display your final code, I am not its biggest fan during development. It chunks the code a little to much, while making it difficult to run one line of code for debugging.
 
-For that reason, we will definitely see some examples where while developing the process, we use another IDE (Integrated Development Environment) tool to create the process.
+For that reason, we will definitely see some examples where, while developing the process, we use another IDE (Integrated Development Environment) to create and test the process.
 
-I currently have been using Microsoft Visual Code as my main development tool, as I like its native (or easy to set) integrations with other Microsoft tools, like GitHub. But there are a myriad of other IDEs available, including one we will discuss later.
+I currently have been using Microsoft Visual Code as my main development tool, as I like its native (or easy to set) integrations with other Microsoft tools, like GitHub. But there are a myriad of other IDEs available, like PyCharm, Spyder and more.
 
 ## Environments
 
-As you installed Python, it created an environment where al the packages you install will be saved. It is very important to be attentive to your environment, as different packages may have distinct dependencies and it can become a problem when it starts to mix versions of different packages.
+As you installed Python, it created an environment where all the packages you install will be saved. It is very important to be attentive to your environment, as different packages may have distinct dependencies and it can become a problem when it starts to mix versions of different packages.
 
-To avoid all the packages being installed for a variety of projects mixing in your main environment (which should be kept as clean as possible to avoid confusion), you can create virtual environments. Those virtual environments are a layer on top of the base installation of Python we performed above. 
+To avoid all the packages for a variety of projects mixing in your main environment (which should be kept as clean as possible to avoid confusion), you can create virtual environments. Those virtual environments are a layer on top of the base installation of Python we performed above. 
 
-Ideally, you would have one virtual environment for each project you may perform, with the possibility to share the environment between scripts if they are all part of the same overarching project. This way, the entire development process is packaged and can be maintained more easily.
+Ideally, you would have one virtual environment for each project you may have, with the possibility to share the environment between scripts if they are all part of the same overarching project. This way, the entire development process is packaged and can be maintained more easily.
 
 Virtual Enviroments are easy to create and I highly recommend you start setting them up from your first project (you will thank me later). You can get more details on them on [Python docs](https://docs.python.org/3/library/venv.html).
 
