@@ -267,8 +267,9 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
-      share: false
-      comments: false
+      share: true
+      related: true
+      show_date: true
       sidebar:
         nav: "programs"
 
