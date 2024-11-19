@@ -1,0 +1,9 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+          {% for program in site.programs %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
