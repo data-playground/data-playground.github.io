@@ -1,0 +1,59 @@
+{% if program.header.teaser %}
+  {% capture teaser %}{{ program.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if program.id %}
+  {% assign title = program.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = program.title %}
+{% endif %}
+
+{% if program.categories %}
+  {% assign cats = program.categories | json %}
+{% else %}
+  {% assign cats = [""] %}
+{% endif %}
+
+{% if program.tags %}
+  {% assign tags = program.tags | json %}
+{% else %}
+  {% assign tags = [""] %}
+{% endif %}
+
+{% if program.language %}
+  {% assign lang = program.language %}
+{% else %}
+  {% assign lang = "" %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item" id={{ program.id }}>
+  <div id="filter-inputs">
+    {% for cat in program.categories %}
+      <input class="categories" value="{{ cat }}" type="hidden">
+    {% endfor %}
+    {% for tag in program.tags %}
+      <input class="tags" value="{{ tag }}" type="hidden">
+    {% endfor %}
+    {% for lgn in program.language %}
+      <input class="languages" value="{{ lgn }}" type="hidden">
+    {% endfor %}
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      {% if program.link %}
+        <a href="{{ program.link }}">{{ title }}</a> <a href="{{ program.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ program.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% include page__meta.html type=include.type %}
+    {% if program.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+  </article>
+</div>
