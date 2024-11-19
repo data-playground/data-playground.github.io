@@ -5,5 +5,5 @@ layout: archive
 {{ content }}
 
           {% for program in site.programs %}
-          <h2>{{ program.title }}</h2>
+            {% include archive-single-programs.html type=entries_layout %}
           {% endfor %}
