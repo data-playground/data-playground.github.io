@@ -1,7 +1,6 @@
 ---
 title: "What do you have in that basket?"
 subtitle: "Steps to get data for NBA analysis"
-date: 2024-01-01T17:00:00+00:00
 categories: 
   - nba
   - pipeline
