@@ -46,9 +46,9 @@ After we gather the data, we will need a place where to keep the data to later b
 
 NBA has a webpage that compiles the games hapenning (or that happened) every day. The [games page](https://www.nba.com/games) defaults to current date, but can be adjusted to display any date since NBA's inception in 1946.
 
-In the function presented below, you can see that we use a {self.GAME_DATE} placeholder that is defined when the class is being initally called. It can take a defined date or the current date if no value is assigned (check the __init__ method in the full code for more details).
+In the function presented below, you can see that we use a {self.GAME_DATE} placeholder that is defined when the class is being initally called. It can take a defined date or the current date if no value is assigned (check the \__init__ method in the full code for more details).
 
-Using the LXML package, we extract the full page content. Then we find a preloaded script within the page source (element with ID equals to "__NEXT_DATA__"). This script contains all the data the page requires to be built (and more) and is loaded within the page at its initial load. This means that even with processes that do not wait for javascript to run within the page (much like requests), the data will still be gathered.
+Using the LXML package, we extract the full page content. Then we find a preloaded script within the page source (element with ID equals to "\__NEXT_DATA__"). This script contains all the data the page requires to be built (and more) and is loaded within the page at its initial load. This means that even with processes that do not wait for javascript to run within the page (much like requests), the data will still be gathered.
 
 ![image](https://github.com/user-attachments/assets/900d34bb-3a88-4722-897a-5b40a3a885c8)
 
