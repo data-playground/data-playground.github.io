@@ -215,6 +215,7 @@ kramdown:
 collections:
   pages:
     output: true
+    future: false
     permalink: /:collection/:path/
   youtube:
     output: true
