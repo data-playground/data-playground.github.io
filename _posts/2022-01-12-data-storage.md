@@ -13,7 +13,8 @@ date: 2022-01-12T17:00:00+00:00
     src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
     device="tablet"
     hide-tabs
-    toolbar="bottom"
+    height="800px"
+    toolbar="hidden"
   >
   </tableau-viz>
   <script type="module">
