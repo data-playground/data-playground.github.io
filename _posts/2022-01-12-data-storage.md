@@ -93,11 +93,11 @@ date: 2022-01-12T17:00:00+00:00
 		tabConfig.data.dates = array.filter(arrayItem => arrayItem !== date)
 	  }
 
-      tabConfig.functions.processDates = async function (array) {
+      tabConfig.functions.processDates = async function () {
         for (const date of array) {
 		  if (tabConfig.data.keepRunning) {
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
-			await tabConfig.functions.removeFromArray(array, date);
+			await tabConfig.data.dates.shift();
 			await wait(1000); // Wait for 2 seconds before moving to the next date
 		  } else {
 		    return
