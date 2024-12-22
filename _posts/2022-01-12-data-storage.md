@@ -7,7 +7,8 @@ date: 2022-01-12T17:00:00+00:00
 ---
 
 <div id="tableauEmbed">
-  <button id="play-btn" type="button" class="btn btn-outline-dark">Play</button>
+  <button id="start-btn" type="button" class="btn btn-outline-dark">Start</button>
+  <button id="continue-btn" type="button" class="btn btn-outline-dark">Continue</button>
   <button id="pause-btn" type="button" class="btn btn-outline-dark">Pause</button>
   <tableau-viz
     src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
@@ -89,10 +90,11 @@ date: 2022-01-12T17:00:00+00:00
 
 
 
-      tabConfig.functions.processDates = async function (dates) {
-        for (const date of dates) {
+      tabConfig.functions.processDates = async function () {
+        for (const date of tabConfig.data.dates) {
 		  if (tabConfig.data.keepRunning) {
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
+			tabConfig.data.dates.shift();
 			await wait(1000); // Wait for 2 seconds before moving to the next date
 		  } else {
 		    return
@@ -114,14 +116,19 @@ date: 2022-01-12T17:00:00+00:00
 
         console.log('Dates Gathered')
 
-        tabConfig.functions.processDates(tabConfig.data.dates);
+        tabConfig.functions.processDates();
       }
 
       /* tabConfig.functions.runProc(); */
 
-      document.querySelector("#tableauEmbed #play-btn").addEventListener("click", function(e) {
+      document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {
 		tabConfig.data.keepRunning = true;
-		tabConfig.functions.runProc()
+		tabConfig.functions.runProc();
+	  })
+
+      document.querySelector("#tableauEmbed #continue-btn").addEventListener("click", function(e) {
+		tabConfig.data.keepRunning = true;
+		tabConfig.functions.processDates();
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
@@ -137,13 +144,8 @@ date: 2022-01-12T17:00:00+00:00
       height: 100%;
       margin-bottom: 25px;
     }
-
-    #tableauEmbed tableau-viz {
-      height: 800px;
-    }
   </style>
 </div>
-
 # What is Data Storage?
 
 Data Storage is the the act of storing data (duh!). Data Storage is to decide where you are going to keep the data for your process. The decision to how and where the data is kept can be done based on multiple reasons: ease of access, security, size...
