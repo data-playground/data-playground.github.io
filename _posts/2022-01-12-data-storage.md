@@ -90,14 +90,10 @@ date: 2022-01-12T17:00:00+00:00
       }
 
       tabConfig.functions.processDates = async function () {
-        for (const date of tabConfig.data.dates) {
-		  if (tabConfig.data.keepRunning) {
-			await tabConfig.data.dates.shift();
+        while (tabConfig.data.dates.length > 0 & tabConfig.data.keepRunning) {
+			let date = tabConfig.data.dates.shift()
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
 			await wait(1000); // Wait for 2 seconds before moving to the next date
-		  } else {
-		    return
-		  }
         }
       }
 
