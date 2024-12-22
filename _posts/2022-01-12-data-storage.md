@@ -11,7 +11,7 @@ date: 2022-01-12T17:00:00+00:00
   <button id="pause-btn" type="button" class="btn btn-outline-dark">Pause</button>
   <tableau-viz
     src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-    device="desktop"
+    device="tablet"
     hide-tabs
     toolbar="bottom"
   >
