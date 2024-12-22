@@ -89,12 +89,8 @@ date: 2022-01-12T17:00:00+00:00
         tabConfig.data.dates = dates;
       }
 
-	  tabConfig.functions.removeFromArray = function (array, date) {
-		tabConfig.data.dates = array.filter(arrayItem => arrayItem !== date)
-	  }
-
       tabConfig.functions.processDates = async function () {
-        for (const date of array) {
+        for (const date of tabConfig.data.dates) {
 		  if (tabConfig.data.keepRunning) {
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
 			await tabConfig.data.dates.shift();
@@ -119,7 +115,7 @@ date: 2022-01-12T17:00:00+00:00
 
         console.log('Dates Gathered')
 
-        tabConfig.functions.processDates(tabConfig.data.dates);
+        tabConfig.functions.processDates();
       }
 
       /* tabConfig.functions.runProc(); */
@@ -131,7 +127,7 @@ date: 2022-01-12T17:00:00+00:00
 
       document.querySelector("#tableauEmbed #continue-btn").addEventListener("click", function(e) {
 		tabConfig.data.keepRunning = true;
-		tabConfig.functions.processDates(tabConfig.data.dates);
+		tabConfig.functions.processDates();
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
