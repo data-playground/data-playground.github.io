@@ -89,13 +89,15 @@ date: 2022-01-12T17:00:00+00:00
         tabConfig.data.dates = dates;
       }
 
-
+	  tabConfig.functions.removeFromArray = function (array, date) {
+		tabConfig.data.dates = array.filter(arrayItem => arrayItem !== date)
+	  }
 
       tabConfig.functions.processDates = async function (array) {
         for (const date of array) {
 		  if (tabConfig.data.keepRunning) {
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
-			await tabConfig.data.dates = array.filter(arrayItem => arrayItem !== date);
+			await tabConfig.functions.removeFromArray(array, date);
 			await wait(1000); // Wait for 2 seconds before moving to the next date
 		  } else {
 		    return
