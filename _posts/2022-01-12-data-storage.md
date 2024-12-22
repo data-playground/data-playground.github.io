@@ -91,12 +91,11 @@ date: 2022-01-12T17:00:00+00:00
 
 
 
-      tabConfig.functions.processDates = async function () {
-        for (const date of tabConfig.data.dates) {
+      tabConfig.functions.processDates = async function (array) {
+        for (const date of array) {
 		  if (tabConfig.data.keepRunning) {
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
-			tabConfig.data.dates.shift();
-			console.log(tabConfig.data.dates);
+			array = array.filter(arrayItem => arrayItem !== date);
 			await wait(1000); // Wait for 2 seconds before moving to the next date
 		  } else {
 		    return
@@ -118,7 +117,7 @@ date: 2022-01-12T17:00:00+00:00
 
         console.log('Dates Gathered')
 
-        tabConfig.functions.processDates();
+        tabConfig.functions.processDates(tabConfig.data.dates);
       }
 
       /* tabConfig.functions.runProc(); */
@@ -130,7 +129,7 @@ date: 2022-01-12T17:00:00+00:00
 
       document.querySelector("#tableauEmbed #continue-btn").addEventListener("click", function(e) {
 		tabConfig.data.keepRunning = true;
-		tabConfig.functions.processDates();
+		tabConfig.functions.processDates(tabConfig.data.dates);
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
