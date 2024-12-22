@@ -137,6 +137,10 @@ date: 2022-01-12T17:00:00+00:00
       height: 100%;
       margin-bottom: 25px;
     }
+
+    #tableauEmbed tableau-viz {
+      width: 800px;
+    }
   </style>
 </div>
 
