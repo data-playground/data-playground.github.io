@@ -7,112 +7,136 @@ date: 2022-01-12T17:00:00+00:00
 ---
 
 <div id="tableauEmbed">
-    <tableau-viz
-      src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-      device="desktop"
-      hide-tabs
-      toolbar="bottom"
-    >
-    </tableau-viz>
-    <script type="module">
-      import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
-      (async () => {
-        const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+  <button id="play-btn" type="button" class="btn btn-outline-dark">Play</button>
+  <button id="pause-btn" type="button" class="btn btn-outline-dark">Pause</button>
+  <tableau-viz
+    src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    device="desktop"
+    hide-tabs
+    toolbar="bottom"
+  >
+  </tableau-viz>
+  <script type="module">
+    import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
+    (async () => {
+      const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-        window.tabConfig = window.tabConfig || {};
+      window.tabConfig = window.tabConfig || {};
 
-        tabConfig.functions = tabConfig.functions || {};
-        tabConfig.data = tabConfig.data || {};
+      tabConfig.functions = tabConfig.functions || {};
+      tabConfig.data = tabConfig.data || {};
 
-        // Get the viz object from the HTML web component
-        const viz = document.querySelector('tableau-viz, tableau-authoring-viz');
+      tabConfig.data.keepRunning = false;
 
-        // window.token is the JWT generated using a Connected App configured with Direct Trust.
-        // The value is generated and is only available when this code executes within the Embedding Playground.
-        // See the Connected Apps documentation (https://sfdc.co/ca-direct) for more information.
-        // See this repository (https://sfdc.co/ca-jwt) for samples in various languages.
-        viz.token = window.token;
+      // Get the viz object from the HTML web component
+      const viz = document.querySelector('tableau-viz, tableau-authoring-viz');
 
-        // Wait for the viz to become interactive
-        await new Promise((resolve, reject) => {
-          // Add an event listener to verify the viz becomes interactive
-          viz.addEventListener(TableauEventType.FirstInteractive, () => {
-            console.log('Viz is interactive!');
-            resolve();
-          });
+      // window.token is the JWT generated using a Connected App configured with Direct Trust.
+      // The value is generated and is only available when this code executes within the Embedding Playground.
+      // See the Connected Apps documentation (https://sfdc.co/ca-direct) for more information.
+      // See this repository (https://sfdc.co/ca-jwt) for samples in various languages.
+      viz.token = window.token;
 
-          viz.addEventListener(TableauEventType.VizLoadError, (error) => {
-            const message = JSON.parse(error.detail.message);
-            const errorMessage = JSON.parse(message.errorMessage);
-
-            const displayMessage = `ca-error-${errorMessage.result.errors[0].code}`;
-            reject(displayMessage);
-          });
+      // Wait for the viz to become interactive
+      await new Promise((resolve, reject) => {
+        // Add an event listener to verify the viz becomes interactive
+        viz.addEventListener(TableauEventType.FirstInteractive, () => {
+          console.log('Viz is interactive!');
+          resolve();
         });
 
-        tabConfig.data.viz = viz;
+        viz.addEventListener(TableauEventType.VizLoadError, (error) => {
+          const message = JSON.parse(error.detail.message);
+          const errorMessage = JSON.parse(message.errorMessage);
+
+          const displayMessage = `ca-error-${errorMessage.result.errors[0].code}`;
+          reject(displayMessage);
+        });
+      });
+
+      tabConfig.data.viz = viz;
 
 
-        tabConfig.functions.selectSheet = function (viz, sheetName) {
-          let dashboard;
-          let worksheet;
-          if (viz.workbook.activeSheet.sheetType === SheetType.Dashboard) {
-            dashboard = viz.workbook.activeSheet;
+      tabConfig.functions.selectSheet = function (viz, sheetName) {
+        let dashboard;
+        let worksheet;
+        if (viz.workbook.activeSheet.sheetType === SheetType.Dashboard) {
+          dashboard = viz.workbook.activeSheet;
 
-            // Provide the name of the worksheet you want to use from the dashboard
-            worksheet = dashboard.worksheets.find((ws) => ws.name === sheetName);
-          } else {
-            // Active sheet is already a worksheet
-            worksheet = viz.workbook.activeSheet;
-          }
-
-          tabConfig.data.dashboard = dashboard;
-          tabConfig.data.worksheet = worksheet;
+          // Provide the name of the worksheet you want to use from the dashboard
+          worksheet = dashboard.worksheets.find((ws) => ws.name === sheetName);
+        } else {
+          // Active sheet is already a worksheet
+          worksheet = viz.workbook.activeSheet;
         }
 
-        tabConfig.functions.getDatesInRange = function (startDate, endDate) {
-          let dates = [];
-          let currentDate = new Date(startDate);
+        tabConfig.data.dashboard = dashboard;
+        tabConfig.data.worksheet = worksheet;
+      }
 
-          while (currentDate <= endDate) {
-            dates.push(new Date(currentDate + ":").toISOString().slice(0, 10));
-            currentDate.setDate(currentDate.getDate() + 1);
-          }
+      tabConfig.functions.getDatesInRange = function (startDate, endDate) {
+        let dates = [];
+        let currentDate = new Date(startDate);
 
-          tabConfig.data.dates = dates;
+        while (currentDate <= endDate) {
+          dates.push(new Date(currentDate + ":").toISOString().slice(0, 10));
+          currentDate.setDate(currentDate.getDate() + 1);
         }
 
+        tabConfig.data.dates = dates;
+      }
 
 
-        tabConfig.functions.processDates = async function (dates) {
-          for (const date of dates) {
-            await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
-            await wait(1000); // Wait for 2 seconds before moving to the next date
-          }
+
+      tabConfig.functions.processDates = async function (dates) {
+        for (const date of dates) {
+		  if (tabConfig.data.keepRunning) {
+			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
+			await wait(1000); // Wait for 2 seconds before moving to the next date
+		  } else {
+		    return
+		  }
         }
+      }
 
-        tabConfig.functions.runProc = function () {
-          console.log('Start')
+      tabConfig.functions.runProc = function () {
+        console.log('Start')
 
-          tabConfig.data.sheetName = 'Using Filter - Chart';
-          tabConfig.functions.selectSheet(tabConfig.data.viz, tabConfig.data.sheetName);
+        tabConfig.data.sheetName = 'Using Filter - Chart';
+        tabConfig.functions.selectSheet(tabConfig.data.viz, tabConfig.data.sheetName);
 
-          console.log('Sheet Selected')
+        console.log('Sheet Selected')
 
-          tabConfig.data.startDate = new Date('2024-10-22');
-          tabConfig.data.endDate = new Date('2024-12-21') // Day after last available date;
-          tabConfig.functions.getDatesInRange(tabConfig.data.startDate, tabConfig.data.endDate)
+        tabConfig.data.startDate = new Date('2024-10-22');
+        tabConfig.data.endDate = new Date('2024-12-21') // Day after last available date;
+        tabConfig.functions.getDatesInRange(tabConfig.data.startDate, tabConfig.data.endDate)
 
-          console.log('Dates Gathered')
+        console.log('Dates Gathered')
 
-          tabConfig.functions.processDates(tabConfig.data.dates);
-        }
+        tabConfig.functions.processDates(tabConfig.data.dates);
+      }
 
-        /* tabConfig.functions.runProc(); */
+      /* tabConfig.functions.runProc(); */
 
-        // *** Insert your code below! ***
-      })();
-    </script>  
+      document.querySelector("#tableauEmbed #play-btn").addEventListener("click", function(e) {
+		tabConfig.data.keepRunning = true;
+		tabConfig.functions.runProc()
+	  })
+
+      document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
+		tabConfig.data.keepRunning = false;
+	  })
+
+      // *** Insert your code below! ***
+    })();
+  </script>  
+  <style>
+    #tableauEmbed {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 25px;
+    }
+  </style>
 </div>
 
 # What is Data Storage?
