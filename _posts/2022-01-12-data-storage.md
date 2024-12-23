@@ -131,6 +131,8 @@ date: 2022-01-12T17:00:00+00:00
         console.log('Dates Gathered')
 
         tabConfig.functions.processDates();
+		
+		document.querySelector("#tableauEmbed #pause-btn").click();
       }
 
       /* tabConfig.functions.runProc(); */
