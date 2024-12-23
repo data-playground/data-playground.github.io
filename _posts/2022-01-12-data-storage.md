@@ -140,11 +140,11 @@ date: 2022-01-12T17:00:00+00:00
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
-		document.querySelector("#tableauEmbed #restart-btn").classList.remove('disabled');
+		document.querySelector("#tableauEmbed #restart-btn").classList.add('disabled');
 		
 		document.querySelector("#tableauEmbed #start-btn").disabled = true;
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
-		document.querySelector("#tableauEmbed #restart-btn").disabled = false;
+		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 		
 		if (tabConfig.data.dates.length === 0){
 			tabConfig.functions.runProc();
