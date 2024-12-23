@@ -192,7 +192,7 @@ date: 2022-01-12T17:00:00+00:00
     }    
 	
 	#tableauEmbed tableau-viz {
-      height: 825px;
+      height: 850px;
     }
 
 	#tableauEmbed #tableauBtn {
