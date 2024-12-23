@@ -114,6 +114,8 @@ date: 2022-01-12T17:00:00+00:00
 			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
 			await wait(1000); // Wait for 2 seconds before moving to the next date
         }
+
+		document.querySelector("#tableauEmbed #pause-btn").click();
       }
 
       tabConfig.functions.runProc = function () {
@@ -131,8 +133,6 @@ date: 2022-01-12T17:00:00+00:00
         console.log('Dates Gathered')
 
         tabConfig.functions.processDates();
-		
-		document.querySelector("#tableauEmbed #pause-btn").click();
       }
 
       /* tabConfig.functions.runProc(); */
