@@ -139,8 +139,8 @@ date: 2022-01-12T17:00:00+00:00
 		tabConfig.data.keepRunning = true;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
-		document.querySelector("#tableauEmbed #pause-btn").classList.delete('disabled');
-		document.querySelector("#tableauEmbed #restart-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
+		document.querySelector("#tableauEmbed #restart-btn").classList.remove('disabled');
 		
 		document.querySelector("#tableauEmbed #start-btn").disabled = true;
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
@@ -156,9 +156,9 @@ date: 2022-01-12T17:00:00+00:00
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
 		tabConfig.data.keepRunning = false;
 		
-		document.querySelector("#tableauEmbed #start-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #start-btn").classList.remove('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.add('disabled');
-		document.querySelector("#tableauEmbed #restart-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #restart-btn").classList.remove('disabled');
 		
 		document.querySelector("#tableauEmbed #start-btn").disabled = false;
 		document.querySelector("#tableauEmbed #pause-btn").disabled = true;
@@ -169,7 +169,7 @@ date: 2022-01-12T17:00:00+00:00
 		tabConfig.data.keepRunning = true;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
-		document.querySelector("#tableauEmbed #pause-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
 		document.querySelector("#tableauEmbed #restart-btn").classList.add('disabled');
 		
 		document.querySelector("#tableauEmbed #start-btn").disabled = true;
