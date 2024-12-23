@@ -47,6 +47,7 @@ date: 2022-01-12T17:00:00+00:00
       tabConfig.functions = tabConfig.functions || {};
       tabConfig.data = tabConfig.data || {};
 
+      tabConfig.data.dates = tabConfig.data.dates || [];
       tabConfig.data.keepRunning = false;
 
       // Get the viz object from the HTML web component
@@ -145,7 +146,11 @@ date: 2022-01-12T17:00:00+00:00
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = false;
 		
-		tabConfig.functions.runProc();
+		if (tabConfig.data.dates.length === 0){
+			tabConfig.functions.runProc();
+		} else {
+			tabConfig.functions.processDates();
+		}
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
