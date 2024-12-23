@@ -7,9 +7,26 @@ date: 2022-01-12T17:00:00+00:00
 ---
 
 <div id="tableauEmbed">
-  <button id="start-btn" type="button" class="btn btn-outline-dark">Start</button>
-  <button id="continue-btn" type="button" class="btn btn-outline-dark">Continue</button>
-  <button id="pause-btn" type="button" class="btn btn-outline-dark">Pause</button>
+  <div id="tableauBtn">
+    <button id="start-btn" type="button" class="btn btn-outline-dark">
+      <span class="material-symbols-outlined">play_arrow</span>
+      Start
+    </button>
+    <button id="continue-btn" type="button" class="btn btn-outline-dark" style="display:none">
+      <span class="material-symbols-outlined">resume</span>
+      Continue
+    </button>
+    <button id="pause-btn" type="button" class="btn btn-outline-dark disabled">
+      <span class="material-symbols-outlined">pause</span>
+      Pause
+    </button>  <button id="play-pause-btn" type="button" class="btn btn-outline-dark" style="display:none">
+      <span class="material-symbols-outlined">play_pause</span>
+      Play/Pause
+    </button>  <button id="restart-btn" type="button" class="btn btn-outline-dark disabled">
+      <span class="material-symbols-outlined">repeat</span>
+      Restart
+    </button>
+  </div>
   <tableau-viz
     src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
     device="tablet"
@@ -19,6 +36,7 @@ date: 2022-01-12T17:00:00+00:00
   >
   </tableau-viz>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script type="module">
     import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
     (async () => {
@@ -118,6 +136,10 @@ date: 2022-01-12T17:00:00+00:00
 
       document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {
 		tabConfig.data.keepRunning = true;
+		
+		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
+		document.querySelector("#tableauEmbed #pause-btn").classList.delete('disabled');
+		
 		tabConfig.functions.runProc();
 	  })
 
@@ -128,6 +150,20 @@ date: 2022-01-12T17:00:00+00:00
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
 		tabConfig.data.keepRunning = false;
+		
+		document.querySelector("#tableauEmbed #start-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #pause-btn").classList.add('disabled');
+		document.querySelector("#tableauEmbed #restart-btn").classList.delete('disabled');
+	  })
+	  
+      document.querySelector("#tableauEmbed #restart-btn").addEventListener("click", function(e) {
+		tabConfig.data.keepRunning = true;
+		
+		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
+		document.querySelector("#tableauEmbed #pause-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #restart-btn").classList.add('disabled');
+		
+		tabConfig.functions.runProc();
 	  })
 
       // *** Insert your code below! ***
@@ -143,6 +179,19 @@ date: 2022-01-12T17:00:00+00:00
 	#tableauEmbed tableau-viz {
       height: 825px;
     }
+
+	#tableauEmbed #tableauBtn {
+	  display: flex;
+      gap: 2%;
+	}
+
+	#tableauEmbed #tableauBtn button {
+	  display: flex;
+      padding: .275rem .5rem;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+	}
   </style>
 </div>
 
