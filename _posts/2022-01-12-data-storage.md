@@ -139,13 +139,13 @@ date: 2022-01-12T17:00:00+00:00
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.delete('disabled');
+		document.querySelector("#tableauEmbed #restart-btn").classList.delete('disabled');
+		
+		document.querySelector("#tableauEmbed #start-btn").disabled = true;
+		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
+		document.querySelector("#tableauEmbed #restart-btn").disabled = false;
 		
 		tabConfig.functions.runProc();
-	  })
-
-      document.querySelector("#tableauEmbed #continue-btn").addEventListener("click", function(e) {
-		tabConfig.data.keepRunning = true;
-		tabConfig.functions.processDates();
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
@@ -154,6 +154,10 @@ date: 2022-01-12T17:00:00+00:00
 		document.querySelector("#tableauEmbed #start-btn").classList.delete('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #restart-btn").classList.delete('disabled');
+		
+		document.querySelector("#tableauEmbed #start-btn").disabled = false;
+		document.querySelector("#tableauEmbed #pause-btn").disabled = true;
+		document.querySelector("#tableauEmbed #restart-btn").disabled = false;
 	  })
 	  
       document.querySelector("#tableauEmbed #restart-btn").addEventListener("click", function(e) {
@@ -162,6 +166,10 @@ date: 2022-01-12T17:00:00+00:00
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.delete('disabled');
 		document.querySelector("#tableauEmbed #restart-btn").classList.add('disabled');
+		
+		document.querySelector("#tableauEmbed #start-btn").disabled = true;
+		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
+		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 		
 		tabConfig.functions.runProc();
 	  })
@@ -191,6 +199,11 @@ date: 2022-01-12T17:00:00+00:00
       flex-direction: column;
       align-content: center;
       align-items: center;
+	}
+
+	#tableauEmbed #tableauBtn button.disabled {
+	  pointer-events: none;
+	  cursor: not-allowed;
 	}
   </style>
 </div>
