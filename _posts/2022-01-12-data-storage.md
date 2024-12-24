@@ -28,12 +28,6 @@ date: 2022-01-12T17:00:00+00:00
       <span class="material-symbols-outlined">repeat</span>
       Restart
     </button>
-	<button id="test-btn" type="button" class="btn btn-outline-dark disabled">
-	  Test
-    </button>
-	<button id="test-btn-2" type="button" class="btn btn-outline-dark disabled">
-	  Test
-    </button>
   </div>
   <tableau-viz
     src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
@@ -107,28 +101,13 @@ date: 2022-01-12T17:00:00+00:00
       tabConfig.functions.getDatesInRange = function (startDate, endDate) {
         let dates = [];
         let currentDate = new Date(startDate);
-		let fixedDate = ''
-		
-		let idx = 0;
 
         while (currentDate <= endDate) {
-		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - in while loop - " + idx;
-		  fixedDate = new Date(currentDate).toISOString().slice(0, 10)
-		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - fixedDate - " + idx;
-          dates.push(fixedDate);
-		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - pushed dates - " + idx;
+          dates.push(new Date(currentDate).toISOString().slice(0, 10));
           currentDate.setDate(currentDate.getDate() + 1);
-		  
-		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - set new date - " + idx;
-
-		  idx += 1;
         }
 		
-		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - out of while loop";
-
         tabConfig.data.dates = dates;
-		
-		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - saved dates list";
       }
 
       tabConfig.functions.processDates = async function () {
@@ -150,17 +129,10 @@ date: 2022-01-12T17:00:00+00:00
 		tabConfig.data.startDate = startDate;
         let endDate = new Date('2024-12-21') // Day after last available date;
         tabConfig.data.endDate = endDate;
-		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - dates set - " + startDate;
-		
+				
         tabConfig.functions.getDatesInRange(startDate, endDate);
-		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - date list set";
-		
-        tabConfig.functions.processDates();
-		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - processDates ran";
-		
+				
+        tabConfig.functions.processDates();		
       }
 
       /* tabConfig.functions.runProc(); */
