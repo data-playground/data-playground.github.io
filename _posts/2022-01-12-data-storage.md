@@ -107,12 +107,15 @@ date: 2022-01-12T17:00:00+00:00
       tabConfig.functions.getDatesInRange = function (startDate, endDate) {
         let dates = [];
         let currentDate = new Date(startDate);
+		let fixedDate = ''
 		
 		let idx = 0;
 
         while (currentDate <= endDate) {
 		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - in while loop - " + idx;
-          dates.push(new Date(currentDate + ":").toISOString().slice(0, 10));
+		  fixedDate = new Date(currentDate + ":").toISOString().slice(0, 10)
+		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - fixedDate - " + idx;
+          dates.push(fixedDate);
 		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - pushed dates - " + idx;
           currentDate.setDate(currentDate.getDate() + 1);
 		  
