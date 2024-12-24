@@ -113,7 +113,7 @@ date: 2022-01-12T17:00:00+00:00
 
         while (currentDate <= endDate) {
 		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - in while loop - " + idx;
-		  fixedDate = new Date(currentDate + ":").toISOString().slice(0, 10)
+		  fixedDate = new Date(currentDate).toISOString().slice(0, 10)
 		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - fixedDate - " + idx;
           dates.push(fixedDate);
 		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - pushed dates - " + idx;
