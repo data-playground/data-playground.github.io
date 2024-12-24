@@ -135,12 +135,14 @@ date: 2022-01-12T17:00:00+00:00
 
 		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - Sheet Selected"
 
-        tabConfig.data.startDate = new Date('2024-10-22');
-        tabConfig.data.endDate = new Date('2024-12-21') // Day after last available date;
+        let startDate = new Date('2024-10-22');
+		tabConfig.data.startDate = startDate;
+        let endDate = new Date('2024-12-21') // Day after last available date;
+        tabConfig.data.endDate = endDate;
 		
 		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - dates set"
 		
-        tabConfig.functions.getDatesInRange(tabConfig.data.startDate, tabConfig.data.endDate)
+        tabConfig.functions.getDatesInRange(startDate, endDate)
 		
 		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - date list set"
 		
@@ -176,14 +178,12 @@ date: 2022-01-12T17:00:00+00:00
 		
 			tabConfig.functions.runProc();
 			
-			document.querySelector("#tableauBtn #test-btn").textContent = "Ran runProc"
 			
 		} else {
 			document.querySelector("#tableauBtn #test-btn").textContent = "Filled Date List"
 		
 			tabConfig.functions.processDates();
 			
-			document.querySelector("#tableauBtn #test-btn").textContent = "Ran processDates"
 			
 		}
 	  })
