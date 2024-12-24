@@ -55,6 +55,8 @@ date: 2022-01-12T17:00:00+00:00
       tabConfig.data.dates = tabConfig.data.dates || [];
       tabConfig.data.keepRunning = false;
 
+	  document.querySelector("#tableauBtn #test-btn").textContent = tabConfig.data.keepRunning
+
       // Get the viz object from the HTML web component
       const viz = document.querySelector('tableau-viz, tableau-authoring-viz');
 
@@ -135,8 +137,6 @@ date: 2022-01-12T17:00:00+00:00
         tabConfig.data.endDate = new Date('2024-12-21') // Day after last available date;
         tabConfig.functions.getDatesInRange(tabConfig.data.startDate, tabConfig.data.endDate)
 		
-		document.querySelector("#tableauBtn #test-btn").textContent = tabConfig.data.endDate
-
         console.log('Dates Gathered')
 
         tabConfig.functions.processDates();
