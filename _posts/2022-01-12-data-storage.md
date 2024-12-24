@@ -31,6 +31,9 @@ date: 2022-01-12T17:00:00+00:00
 	<button id="test-btn" type="button" class="btn btn-outline-dark disabled">
 	  Test
     </button>
+	<button id="test-btn-2" type="button" class="btn btn-outline-dark disabled">
+	  Test
+    </button>
   </div>
   <tableau-viz
     src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
@@ -102,15 +105,24 @@ date: 2022-01-12T17:00:00+00:00
       }
 
       tabConfig.functions.getDatesInRange = function (startDate, endDate) {
+		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - start";
+
         let dates = [];
+		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - empty dates list";
         let currentDate = new Date(startDate);
+		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - set current date";
 
         while (currentDate <= endDate) {
+		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - in while loop";
           dates.push(new Date(currentDate + ":").toISOString().slice(0, 10));
           currentDate.setDate(currentDate.getDate() + 1);
         }
+		
+		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - out of while loop";
 
         tabConfig.data.dates = dates;
+		
+		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - saved dates list";
       }
 
       tabConfig.functions.processDates = async function () {
@@ -124,67 +136,44 @@ date: 2022-01-12T17:00:00+00:00
       }
 
       tabConfig.functions.runProc = function () {
-        document.querySelector("#tableauBtn #test-btn").textContent = "runProc - Start"
-
-
         tabConfig.data.sheetName = 'Using Filter - Chart';
 		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - sheetName set"
-
         tabConfig.functions.selectSheet(tabConfig.data.viz, tabConfig.data.sheetName);
-
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - Sheet Selected"
 
         let startDate = new Date('2024-10-22');
 		tabConfig.data.startDate = startDate;
         let endDate = new Date('2024-12-21') // Day after last available date;
         tabConfig.data.endDate = endDate;
 		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - dates set"
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - dates set - " + startDate;
 		
-        tabConfig.functions.getDatesInRange(startDate, endDate)
+        tabConfig.functions.getDatesInRange(startDate, endDate);
 		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - date list set"
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - date list set";
 		
         tabConfig.functions.processDates();
 		
-		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - processDates ran"
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - processDates ran";
 		
       }
 
       /* tabConfig.functions.runProc(); */
 
-      document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {
-		document.querySelector("#tableauBtn #test-btn").textContent = "Start"
-		
+      document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {		
 		tabConfig.data.keepRunning = true;
-
-		document.querySelector("#tableauBtn #test-btn").textContent = "Keep Running"
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
 		document.querySelector("#tableauEmbed #restart-btn").classList.add('disabled');
-
-		document.querySelector("#tableauBtn #test-btn").textContent = "Change Class"
 		
 		document.querySelector("#tableauEmbed #start-btn").disabled = true;
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
-		
-		document.querySelector("#tableauBtn #test-btn").textContent = "Changing Disabled"
-		
+				
 		if (tabConfig.data.dates.length === 0){
-			document.querySelector("#tableauBtn #test-btn").textContent = "Empty Date List"
-		
-			tabConfig.functions.runProc();
-			
-			
+			tabConfig.functions.runProc();			
 		} else {
-			document.querySelector("#tableauBtn #test-btn").textContent = "Filled Date List"
-		
 			tabConfig.functions.processDates();
-			
-			
 		}
 	  })
 
