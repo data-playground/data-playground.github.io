@@ -55,8 +55,6 @@ date: 2022-01-12T17:00:00+00:00
       tabConfig.data.dates = tabConfig.data.dates || [];
       tabConfig.data.keepRunning = false;
 
-	  document.querySelector("#tableauBtn #test-btn").textContent = tabConfig.data.keepRunning
-
       // Get the viz object from the HTML web component
       const viz = document.querySelector('tableau-viz, tableau-authoring-viz');
 
@@ -126,39 +124,67 @@ date: 2022-01-12T17:00:00+00:00
       }
 
       tabConfig.functions.runProc = function () {
-        console.log('Start')
+        document.querySelector("#tableauBtn #test-btn").textContent = "runProc - Start"
+
 
         tabConfig.data.sheetName = 'Using Filter - Chart';
+		
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - sheetName set"
+
         tabConfig.functions.selectSheet(tabConfig.data.viz, tabConfig.data.sheetName);
 
-        console.log('Sheet Selected')
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - Sheet Selected"
 
         tabConfig.data.startDate = new Date('2024-10-22');
         tabConfig.data.endDate = new Date('2024-12-21') // Day after last available date;
+		
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - dates set"
+		
         tabConfig.functions.getDatesInRange(tabConfig.data.startDate, tabConfig.data.endDate)
 		
-        console.log('Dates Gathered')
-
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - date list set"
+		
         tabConfig.functions.processDates();
+		
+		document.querySelector("#tableauBtn #test-btn").textContent = "runProc - processDates ran"
+		
       }
 
       /* tabConfig.functions.runProc(); */
 
       document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {
+		document.querySelector("#tableauBtn #test-btn").textContent = "Start"
+		
 		tabConfig.data.keepRunning = true;
+
+		document.querySelector("#tableauBtn #test-btn").textContent = "Keep Running"
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
 		document.querySelector("#tableauEmbed #restart-btn").classList.add('disabled');
+
+		document.querySelector("#tableauBtn #test-btn").textContent = "Change Class"
 		
 		document.querySelector("#tableauEmbed #start-btn").disabled = true;
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 		
+		document.querySelector("#tableauBtn #test-btn").textContent = "Changing Disabled"
+		
 		if (tabConfig.data.dates.length === 0){
+			document.querySelector("#tableauBtn #test-btn").textContent = "Empty Date List"
+		
 			tabConfig.functions.runProc();
+			
+			document.querySelector("#tableauBtn #test-btn").textContent = "Ran runProc"
+			
 		} else {
+			document.querySelector("#tableauBtn #test-btn").textContent = "Filled Date List"
+		
 			tabConfig.functions.processDates();
+			
+			document.querySelector("#tableauBtn #test-btn").textContent = "Ran processDates"
+			
 		}
 	  })
 
