@@ -105,17 +105,20 @@ date: 2022-01-12T17:00:00+00:00
       }
 
       tabConfig.functions.getDatesInRange = function (startDate, endDate) {
-		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - start";
-
         let dates = [];
-		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - empty dates list";
         let currentDate = new Date(startDate);
-		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - set current date";
+		
+		let idx = 0;
 
         while (currentDate <= endDate) {
-		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - in while loop";
+		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - in while loop - " + idx;
           dates.push(new Date(currentDate + ":").toISOString().slice(0, 10));
+		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - pushed dates - " + idx;
           currentDate.setDate(currentDate.getDate() + 1);
+		  
+		  document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - set new date - " + idx;
+
+		  idx += 1;
         }
 		
 		document.querySelector("#tableauBtn #test-btn-2").textContent = "getDatesInRange - out of while loop";
