@@ -19,12 +19,17 @@ date: 2022-01-12T17:00:00+00:00
     <button id="pause-btn" type="button" class="btn btn-outline-dark disabled">
       <span class="material-symbols-outlined">pause</span>
       Pause
-    </button>  <button id="play-pause-btn" type="button" class="btn btn-outline-dark" style="display:none">
+    </button>  
+	<button id="play-pause-btn" type="button" class="btn btn-outline-dark" style="display:none">
       <span class="material-symbols-outlined">play_pause</span>
       Play/Pause
-    </button>  <button id="restart-btn" type="button" class="btn btn-outline-dark disabled">
+    </button>  
+	<button id="restart-btn" type="button" class="btn btn-outline-dark disabled">
       <span class="material-symbols-outlined">repeat</span>
       Restart
+    </button>
+	<button id="test-btn" type="button" class="btn btn-outline-dark disabled">
+	  Test
     </button>
   </div>
   <tableau-viz
@@ -129,6 +134,8 @@ date: 2022-01-12T17:00:00+00:00
         tabConfig.data.startDate = new Date('2024-10-22');
         tabConfig.data.endDate = new Date('2024-12-21') // Day after last available date;
         tabConfig.functions.getDatesInRange(tabConfig.data.startDate, tabConfig.data.endDate)
+		
+		document.querySelector("#tableauBtn #test-btn").textContent = tabConfig.data.endDate
 
         console.log('Dates Gathered')
 
