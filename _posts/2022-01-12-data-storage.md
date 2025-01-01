@@ -40,6 +40,8 @@ include_scripts: [
   >
   </tableau-viz>
 
+  {% /_includes/tableau-embed.html %}
+
 </div>
 
 # What is Data Storage?
