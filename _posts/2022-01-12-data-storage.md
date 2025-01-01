@@ -46,7 +46,7 @@ As you start to see different flavors of databases, you will see differences on 
     </button>
   </div>
 
-  {% include /tableau-embed.html %}
+  {% include /tableau-embed.html sanitize=true html=content h_min=1 h_max=6 class="tableau__embed" skip_no_ids=true %}
 
 </div>
 
