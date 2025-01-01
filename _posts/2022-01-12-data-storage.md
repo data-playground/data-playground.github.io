@@ -20,8 +20,6 @@ When we start to store and communicate with a large amount of data (a million ro
 
 As you start to see different flavors of databases, you will see differences on the languages, but they have many similarities between tools of the same type. Much like in our human languages, where, as we travel to different places, even if they speak the same language they have differences on how they speak and which words they use to describe the same thing, querying language also differs from one another as we travel between the available tools, but they tends to have the same backbone that are very much relatable between them.
 
-<br>
-
 <div id="tableauEmbed">
   <div id="tableauBtn">
     <button id="start-btn" type="button" class="btn btn-outline-dark">
@@ -46,11 +44,16 @@ As you start to see different flavors of databases, you will see differences on 
     </button>
   </div>
 
-  {% include /tableau-embed.html sanitize=true html=content h_min=1 h_max=6 class="tableau__embed" skip_no_ids=true %}
+  <!--{% include /tableau-embed.html %}-->
+  <tableau-viz
+    src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    device="tablet"
+    hide-tabs
+    height="800px"
+    toolbar="hidden"
+  >
 
 </div>
-
-<br>
 
 ## What Data Playground will use?
 
