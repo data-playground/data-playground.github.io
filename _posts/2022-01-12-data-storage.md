@@ -44,14 +44,7 @@ As you start to see different flavors of databases, you will see differences on 
     </button>
   </div>
 
-  <!--{% include /tableau-embed.html %}-->
-  <tableau-viz
-    src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-    device="tablet"
-    hide-tabs
-    height="800px"
-    toolbar="hidden"
-  >
+  {% include /tableau-embed.html %}
 
 </div>
 
