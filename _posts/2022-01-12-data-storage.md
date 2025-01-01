@@ -46,6 +46,8 @@ As you start to see different flavors of databases, you will see differences on 
 
   {% include /tableau-embed.html url="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" device="tablet" height="800px" %}
 
+  {% include /tableau-embed.html url="https://public.tableau.com/views/NBA2024StatRace/UsingPagesandRANK?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" device="tablet" height="800px" %}
+  
 </div>
 
 <br>
