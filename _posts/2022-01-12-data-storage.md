@@ -37,8 +37,6 @@ date: 2022-01-12T17:00:00+00:00
     toolbar="hidden"
   >
   </tableau-viz>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script type="module">
     import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
     (async () => {
@@ -184,35 +182,6 @@ date: 2022-01-12T17:00:00+00:00
       // *** Insert your code below! ***
     })();
   </script>  
-  <style>
-    #tableauEmbed {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 75px;
-    }    
-	
-	#tableauEmbed tableau-viz {
-      height: 850px;
-    }
-
-	#tableauEmbed #tableauBtn {
-	  display: flex;
-      gap: 2%;
-	}
-
-	#tableauEmbed #tableauBtn button {
-	  display: flex;
-      padding: .275rem .5rem;
-      flex-direction: column;
-      align-content: center;
-      align-items: center;
-	}
-
-	#tableauEmbed #tableauBtn button.disabled {
-	  pointer-events: none;
-	  cursor: not-allowed;
-	}
-  </style>
 </div>
 
 # What is Data Storage?
