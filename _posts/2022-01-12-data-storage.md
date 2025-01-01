@@ -31,14 +31,6 @@ include_scripts: [
       Restart
     </button>
   </div>
-  <tableau-viz
-    src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-    device="tablet"
-    hide-tabs
-    height="800px"
-    toolbar="hidden"
-  >
-  </tableau-viz>
 
   {% include /tableau-embed.html %}
 
