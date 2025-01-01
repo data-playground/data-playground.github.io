@@ -8,6 +8,20 @@ include_scripts: [
 ]
 ---
 
+# What is Data Storage?
+
+Data Storage is the the act of storing data (duh!). Data Storage is to decide where you are going to keep the data for your process. The decision to how and where the data is kept can be done based on multiple reasons: ease of access, security, size...
+
+More often than not we are going to see very common data storage strategies, like the best friend/worst enemy of every analyst, Excel. Excel is easy to access and to share, since most people have the necessary program to use it. It is also very user friendly, with no coding/scripting/querying knowledge necessary. If you are starting your analytics journey, definitely expect a lot of data to come on Excel format (.xls, .xlsx)
+
+Another very common format to receive and store data is the "delimiter-separated values" files. The format most often is the csv (comma-separated values), where each column is separate by a comma and, usually, lines are separated by a new line. Another format commonly used is tsv (tab-separated values), but many other characters can be used to separate data.
+
+When we start to store and communicate with a large amount of data (a million rows is usually when Excel start to give problems), it is probably smart to store that data in databases using management tools that can communicate with that database even when the numer of rows increase. There are many different types of database with the most common approach being the SQL (Structured Query Language) based databases. To use this type of storage you need to understand some to of querying language. 
+
+As you start to see different flavors of databases, you will see differences on the languages, but they have many similarities between tools of the same type. Much like in our human languages, where, as we travel to different places, even if they speak the same language they have differences on how they speak and which words they use to describe the same thing, querying language also differs from one another as we travel between the available tools, but they tends to have the same backbone that are very much relatable between them.
+
+<br>
+
 <div id="tableauEmbed">
   <div id="tableauBtn">
     <button id="start-btn" type="button" class="btn btn-outline-dark">
@@ -36,17 +50,7 @@ include_scripts: [
 
 </div>
 
-# What is Data Storage?
-
-Data Storage is the the act of storing data (duh!). Data Storage is to decide where you are going to keep the data for your process. The decision to how and where the data is kept can be done based on multiple reasons: ease of access, security, size...
-
-More often than not we are going to see very common data storage strategies, like the best friend/worst enemy of every analyst, Excel. Excel is easy to access and to share, since most people have the necessary program to use it. It is also very user friendly, with no coding/scripting/querying knowledge necessary. If you are starting your analytics journey, definitely expect a lot of data to come on Excel format (.xls, .xlsx)
-
-Another very common format to receive and store data is the "delimiter-separated values" files. The format most often is the csv (comma-separated values), where each column is separate by a comma and, usually, lines are separated by a new line. Another format commonly used is tsv (tab-separated values), but many other characters can be used to separate data.
-
-When we start to store and communicate with a large amount of data (a million rows is usually when Excel start to give problems), it is probably smart to store that data in databases using management tools that can communicate with that database even when the numer of rows increase. There are many different types of database with the most common approach being the SQL (Structured Query Language) based databases. To use this type of storage you need to understand some to of querying language. 
-
-As you start to see different flavors of databases, you will see differences on the languages, but they have many similarities between tools of the same type. Much like in our human languages, where, as we travel to different places, even if they speak the same language they have differences on how they speak and which words they use to describe the same thing, querying language also differs from one another as we travel between the available tools, but they tends to have the same backbone that are very much relatable between them.
+<br>
 
 ## What Data Playground will use?
 
