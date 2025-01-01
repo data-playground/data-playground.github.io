@@ -1,0 +1,27 @@
+#tableauEmbed {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 75px;
+}    
+	
+#tableauEmbed tableau-viz {
+  height: 850px;
+}
+
+#tableauEmbed #tableauBtn {
+  display: flex;
+  gap: 2%;
+}
+
+#tableauEmbed #tableauBtn button {
+  display: flex;
+  padding: .275rem .5rem;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+#tableauEmbed #tableauBtn button.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+}
