@@ -27,6 +27,12 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
 
+{% if page.include_scripts %}
+  {% for include_script in page.include_scripts %}
+    <script type='module' src='{{ include_script }}'></script>
+  {% endfor %}
+{% endif %}
+
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
