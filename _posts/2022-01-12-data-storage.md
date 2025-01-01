@@ -48,6 +48,8 @@ As you start to see different flavors of databases, you will see differences on 
 
 </div>
 
+<br>
+
 ## What Data Playground will use?
 
 As we mentioned before, a lot of datasets are available in Excel and csv files, so at Data Playground we will use a lot of sets based on those format. Even some of the datasets created by us by gathering data, we will save on those two formats just for ease of use.
