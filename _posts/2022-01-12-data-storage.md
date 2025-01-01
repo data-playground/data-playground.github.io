@@ -40,7 +40,7 @@ include_scripts: [
   >
   </tableau-viz>
 
-  {% include /_includes/tableau-embed.html %}
+  {% include /tableau-embed.html %}
 
 </div>
 
