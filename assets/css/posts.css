@@ -27,19 +27,21 @@
   cursor: not-allowed;
 }
 
-#main {
-  padding: 0 !important;
-}
+@media (min-width: 64em) {
+  #main {
+    padding: 0 !important;
+  }
 
-#main .sidebar {
-  width: 200px !important;
-}
+  #main .sidebar {
+    width: 200px !important;
+  }
 
-#main .sticky {
-  top: 3em !important;
-}
+  #main .sticky {
+    top: 3em !important;
+  }
 
-#main .page {
-  width: calc(100% - 200px - 1em) !important;
-  padding-right: 200px !important;
+  #main .page {
+    width: calc(100% - 200px - 1em) !important;
+    padding-right: 200px !important;
+  }
 }
