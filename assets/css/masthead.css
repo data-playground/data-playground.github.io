@@ -1,3 +1,7 @@
+html {
+    background-color: #fff;
+}
+
 .masthead {
     position: fixed;
     z-index: 999;
