@@ -26,3 +26,12 @@
   pointer-events: none;
   cursor: not-allowed;
 }
+
+.sidebar {
+    width: calc(200px - 1em) !important;
+}
+
+.page {
+    width: calc(100% - 200px) !important;
+    padding-right: 200px !important;
+}
