@@ -1,7 +1,7 @@
     import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
     (async () => {
       const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
+/*
       window.tabConfig = window.tabConfig || {};
 
       tabConfig.functions = tabConfig.functions || {};
@@ -38,9 +38,11 @@
       });
 
       tabConfig.data.viz = viz;
+*/
 
+      const viz = tabConfig['NBA2024StatRace____UsingFilter'].data.viz;	    
 
-      tabConfig.functions.selectSheet = function (viz, sheetName) {
+      tabConfig['NBA2024StatRace____UsingFilter'].functions.selectSheet = function (viz, sheetName) {
         let dashboard;
         let worksheet;
         if (viz.workbook.activeSheet.sheetType === SheetType.Dashboard) {
@@ -53,11 +55,11 @@
           worksheet = viz.workbook.activeSheet;
         }
 
-        tabConfig.data.dashboard = dashboard;
-        tabConfig.data.worksheet = worksheet;
+        tabConfig['NBA2024StatRace____UsingFilter'].data.dashboard = dashboard;
+        tabConfig['NBA2024StatRace____UsingFilter'].data.worksheet = worksheet;
       }
 
-      tabConfig.functions.getDatesInRange = function (startDate, endDate) {
+      tabConfig['NBA2024StatRace____UsingFilter'].functions.getDatesInRange = function (startDate, endDate) {
         let dates = [];
         let currentDate = new Date(startDate);
 
@@ -66,38 +68,38 @@
           currentDate.setDate(currentDate.getDate() + 1);
         }
 		
-        tabConfig.data.dates = dates;
+        tabConfig['NBA2024StatRace____UsingFilter'].data.dates = dates;
       }
 
-      tabConfig.functions.processDates = async function () {
-        while (tabConfig.data.dates.length > 0 & tabConfig.data.keepRunning) {
-			let date = tabConfig.data.dates.shift()
-			await tabConfig.data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
+      tabConfig['NBA2024StatRace____UsingFilter'].functions.processDates = async function () {
+        while (tabConfig['NBA2024StatRace____UsingFilter'].data.dates.length > 0 & tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning) {
+			let date = tabConfig['NBA2024StatRace____UsingFilter'].data.dates.shift()
+			await tabConfig['NBA2024StatRace____UsingFilter'].data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
 			await wait(1000); // Wait for 2 seconds before moving to the next date
         }
 
 		document.querySelector("#tableauEmbed #pause-btn").click();
       }
 
-      tabConfig.functions.runProc = function () {
-        tabConfig.data.sheetName = 'Using Filter - Chart';
+      tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc = function () {
+        tabConfig['NBA2024StatRace____UsingFilter'].data.sheetName = 'Using Filter - Chart';
 		
-        tabConfig.functions.selectSheet(tabConfig.data.viz, tabConfig.data.sheetName);
+        tabConfig['NBA2024StatRace____UsingFilter'].functions.selectSheet(tabConfig['NBA2024StatRace____UsingFilter'].data.viz, tabConfig['NBA2024StatRace____UsingFilter'].data.sheetName);
 
         let startDate = new Date('2024-10-22');
-		tabConfig.data.startDate = startDate;
+		tabConfig['NBA2024StatRace____UsingFilter'].data.startDate = startDate;
         let endDate = new Date('2024-12-21') // Day after last available date;
-        tabConfig.data.endDate = endDate;
+        tabConfig['NBA2024StatRace____UsingFilter'].data.endDate = endDate;
 				
-        tabConfig.functions.getDatesInRange(startDate, endDate);
+        tabConfig['NBA2024StatRace____UsingFilter'].functions.getDatesInRange(startDate, endDate);
 				
-        tabConfig.functions.processDates();		
+        tabConfig['NBA2024StatRace____UsingFilter'].functions.processDates();		
       }
 
-      /* tabConfig.functions.runProc(); */
+      /* tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc(); */
 
       document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {		
-		tabConfig.data.keepRunning = true;
+		tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning = true;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
@@ -107,15 +109,15 @@
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 				
-		if (tabConfig.data.dates.length === 0){
-			tabConfig.functions.runProc();			
+		if (tabConfig['NBA2024StatRace____UsingFilter'].data.dates.length === 0){
+			tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc();			
 		} else {
-			tabConfig.functions.processDates();
+			tabConfig['NBA2024StatRace____UsingFilter'].functions.processDates();
 		}
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
-		tabConfig.data.keepRunning = false;
+		tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning = false;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.remove('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.add('disabled');
@@ -127,7 +129,7 @@
 	  })
 	  
       document.querySelector("#tableauEmbed #restart-btn").addEventListener("click", function(e) {
-		tabConfig.data.keepRunning = true;
+		tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning = true;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
@@ -137,7 +139,7 @@
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 		
-		tabConfig.functions.runProc();
+		tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc();
 	  })
       // *** Insert your code below! ***
     })();
