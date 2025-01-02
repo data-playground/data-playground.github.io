@@ -24,6 +24,7 @@
         // Add an event listener to verify the viz becomes interactive
         viz.addEventListener(TableauEventType.FirstInteractive, () => {
           console.log('Viz is interactive!');
+	  viz.iframe.style.height = "100%"
           resolve();
         });
 
@@ -138,6 +139,5 @@
 		
 		tabConfig.functions.runProc();
 	  })
-
       // *** Insert your code below! ***
     })();
