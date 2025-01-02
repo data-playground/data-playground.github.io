@@ -1,48 +1,11 @@
-<tableau-viz
-  src="{{ include.url }}"
-  device="{{ include.device }}"
-  hide-tabs
-  style="height: {{ include.height }}"
-  toolbar="hidden"
->
-</tableau-viz>
+<div style="height: {{ include.height }}">
+  <tableau-viz
+    src="{{ include.url }}"
+    device="{{ include.device }}"
+    hide-tabs
+    toolbar="hidden"
+  >
+  </tableau-viz>
+</div>
 
-<script type = "module">
-    import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
-    (async () => {
-      window.tabConfig = window.tabConfig || {};
-      let view_id = "{{ include.url }}".split("?")[0].split("/").splice(-2).join("____")
-      tabConfig[view_id] = tabConfig[view_id] || {};
-      tabConfig[view_id].functions = tabConfig[view_id].functions || {};
-      tabConfig[view_id].data = tabConfig[view_id].data || {};
-      tabConfig[view_id].data.dates = tabConfig[view_id].data.dates || [];
-      tabConfig[view_id].data.keepRunning = false;
-      // Get the viz object from the HTML web component
-      const viz = document.querySelector('tableau-viz, tableau-authoring-viz');
-      // window.token is the JWT generated using a Connected App configured with Direct Trust.
-      // The value is generated and is only available when this code executes within the Embedding Playground.
-      // See the Connected Apps documentation (https://sfdc.co/ca-direct) for more information.
-      // See this repository (https://sfdc.co/ca-jwt) for samples in various languages.
-      viz.token = window.token;
-      // Wait for the viz to become interactive
-      await new Promise((resolve, reject) => {
-        // Add an event listener to verify the viz becomes interactive
-        viz.addEventListener(TableauEventType.FirstInteractive, () => {
-          console.log('Viz is interactive!');
-		
-	  viz.iframe.style.height = "100%";
-	  viz.click();
-          console.log('Viz height adjusted!');
-          resolve();
-        });
-        viz.addEventListener(TableauEventType.VizLoadError, (error) => {
-          const message = JSON.parse(error.detail.message);
-          const errorMessage = JSON.parse(message.errorMessage);
-          const displayMessage = `ca-error-${errorMessage.result.errors[0].code}`;
-          reject(displayMessage);
-        });
-      });
-      tabConfig[view_id].data.viz = viz;  
-      
-    })();
-</script>
+
