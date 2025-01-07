@@ -22,3 +22,8 @@ html {
 .initial-content {
     padding-top: 65px;
 }
+
+.page__related {
+    width: calc(100% - 400px - 1em) !important;
+    margin-right: 200px !important;
+}
