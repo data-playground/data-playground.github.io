@@ -1,18 +1,25 @@
     import { FilterUpdateType, SheetType, TableauEventType } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js';
     (async () => {
       const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-/*
+
       window.tabConfig = window.tabConfig || {};
 
-      tabConfig.functions = tabConfig.functions || {};
-      tabConfig.data = tabConfig.data || {};
+      document.querySelectorAll('tableau-viz, tableau-authoring-viz').forEach((v) => {
+	tabConfig[v.getAttribute('tab-name')] = tabConfig[v.getAttribute('tab-name')] || {};
+	tabConfig[v.getAttribute('tab-name')].functions = tabConfig[v.getAttribute('tab-name')].functions || {};
+	tabConfig[v.getAttribute('tab-name')].data = tabConfig[v.getAttribute('tab-name')].data || {};
 
-      tabConfig.data.dates = tabConfig.data.dates || [];
-      tabConfig.data.keepRunning = false;
+        tabConfig[v.getAttribute('tab-name')].data.viz = v;
+      })
+
+      let vizName = "UsingFilter";
+
+      let viz = tabConfig[vizName].data.viz;	
+
+      tabConfig[vizName].data.dates = tabConfig[vizName].data.dates || [];
+      tabConfig[vizName].data.keepRunning = false;
 
       // Get the viz object from the HTML web component
-      const viz = document.querySelector('tableau-viz, tableau-authoring-viz');
-
       // window.token is the JWT generated using a Connected App configured with Direct Trust.
       // The value is generated and is only available when this code executes within the Embedding Playground.
       // See the Connected Apps documentation (https://sfdc.co/ca-direct) for more information.
@@ -37,12 +44,8 @@
         });
       });
 
-      tabConfig.data.viz = viz;
-*/
-
-      const viz = tabConfig['NBA2024StatRace____UsingFilter'].data.viz;	    
-
-      tabConfig['NBA2024StatRace____UsingFilter'].functions.selectSheet = function (viz, sheetName) {
+	    
+      tabConfig[vizName].functions.selectSheet = function (viz, sheetName) {
         let dashboard;
         let worksheet;
         if (viz.workbook.activeSheet.sheetType === SheetType.Dashboard) {
@@ -55,11 +58,11 @@
           worksheet = viz.workbook.activeSheet;
         }
 
-        tabConfig['NBA2024StatRace____UsingFilter'].data.dashboard = dashboard;
-        tabConfig['NBA2024StatRace____UsingFilter'].data.worksheet = worksheet;
+        tabConfig[vizName].data.dashboard = dashboard;
+        tabConfig[vizName].data.worksheet = worksheet;
       }
 
-      tabConfig['NBA2024StatRace____UsingFilter'].functions.getDatesInRange = function (startDate, endDate) {
+      tabConfig[vizName].functions.getDatesInRange = function (startDate, endDate) {
         let dates = [];
         let currentDate = new Date(startDate);
 
@@ -68,38 +71,38 @@
           currentDate.setDate(currentDate.getDate() + 1);
         }
 		
-        tabConfig['NBA2024StatRace____UsingFilter'].data.dates = dates;
+        tabConfig[vizName].data.dates = dates;
       }
 
-      tabConfig['NBA2024StatRace____UsingFilter'].functions.processDates = async function () {
-        while (tabConfig['NBA2024StatRace____UsingFilter'].data.dates.length > 0 & tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning) {
-			let date = tabConfig['NBA2024StatRace____UsingFilter'].data.dates.shift()
-			await tabConfig['NBA2024StatRace____UsingFilter'].data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
+      tabConfig[vizName].functions.processDates = async function () {
+        while (tabConfig[vizName].data.dates.length > 0 & tabConfig[vizName].data.keepRunning) {
+			let date = tabConfig[vizName].data.dates.shift()
+			await tabConfig[vizName].data.worksheet.applyFilterAsync("Game Date", [date], FilterUpdateType.Replace); // Process the date
 			await wait(1000); // Wait for 2 seconds before moving to the next date
         }
 
 		document.querySelector("#tableauEmbed #pause-btn").click();
       }
 
-      tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc = function () {
-        tabConfig['NBA2024StatRace____UsingFilter'].data.sheetName = 'Using Filter - Chart';
+      tabConfig[vizName].functions.runProc = function () {
+        tabConfig[vizName].data.sheetName = 'Using Filter - Chart';
 		
-        tabConfig['NBA2024StatRace____UsingFilter'].functions.selectSheet(tabConfig['NBA2024StatRace____UsingFilter'].data.viz, tabConfig['NBA2024StatRace____UsingFilter'].data.sheetName);
+        tabConfig[vizName].functions.selectSheet(tabConfig[vizName].data.viz, tabConfig[vizName].data.sheetName);
 
         let startDate = new Date('2024-10-22');
-		tabConfig['NBA2024StatRace____UsingFilter'].data.startDate = startDate;
+		tabConfig[vizName].data.startDate = startDate;
         let endDate = new Date('2024-12-21') // Day after last available date;
-        tabConfig['NBA2024StatRace____UsingFilter'].data.endDate = endDate;
+        tabConfig[vizName].data.endDate = endDate;
 				
-        tabConfig['NBA2024StatRace____UsingFilter'].functions.getDatesInRange(startDate, endDate);
+        tabConfig[vizName].functions.getDatesInRange(startDate, endDate);
 				
-        tabConfig['NBA2024StatRace____UsingFilter'].functions.processDates();		
+        tabConfig[vizName].functions.processDates();		
       }
 
-      /* tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc(); */
+      /* tabConfig[vizName].functions.runProc(); */
 
       document.querySelector("#tableauEmbed #start-btn").addEventListener("click", function(e) {		
-		tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning = true;
+		tabConfig[vizName].data.keepRunning = true;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
@@ -109,15 +112,15 @@
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 				
-		if (tabConfig['NBA2024StatRace____UsingFilter'].data.dates.length === 0){
-			tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc();			
+		if (tabConfig[vizName].data.dates.length === 0){
+			tabConfig[vizName].functions.runProc();			
 		} else {
-			tabConfig['NBA2024StatRace____UsingFilter'].functions.processDates();
+			tabConfig[vizName].functions.processDates();
 		}
 	  })
 
       document.querySelector("#tableauEmbed #pause-btn").addEventListener("click", function(e) {
-		tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning = false;
+		tabConfig[vizName].data.keepRunning = false;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.remove('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.add('disabled');
@@ -129,7 +132,7 @@
 	  })
 	  
       document.querySelector("#tableauEmbed #restart-btn").addEventListener("click", function(e) {
-		tabConfig['NBA2024StatRace____UsingFilter'].data.keepRunning = true;
+		tabConfig[vizName].data.keepRunning = true;
 		
 		document.querySelector("#tableauEmbed #start-btn").classList.add('disabled');
 		document.querySelector("#tableauEmbed #pause-btn").classList.remove('disabled');
@@ -139,7 +142,7 @@
 		document.querySelector("#tableauEmbed #pause-btn").disabled = false;
 		document.querySelector("#tableauEmbed #restart-btn").disabled = true;
 		
-		tabConfig['NBA2024StatRace____UsingFilter'].functions.runProc();
+		tabConfig[vizName].functions.runProc();
 	  })
       // *** Insert your code below! ***
     })();
