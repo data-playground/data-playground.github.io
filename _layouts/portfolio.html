@@ -5,7 +5,7 @@ layout: archive
 {{ content }}
 
 {% assign categories_max = 0 %}
-{% for category in site.tools %}
+{% for category in site.categories %}
   {% if category[1].size > categories_max %}
     {% assign categories_max = category[1].size %}
   {% endif %}
@@ -18,7 +18,7 @@ layout: archive
           </a>
         </li>  
   {% for i in (1..categories_max) reversed %}
-    {% for category in site.tools %}
+    {% for category in site.categories %}
       {% if category[1].size == i %}
         <li>
           <a href="javascript:;" id="{{ category[0] }}" onclick="filterUsingCategory(this.id)">
