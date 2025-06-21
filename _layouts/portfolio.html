@@ -13,30 +13,19 @@ layout: archive
 
 {% assign unique_tools = all_tools | uniq %} 
 
-{% assign categories_max = 0 %}
-{% for category in unique_tools %}
-  {% if category[1].size > categories_max %}
-    {% assign categories_max = category[1].size %}
-  {% endif %}
-{% endfor %}
-
 <ul class="taxonomy__index">
         <li>
           <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
             <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.portfolio.size }}</span>
           </a>
         </li>  
-  {% for i in (1..categories_max) reversed %}
     {% for category in unique_tools %}
-      {% if category[1].size == i %}
         <li>
           <a href="javascript:;" id="{{ category[0] }}" onclick="filterUsingCategory(this.id)">
-            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+            <strong>{{ category[0] }}</strong> <!--<span class="taxonomy__count">{{ i }}</span>-->
           </a>
         </li>
-      {% endif %}
     {% endfor %}
-  {% endfor %}
 </ul>
 
 
