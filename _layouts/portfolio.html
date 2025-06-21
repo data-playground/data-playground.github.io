@@ -22,7 +22,7 @@ layout: archive
     {% for category in unique_tools %}
         <li>
           <a href="javascript:;" id="{{ category[0] }}" onclick="filterUsingCategory(this.id)">
-            <strong>{{ category[0] }}</strong> <!--<span class="taxonomy__count">{{ i }}</span>-->
+            <strong>{{ category }}</strong> <!--<span class="taxonomy__count">{{ i }}</span>-->
           </a>
         </li>
     {% endfor %}
