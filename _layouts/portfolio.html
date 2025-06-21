@@ -5,19 +5,24 @@ layout: archive
 {{ content }}
 
 {% assign categories_max = 0 %}
-{% for tool in site.tools %}
-  {% if tool[1].size > categories_max %}
-    {% assign categories_max = tool[1].size %}
+{% for category in site.tools %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
   {% endif %}
 {% endfor %}
 
 <ul class="taxonomy__index">
-  {% for i in (1..categories_max) reversed %}
-    {% for tool in site.tools %}
-      {% if tool[1].size == i %}
         <li>
-          <a href="#{{ tool[0] | slugify }}">
-            <strong>{{ tool[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
+            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.portfolio.size }}</span>
+          </a>
+        </li>  
+  {% for i in (1..categories_max) reversed %}
+    {% for category in site.tools %}
+      {% if category[1].size == i %}
+        <li>
+          <a href="javascript:;" id="{{ category[0] }}" onclick="filterUsingCategory(this.id)">
+            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>
       {% endif %}
@@ -25,19 +30,40 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..categories_max) reversed %}
-  {% for tool in site.tools %}
-    {% if tool[1].size == i %}
-      <section id="{{ tool[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tool[0] }}</h2>
-        <div class="entries-{{ entries_layout }}">
-          {% for post in tool.last %}
+
+          {% for post in site.portfolio %}
             {% include archive-single.html type=entries_layout %}
           {% endfor %}
-        </div>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    let urlParams = new URLSearchParams(window.location.search)
+    let selectedCategory = !urlParams.get("cat") ? 'All' : urlParams.get("cat")
+    
+    let posts = $(".list__item")
+    for (p=0; p<= posts.length-1;p++){
+        //cats = posts[p].getAttribute("categories");
+        posts[p].style.display = 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.categories')).some(function(e){return e.value === selectedCategory})) 
+              ? 'unset' 
+              : 'none';
+    }
+  });
+
+  
+  function filterUsingCategory(selectedCategory) {
+    let url = new URL(window.location.href);
+    url.searchParams.set('cat', selectedCategory);
+    window.history.pushState(null, '', url.toString());
+    let posts = $(".list__item")
+    for (p=0; p<= posts.length-1;p++){
+        //cats = posts[p].getAttribute("categories");
+        posts[p].style.display = 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.categories')).some(function(e){return e.value === selectedCategory})) 
+              ? 'unset' 
+              : 'none';
+    }
+  }
+</script>
