@@ -4,25 +4,17 @@ layout: archive
 
 {{ content }}
 
-{% assign all_tools = "" | split: "," %}  {# Initialize an empty array #}
+{% assign all_tools = "" | split: "," %} 
 {% for item in site.portfolio %}
-  {% if item.tools %} {# Check if the item has the 'tools' variable #}
-    {% assign all_tools = all_tools | concat: item.tools %} {# Concatenate the 'tools' array to the main array #}
+  {% if item.tools %}
+    {% assign all_tools = all_tools | concat: item.tools %}
   {% endif %}
 {% endfor %}
 
-{% assign unique_tools = all_tools | uniq %} {# Get unique values #}
-
-<h2>All possible values for 'tools' in the portfolio collection:</h2>
-<ul>
-  {% for tool in unique_tools %}
-    <li>{{ tool }}</li>
-  {% endfor %}
-</ul>
-
+{% assign unique_tools = all_tools | uniq %} 
 
 {% assign categories_max = 0 %}
-{% for category in tools_list %}
+{% for category in unique_tools %}
   {% if category[1].size > categories_max %}
     {% assign categories_max = category[1].size %}
   {% endif %}
@@ -35,7 +27,7 @@ layout: archive
           </a>
         </li>  
   {% for i in (1..categories_max) reversed %}
-    {% for category in tools_list %}
+    {% for category in unique_tools %}
       {% if category[1].size == i %}
         <li>
           <a href="javascript:;" id="{{ category[0] }}" onclick="filterUsingCategory(this.id)">
