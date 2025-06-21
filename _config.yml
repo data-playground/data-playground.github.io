@@ -329,6 +329,9 @@ languages:
 category_archive:
   type: liquid
   path: /categories
+tool_archive:
+  type: liquid
+  path: /tools
 tag_archive:
   type: liquid
   path: /tags
