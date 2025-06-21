@@ -6,6 +6,14 @@ layout: archive
 
 {% assign tools_list = site.portolio | map: 'tools' | uniq %}
 
+<h2>All possible values for 'tools':</h2>
+<ul>
+  {% for value in tools_list %}
+    <li>{{ value }}</li>
+  {% endfor %}
+</ul>
+
+
 {% assign categories_max = 0 %}
 {% for category in tools_list %}
   {% if category[1].size > categories_max %}
