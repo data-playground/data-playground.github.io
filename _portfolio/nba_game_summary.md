@@ -1,7 +1,7 @@
 ---
 title: "NBA Game Summary"
 main_tool: python
-categories: 
+tools: 
   - Python
   - BigQuery
 date: 2016-02-24T03:02:20+00:00
