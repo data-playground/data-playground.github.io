@@ -224,6 +224,10 @@ collections:
     output: true
     future: false
     permalink: /:collection/:path/
+  portfolio:
+    output: true
+    future: false
+    permalink: /:collection/:path/
     
 
 # Defaults
