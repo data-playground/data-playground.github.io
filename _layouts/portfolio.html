@@ -4,12 +4,19 @@ layout: archive
 
 {{ content }}
 
-{% assign tools_list = site.portolio | map: 'main_tool' | uniq %}
+{% assign all_tools = "" | split: "," %}  {# Initialize an empty array #}
+{% for item in site.portfolio %}
+  {% if item.tools %} {# Check if the item has the 'tools' variable #}
+    {% assign all_tools = all_tools | concat: item.tools %} {# Concatenate the 'tools' array to the main array #}
+  {% endif %}
+{% endfor %}
 
-<h2>All possible values for 'tools':</h2>
+{% assign unique_tools = all_tools | uniq %} {# Get unique values #}
+
+<h2>All possible values for 'tools' in the portfolio collection:</h2>
 <ul>
-  {% for value in tools_list %}
-    <li>{{ value }}</li>
+  {% for tool in unique_tools %}
+    <li>{{ tool }}</li>
   {% endfor %}
 </ul>
 
