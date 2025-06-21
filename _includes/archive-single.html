@@ -39,6 +39,9 @@
     {% for lgn in post.language %}
       <input class="languages" value="{{ lgn }}" type="hidden">
     {% endfor %}
+    {% for tool in post.tools %}
+      <input class="tools" value="{{ tool }}" type="hidden">
+    {% endfor %}
   </div>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
