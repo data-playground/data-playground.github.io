@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-22T15:17:06-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Data Playground</title><subtitle>A place for data, analytics and automation enthusiasts</subtitle><author><name>Pedro Mano</name></author><entry><title type="html">Data Storage</title><link href="http://localhost:4000/data-storage/" rel="alternate" type="text/html" title="Data Storage" /><published>2022-01-12T12:00:00-05:00</published><updated>2022-01-12T12:00:00-05:00</updated><id>http://localhost:4000/data-storage</id><content type="html" xml:base="http://localhost:4000/data-storage/"><![CDATA[<h1 id="what-is-data-storage">What is Data Storage?</h1>
+
+<p>Data Storage is the the act of storing data (duh!). Data Storage is to decide where you are going to keep the data for your process. The decision to how and where the data is kept can be done based on multiple reasons: ease of access, security, size…</p>
+
+<p>More often than not we are going to see very common data storage strategies, like the best friend/worst enemy of every analyst, Excel. Excel is easy to access and to share, since most people have the necessary program to use it. It is also very user friendly, with no coding/scripting/querying knowledge necessary. If you are starting your analytics journey, definitely expect a lot of data to come on Excel format (.xls, .xlsx)</p>
+
+<p>Another very common format to receive and store data is the “delimiter-separated values” files. The format most often is the csv (comma-separated values), where each column is separate by a comma and, usually, lines are separated by a new line. Another format commonly used is tsv (tab-separated values), but many other characters can be used to separate data.</p>
+
+<p>When we start to store and communicate with a large amount of data (a million rows is usually when Excel start to give problems), it is probably smart to store that data in databases using management tools that can communicate with that database even when the numer of rows increase. There are many different types of database with the most common approach being the SQL (Structured Query Language) based databases. To use this type of storage you need to understand some to of querying language.</p>
+
+<p>As you start to see different flavors of databases, you will see differences on the languages, but they have many similarities between tools of the same type. Much like in our human languages, where, as we travel to different places, even if they speak the same language they have differences on how they speak and which words they use to describe the same thing, querying language also differs from one another as we travel between the available tools, but they tends to have the same backbone that are very much relatable between them.</p>
+
+<div id="tableauEmbed">
+  <div id="tableauBtn">
+    <button id="start-btn" type="button" class="btn btn-outline-dark">
+      <span class="material-symbols-outlined">play_arrow</span>
+      Start
+    </button>
+    <button id="continue-btn" type="button" class="btn btn-outline-dark" style="display:none">
+      <span class="material-symbols-outlined">resume</span>
+      Continue
+    </button>
+    <button id="pause-btn" type="button" class="btn btn-outline-dark disabled">
+      <span class="material-symbols-outlined">pause</span>
+      Pause
+    </button>  
+	<button id="play-pause-btn" type="button" class="btn btn-outline-dark" style="display:none">
+      <span class="material-symbols-outlined">play_pause</span>
+      Play/Pause
+    </button>  
+	<button id="restart-btn" type="button" class="btn btn-outline-dark disabled">
+      <span class="material-symbols-outlined">repeat</span>
+      Restart
+    </button>
+  </div>
+
+  <div style="height: 800px">
+  <tableau-viz src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" device="tablet" hide-tabs="" toolbar="hidden" tab-name="UsingFilter">
+  </tableau-viz>
+</div>
+
+
+
+
+  <div style="height: 800px">
+  <tableau-viz src="https://public.tableau.com/views/NBA2024StatRace/UsingPagesandRANK?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" device="tablet" hide-tabs="" toolbar="hidden" tab-name="UsingPagesandRANK">
+  </tableau-viz>
+</div>
+
+
+
+  
+</div>
+
+<p><br /></p>
+
+<h2 id="what-data-playground-will-use">What Data Playground will use?</h2>
+
+<p>As we mentioned before, a lot of datasets are available in Excel and csv files, so at Data Playground we will use a lot of sets based on those format. Even some of the datasets created by us by gathering data, we will save on those two formats just for ease of use.</p>
+
+<p>In other projects, the amount of data starts to become to big for Excel and would demand breaking the data in mutiple files, which could lead to errors. For those projects, we will use a Rational Database tool, called MySQL. MySQL is an open-source tool that can be downloaded and installed for free with a giant community, which helps us find solutions for some of the problems we may find as we go through the journey.</p>
+
+<h2 id="what-do-i-need-to-do">What do I need to do?</h2>
+
+<h3 id="excel">Excel</h3>
+
+<p>For Excel files, there is the Microsoft Excel path, that most professional and personal computers currently have. If you do not have the full Office version you can sign up for free to use the online version of Excel.</p>
+
+<p>Other free versions of excel file readers are Google Sheets, Apache OpenOffice Calc and LibreOffice Calc. All those options are fairly good to read the data, all with its small differences from the Microsoft product.</p>
+
+<h3 id="csv-and-other-delimiter-separated-files">CSV and other delimiter-separated files</h3>
+
+<p>For most delimiter separated files, Excel readers are very reliable and do a good job to read the data and even transform in Excel-like files.</p>
+
+<p>For some more complex data, like when the separator may appear in a text column (e.g. a comma-separated file with a full address column that one of the rows read “20 W 34th St, New York, NY 10001”), Excel file readers may not work as well and you may want to see the file in its raw format. For that Notepad (or TextEdit for Mac users) is available in most computers.</p>
+
+<p>An option I personally like to have is Notepad++. Notepad++ is source code editor that support many different extensions (we will definitely talk more about it as we go through our projects). It not only provides usual text editor capabilities, but more complex ones like find and replace for regular expressions, line numbers etc that facilitates the cleaning and fixing on some data and coding sources.</p>
+
+<p>Unfortunately, Notepad++ is only available for Windows, but Mac users can find very good alternatives like Brackets that provides pretty much the same capabilties (you may see Brackets some times here as well).</p>
+
+<h3 id="database">Database</h3>
+
+<p>There a lot of different providers for database management solutions, some on premise (in a computer you have access to) while others in the cloud (a third party hosting the solution). Microsoft SQL Server, Oracle RDBMS, SAP Sybase ASE and IBM DB2 are some on premise tools, while AmazonRDS is a great example of cloud-based data management tool.</p>
+
+<p>All the example above are commercial tools that you need a license or a paid account to use. As we intend to make our lives easier and available to everyone at Data Playground, we will use an open-source free-to-use on-premise tool called MySQL that is very similar to other relational SQL tools in the market. Other examples of open-source tools that we may see in future projects are PostgreSQL, MariaDB and MongoDB (all with its small peculiarities, but very similar to each other)</p>
+
+<p>If you decide to follow us and use MySQL, please download the <a href="https://dev.mysql.com/downloads/installer/">MySQL Community Edition</a></p>
+
+<h2 id="why-data-storage">Why Data Storage?</h2>
+
+<p>Data is always stored somewhere somehow and we will be exposed to it if we decide to go on this analytics journey. At Data Playground, we will go through a variety of projects with data being sourced from different locations. This will give us a great understanding on why this topic is so important and a baseline for many companies when hiring data analysts, engineers and scientists.</p>
+
+<p>I hope this helped to clarify all the different types of data sources you may encounter during our journey.</p>
+
+<p>Any questions or requests, please contact us at dataplayground.contact@gmail.com</p>]]></content><author><name>Pedro Mano</name></author><category term="en" /><summary type="html"><![CDATA[What is Data Storage?]]></summary></entry><entry><title type="html">Edge Case: Nested and Mixed Lists</title><link href="http://localhost:4000/test-file-es/" rel="alternate" type="text/html" title="Edge Case: Nested and Mixed Lists" /><published>2021-10-01T00:00:00-04:00</published><updated>2021-10-01T00:00:00-04:00</updated><id>http://localhost:4000/test-file-es</id><content type="html" xml:base="http://localhost:4000/test-file-es/"><![CDATA[<p>Nested and mixed lists are an interesting beast. It’s a corner case to make sure that</p>
+
+<ul>
+  <li>Lists within lists do not break the ordered list numbering order</li>
+  <li>Your list styles go deep enough.</li>
+</ul>
+
+<h3 id="ordered--unordered--ordered">Ordered – Unordered – Ordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong>
+        <ol>
+          <li>ordered item</li>
+          <li>ordered item</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="ordered--unordered--unordered">Ordered – Unordered – Unordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong>
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="unordered--ordered--unordered">Unordered – Ordered – Unordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ol>
+      <li>ordered</li>
+      <li>ordered
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h3 id="unordered--unordered--ordered">Unordered – Unordered – Ordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ul>
+      <li>unordered</li>
+      <li>unordered
+        <ol>
+          <li><strong>ordered item</strong></li>
+          <li><strong>ordered item</strong></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h3 id="task-lists">Task Lists</h3>]]></content><author><name>Pedro Mano</name></author><category term="Edge Case" /><category term="test" /><category term="content" /><category term="css" /><category term="edge case" /><category term="lists" /><category term="markup" /><summary type="html"><![CDATA[Nested and mixed lists are an interesting beast. It’s a corner case to make sure that]]></summary></entry><entry><title type="html">Edge Case: Nested and Mixed Lists</title><link href="http://localhost:4000/test-file/" rel="alternate" type="text/html" title="Edge Case: Nested and Mixed Lists" /><published>2021-10-01T00:00:00-04:00</published><updated>2021-10-01T00:00:00-04:00</updated><id>http://localhost:4000/test-file</id><content type="html" xml:base="http://localhost:4000/test-file/"><![CDATA[<p>Nested and mixed lists are an interesting beast. It’s a corner case to make sure that</p>
+
+<ul>
+  <li>Lists within lists do not break the ordered list numbering order</li>
+  <li>Your list styles go deep enough.</li>
+</ul>
+
+<h3 id="ordered--unordered--ordered">Ordered – Unordered – Ordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong>
+        <ol>
+          <li>ordered item</li>
+          <li>ordered item</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="ordered--unordered--unordered">Ordered – Unordered – Unordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong>
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="unordered--ordered--unordered">Unordered – Ordered – Unordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ol>
+      <li>ordered</li>
+      <li>ordered
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h3 id="unordered--unordered--ordered">Unordered – Unordered – Ordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ul>
+      <li>unordered</li>
+      <li>unordered
+        <ol>
+          <li><strong>ordered item</strong></li>
+          <li><strong>ordered item</strong></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h3 id="task-lists">Task Lists</h3>]]></content><author><name>Pedro Mano</name></author><category term="Edge Case" /><category term="test" /><category term="content" /><category term="css" /><category term="edge case" /><category term="lists" /><category term="markup" /><summary type="html"><![CDATA[Nested and mixed lists are an interesting beast. It’s a corner case to make sure that]]></summary></entry><entry><title type="html">Sample Page es</title><link href="http://localhost:4000/sample-page-es/" rel="alternate" type="text/html" title="Sample Page es" /><published>2018-02-23T22:02:20-05:00</published><updated>2018-02-23T22:02:20-05:00</updated><id>http://localhost:4000/sample-page-es</id><content type="html" xml:base="http://localhost:4000/sample-page-es/"><![CDATA[<p>This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+
+<blockquote>
+  <p>Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi’a coladas. (And gettin’ caught in the rain.)</p>
+</blockquote>
+
+<p>…or something like this:</p>
+
+<blockquote>
+  <p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p>
+</blockquote>
+
+<p>You should probably delete this page and create new pages for your content. Have fun!</p>]]></content><author><name>Pedro Mano</name></author><category term="[&quot;es&quot;]" /><summary type="html"><![CDATA[This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:]]></summary></entry><entry><title type="html">Sample Page 1</title><link href="http://localhost:4000/sample-page-1/" rel="alternate" type="text/html" title="Sample Page 1" /><published>2018-02-23T22:02:20-05:00</published><updated>2018-02-23T22:02:20-05:00</updated><id>http://localhost:4000/sample-page-1</id><content type="html" xml:base="http://localhost:4000/sample-page-1/"><![CDATA[<p>This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+
+<blockquote>
+  <p>Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi’a coladas. (And gettin’ caught in the rain.)</p>
+</blockquote>
+
+<p>…or something like this:</p>
+
+<blockquote>
+  <p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p>
+</blockquote>
+
+<p>You should probably delete this page and create new pages for your content. Have fun!</p>]]></content><author><name>Pedro Mano</name></author><summary type="html"><![CDATA[This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:]]></summary></entry><entry><title type="html">Sample Page</title><link href="http://localhost:4000/sample-page/" rel="alternate" type="text/html" title="Sample Page" /><published>2016-02-23T22:02:20-05:00</published><updated>2016-02-23T22:02:20-05:00</updated><id>http://localhost:4000/sample-page</id><content type="html" xml:base="http://localhost:4000/sample-page/"><![CDATA[<p>This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+
+<blockquote>
+  <p>Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi’a coladas. (And gettin’ caught in the rain.)</p>
+</blockquote>
+
+<p>…or something like this:</p>
+
+<blockquote>
+  <p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p>
+</blockquote>
+
+<p>You should probably delete this page and create new pages for your content. Have fun!</p>]]></content><author><name>Pedro Mano</name></author><category term="en" /><summary type="html"><![CDATA[This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:]]></summary></entry></feed>

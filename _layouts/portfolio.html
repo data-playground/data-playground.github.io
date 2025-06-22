@@ -13,28 +13,59 @@ layout: archive
 
 {% assign unique_tools = all_tools | uniq %} 
 
-<ul class="taxonomy__index">
-        <li>
-          <a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)">
-            <strong>*Show All Posts*</strong> <span class="taxonomy__count">{{ site.portfolio.size }}</span>
-          </a>
-        </li>  
+{% assign all_topics = "" | split: "," %} 
+{% for item in site.portfolio %}
+  {% if item.topics %}
+    {% assign all_topics = all_topics | concat: item.topics %}
+  {% endif %}
+{% endfor %}
+
+{% assign unique_topics = all_topics | uniq %} 
+
+<ul class="taxonomy__index grid grid-cols-1 sm:grid-cols-4 sm:grid-cols-5 lg:grid-cols-6 sm:gap-y-2 lg:gap-y-4 gap-x-5">
+	<li>
+		<a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+			<strong>*Show All*</strong> <span class="taxonomy__count">{{ site.portfolio.size }}</span>
+		</a>
+	</li>  
     {% for category in unique_tools %}
+		{% assign filtered_assets = site.portfolio | where: 'tools', category %}
+		{% assign count = filtered_assets | size %}
         <li>
-          <a href="javascript:;" id="{{ category[0] }}" onclick="filterUsingCategory(this.id)">
-            <strong>{{ category }}</strong> <!--<span class="taxonomy__count">{{ i }}</span>-->
-          </a>
+			<a href="javascript:;" id="{{ category }}" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>{{ category }}</strong> <span class="taxonomy__count">{{ count }}</span>
+			</a>
+        </li>
+    {% endfor %}
+    {% for topic in unique_topics %}
+		{% assign filtered_assets = site.portfolio | where: 'topics', topic %}
+		{% assign count = filtered_assets | size %}
+        <li>
+			<a href="javascript:;" id="{{ topic }}" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>{{ topic }}</strong> <span class="taxonomy__count">{{ count }}</span>
+			</a>
         </li>
     {% endfor %}
 </ul>
 
+<main class="max-w-6xl mx-auto">
+	<div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+		{% for post in site.portfolio %}
+			{% include archive-single-portfolio.html type=entries_layout %}
+		{% endfor %}
+	</div>
+</main>
 
-          {% for post in site.portfolio %}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+<br>
 
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 
+<style>
+.archive {
+	width: -webkit-fill-available;
+    padding: 0;
+}
+</style>
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
     let urlParams = new URLSearchParams(window.location.search)
@@ -44,7 +75,7 @@ layout: archive
     for (p=0; p<= posts.length-1;p++){
         //cats = posts[p].getAttribute("categories");
         posts[p].style.display = 
-          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.categories')).some(function(e){return e.value === selectedCategory})) 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
               ? 'unset' 
               : 'none';
     }
@@ -59,7 +90,7 @@ layout: archive
     for (p=0; p<= posts.length-1;p++){
         //cats = posts[p].getAttribute("categories");
         posts[p].style.display = 
-          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs input.categories')).some(function(e){return e.value === selectedCategory})) 
+          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
               ? 'unset' 
               : 'none';
     }

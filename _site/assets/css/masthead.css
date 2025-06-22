@@ -1,0 +1,29 @@
+html {
+    background-color: #fff;
+}
+
+.masthead {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background: #eee;
+}
+
+.masthead__inner-wrap {
+    padding: 0.5em;
+}
+
+.site-logo img {
+    -webkit-transition: none;
+    transition: none;
+    mix-blend-mode: multiply;
+}
+
+.initial-content {
+    padding-top: 65px;
+}
+
+.page__related {
+    width: calc(100% - 400px - 1em) !important;
+    margin-right: 200px !important;
+}

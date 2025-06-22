@@ -1,0 +1,846 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Data Storage - Data Playground</title>
+<meta name="description" content="What is Data Storage?">
+
+
+  <meta name="author" content="Pedro Mano">
+  
+  <meta property="article:author" content="Pedro Mano">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Data Playground">
+<meta property="og:title" content="Data Storage">
+<meta property="og:url" content="http://localhost:4000/data-storage/">
+
+
+  <meta property="og:description" content="What is Data Storage?">
+
+
+
+
+
+  <meta name="twitter:site" content="@PlaygroundData">
+  <meta name="twitter:title" content="Data Storage">
+  <meta name="twitter:description" content="What is Data Storage?">
+  <meta name="twitter:url" content="http://localhost:4000/data-storage/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-01-12T12:00:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/data-storage/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Data Playground",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/PlaygroundData"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Data Playground Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+<script src="https://kit.fontawesome.com/787134893c.js" crossorigin="anonymous"></script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/masthead.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
+
+
+  
+    <script type='module' src='/assets/js/posts/2022-01-12-data-storage.js'></script>
+  
+
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/img/analytics%20&%20visualization%201%20no%20back.png" alt="Data Playground"></a>
+        
+        <a class="site-title" href="/">
+          Data Playground
+          <span class="site-subtitle">Having fun with Data</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/">Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archive/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/programs/">Programs</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/data-playground/data-playground.github.io" target="_blank">Github</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <link rel="stylesheet" href="/assets/css/posts.css">
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Pedro Mano</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I am an <strong>amazing</strong> person.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Somewhere</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://pedromanodemoura.github.io/" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/pedromanodemoura" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Data Storage">
+    <meta itemprop="description" content="What is Data Storage?">
+    <meta itemprop="datePublished" content="2022-01-12T12:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/data-storage/" class="u-url" itemprop="url">Data Storage
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-01-12T12:00:00-05:00">January 12, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      
+      
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="what-is-data-storage">What is Data Storage?</h1>
+
+<p>Data Storage is the the act of storing data (duh!). Data Storage is to decide where you are going to keep the data for your process. The decision to how and where the data is kept can be done based on multiple reasons: ease of access, security, size…</p>
+
+<p>More often than not we are going to see very common data storage strategies, like the best friend/worst enemy of every analyst, Excel. Excel is easy to access and to share, since most people have the necessary program to use it. It is also very user friendly, with no coding/scripting/querying knowledge necessary. If you are starting your analytics journey, definitely expect a lot of data to come on Excel format (.xls, .xlsx)</p>
+
+<p>Another very common format to receive and store data is the “delimiter-separated values” files. The format most often is the csv (comma-separated values), where each column is separate by a comma and, usually, lines are separated by a new line. Another format commonly used is tsv (tab-separated values), but many other characters can be used to separate data.</p>
+
+<p>When we start to store and communicate with a large amount of data (a million rows is usually when Excel start to give problems), it is probably smart to store that data in databases using management tools that can communicate with that database even when the numer of rows increase. There are many different types of database with the most common approach being the SQL (Structured Query Language) based databases. To use this type of storage you need to understand some to of querying language.</p>
+
+<p>As you start to see different flavors of databases, you will see differences on the languages, but they have many similarities between tools of the same type. Much like in our human languages, where, as we travel to different places, even if they speak the same language they have differences on how they speak and which words they use to describe the same thing, querying language also differs from one another as we travel between the available tools, but they tends to have the same backbone that are very much relatable between them.</p>
+
+<div id="tableauEmbed">
+  <div id="tableauBtn">
+    <button id="start-btn" type="button" class="btn btn-outline-dark">
+      <span class="material-symbols-outlined">play_arrow</span>
+      Start
+    </button>
+    <button id="continue-btn" type="button" class="btn btn-outline-dark" style="display:none">
+      <span class="material-symbols-outlined">resume</span>
+      Continue
+    </button>
+    <button id="pause-btn" type="button" class="btn btn-outline-dark disabled">
+      <span class="material-symbols-outlined">pause</span>
+      Pause
+    </button>  
+	<button id="play-pause-btn" type="button" class="btn btn-outline-dark" style="display:none">
+      <span class="material-symbols-outlined">play_pause</span>
+      Play/Pause
+    </button>  
+	<button id="restart-btn" type="button" class="btn btn-outline-dark disabled">
+      <span class="material-symbols-outlined">repeat</span>
+      Restart
+    </button>
+  </div>
+
+  <div style="height: 800px">
+  <tableau-viz src="https://public.tableau.com/views/NBA2024StatRace/UsingFilter?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" device="tablet" hide-tabs="" toolbar="hidden" tab-name="UsingFilter">
+  </tableau-viz>
+</div>
+
+
+
+
+  <div style="height: 800px">
+  <tableau-viz src="https://public.tableau.com/views/NBA2024StatRace/UsingPagesandRANK?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" device="tablet" hide-tabs="" toolbar="hidden" tab-name="UsingPagesandRANK">
+  </tableau-viz>
+</div>
+
+
+
+  
+</div>
+
+<p><br /></p>
+
+<h2 id="what-data-playground-will-use">What Data Playground will use?</h2>
+
+<p>As we mentioned before, a lot of datasets are available in Excel and csv files, so at Data Playground we will use a lot of sets based on those format. Even some of the datasets created by us by gathering data, we will save on those two formats just for ease of use.</p>
+
+<p>In other projects, the amount of data starts to become to big for Excel and would demand breaking the data in mutiple files, which could lead to errors. For those projects, we will use a Rational Database tool, called MySQL. MySQL is an open-source tool that can be downloaded and installed for free with a giant community, which helps us find solutions for some of the problems we may find as we go through the journey.</p>
+
+<h2 id="what-do-i-need-to-do">What do I need to do?</h2>
+
+<h3 id="excel">Excel</h3>
+
+<p>For Excel files, there is the Microsoft Excel path, that most professional and personal computers currently have. If you do not have the full Office version you can sign up for free to use the online version of Excel.</p>
+
+<p>Other free versions of excel file readers are Google Sheets, Apache OpenOffice Calc and LibreOffice Calc. All those options are fairly good to read the data, all with its small differences from the Microsoft product.</p>
+
+<h3 id="csv-and-other-delimiter-separated-files">CSV and other delimiter-separated files</h3>
+
+<p>For most delimiter separated files, Excel readers are very reliable and do a good job to read the data and even transform in Excel-like files.</p>
+
+<p>For some more complex data, like when the separator may appear in a text column (e.g. a comma-separated file with a full address column that one of the rows read “20 W 34th St, New York, NY 10001”), Excel file readers may not work as well and you may want to see the file in its raw format. For that Notepad (or TextEdit for Mac users) is available in most computers.</p>
+
+<p>An option I personally like to have is Notepad++. Notepad++ is source code editor that support many different extensions (we will definitely talk more about it as we go through our projects). It not only provides usual text editor capabilities, but more complex ones like find and replace for regular expressions, line numbers etc that facilitates the cleaning and fixing on some data and coding sources.</p>
+
+<p>Unfortunately, Notepad++ is only available for Windows, but Mac users can find very good alternatives like Brackets that provides pretty much the same capabilties (you may see Brackets some times here as well).</p>
+
+<h3 id="database">Database</h3>
+
+<p>There a lot of different providers for database management solutions, some on premise (in a computer you have access to) while others in the cloud (a third party hosting the solution). Microsoft SQL Server, Oracle RDBMS, SAP Sybase ASE and IBM DB2 are some on premise tools, while AmazonRDS is a great example of cloud-based data management tool.</p>
+
+<p>All the example above are commercial tools that you need a license or a paid account to use. As we intend to make our lives easier and available to everyone at Data Playground, we will use an open-source free-to-use on-premise tool called MySQL that is very similar to other relational SQL tools in the market. Other examples of open-source tools that we may see in future projects are PostgreSQL, MariaDB and MongoDB (all with its small peculiarities, but very similar to each other)</p>
+
+<p>If you decide to follow us and use MySQL, please download the <a href="https://dev.mysql.com/downloads/installer/">MySQL Community Edition</a></p>
+
+<h2 id="why-data-storage">Why Data Storage?</h2>
+
+<p>Data is always stored somewhere somehow and we will be exposed to it if we decide to go on this analytics journey. At Data Playground, we will go through a variety of projects with data being sourced from different locations. This will give us a great understanding on why this topic is so important and a baseline for many companies when hiring data analysts, engineers and scientists.</p>
+
+<p>I hope this helped to clarify all the different types of data sources you may encounter during our journey.</p>
+
+<p>Any questions or requests, please contact us at dataplayground.contact@gmail.com</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories?cat=en" class="page__taxonomy-item p-category" rel="tag">en</a>
+    
+    </span>
+  </p>
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-01-12T12:00:00-05:00">January 12, 2022</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=PlaygroundData&text=Data+Storage%20http%3A%2F%2Flocalhost%3A4000%2Fdata-storage%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdata-storage%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdata-storage%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/test-file-es/" class="pagination--pager" title="Edge Case: Nested and Mixed Lists
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/test-file-es>
+  <div id="filter-inputs">
+    
+      <input class="categories" value="Edge Case" type="hidden">
+    
+      <input class="categories" value="test" type="hidden">
+    
+    
+      <input class="tags" value="content" type="hidden">
+    
+      <input class="tags" value="css" type="hidden">
+    
+      <input class="tags" value="edge case" type="hidden">
+    
+      <input class="tags" value="lists" type="hidden">
+    
+      <input class="tags" value="markup" type="hidden">
+    
+    
+      <input class="languages" value="Español" type="hidden">
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/test-file-es/" rel="permalink">Edge Case: Nested and Mixed Lists
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-01T00:00:00-04:00">October 1, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/test-file>
+  <div id="filter-inputs">
+    
+      <input class="categories" value="Edge Case" type="hidden">
+    
+      <input class="categories" value="test" type="hidden">
+    
+    
+      <input class="tags" value="content" type="hidden">
+    
+      <input class="tags" value="css" type="hidden">
+    
+      <input class="tags" value="edge case" type="hidden">
+    
+      <input class="tags" value="lists" type="hidden">
+    
+      <input class="tags" value="markup" type="hidden">
+    
+    
+      <input class="languages" value="English" type="hidden">
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/test-file/" rel="permalink">Edge Case: Nested and Mixed Lists
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-01T00:00:00-04:00">October 1, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/sample-page-1>
+  <div id="filter-inputs">
+    
+    
+    
+      <input class="languages" value="Português" type="hidden">
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/sample-page-1/" rel="permalink">Sample Page 1
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-02-23T22:02:20-05:00">February 23, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most pe...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/sample-page-es>
+  <div id="filter-inputs">
+    
+      <input class="categories" value="es" type="hidden">
+    
+    
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/sample-page-es/" rel="permalink">Sample Page es
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-02-23T22:02:20-05:00">February 23, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most pe...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/PlaygroundData" rel="nofollow noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true" style="color:black"></i> X/Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/data-playground" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true" style="color:black"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://public.tableau.com/app/profile/data.playground" rel="nofollow noopener noreferrer" target="_blank"><i class="fas fa-chart-bar" aria-hidden="true" style="color:black"></i> Tableau</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml" target="_blank"><i class="fas fa-fw fa-rss-square" aria-hidden="true" style="color:black"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Data Playground. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

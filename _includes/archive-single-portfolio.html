@@ -1,0 +1,65 @@
+
+{% if post.tools %}
+  {% assign tools = post.tools | json %}
+{% else %}
+  {% assign tools = [""] %}
+{% endif %}
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="{{ include.type | default: 'list' }}__item" id={{ post.id }}>
+	<a href="{{ post.url }}" class="no-underline hover:no-underline">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="{{ thumbnail }}"
+				alt="Thumbnail for {{ title }}"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				{{ post.title }}
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				{{ post.description }}
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				{% for tool in post.tools %}
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						{{ tool }}
+					</span>
+				{% endfor %}
+				{% for topic in post.topics %}
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						{{ topic }}
+					</span>
+				{% endfor %}
+			</div>
+		</div>
+	</article>
+	</a>
+</div>

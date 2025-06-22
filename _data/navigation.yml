@@ -2,9 +2,8 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Youtube"
-    url: https://youtube.com/channel/UCodxIOYMfJHqPcP9XMQNDyw
-    newtab: true
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Posts"
     url: /archive/
   - title: "Programs"
@@ -12,3 +11,5 @@ main:
   - title: "Github"
     url: https://github.com/data-playground/data-playground.github.io
     newtab: true
+#  - title: "Youtube"
+#    url: https://youtube.com/channel/UCodxIOYMfJHqPcP9XMQNDyw
