@@ -6,4 +6,5 @@ tools:
 date: 2016-02-24T03:02:20+00:00
 location: https://public.tableau.com/app/profile/data.playground/viz/NBA2024StatRace/Instructions
 description: "Comparing NBA's main stats at the beginning of the 2024-25 season using Tableau out-of-the-box and extended capabilities"
+thumbnail: "/assets/img/portfolio/NBA 2024 Stat Race.png"
 ---
