@@ -4,5 +4,5 @@ layout: portfolio-embed
 permalink: /portfolio-embed
 author_profile: false
 header: 
-	- hide
+	- hide: true
 ---
