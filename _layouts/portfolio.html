@@ -67,32 +67,66 @@ layout: archive
 }
 </style>
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function() {
-    let urlParams = new URLSearchParams(window.location.search)
-    let selectedCategory = !urlParams.get("cat") ? 'All' : urlParams.get("cat")
+	document.addEventListener("DOMContentLoaded", function() {
+		let urlParams = new URLSearchParams(window.location.search)
+		let selectedCategory = !urlParams.get("cat") ? 'All' : urlParams.get("cat")
     
-    let posts = $(".list__item")
-    for (p=0; p<= posts.length-1;p++){
+		let posts = $(".list__item")
+		for (p=0; p<= posts.length-1;p++){
         //cats = posts[p].getAttribute("categories");
-        posts[p].style.display = 
-          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
-              ? 'unset' 
-              : 'none';
-    }
-  });
+			posts[p].style.display = 
+				(selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
+					? 'unset' 
+					: 'none';
+		}
+	});
 
+
+
+	function isInIframe() {
+		try {
+			return window.self !== window.top;
+		} catch (e) {
+			return true; // Assume it's in an iframe if access is restricted
+		}
+	}
+
+	if (isInIframe()) {
+		var header = document.querySelector(".masthead"); // Replace "header" with your header's selector
+		if (header) {
+			header.remove();
+			console.log("Header Removed");
+			
+		}
+
+		var footer = document.querySelector("#footer"); // Replace "footer" with your footer's selector
+		if (footer) {
+			footer.remove();
+		}
+
+		var main_page = document.querySelector(".initial-content"); // Replace "footer" with your footer's selector
+		if (main_page) {
+			main_page.classList.remove('initial-content');
+		}
+	  
+		var scrollHeight = document.documentElement.scrollHeight; // Or document.body.scrollHeight
+
+		// Send the message to the parent window
+		// Replace 'https://your-parent-site.com' with the actual origin of the parent window for security
+		window.parent.postMessage({ scrollHeight: scrollHeight }, 'https://pedromanodemoura.github.io/');
+	}
   
-  function filterUsingCategory(selectedCategory) {
-    let url = new URL(window.location.href);
-    url.searchParams.set('cat', selectedCategory);
-    window.history.pushState(null, '', url.toString());
-    let posts = $(".list__item")
-    for (p=0; p<= posts.length-1;p++){
-        //cats = posts[p].getAttribute("categories");
-        posts[p].style.display = 
-          (selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
-              ? 'unset' 
-              : 'none';
-    }
-  }
+	function filterUsingCategory(selectedCategory) {
+		let url = new URL(window.location.href);
+		url.searchParams.set('cat', selectedCategory);
+		window.history.pushState(null, '', url.toString());
+		let posts = $(".list__item")
+		for (p=0; p<= posts.length-1;p++){
+			//cats = posts[p].getAttribute("categories");
+			posts[p].style.display = 
+				(selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
+					? 'unset' 
+					: 'none';
+		}
+	}
 </script>
