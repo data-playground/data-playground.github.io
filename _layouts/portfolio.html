@@ -93,27 +93,21 @@ layout: archive
 
 	if (isInIframe()) {
 		var header = document.querySelector(".masthead"); // Replace "header" with your header's selector
-		if (header) {
-			header.remove();
-			console.log("Header Removed");
-			
-		}
-
 		var footer = document.querySelector("#footer"); // Replace "footer" with your footer's selector
-		if (footer) {
-			footer.remove();
-		}
-
 		var main_page = document.querySelector(".initial-content"); // Replace "footer" with your footer's selector
-		if (main_page) {
-			main_page.classList.remove('initial-content');
-		}
-	  
+
+		header.classList.add("hidden");
+		footer.classList.add("hidden");
+		main_page.classList.remove('initial-content');
+		
 		var scrollHeight = document.documentElement.scrollHeight; // Or document.body.scrollHeight
 
 		// Send the message to the parent window
 		// Replace 'https://your-parent-site.com' with the actual origin of the parent window for security
-		window.parent.postMessage({ scrollHeight: scrollHeight }, 'https://pedromanodemoura.github.io/');
+		window.parent.postMessage({ "scrollHeight": scrollHeight }, 'https://pedromanodemoura.github.io/');
+		
+		console.log("Embedding adjusted");
+
 	} else {
 	    console.log("Not embedded")
 	}
