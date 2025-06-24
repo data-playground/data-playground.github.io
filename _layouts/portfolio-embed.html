@@ -100,5 +100,11 @@ layout: archive-embed
 					? 'unset' 
 					: 'none';
 		}
+  
+		let scrollHeight = document.documentElement.scrollHeight; // Or document.body.scrollHeight
+
+		// Send the message to the parent window
+		// Replace 'https://your-parent-site.com' with the actual origin of the parent window for security
+		window.parent.postMessage({ "scrollHeight": scrollHeight }, 'https://pedromanodemoura.github.io/');
 	}
 </script>
