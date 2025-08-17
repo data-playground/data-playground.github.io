@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Portfolio"
-    url: /portfolio/
+    url: /portfolio
   - title: "Posts"
     url: /archive/
   - title: "Programs"
