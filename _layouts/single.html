@@ -31,9 +31,14 @@ layout: default
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
+		  {% if page.location %}
+			<a type="button" class="btn btn-primary" href="{{ page.location }}" style="margin: -10px 0 20px 0; color:white" target="_blank">View {% if page.main_tool %}{{ page.main_tool | capitalize }}{% else %}Process{% endif %}</a>
+		  {% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
+	  
+	  
 
       {% if page.video %}
 

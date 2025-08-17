@@ -1,6 +1,5 @@
 ---
 title: "About"
-permalink: /about/
 date: 2021-01-04T18:00:00+00:00
 author_profile: false
 ---

@@ -5,4 +5,5 @@ permalink: /portfolio-embed
 author_profile: false
 header: 
   hide: true
+sitemap: false
 ---

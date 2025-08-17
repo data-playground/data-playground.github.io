@@ -1,0 +1,949 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Portfolio - Data Playground</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="Pedro Mano">
+  
+  <meta property="article:author" content="Pedro Mano">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Data Playground">
+<meta property="og:title" content="Portfolio">
+<meta property="og:url" content="http://localhost:4000/portfolio-embed">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+  <meta name="twitter:site" content="@PlaygroundData">
+  <meta name="twitter:title" content="Portfolio">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="http://localhost:4000/portfolio-embed">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2025-08-17T16:04:34-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/portfolio-embed">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Data Playground",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/PlaygroundData"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Data Playground Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+<script src="https://kit.fontawesome.com/787134893c.js" crossorigin="anonymous"></script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/masthead.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
+
+
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--portfolio-embed">
+
+    <div class="initial-content-embed">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="archive">
+    
+    
+
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+<ul class="taxonomy__index grid grid-cols-1 sm:grid-cols-4 sm:grid-cols-5 lg:grid-cols-6 sm:gap-y-2 lg:gap-y-4 gap-x-5">
+	<li>
+		<a href="javascript:;" id="All" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+			<strong>*Show All*</strong> <span class="taxonomy__count">8</span>
+		</a>
+	</li>  
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Python" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Python</strong> <span class="taxonomy__count">4</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="BigQuery" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>BigQuery</strong> <span class="taxonomy__count">3</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Tableau" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Tableau</strong> <span class="taxonomy__count">3</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Streamlit" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Streamlit</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="WebScraping" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>WebScraping</strong> <span class="taxonomy__count">2</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="ETL" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>ETL</strong> <span class="taxonomy__count">3</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="API" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>API</strong> <span class="taxonomy__count">3</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Analytics" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Analytics</strong> <span class="taxonomy__count">2</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Data Visualization" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Data Visualization</strong> <span class="taxonomy__count">3</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Storytelling" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Storytelling</strong> <span class="taxonomy__count">2</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Webscraping" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Webscraping</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Text Analytics" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Text Analytics</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Machine Learning" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Machine Learning</strong> <span class="taxonomy__count">2</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Artificial Intelligence" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Artificial Intelligence</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="App Development" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>App Development</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Streamlit" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Streamlit</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+		
+		
+        <li>
+			<a href="javascript:;" id="Bar Chart" onclick="filterUsingCategory(this.id)" class="no-underline hover:no-underline">
+				<strong>Bar Chart</strong> <span class="taxonomy__count">1</span>
+			</a>
+        </li>
+    
+</ul>
+
+<main class="max-w-6xl mx-auto">
+	<div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/fifa_data_pull>
+	<a href="/portfolio/fifa_data_pull" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/fifa_data_pull.png"
+				alt="Thumbnail for FIFA Data Pull"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				FIFA Data Pull
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Extracting data from the FIFA's own API for the football data nerd happinness
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Python
+					</span>
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						BigQuery
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						WebScraping
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						ETL
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						API
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/fifa_world_cup_goals>
+	<a href="/portfolio/fifa_world_cup_goals" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/fifa-world-cup-goals-tableau.png"
+				alt="Thumbnail for FIFA World Cup history through goals"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				FIFA World Cup history through goals
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Exploring the history of one of the largest competitions in the world, FIFA's Football World Cup, through the goals scored, touring through its countries, goalscorers and more
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Tableau
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Analytics
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Data Visualization
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Storytelling
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/movie_tv_recommender_1_gathering>
+	<a href="/portfolio/movie_tv_recommender_1_gathering" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/movie_tv_recommender_gathering.png"
+				alt="Thumbnail for Movie and TV Recommender - Part 1: the Gathering"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				Movie and TV Recommender - Part 1: the Gathering
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Extracting metadata for movies and TV shows since 2000 to power a content recommender
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Python
+					</span>
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						BigQuery
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						ETL
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						API
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Webscraping
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/movie_tv_recommender_2_models>
+	<a href="/portfolio/movie_tv_recommender_2_models" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/movie_tv_recommender_models.png"
+				alt="Thumbnail for Movie and TV Recommender - Part 2: the Models"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				Movie and TV Recommender - Part 2: the Models
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Building models to recommend movies and TV shows based on previously watched content and its metadata (name, keywords and genres)
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Python
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Text Analytics
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Machine Learning
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Artificial Intelligence
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/movie_tv_recommender_3_app>
+	<a href="/portfolio/movie_tv_recommender_3_app" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/movie_tv_recommender_app.png"
+				alt="Thumbnail for Movie and TV Recommender - Part 3: the Application"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				Movie and TV Recommender - Part 3: the Application
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Streamlit application to host a movie and TV show recommender based on a selection of "pre-watched" content pieces
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Streamlit
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						App Development
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Streamlit
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Machine Learning
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/nba_game_summary>
+	<a href="/portfolio/nba_game_summary" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/nba_game_summary.png"
+				alt="Thumbnail for NBA Game Summary"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				NBA Game Summary
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Exploring NBA data by gathering its box scores and play-by-play tables from its public facing API
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Python
+					</span>
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						BigQuery
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						WebScraping
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						ETL
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						API
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/nba_stat_race_dash>
+	<a href="/portfolio/nba_stat_race_dash" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/nba-2024-stat-race.png"
+				alt="Thumbnail for NBA Stat Race Dashboard"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				NBA Stat Race Dashboard
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Comparing NBA's main stats at the beginning of the 2024-25 season using Tableau out-of-the-box and extended capabilities
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Tableau
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Bar Chart
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Data Visualization
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Analytics
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+			
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+.text-2xs {
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+}
+.border-sm {
+	border: solid 2px;
+}
+.a-no-decoration {
+	text-decoration: none;
+}
+#page-title.page__title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+</style>
+
+<div class="list__item" id=/portfolio/the_office_guest_actors>
+	<a href="/portfolio/the_office_guest_actors" class="no-underline hover:no-underline" target="_blank">
+	<article class="archive__item bg-gray rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.1] hover:shadow-2xl group h-full flex flex-col" itemscope itemtype="https://schema.org/CreativeWork" style="background: #eee">
+		<div class="relative overflow-hidden">
+			<img
+				src="/assets/img/portfolio/the_office_guests.png"
+				alt="Thumbnail for "The Office" guests"
+				class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300"
+				onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';"
+			/>
+		</div>
+		<div class="p-3 flex flex-col justify-between flex-1">
+			<h2 class="text-lg text-gray-800 font-semibold mb-2 leading-tight">
+				"The Office" guests
+			</h2>
+			<p class="text-gray-600 text-xs mb-4">
+				Analyzing which guest actors that appeared on the hit TV Show 'The Office' shared other projects with the main actors
+			</p>
+			<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+				
+					<span class="bg-gray-800 text-gray-200 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Tableau
+					</span>
+				
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Data Visualization
+					</span>
+				
+					<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+						Storytelling
+					</span>
+				
+			</div>
+		</div>
+	</article>
+	</a>
+</div>
+
+		
+	</div>
+</main>
+
+<br>
+
+<a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+
+<style>
+.archive {
+	width: -webkit-fill-available;
+    padding: 0;
+}
+</style>
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function() {
+		let urlParams = new URLSearchParams(window.location.search)
+		let selectedCategory = !urlParams.get("cat") ? 'All' : urlParams.get("cat")
+    
+		let posts = $(".list__item")
+		for (p=0; p<= posts.length-1;p++){
+        //cats = posts[p].getAttribute("categories");
+			posts[p].style.display = 
+				(selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
+					? 'unset' 
+					: 'none';
+		}
+		
+  
+		let scrollHeight = document.querySelector(".initial-content-embed").offsetHeight // document.documentElement.scrollHeight; // Or document.body.scrollHeight
+		console.log("scrollHeight: " + scrollHeight)
+
+		// Send the message to the parent window
+		// Replace 'https://your-parent-site.com' with the actual origin of the parent window for security
+		window.parent.postMessage({ "scrollHeight": scrollHeight }, 'https://pedromanodemoura.github.io/');
+	});
+  
+	function filterUsingCategory(selectedCategory) {
+		let url = new URL(window.location.href);
+		url.searchParams.set('cat', selectedCategory);
+		window.history.pushState(null, '', url.toString());
+		let posts = $(".list__item")
+		for (p=0; p<= posts.length-1;p++){
+			//cats = posts[p].getAttribute("categories");
+			posts[p].style.display = 
+				(selectedCategory == 'All' || Array.from(posts[p].querySelectorAll('#filter-inputs span')).some(function(e){return e.textContent.trim() === selectedCategory})) 
+					? 'unset' 
+					: 'none';
+		}
+  
+		let scrollHeight = document.querySelector(".initial-content-embed").offsetHeight // document.documentElement.scrollHeight; // Or document.body.scrollHeight
+		console.log("scrollHeight: " + scrollHeight)
+
+		// Send the message to the parent window
+		// Replace 'https://your-parent-site.com' with the actual origin of the parent window for security
+		window.parent.postMessage({ "scrollHeight": scrollHeight }, 'https://pedromanodemoura.github.io/');
+	}
+</script>
+
+  </div>
+</div>
+
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

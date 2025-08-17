@@ -1,0 +1,724 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Python - Data Playground</title>
+<meta name="description" content="Python is one of my favorites tools to play around. It is a scripting tool, which means you can pretty much create anything given enough time and (computer) memory.">
+
+
+  <meta name="author" content="Pedro Mano">
+  
+  <meta property="article:author" content="Pedro Mano">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Data Playground">
+<meta property="og:title" content="Python">
+<meta property="og:url" content="http://localhost:4000/programs/python">
+
+
+  <meta property="og:description" content="Python is one of my favorites tools to play around. It is a scripting tool, which means you can pretty much create anything given enough time and (computer) memory.">
+
+
+
+
+
+  <meta name="twitter:site" content="@PlaygroundData">
+  <meta name="twitter:title" content="Python">
+  <meta name="twitter:description" content="Python is one of my favorites tools to play around. It is a scripting tool, which means you can pretty much create anything given enough time and (computer) memory.">
+  <meta name="twitter:url" content="http://localhost:4000/programs/python">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2025-08-17T16:04:34-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/programs/python">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Data Playground",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/PlaygroundData"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Data Playground Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+<script src="https://kit.fontawesome.com/787134893c.js" crossorigin="anonymous"></script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/masthead.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
+
+
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/img/analytics%20&%20visualization%201%20no%20back.png" alt="Data Playground"></a>
+        
+        <a class="site-title" href="/">
+          Data Playground
+          <span class="site-subtitle">Having fun with Data</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/">Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archive/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/programs/">Programs</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/data-playground/data-playground.github.io" target="_blank">Github</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <link rel="stylesheet" href="/assets/css/posts.css">
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Python">
+    <meta itemprop="description" content="Python is one of my favorites tools to play around. It is a scripting tool, which means you can pretty much create anything given enough time and (computer) memory.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/programs/python" class="u-url" itemprop="url">Python
+</a>
+          </h1>
+		  
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+	  
+	  
+
+      
+      
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Python is one of my favorites tools to play around. It is a scripting tool, which means you can pretty much create anything given enough time and (computer) memory.</p>
+
+<p>Another great point is that it is open-source, meaning that it is free to use, community backed support and a large number of users and project example out there (including many of the project we will be working here).</p>
+
+<p>We will be using Python for a variety of projects, including: ETL (Extract, Transform and Load), Data Analysis, visualization and storytelling, Machine Learning and AI and much more.</p>
+
+<p>Hope the quick walkthrough below may help understand how to install it and some possibilities on how to interact with it.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>First step is too install Python. While there are tools that may help you install and manage Python (any Anaconda user here?), we will quickly go through how to install basic Python.</p>
+
+<p>For any operating system, you have the option to download the executable file from <a href="https://www.python.org/downloads/">Python’s downloads page</a> and go through the installation process. Windows users (like myself), this is your only real option to directly install Python.</p>
+
+<h3 id="ubuntu-and-other-unix-os">Ubuntu and other Unix OS</h3>
+
+<p>For Unix based operating systems (you may see <a href="">Ubuntu</a> mentioned in some posts in this blog), it is very simple to install Python. Perform all the steps below in a terminal window.</p>
+
+<p>First we will ensure APT is installed and updated. Sudo is a command that will allow the user to run commands with elevated privilege (necessary for installations), while APT (Advanced Package Tool) provides the capability to install, rmeove and update packages in Unix OS</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install
+sudo apt upgrade
+</code></pre></div></div>
+
+<p>Once that is completed, we can simply run the below to install python 3’s newest stable version</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install python3
+</code></pre></div></div>
+
+<h3 id="macos">MacOS</h3>
+
+<p>Even though MacOS is very similar to Unix based operating systems (like Ubuntu above), an extra component is necessary prior to Python installation: a package manager. Make sure to install one of those prior to the Python installation.</p>
+
+<p>In the example below I used brew, but any other manager would work the same way. Just open a terminal and type the below (changing the package manager accordingly)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install python
+</code></pre></div></div>
+
+<h2 id="flavors">Flavors</h2>
+
+<p>With Python installed, you can already start using it through your command prompt, but it is usually not to user friendly if you want to explore the code, since Python takes its spaces/tabs very serious (most definitions are dependent on exact number of spaces/tabs and/or line breaks to work correctly).</p>
+
+<p>To improve the code readability and exploration capability, a variety of flavors on how to interact with Python scripts are available. We will go through a couple I personally use on my processes, but feel free to explore on your own.</p>
+
+<h3 id="jupyter">Jupyter</h3>
+
+<p>Jupyter is one of the most common ways to interact with Python scripts. It works as a web application where all its tools can be access and it is very easy to install (just run the code below in your command prompt).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install jupyter
+</code></pre></div></div>
+
+<p>Its Notebook tool provide a clean and slick area to interact and run your script, but also provides the capability to create annotations and documentation in MarkDown alongside your code, facilitating user readability and guidance.</p>
+
+<p>Jupyter Labs, on the other hand, provides a complete and complex environment, allowing the user to interact with a variety of files, console, terminal as well as the notebooks mentioned above.</p>
+
+<p>Jupyter Notebooks will appear often in the posts,  as it is a pleasing way to include guidance and documentation alongside your code (great for someone trying to follow along).</p>
+
+<h3 id="other-ides">Other IDEs</h3>
+
+<p>Even though Jupyter is great to display your final code, I am not its biggest fan during development. It chunks the code a little to much, while making it difficult to run one line of code for debugging.</p>
+
+<p>For that reason, we will definitely see some examples where, while developing the process, we use another IDE (Integrated Development Environment) to create and test the process.</p>
+
+<p>I currently have been using Microsoft Visual Code as my main development tool, as I like its native (or easy to set) integrations with other Microsoft tools, like GitHub. But there are a myriad of other IDEs available, like PyCharm, Spyder and more.</p>
+
+<h2 id="environments">Environments</h2>
+
+<p>As you installed Python, it created an environment where all the packages you install will be saved. It is very important to be attentive to your environment, as different packages may have distinct dependencies and it can become a problem when it starts to mix versions of different packages.</p>
+
+<p>To avoid all the packages for a variety of projects mixing in your main environment (which should be kept as clean as possible to avoid confusion), you can create virtual environments. Those virtual environments are a layer on top of the base installation of Python we performed above.</p>
+
+<p>Ideally, you would have one virtual environment for each project you may have, with the possibility to share the environment between scripts if they are all part of the same overarching project. This way, the entire development process is packaged and can be maintained more easily.</p>
+
+<p>Virtual Enviroments are easy to create and I highly recommend you start setting them up from your first project (you will thank me later). You can get more details on them on <a href="https://docs.python.org/3/library/venv.html">Python docs</a>.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories?cat=installation" class="page__taxonomy-item p-category" rel="tag">installation</a>
+    
+    </span>
+  </p>
+
+
+
+        
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=PlaygroundData&text=Python%20http%3A%2F%2Flocalhost%3A4000%2Fprograms%2Fpython" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprograms%2Fpython" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fprograms%2Fpython" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/programs/bigquery" class="pagination--pager" title="BigQuery
+">Previous</a>
+    
+    
+      <a href="/programs/tableau" class="pagination--pager" title="Tableau
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/posts/data-storage>
+  <div id="filter-inputs">
+    
+      <input class="categories" value="en" type="hidden">
+    
+    
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/data-storage" rel="permalink">Data Storage
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-01-12T12:00:00-05:00">January 12, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">What is Data Storage?
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/posts/test-file-es>
+  <div id="filter-inputs">
+    
+      <input class="categories" value="Edge Case" type="hidden">
+    
+      <input class="categories" value="test" type="hidden">
+    
+    
+      <input class="tags" value="content" type="hidden">
+    
+      <input class="tags" value="css" type="hidden">
+    
+      <input class="tags" value="edge case" type="hidden">
+    
+      <input class="tags" value="lists" type="hidden">
+    
+      <input class="tags" value="markup" type="hidden">
+    
+    
+      <input class="languages" value="Español" type="hidden">
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/test-file-es" rel="permalink">Edge Case: Nested and Mixed Lists
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-01T00:00:00-04:00">October 1, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/posts/test-file>
+  <div id="filter-inputs">
+    
+      <input class="categories" value="Edge Case" type="hidden">
+    
+      <input class="categories" value="test" type="hidden">
+    
+    
+      <input class="tags" value="content" type="hidden">
+    
+      <input class="tags" value="css" type="hidden">
+    
+      <input class="tags" value="edge case" type="hidden">
+    
+      <input class="tags" value="lists" type="hidden">
+    
+      <input class="tags" value="markup" type="hidden">
+    
+    
+      <input class="languages" value="English" type="hidden">
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/test-file" rel="permalink">Edge Case: Nested and Mixed Lists
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-01T00:00:00-04:00">October 1, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+
+<div class="grid__item" id=/posts/sample-page-1>
+  <div id="filter-inputs">
+    
+    
+    
+      <input class="languages" value="Português" type="hidden">
+    
+    
+  </div>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/sample-page-1" rel="permalink">Sample Page 1
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-02-23T22:02:20-05:00">February 23, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most pe...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/PlaygroundData" rel="nofollow noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true" style="color:black"></i> X/Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/data-playground" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true" style="color:black"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://public.tableau.com/app/profile/data.playground" rel="nofollow noopener noreferrer" target="_blank"><i class="fas fa-chart-bar" aria-hidden="true" style="color:black"></i> Tableau</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml" target="_blank"><i class="fas fa-fw fa-rss-square" aria-hidden="true" style="color:black"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Data Playground. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
