@@ -1,0 +1,25 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign google_posts = site.data.google_blogs.workspace_data %} 
+
+<ul>
+    <li>Key 1: {{ google_posts }}</li>
+</ul>
+
+<br>
+
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
+<style>
+.archive {
+	width: -webkit-fill-available;
+    padding: 0;
+}
+</style>
+<script type="text/javascript">
+
+</script>
