@@ -4,9 +4,7 @@ layout: archive
 
 {{ content }}
 
-{% assign google_posts = site.data.data_playground_base.google_blogs.worskpace_data %} 
-
-{{ site.data.data_playground_base.google_blogs.worskpace_data | jsonify }}
+{% assign google_posts = site.data.data_playground_data.worskpace_data %} 
 
 <ul>
 	{% for post in google_posts %}
