@@ -6,6 +6,10 @@ layout: archive
 
 {% assign google_posts = site.data.data_playground_data.worskpace_data %} 
 
+<pre>
+{{ site.data.data_playground_data | jsonify }}
+</pre>
+
 <ul>
 	{% for post in google_posts %}
     <li>{{ post.title }}</li>
