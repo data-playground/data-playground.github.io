@@ -4,10 +4,14 @@ layout: archive
 
 {{ content }}
 
-{% assign google_posts = site.data.google_blogs.workspace_data %} 
+{% assign google_posts = site.data.data_playground_base.google_blogs.worskpace_data %} 
+
+{{ site.data.data_playground_base.google_blogs.worskpace_data | jsonify }}
 
 <ul>
-    <li>Key 1: {{ google_posts }}</li>
+	{% for post in google_posts %}
+    <li>{{ post.title }}</li>
+	{% endfor %}
 </ul>
 
 <br>

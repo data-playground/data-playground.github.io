@@ -29,6 +29,12 @@ var store = [{
         "url": "/category",
         "teaser": null
       },{
+        "title": "Google Knowledge",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/google-knowledge",
+        "teaser": null
+      },{
         "title": "Home",
         "excerpt":" ","categories": [],
         "tags": [],
