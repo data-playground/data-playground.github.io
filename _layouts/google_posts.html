@@ -4,28 +4,133 @@ layout: archive
 
 {{ content }}
 
-{% assign google_posts = site.data.data_playground_data.worskpace_data %} 
+{% assign google_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG %} 
 
-<pre>
-{{ site.data.data_playground_data | jsonify }}
-</pre>
+<main class="max-w-6xl mx-auto">
 
-<ul>
-	{% for post in google_posts %}
-    <li>{{ post.title }}</li>
-	{% endfor %}
-</ul>
+	<div id="posts-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+
+		{% for post in google_posts %}
+		<a data-page-index="{{ forloop.index }}" target="_blank" class="group flex flex-col bg-white dark:bg-gray-900/50 rounded-xl shadow-sm hover:shadow-xl hover:ring-xl transition-all duration-300 overflow-hidden border border-gray-200 dark:border-gray-800 hover:no-underline" href="{{ post.link }}">
+			<article class="p-4 flex flex-col flex-grow">
+				<img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300 mb-[15px]"	onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';" />
+				<h3 class="text-[#111418] text-[18px] font-bold leading-tight group-hover:text-primary dark:group-hover:text-primary transition-colors">{{ post.title }}</h3>
+				<p class="text-gray-600 dark:text-gray-400 text-[14px] font-normal leading-normal mt-2 flex-grow">{{ post.description }}</p>
+				<p class="text-gray-500 dark:text-gray-500 text-[10px] font-normal leading-normal mt-4">{{ post.published_date }}</p>
+			</article>
+		</a>
+		{% endfor %}
+		
+	</div>
+</main>
 
 <br>
 
-<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
+<div id="pagination-controls"></div>
 
 <style>
+  /* CSS to hide elements by default or when JavaScript applies a 'hidden' class */
+  .post-item.hidden {
+    display: none;
+  }
+  .pagination-button.active {
+    font-weight: bold;
+    background-color: #eee;
+  }
+  
+  #pagination-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+	
+	.material-symbols-outlined {
+		height: 100%;
+		font-size: 40px;
+		padding-top: 10px;
+	}
+  }
+</style>
+
+<style>
+body {
+	background: #efeaea;
+}
 .archive {
 	width: -webkit-fill-available;
     padding: 0;
 }
 </style>
 <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    const itemsPerPage = 9;
+    let currentPage = 1;
+    const postItems = document.querySelectorAll('#posts-grid a');
+    const totalItems = postItems.length;
+    const pageCount = Math.ceil(totalItems / itemsPerPage);
+    const paginationControls = document.getElementById('pagination-controls');
+    const pageRange = 3;
 
+    function showPage(pageNumber) {
+      currentPage = Math.max(1, Math.min(pageCount, pageNumber));
+      const startIndex = (pageNumber - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+
+      postItems.forEach((item, index) => {
+        // Show only items within the current page range
+        if (index >= startIndex && index < endIndex) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+
+      setupPaginationControls(); 
+
+    }
+
+    function setupPaginationControls() {
+      // Clear previous buttons
+      paginationControls.innerHTML = "";
+
+      // Add "Previous" button
+      const prevBtn = document.createElement('button');
+      prevBtn.innerHTML = '<span class="material-symbols-outlined">&#xe5de</span>';
+      prevBtn.classList.add('pagination-button', 'nav-btn');
+      if (currentPage === 1) prevBtn.disabled = true;
+      prevBtn.addEventListener('click', () => showPage(currentPage - 1));
+      paginationControls.appendChild(prevBtn);
+
+      // Calculate the start and end of the visible range
+      let startPage = Math.max(1, currentPage - pageRange);
+      let endPage = Math.min(pageCount, currentPage + pageRange);
+
+      // Add the page number buttons
+      for (let i = startPage; i <= endPage; i++) {
+        const button = document.createElement('button');
+        button.innerText = i;
+        button.classList.add('pagination-button');
+        button.setAttribute('data-page', i);
+        
+        if (i === currentPage) {
+          button.classList.add('active');
+        }
+
+        button.addEventListener('click', () => showPage(i));
+        paginationControls.appendChild(button);
+      }
+      
+      // Add "Next" button
+      const nextBtn = document.createElement('button');
+      nextBtn.innerHTML = '<span class="material-symbols-outlined">&#xe5df</span>';
+      nextBtn.classList.add('pagination-button', 'nav-btn');
+      if (currentPage === pageCount) nextBtn.disabled = true;
+      nextBtn.addEventListener('click', () => showPage(currentPage + 1));
+      paginationControls.appendChild(nextBtn);
+    }
+
+    // Initialize on load
+    setupPaginationControls();
+    showPage(1); // Display the first page initially
+  });
 </script>
