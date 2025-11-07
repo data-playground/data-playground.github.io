@@ -4,3 +4,6 @@
 [submodule "_data/data-playground-data"]
 	path = _data/data-playground-data
 	url = https://github.com/data-playground/data-playground-base
+[submodule "_data/_data/data_playground_data"]
+	path = _data/_data/data_playground_data
+	url = https://github.com/data-playground/data-playground-data
