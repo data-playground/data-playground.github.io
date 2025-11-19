@@ -7,6 +7,7 @@ layout: archive
 {% assign google_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG | concat: site.data.data_playground_data.GOOGLE_APPS_UPDATES %}
 {% assign google_posts = google_posts | sort: 'published_date' | reverse %} 
 
+{% comment %}
 {% assign all_tools = "" | split: "," %}
 
 {% for post in google_posts %}
@@ -27,6 +28,7 @@ layout: archive
         {% endfor %}
     </ul>
 </div>
+{% endcomment %}
 
 <main class="max-w-6xl mx-auto">
 
