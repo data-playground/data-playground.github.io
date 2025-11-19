@@ -40,6 +40,13 @@ layout: archive
 				<img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300 mb-[15px]"	onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';" />
 				<h3 class="text-[#111418] text-[18px] font-bold leading-tight group-hover:text-primary dark:group-hover:text-primary transition-colors">{{ post.title }}</h3>
 				<p class="text-gray-600 dark:text-gray-400 text-[14px] font-normal leading-normal mt-2 flex-grow">{{ post.summary }}</p>
+				<div id="filter-inputs" class="flex flex-wrap gap-2 mt-auto">
+					{% for tool in post.tools %}
+						<span class="bg-gray text-gray-800 border-sm border-gray-800 text-2xs font-medium px-2 py-0.5 rounded-full">
+							{{ tool }}
+						</span>
+					{% endfor %}
+				</div>
 				<p class="text-gray-500 dark:text-gray-500 text-[10px] font-normal leading-normal mt-4">{{ post.published_date }}</p>
 			</article>
 		</a>
