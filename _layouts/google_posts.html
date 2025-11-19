@@ -9,7 +9,7 @@ layout: archive
 
 {% assign cutoff_date = '2025-01-01 00:00:00' %}
 
-{% assign recent_posts = all_posts | where_exp: "post", "post.published_date > cutoff_date" %}
+{% assign recent_posts = google_posts | where_exp: "post", "post.published_date > cutoff_date" %}
 
 {% comment %}
 {% assign all_tools = "" | split: "," %}
