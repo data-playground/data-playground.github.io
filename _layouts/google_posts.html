@@ -7,10 +7,14 @@ layout: archive
 {% assign google_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG | concat: site.data.data_playground_data.GOOGLE_APPS_UPDATES %}
 {% assign google_posts = google_posts | sort: 'published_date' | reverse %} 
 
+{% assign cutoff_date = '2025-01-01 00:00:00' %}
+
+{% assign recent_posts = all_posts | where_exp: "post", "post.published_date > cutoff_date" %}
+
 {% comment %}
 {% assign all_tools = "" | split: "," %}
 
-{% for post in google_posts %}
+{% for post in recent_posts %}
 	{% for tool in post.tools %}
 		{% assign all_tools = all_tools | push: tool %}
     {% endfor %}
@@ -34,7 +38,7 @@ layout: archive
 
 	<div id="posts-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
 
-		{% for post in google_posts %}
+		{% for post in recent_posts %}
 		<a data-page-index="{{ forloop.index }}" target="_blank" class="group flex flex-col bg-white dark:bg-gray-900/50 rounded-xl shadow-sm hover:shadow-xl hover:ring-xl transition-all duration-300 overflow-hidden border border-gray-200 dark:border-gray-800 hover:no-underline" href="{{ post.link }}">
 			<article class="p-4 flex flex-col flex-grow">
 				<img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="w-full h-24 object-cover object-center rounded-t-xl group-hover:opacity-80 transition-opacity duration-300 mb-[15px]"	onerror="this.onerror=null; this.src='https://placehold.co/400x200/ccc/555?text=Image+Error';" />
@@ -47,7 +51,7 @@ layout: archive
 						</span>
 					{% endfor %}
 				</div>
-				<p class="text-gray-500 dark:text-gray-500 text-[10px] font-normal leading-normal mt-2">{{ post.published_date }}</p>
+				<p class="text-gray-500 dark:text-gray-500 text-[10px] font-normal leading-normal mt-2">{{ post.published_date | date: "%Y-%m-%d" }}</p>
 			</article>
 		</a>
 		{% endfor %}
@@ -83,12 +87,11 @@ layout: archive
 
     .pagination-button {
       padding: 0 15px;
-	
-	  active {
-        font-weight: bold;
-        background-color: #fff;
-	    color: #eee;
-      }
+    }
+	.pagination-button.active {
+      font-weight: bold;
+      background-color: #fff;
+      color: #eee;
     }
   }
   
