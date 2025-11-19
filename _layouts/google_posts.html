@@ -9,7 +9,7 @@ layout: archive
 
 {% assign all_tools = "" | split: "," %}
 
-{% for post in all_posts %}
+{% for post in google_posts %}
 	{% for tool in post.tools %}
 		{% assign all_tools = all_tools | push: tool %}
     {% endfor %}
