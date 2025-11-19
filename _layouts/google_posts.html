@@ -7,6 +7,26 @@ layout: archive
 {% assign google_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG | concat: site.data.data_playground_data.GOOGLE_APPS_UPDATES %}
 {% assign google_posts = google_posts | sort: 'published_date' | reverse %} 
 
+{% assign all_tools = "" | split: "," %}
+
+{% for post in all_posts %}
+	{% for tool in post.tools %}
+		{% assign all_tools = all_tools | push: tool %}
+    {% endfor %}
+{% endfor %}
+
+{% assign unique_tools = all_tools | uniq | sort %}
+
+<div class="filter-menu">
+    <h3>Filter by Tool:</h3>
+    <ul>
+        {% for tool in unique_tools %}
+            <li>
+                <a href="#{{ tool | slugify }}">{{ tool }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
 
 <main class="max-w-6xl mx-auto">
 
@@ -36,21 +56,31 @@ layout: archive
   .post-item.hidden {
     display: none;
   }
-  .pagination-button.active {
-    font-weight: bold;
-    background-color: #eee;
+  
+  h1 {
+    font-size: 2.5rem !important;
+	font-weight: 700 !important;
   }
   
   #pagination-controls {
     display: flex;
     justify-content: center;
-    gap: 10px;
 	
 	.material-symbols-outlined {
 		height: 100%;
 		font-size: 40px;
 		padding-top: 10px;
 	}
+
+    .pagination-button {
+      padding: 0 15px;
+	
+	  active {
+        font-weight: bold;
+        background-color: #fff;
+	    color: #eee;
+      }
+    }
   }
 </style>
 
