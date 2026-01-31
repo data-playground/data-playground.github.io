@@ -5,7 +5,6 @@ tools:
   - Streamlit
 topics:
   - App Development
-  - Streamlit
   - Machine Learning
 date: 2025-07-01T00:00:00+00:00
 location: https://github.com/data-playground/data-playground-base/blob/main/movie_recommender/recommender_app/app.py
