@@ -7,7 +7,7 @@ tools:
 topics:
   - ETL
   - API
-  - Webscraping
+  - WebScraping
 date: 2025-07-01T00:00:00+00:00
 location: https://github.com/data-playground/data-playground-base/blob/main/movie_recommender/movie_recommender_etl.py
 description: "Extracting metadata for movies and TV shows since 2000 to power a content recommender"
