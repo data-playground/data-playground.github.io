@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google AI Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Gemini in Chrome is coming to Chromebook Plus devices</title>
+        <description>Gemini in Chrome is set to launch on Chromebook Plus devices in early 2026, offering AI-powered writing assistance, webpage summarization, and image generation directly within the browser. This integration aims to enhance productivity and creativity by allowing users to draft content, understand complex information, and visualize ideas with Gemini&apos;s capabilities, specifically for Chromebook Plus users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Chrome</tools>
+		
+		<tools>Chromebook Plus</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Tue, 03 Feb 2026 22:16:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/gemini-in-chrome-coming-to-chromebook-plus.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/gemini-in-chrome-coming-to-chromebook-plus.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Select Gemini in Workspace capabilities now available to Education Plus and Teaching &amp; Learning customers</title>
+        <description>Google is bringing Gemini to Google Workspace for Education, offering AI-powered assistance for educators to streamline tasks like lesson planning, email drafting, and document summarization. Students will also benefit from AI support for research, writing, and studying across applications like Docs, Gmail, and Slides, all while adhering to Google&apos;s privacy commitments for education.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google for Education</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Tue, 03 Feb 2026 18:14:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/gemini-in-workspace-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/gemini-in-workspace-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ingredients to Video in Veo 3.1 now supports portrait-sized clips in Google Vids</title>
+        <description>Google is significantly enhancing the visual quality of video portrait feeds within Google Meet by leveraging advanced AI and machine learning capabilities. These improvements focus on optimizing various &apos;ingredients&apos; such as lighting, background processing, and noise reduction, ensuring participants appear polished and professional during video calls regardless of their environment. This initiative aims to deliver a superior and more engaging video conferencing experience for all Google Meet users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Tue, 13 Jan 2026 17:10:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/ingredients-to-video-portrait-vids.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/ingredients-to-video-portrait-vids.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google AI Ultra for Business plan adds enhanced NotebookLM experience</title>
+        <description>Google is significantly enhancing NotebookLM with Gemini 1.5 Pro capabilities, specifically tailored for business users to deliver faster insights and process larger document sets securely within an enterprise-grade environment. This update boosts NotebookLM&apos;s ability to analyze information, generate summaries, and answer questions across extensive sources, integrated seamlessly with Google Workspace.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini 1.5 Pro</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 17:01:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/google-ai-ultra-business-enhanced-notebooklm.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/google-ai-ultra-business-enhanced-notebooklm.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Gemini 3 Flash for the Gemini app</title>
+        <description>Google is launching Gemini 3 Flash, a new, lightweight, and fast AI model for the Gemini app, designed to provide quick responses and creative generation on mobile and web platforms. This model emphasizes efficiency and accessibility, supporting multimodal inputs to enhance everyday tasks for users.</description>
+		
+		<tools>Gemini 3 Flash</tools>
+		
+		<tools>Gemini app</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 14:30:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/gemini-3-flash-for-gemini-app.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/gemini-3-flash-for-gemini-app.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Our best avatars in Google Vids yet, now powered by Veo 3.1</title>
+        <description>Google Vids, an AI-powered video creation tool, is integrating Veo 3.1 to offer more realistic and customizable AI-generated avatars. This enhancement allows users to select from a broader range of styles, expressions, and voices, enabling the rapid creation of professional-quality videos for business communications and storytelling.</description>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Veo 3.1</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Thu, 18 Dec 2025 16:15:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/veo-3-1-powered-avatars-google-vids.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/veo-3-1-powered-avatars-google-vids.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

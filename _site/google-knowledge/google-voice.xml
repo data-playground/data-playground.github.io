@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Voice Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 12, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of call queuing for Google Voice, automated compliance recording in Google Meet, and new multi-party approvals for critical actions in Google Vault. Additionally, Gmail now supports data classification headers and footers, and a new web address for Google Chat is being consolidated at chat.google.com.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Fri, 12 Dec 2025 20:34:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Call queuing now available for select Google Voice plans</title>
+        <description>Google Voice is introducing Call Queuing for Standard and Premier accounts, enabling businesses to manage high call volumes by placing callers in a queue with customizable greetings and estimated wait times. This feature, rolling out from December 16, 2025, aims to improve customer service and call management efficiency.</description>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 08 Dec 2025 22:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/call-queuing-voice.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/call-queuing-voice.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Desk phone support and on-demand call recording now available in the Google Voice Starter plan</title>
+        <description>Google Voice Starter is being updated to include support for desk phone integration and call recording capabilities for all users, including those under 18, starting November 11, 2025. Administrators can now assign desk phones through the Google Admin console and enable automatic or on-demand call recording to enhance flexibility and compliance for small businesses.</description>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Wed, 12 Nov 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/google-voice-starter-adds-desk-phones-recording.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/google-voice-starter-adds-desk-phones-recording.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - May 2, 2025</title>
+        <description>The Google Workspace release notes for May 2, 2025, highlight two significant updates: users can now initiate conversations with Gemini directly within Google Drive about specific files to gain insights. Additionally, Google Voice has introduced three-way call support and received an updated user interface, enhancing communication capabilities.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Voice</tools>
+		
+        <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/release-notes-05-02-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/release-notes-05-02-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Voice gets support for three way calling and a refreshed in-call user interface </title>
+        <description>Google Voice has introduced three-way call support for all Workspace users, enabling them to easily add a third participant to an active call. Concurrently, the user interface across Google Voice&apos;s web, iOS, and Android platforms has been updated to enhance the overall user experience. This update, which began its gradual rollout on May 2, 2025, improves communication flexibility for businesses.</description>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/google-voice-three-way-call-support-and-updated-user-interface.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/google-voice-three-way-call-support-and-updated-user-interface.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 28, 2025</title>
+        <description>The Google Workspace release notes for February 28, 2025, announced several updates, including expanded AI voiceovers in Google Vids and new inventory reporting for richer insights in Google Drive. Google Voice introduced SIP Link support in new countries, call delegation, and the ability to transfer personal numbers to Workspace accounts. Additionally, HubSpot integration with Google Chat was launched, and Google Drive now supports video transcripts.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Fri, 28 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/release-notes-02-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/release-notes-02-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Expanding SIP Link for Google Voice to new countries</title>
+        <description>Google Voice SIP Link is expanding its availability to additional countries, enabling organizations to connect their existing telephony infrastructure, such as PBXs and SBCs, directly with Google Voice. This provides more flexible and cost-effective calling solutions, supporting a hybrid approach to communication. The expansion helps international businesses leverage their current investments while adopting Google Voice.</description>
+		
+		<tools>Google Voice</tools>
+		
+        <pubDate>Thu, 27 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/google-voice-sip-link-in-new-countries.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/google-voice-sip-link-in-new-countries.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Transferring your personal Google Voice number to a Google Workspace business account just got easier</title>
+        <description>Google Voice users can now seamlessly transfer their personal Google Voice numbers to a Google Workspace business account. This feature simplifies number management for professionals, allowing them to consolidate personal and business communications under their Workspace administration. It provides greater flexibility for users who wish to integrate their existing voice numbers into their corporate infrastructure.</description>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/transferring-personal-google-voice-number-to-workspace-business-account.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/transferring-personal-google-voice-number-to-workspace-business-account.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Voice now supports call delegation</title>
+        <description>Google Voice has introduced call delegation, a significant feature that allows users to assign delegates who can make and receive calls on their behalf. This enhances business communication flexibility, particularly for executive assistants or teams managing shared lines, by streamlining call handling and ensuring important calls are not missed. The feature improves operational efficiency for professional users.</description>
+		
+		<tools>Google Voice</tools>
+		
+        <pubDate>Tue, 25 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/google-voice-now-supports-call-delegation.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/google-voice-now-supports-call-delegation.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -5,6 +5,132 @@ var store = [{
         "url": "/404.html",
         "teaser": null
       },{
+        "title": "Appsheet",
+        "excerpt":"AppSheet Knowledge - RSS http://localhost:4000/ Google Workspace Updates Weekly Recap - December 5, 2025 This week&apos;s Google Workspace updates include the launch of Workspace Studio for AI-powered solution creation, Gemini insights for Google Drive folders, and a refreshed user interface for Google Drive&apos;s web file viewer. Additionally, Google Meet hardware...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/appsheet.xml",
+        "teaser": null
+      },{
+        "title": "Bigquery",
+        "excerpt":"BigQuery Knowledge - RSS http://localhost:4000/ SecOps data connector now available for Google Workspace for Education Plus and Standard Google Workspace for Education Plus is introducing a new SecOps Data Connector, powered by Google Cloud&apos;s BigQuery, to stream audit logs and event data to leading Security Information and Event Management (SIEM)...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/bigquery.xml",
+        "teaser": null
+      },{
+        "title": "Gemini",
+        "excerpt":"Gemini Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of lengthy...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/gemini.xml",
+        "teaser": null
+      },{
+        "title": "Gmail",
+        "excerpt":"Gmail Knowledge - RSS http://localhost:4000/ Get higher access to advanced AI in Google Workspace Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/gmail.xml",
+        "teaser": null
+      },{
+        "title": "Google Ai",
+        "excerpt":"Google AI Knowledge - RSS http://localhost:4000/ Gemini in Chrome is coming to Chromebook Plus devices Gemini in Chrome is set to launch on Chromebook Plus devices in early 2026, offering AI-powered writing assistance, webpage summarization, and image generation directly within the browser. This integration aims to enhance productivity and creativity...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-ai.xml",
+        "teaser": null
+      },{
+        "title": "Google Analytics",
+        "excerpt":"Google Analytics Knowledge - RSS http://localhost:4000/ The 5-minute data dashboard: Visualize and analyze with Google Sheets This Google Workspace blog post outlines how to create a data dashboard in under five minutes using Google Sheets&apos; new AI-powered &quot;smart fill&quot; and &quot;smart cleanup&quot; features. These capabilities automate data preparation and organization,...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-analytics.xml",
+        "teaser": null
+      },{
+        "title": "Google Apps Script",
+        "excerpt":"Knowledge - RSS http://localhost:4000/ Google Workspace Updates Weekly Recap - December 5, 2025 This week&apos;s Google Workspace updates include the launch of Workspace Studio for AI-powered solution creation, Gemini insights for Google Drive folders, and a refreshed user interface for Google Drive&apos;s web file viewer. Additionally, Google Meet hardware now...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-apps-script.xml",
+        "teaser": null
+      },{
+        "title": "Google Calendar",
+        "excerpt":"Google Calendar Knowledge - RSS http://localhost:4000/ Calendar event color labels now also accessible to users with “Make changes to events” permission Google Calendar is rolling out an update to enhance the accessibility and ease of modifying event color labels directly within the calendar interface. This improvement allows Google Workspace users...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-calendar.xml",
+        "teaser": null
+      },{
+        "title": "Google Chat",
+        "excerpt":"Google Chat Knowledge - RSS http://localhost:4000/ Introducing Figma in Google Chat Google Chat is enhancing collaboration for design teams by integrating directly with Figma, enabling users to share design files and prototypes within their conversations. This integration facilitates immediate previews, streamlined feedback, and real-time notifications about design changes, significantly improving...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-chat.xml",
+        "teaser": null
+      },{
+        "title": "Google Docs",
+        "excerpt":"Google Docs Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-docs.xml",
+        "teaser": null
+      },{
+        "title": "Google Drive",
+        "excerpt":"Google Drive Knowledge - RSS http://localhost:4000/ Data loss prevention policies for Google Calendar now available in beta Google is extending Data Loss Prevention (DLP) capabilities to Google Chat, allowing admins to create custom rules to prevent sensitive information from being shared within messages and spaces. This enhancement, available to specific...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-drive.xml",
+        "teaser": null
+      },{
+        "title": "Google Forms",
+        "excerpt":"Google Forms Knowledge - RSS http://localhost:4000/ All Google Forms will now have granular controls over who can respond Google Workspace is introducing new granular controls for Google Forms, empowering administrators with enhanced capabilities to manage response collection and sharing. This update allows admins to set specific limits on submissions and...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-forms.xml",
+        "teaser": null
+      },{
+        "title": "Google Keep",
+        "excerpt":"Google Keep Knowledge - RSS http://localhost:4000/ Google Keep reminders now saved to Tasks Google Keep reminders will now be saved directly into Google Tasks, creating a unified and centralized system for managing to-do lists across Google Workspace. This update, rolling out from October 28, 2025, ensures consistent reminder visibility and...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-keep.xml",
+        "teaser": null
+      },{
+        "title": "Google Meet",
+        "excerpt":"Google Meet Knowledge - RSS http://localhost:4000/ Control if new Meet hardware can join calls with a new on/off setting Google Workspace admins can now control whether new Google Meet hardware automatically joins scheduled video calls or requires manual acceptance, enhancing flexibility for device management in shared spaces. This new setting,...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-meet.xml",
+        "teaser": null
+      },{
+        "title": "Google Sheets",
+        "excerpt":"Google Sheets Knowledge - RSS http://localhost:4000/ Get higher access to advanced AI in Google Workspace Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs,...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-sheets.xml",
+        "teaser": null
+      },{
+        "title": "Google Slides",
+        "excerpt":"Google Slides Knowledge - RSS http://localhost:4000/ Get higher access to advanced AI in Google Workspace Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs,...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-slides.xml",
+        "teaser": null
+      },{
+        "title": "Google Tasks",
+        "excerpt":"Google Tasks Knowledge - RSS http://localhost:4000/ Google Keep reminders now saved to Tasks Google Keep reminders will now be saved directly into Google Tasks, creating a unified and centralized system for managing to-do lists across Google Workspace. This update, rolling out from October 28, 2025, ensures consistent reminder visibility and...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-tasks.xml",
+        "teaser": null
+      },{
+        "title": "Google Voice",
+        "excerpt":"Google Voice Knowledge - RSS http://localhost:4000/ Google Workspace Updates Weekly Recap - December 12, 2025 This week&apos;s Google Workspace updates include the launch of call queuing for Google Voice, automated compliance recording in Google Meet, and new multi-party approvals for critical actions in Google Vault. Additionally, Gmail now supports data...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-voice.xml",
+        "teaser": null
+      },{
+        "title": "Google Workspace Studio",
+        "excerpt":"Google Workspace Studio Knowledge - RSS http://localhost:4000/ Introducing Google Workspace Studio: Automate everyday work with AI agents Google Workspace is introducing Google Workspace Studio and Agents, enabling organizations to build custom AI agents powered by Gemini to automate routine tasks and enhance productivity across various departments. These low-code/no-code agents, leveraging...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-workspace-studio.xml",
+        "teaser": null
+      },{
+        "title": "Google Workspace",
+        "excerpt":"Google Workspace Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/google-workspace.xml",
+        "teaser": null
+      },{
+        "title": "Notebooklm",
+        "excerpt":"NotebookLM Knowledge - RSS http://localhost:4000/ Take your notebooks further by adding NotebookLM as a source in the Gemini app NotebookLM, Google&apos;s AI-powered research and note-taking tool, is significantly enhanced by integrating with Gemini 1.5 Pro, allowing it to summarize Google Docs, PDFs, and web content, and analyze multiple sources to...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge/notebooklm.xml",
+        "teaser": null
+      },{
         "title": "About",
         "excerpt":"Use this page as the about page for Data Playground. Include some images and topics. This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About...","categories": [],
         "tags": [],
@@ -29,10 +155,22 @@ var store = [{
         "url": "/category",
         "teaser": null
       },{
+        "title": "Google_knowledge",
+        "excerpt":"{ \"version\": \"https://jsonfeed.org/version/1\", \"title\": \"\"Data Playground\"\", \"home_page_url\": \"http://localhost:4000\", \"feed_url\": \"http://localhost:4000/feed.json\", \"description\": \"\"A place for data, analytics and automation enthusiasts\"\", \"author\": { \"name\": \"\"Pedro Mano\"\", \"url\": \"http://localhost:4000\" }, \"items\": [ { \"title\": \"Listen to audio summaries in Google Docs\", \"summary\": \"Google Workspace is introducing a new feature in Google Docs, allowing...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge.json",
+        "teaser": null
+      },{
         "title": "Google Knowledge",
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "/google-knowledge",
+        "teaser": null
+      },{
+        "title": "Google_posts",
+        "excerpt":"Google Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of lengthy...","categories": [],
+        "tags": [],
+        "url": "/google-knowledge.xml",
         "teaser": null
       },{
         "title": "Home",

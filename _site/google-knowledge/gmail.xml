@@ -1,0 +1,2433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmail Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Get higher access to advanced AI in Google Workspace</title>
+        <description>Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data analysis in Google Sheets, and presentation creation in Google Slides, to a broader range of users and regions globally. The expansion underscores Google&apos;s commitment to integrating advanced artificial intelligence directly into daily workflows to boost productivity and foster creativity for its users.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 05 Feb 2026 18:02:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/google-workspace-ai-expanded-access.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/google-workspace-ai-expanded-access.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Proofread your email with Gemini in Gmail</title>
+        <description>Google is rolling out an integrated &quot;Proofread&quot; feature powered by Gemini directly within Gmail, allowing users to instantly refine their emails for grammar, spelling, conciseness, and tone. This enhancement leverages Gemini&apos;s advanced language model capabilities to suggest improvements and rewrite sentences, ensuring professional and effective communication. The feature is designed to boost productivity and confidence in written correspondence for Google Workspace users across various tiers.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 04 Feb 2026 18:41:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/proofread-gemini-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/proofread-gemini-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Select Gemini in Workspace capabilities now available to Education Plus and Teaching &amp; Learning customers</title>
+        <description>Google is bringing Gemini to Google Workspace for Education, offering AI-powered assistance for educators to streamline tasks like lesson planning, email drafting, and document summarization. Students will also benefit from AI support for research, writing, and studying across applications like Docs, Gmail, and Slides, all while adhering to Google&apos;s privacy commitments for education.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google for Education</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Tue, 03 Feb 2026 18:14:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/gemini-in-workspace-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/gemini-in-workspace-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 30, 2026</title>
+        <description>The Google Workspace Weekly Recap for January 30, 2026, unveiled key enhancements including improved Smart Chips and templates in Google Docs, refined conditional formatting and pivot table controls in Google Sheets, and new presenter tools for Google Slides. Significant AI integration was noted with Google Meet gaining AI-powered noise cancellation and expanded live captions, while Gemini provided new summarization in Docs, email drafting in Gmail, and Q&amp;A in Sheets. Security was also boosted with enhanced suspicious activity alerts in Google Drive and new DLP policies via the Google Admin Console.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Admin Console</tools>
+		
+        <pubDate>Fri, 30 Jan 2026 20:50:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-30-2026_0645067218.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-30-2026_0645067218.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>January Workspace Drop: SOTA AI avatars in Vids, deeper insights in the Gemini app, and new app integrations in Chat</title>
+        <description>The January Workspace Drop introduces significant AI-powered enhancements across Google Workspace, prominently featuring Gemini integration in Google Docs, Sheets, Slides, Gmail, Meet, and Chat, enabling features like &quot;Help me write&quot; in Docs and AI-powered summarization in Chat. Updates also boost productivity with new organizing features and improved search in Google Drive, smart fill for data cleanup in Google Sheets, and enhanced collaboration tools in Google Meet&apos;s companion mode and picture-in-picture. These advancements aim to streamline workflows, enhance data management, and improve security within the Workspace ecosystem.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 28 Jan 2026 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/january-workspace-drop</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/january-workspace-drop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Emojis reactions in Gmail will now be on by default</title>
+        <description>Effective January 2026, emoji reactions in Gmail will be turned on by default for all users, enhancing email expressiveness and streamlining communication within Google Workspace. While the feature will be automatically enabled, users will still have the option to disable emoji reactions through their individual Gmail settings, offering flexibility for user preference.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 09 Jan 2026 17:04:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/emojis-reactions-in-gmail-will-be-on-by-default.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/emojis-reactions-in-gmail-will-be-on-by-default.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A breakthrough year for apps in Google Chat</title>
+        <description>Google is evolving its Chat app framework for Google Workspace, aiming for richer, more dynamic user experiences and developer capabilities by Q1 2025. This initiative will enable more interactive bots and seamless integrations with business applications directly within Google Chat, enhancing productivity and collaboration. Developers will need to update existing apps using new tools and migration guides to leverage these advancements.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Boost your agency&apos;s efficiency: Take Google Workspace for a test drive</title>
+        <description>Google Cloud is offering public sector organizations a 60-day, no-cost &quot;Google Workspace Test Drive&quot; program to experience its capabilities for digital transformation and hybrid work. This program highlights secure collaboration, AI features like Gemini for Workspace, data loss prevention, and FedRAMP High authorization, allowing government agencies to evaluate tools like Gmail, Docs, Sheets, and Meet. The initiative aims to provide hands-on experience and support from Google Cloud experts to demonstrate enhanced productivity and compliance.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Gemini for Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Tue, 16 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/public-sector/take-google-workspace-for-a-test-drive</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/public-sector/take-google-workspace-for-a-test-drive</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 12, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of call queuing for Google Voice, automated compliance recording in Google Meet, and new multi-party approvals for critical actions in Google Vault. Additionally, Gmail now supports data classification headers and footers, and a new web address for Google Chat is being consolidated at chat.google.com.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Fri, 12 Dec 2025 20:34:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A new web address for Google Chat</title>
+        <description>Google Chat is consolidating its web presence to a single dedicated URL, `chat.google.com`, with existing `mail.google.com/chat` and other `chat.google.com/` URLs redirecting to the new address. This change, rolling out from December 16, 2025, aims to simplify access and provide a more consistent user experience for all Google Chat users.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 11 Dec 2025 14:51:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/a-new-web-address-for-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/a-new-web-address-for-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gmail data classification update: include header or footer message</title>
+        <description>Google Workspace administrators can now configure Gmail to automatically add custom headers and footers to emails based on their data classification labels, ensuring sensitive information is clearly marked. This feature, available for Google Workspace Enterprise Standard, Plus, Education Standard, and Plus editions, helps organizations adhere to data governance and compliance policies.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 11 Dec 2025 14:41:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/gmail-data-classification-header-footer-messages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/gmail-data-classification-header-footer-messages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace is the “new default” for The Carbon Group&apos;s fractional C-suite services</title>
+        <description>The Carbon Group, an Australian financial services firm, transitioned 180 employees from Microsoft to Google Workspace, standardizing on tools like Google Sheets, Drive, Meet, Gmail, and Docs. This move significantly improved collaboration, security, and productivity across their 13 offices, enabling real-time file sharing, streamlined communication, and efficient onboarding of new team members. The shift has made Google Workspace the company&apos;s default platform, centralizing operations and enhancing the hybrid work experience.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Mon, 08 Dec 2025 23:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/google-workspace-is-the-new-default-for-the-carbon-group</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/google-workspace-is-the-new-default-for-the-carbon-group</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New to Gmail: share emails in Google Chat</title>
+        <description>Users can now directly share emails from Gmail into Google Chat spaces and group messages, streamlining collaboration by allowing conversations to continue alongside relevant email content. This integration, launching December 16, 2025, enhances productivity and workflow by keeping communication consolidated.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 15:20:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/new-to-gmail-share-emails-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/new-to-gmail-share-emails-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How Bison Coolers relies on Google to run its family business</title>
+        <description>Bison Coolers, a Texas-based family business manufacturing rotomolded coolers, transitioned from a costly Microsoft Exchange setup to Google Workspace to enhance collaboration and reduce IT overhead. Leveraging tools like Gmail, Google Drive, Docs, and Sheets, alongside Google Meet and Chat, the company streamlined communication, enabled remote work, and scaled from three to over 20 employees. This shift significantly improved productivity for traveling sales teams, provided cost savings, and bolstered disaster recovery capabilities for their growing business operations.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Thu, 27 Nov 2025 20:11:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/how-bison-coolers-relies-on-google-to-run-its-family-business</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/how-bison-coolers-relies-on-google-to-run-its-family-business</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Single-sign on with custom OpenID Connect profiles now generally available</title>
+        <description>Google Workspace is enhancing its security and access management capabilities by introducing support for custom OpenID Connect (OIDC) providers for Single Sign-On (SSO), moving beyond traditional SAML-based identity providers. This update offers organizations greater flexibility to integrate existing OIDC-compliant identity providers for authenticating users across Google Workspace applications like Drive, Gmail, and Docs. The feature will be available to all Google Workspace editions, including Business Standard and Enterprise Plus, starting in late Q4 2025.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 18 Nov 2025 19:12:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/single-sign-on-with-custom-openid.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/single-sign-on-with-custom-openid.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Gemini 3 Pro for Gemini app</title>
+        <description>Google is integrating Gemini 3 Pro, a new, more advanced multimodal AI model, directly into the Gemini app, offering significantly enhanced capabilities in text, image, and audio understanding. This update provides Gemini app users with sophisticated reasoning, longer context windows, and improved performance for complex tasks such as drafting emails in Gmail and summarizing documents in Google Docs. Gemini 3 Pro will initially be available to Gemini Advanced subscribers, with a broader rollout planned for all eligible users in late 2025.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gemini Advanced</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Nov 2025 16:07:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/introducing-gemini-3-pro-for-gemini-app.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/introducing-gemini-3-pro-for-gemini-app.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gemini Deep Research now integrates with your Workspace content</title>
+        <description>Gemini is now integrating deep research capabilities directly with Google Workspace content, allowing users to leverage AI for comprehensive analysis of their own documents, emails, and shared files. This feature significantly enhances information synthesis and productivity by providing AI-driven insights relevant to a user&apos;s specific work context.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 06 Nov 2025 20:52:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/gemini-deep-research-integrates-workspace-content.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/gemini-deep-research-integrates-workspace-content.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>October Workspace Drop: New AI-powered storytelling, research, and data protections</title>
+        <description>The October Google Workspace drop introduces new AI-powered features focused on storytelling, research, and data protection. Updates include AI-generated video creation in Google Vids, enhanced research capabilities in NotebookLM and Google Search, and advanced data protection measures like client-side encryption for Google Drive and Gmail to bolster security and compliance.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Search</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 29 Oct 2025 19:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/october-workspace-drop-ai-storytelling-research-and-data-protections</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/october-workspace-drop-ai-storytelling-research-and-data-protections</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Protecting Gmail users from XS-Search with Cross-Origin Opener Policy (COOP)</title>
+        <description>Google is enhancing Gmail&apos;s security to protect users from XS-Search (Cross-Site Search) attacks, which exploit search functionalities to infer sensitive information. This update reinforces user privacy and data security by implementing advanced safeguards against sophisticated web vulnerabilities, ensuring a safer email experience.</description>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Mon, 20 Oct 2025 21:09:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/protecting-gmail-users-from-xs-search.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/protecting-gmail-users-from-xs-search.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 17, 2025</title>
+        <description>This weekly recap for October 17, 2025, highlights new features such as AI credit overage controls and billing transparency for admins, enhanced Gmail protection against XS-Search attacks, and Gemini&apos;s new data analysis capabilities in Google Sheets. It also mentions the release of Flashcards in Gemini and new business continuity editions for Google Workspace.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 17 Oct 2025 16:06:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-17-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-17-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Break free from Microsoft 365’s lock-in, vulnerabilities, and outages with Google Workspace and partners</title>
+        <description>Google Workspace is presented as a robust alternative to Microsoft 365, offering superior business continuity and collaboration features through its integrated AI-powered applications. Recent enhancements, including new AI features for Gemini and improved security, aim to provide a reliable and efficient platform for organizations seeking to maintain seamless operations and enhance productivity.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 16 Oct 2025 15:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/m365-alternative-business-continuity</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/m365-alternative-business-continuity</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use Help me schedule to easily set up a meeting time over email</title>
+        <description>Gemini in Gmail and Google Calendar is introducing a &quot;Help me schedule&quot; feature to streamline meeting coordination, rolling out from October 28, 2025. This AI-powered functionality assists users by suggesting optimal meeting times, managing invitations, and adding essential details, thereby significantly enhancing productivity for Workspace users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/help-me-schedule-meeting-gmail-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/help-me-schedule-meeting-gmail-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Small but mighty ways Gemini boosts my workday</title>
+        <description>Google Workspace&apos;s Gemini is highlighted for its diverse capabilities in boosting daily productivity across various tasks, from generating emails in Gmail to organizing ideas in Google Docs and extracting key information from PDFs. Users like Kyle, a Senior Product Marketing Manager, leverage Gemini for summarizing documents, drafting content, and streamlining communication, effectively enhancing efficiency and focus on strategic work.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Thu, 09 Oct 2025 22:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/small-but-mighty-ways-gemini-boosts-my-workday</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/small-but-mighty-ways-gemini-boosts-my-workday</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Enterprise-grade Gemini is now available for teams of all sizes with Google Workspace</title>
+        <description>Google has announced Gemini for Google Workspace, an AI assistant seamlessly integrated into applications like Gmail, Docs, Sheets, and Slides, designed to enhance productivity and creativity. This integration allows users to draft emails, generate content, analyze data, and create presentations more efficiently, leveraging advanced generative AI capabilities across the suite.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Thu, 09 Oct 2025 15:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/gemini-for-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/gemini-for-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Trondheim’s municipal employees use Gemini to enhance productivity and creativity, yielding improved public services</title>
+        <description>Trondheim municipality, Norway&apos;s third-largest, is enhancing productivity and creativity for its 20,000 employees by adopting Google Workspace with Gemini. This integration allows staff to streamline tasks such as drafting communications, summarizing documents, and generating ideas, particularly benefiting educators and administrative staff in a highly regulated public sector environment.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Fri, 03 Oct 2025 00:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/trondheim-enhance-productivity-and-creativity-with-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/trondheim-enhance-productivity-and-creativity-with-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 3, 2025</title>
+        <description>The Weekly Recap for October 3, 2025, highlights new features like Gemini in Chrome for AI-powered browsing and enhanced end-to-end encryption in Gmail. It also details the introduction of stickers in Google Chat, summarizing a week of advancements in AI, security, and communication tools.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chrome</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-03-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-03-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Send Gmail end-to-end encrypted emails to anyone</title>
+        <description>Gmail is introducing built-in end-to-end encryption for emails, significantly enhancing privacy and security for sensitive communications. Available from October 14, 2025, this feature allows users to send encrypted messages directly within Gmail, ensuring that only intended recipients can access the content and bolstering data protection.</description>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 02 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/send-gmail-end-to-end-encrypted-emails-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/send-gmail-end-to-end-encrypted-emails-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updates to Gmail log events   </title>
+        <description>Gmail log events are being updated to provide more detailed and comprehensive audit trails for administrators, enhancing security monitoring and compliance. Rolling out from September 23, 2025, this improvement enables better tracking of email activity, aiding in incident response and forensic analysis for enterprise users.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Thu, 25 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/updates-to-gmail-log-events.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/updates-to-gmail-log-events.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>September Workspace Drop: Nano Banana in Slides, shareable Gems, new Vids features, and more!</title>
+        <description>The September Google Workspace drop introduces new AI-powered features across the suite, including Nano Banana in Google Slides for enhanced presentation design, advanced Gemini capabilities, and new video editing features in Google Vids. These updates aim to boost creativity and productivity, enabling users to generate content, summarize information, and create engaging visuals more efficiently.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 24 Sep 2025 19:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/september-workspace-drop-nano-banana-in-slides-gems-vids-features-and-more</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/september-workspace-drop-nano-banana-in-slides-gems-vids-features-and-more</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing new Gmail notification features on Android and iOS devices</title>
+        <description>Gmail is rolling out improved notification controls and experiences for Android and iOS users, allowing for greater customization and relevance. Rolling out from September 9, 2025, this update aims to reduce notification fatigue and help users prioritize important emails, ultimately enhancing mobile productivity and focus.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Android</tools>
+		
+		<tools>iOS</tools>
+		
+        <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/better-notifications-gmail-android-ios.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/better-notifications-gmail-android-ios.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>5 ways to boost your team’s productivity with the Gemini app, featuring new sharable Gems</title>
+        <description>The Gemini app, with its new shareable &apos;Gems,&apos; offers five key ways to boost team productivity by streamlining tasks, enhancing collaboration, and accelerating content creation. Users can leverage Gemini for instant summaries, personalized content generation, task automation, and shared knowledge, fostering a more efficient and innovative work environment within Google Workspace.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 17 Sep 2025 20:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/5-ways-to-boost-your-teams-productivity-with-the-gemini-app-featuring-new-sharable-gems</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/5-ways-to-boost-your-teams-productivity-with-the-gemini-app-featuring-new-sharable-gems</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace partners with AODocs and LumApps to offer a SharePoint Server alternative</title>
+        <description>Google Workspace has expanded its ecosystem by partnering with AODocs and LumApps, integrating their specialized solutions to enhance content management and employee experience. AODocs will provide advanced document lifecycle and compliance capabilities, while LumApps will offer an AI-powered employee experience platform, both designed to seamlessly extend Google Workspace&apos;s functionality for enterprise clients.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Tue, 16 Sep 2025 19:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/partners/google-workspace-partners-with-aodocs-and-lumapps</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/partners/google-workspace-partners-with-aodocs-and-lumapps</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Zoppas Industries adopts Google Workspace with Gemini to boost global collaboration and efficiency</title>
+        <description>Zoppas Industries, a global leader in heating elements, has embraced Google Workspace with Gemini to enhance global collaboration and operational efficiency across its 16 factories in 10 countries. The AI assistant helps Zoppas streamline communication, automate tasks like summarizing documents, and improve decision-making, leading to significant productivity gains and fostering innovation within its diverse workforce.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 15 Sep 2025 22:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/zoppas-industries-workspace-with-gemini-global-collaboration-and-efficiency</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/zoppas-industries-workspace-with-gemini-global-collaboration-and-efficiency</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Work smarter: Discover our best AI productivity tools for enhanced efficiency</title>
+        <description>Google Workspace is showcasing its best AI productivity tools, including Gemini, NotebookLM, and Google Vids, designed to help users work smarter and enhance efficiency. These tools offer capabilities ranging from drafting content and summarizing documents to generating presentations and creating videos, empowering individuals and teams to automate routine tasks and focus on strategic initiatives.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Fri, 05 Sep 2025 22:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/work-smarter-discover-our-best-ai-productivity-tools-enhanced-efficiency</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/work-smarter-discover-our-best-ai-productivity-tools-enhanced-efficiency</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Stay on top of your schedule while on the go with Google Calendar</title>
+        <description>Google Calendar is introducing new features designed to help users stay on top of their schedules while on the go, enhancing mobile productivity and organization. Updates include improved glanceable widgets, faster event creation, and better integration with other Google Workspace apps to streamline time management and reduce scheduling friction for busy professionals.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 03 Sep 2025 19:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/stay-on-top-your-schedule-while-on-the-go-google-calendar</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/stay-on-top-your-schedule-while-on-the-go-google-calendar</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mercer International unlocks $3 million a year in productivity gains using Google Workspace with Gemini</title>
+        <description>Mercer International, a global leader in the pulp and lumber industry, has achieved significant productivity gains by implementing Google Workspace with Gemini across its operations. Gemini helps Mercer employees, including CFO Bill Short, automate administrative tasks, streamline communications in Gmail, and summarize complex financial reports, allowing them to focus on strategic analysis and decision-making.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 03 Sep 2025 19:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/mercer-international-productivity-gains-google-workspace-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/mercer-international-productivity-gains-google-workspace-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Collaboration in the age of AI</title>
+        <description>Collaboration in the age of AI is being transformed by tools like Gemini, which streamline workflows and foster more innovative teamwork across Google Workspace. AI assists with summarizing meetings, drafting communications in Gmail and Docs, and generating ideas, enabling teams to spend less time on routine tasks and more on strategic, creative problem-solving and deep collaboration.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 28 Aug 2025 19:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/collaboration-in-the-age-of-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/collaboration-in-the-age-of-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace with Gemini allows MERGE to build a more innovative, effective, and creative team</title>
+        <description>Merge, a company known for its digital solutions, is leveraging Google Workspace with Gemini to foster an innovative, effective, and creative team environment. Gemini helps Merge employees streamline content creation, summarize information, and enhance collaboration, enabling the team to focus on strategic initiatives and deliver more impactful results across their projects.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 19 Aug 2025 23:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/google-workspace-gemini-allows-merge-build-innovative-effective-and-creative-team</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/google-workspace-gemini-allows-merge-build-innovative-effective-and-creative-team</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Recap - August 15, 2025</title>
+        <description>The Weekly Recap for August 18, 2025, highlights app access control request approval and the ability to replace or expand image backgrounds in Slides and Vids. It also covers sorting notes in Google Keep for Android, adding events to Gmail and Calendar via Gemini on mobile, and NotebookLM Gems LTI integration, detailing advancements in security, AI visual editing, mobile organization, and educational AI.</description>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 15 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-august-18-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-august-18-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Quickly add events to Google Calendar with Gemini in Gmail on mobile</title>
+        <description>Gemini on mobile devices now allows users to add events directly to Google Calendar from Gmail, streamlining event creation and scheduling. Rolling out from August 12, 2025, this feature leverages AI to parse email content and intelligently suggest calendar entries, significantly enhancing productivity for mobile users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Android</tools>
+		
+		<tools>iOS</tools>
+		
+        <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/add-events-gmail-calendar-gemini-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/add-events-gmail-calendar-gemini-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace named a Leader in Forrester Wave UCaaS 2025 Report</title>
+        <description>Google Workspace has been recognized as a Leader in The Forrester Wave™: Unified Communications as a Service (UCaaS), Q1 2025 report, highlighting its strong offerings in collaboration, communication, and AI integration. This recognition solidifies Google Workspace&apos;s position as a top choice for enterprises seeking comprehensive, AI-powered solutions to enhance productivity and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Tue, 29 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/workspace-named-leader-forrester-wave-ucaas-2025-report</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/workspace-named-leader-forrester-wave-ucaas-2025-report</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Questrade Financial Group transforms productivity using Google Workspace with Gemini</title>
+        <description>Questrade Financial Group, a leading online brokerage, is transforming productivity by integrating Gemini into Google Workspace, enabling its employees to enhance efficiency across various operations. Gemini helps Questrade streamline content creation, summarize complex financial documents, and improve communication, allowing teams to focus more on strategic initiatives and client service within a regulated financial environment.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Thu, 24 Jul 2025 21:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/questrade-financial-group-transforms-productivity-gemini-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/questrade-financial-group-transforms-productivity-gemini-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Our top 10 Workspace productivity tips</title>
+        <description>This article shares the top 10 productivity tips for maximizing Google Workspace, focusing on features that streamline workflows, enhance collaboration, and improve time management. Tips include leveraging smart canvases, utilizing focus time in Calendar, mastering keyboard shortcuts, and organizing files efficiently in Google Drive to boost individual and team efficiency.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 24 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-top-10-workspace-productivity-tips</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-top-10-workspace-productivity-tips</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Link your Google Calendar booking pages when composing emails in Gmail</title>
+        <description>Google Calendar booking pages can now be easily linked directly from Gmail, allowing users to share their availability for meetings more efficiently via email. This integration aims to streamline scheduling processes, making it simpler for recipients to book appointments without leaving their inbox.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 15 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/link-your-google-calendar-booking-pages-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/link-your-google-calendar-booking-pages-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - July 11, 2025</title>
+        <description>Google Workspace Release Notes for July 11, 2025, announce the general availability of the Microsoft SharePoint Online migration tool to Google Workspace and the &apos;Extract and Categorize with Gemini&apos; feature in AppSheet. Other updates include Gemini&apos;s availability in Google Docs on iOS and the ability to link Google Calendar booking pages in Gmail.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Microsoft SharePoint Online</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 11 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/release-notes-07-11-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/release-notes-07-11-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How-to guide: Achieving digital sovereignty with Google Workspace</title>
+        <description>Google Workspace is enabling organizations to achieve digital sovereignty through robust data residency options, transparent security controls, and adherence to local regulations, particularly crucial for public sector and highly regulated industries. This commitment ensures that data processing and storage comply with national requirements, providing customers with greater control and confidence over their digital assets and operations.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 10 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/achieving-digital-sovereignty-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/achieving-digital-sovereignty-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the prompt: Resources to get started with Workspace with Gemini today</title>
+        <description>Google offers comprehensive resources to help users move &apos;beyond the prompt&apos; and master advanced techniques for leveraging Gemini&apos;s full potential within Google Workspace. These resources include guides on prompt engineering, best practices for integrating AI into workflows, and case studies highlighting how Gemini enhances productivity and creativity for various tasks, from drafting emails to analyzing data.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Wed, 09 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/beyond-the-prompt-resources-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/beyond-the-prompt-resources-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Manage email subscriptions from a single location in Gmail </title>
+        <description>Gmail is introducing improved controls for managing email subscriptions directly within the inbox, allowing users to easily unsubscribe from mailing lists with enhanced tools. This feature aims to help users reduce inbox clutter and manage their email preferences more efficiently.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 08 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/manage-email-subscriptions-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/manage-email-subscriptions-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title> Improved email notifications following Google Meet calls, plus new sharing controls for meeting hosts</title>
+        <description>Google Meet&apos;s &quot;Take notes for me&quot; feature is receiving improvements, including clearer email notifications for meeting summaries and enhanced host controls over who receives them. This update aims to provide more streamlined information sharing and better management of meeting follow-ups.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 07 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/take-notes-for-me-email-notification-improvements-plus-host-controls.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/take-notes-for-me-email-notification-improvements-plus-host-controls.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Achieving more with Google Workspace</title>
+        <description>This article provides practical tips for achieving more with Google Workspace, focusing on optimizing daily workflows and leveraging built-in collaboration features. Strategies include utilizing Google Calendar for efficient scheduling, organizing files in Google Drive, enhancing communication with Google Chat, and employing Smart Canvas to streamline document creation and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 01 Jul 2025 00:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace: Enabling FINRA compliance and enhanced capabilities for Financial Services organizations</title>
+        <description>Google Workspace is enhancing its capabilities to enable FINRA compliance for financial services firms, addressing stringent regulatory requirements for data retention, e-discovery, and secure communication. New features and integrations are designed to help organizations meet industry standards while leveraging Google Workspace&apos;s collaborative and AI-powered tools, like Gemini, for increased productivity and efficiency.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Mon, 30 Jun 2025 16:06:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/enabling-finra-compliance-and-enhanced-capabilities</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/enabling-finra-compliance-and-enhanced-capabilities</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hardware Key Certificate Management for client-side encryption in Gmail</title>
+        <description>Google Workspace is introducing Hardware Key and Certificate Management for Client-Side Encryption (CSE) in Gmail, allowing organizations to integrate their existing hardware security modules (HSMs) for managing encryption keys. This provides enhanced security and control over sensitive email data, meeting stringent compliance requirements for enterprise and government clients.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/hardware-key-certificate-management-for-client-side-encryption-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/hardware-key-certificate-management-for-client-side-encryption-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 27, 2025</title>
+        <description>Google Workspace Release Notes for June 27, 2025, announce the general availability of locked Google Groups and hardware key certificate management for Gmail&apos;s client-side encryption. Other updates include FINRA compliance for Google Drive and Calendar, and the availability of Google Vids and Gemini in Google Classroom for Education customers.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Groups</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Classroom</tools>
+		
+        <pubDate>Fri, 27 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-27-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-27-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Push what’s possible with Google AI Ultra for Business</title>
+        <description>Google AI Ultra for Business is introduced as a premium tier of Gemini, designed to provide advanced generative AI capabilities tailored for enterprise use cases within Google Workspace. This offering delivers enhanced performance, greater context windows, and robust security features, empowering businesses to tackle complex tasks like advanced data analysis, sophisticated content generation, and intricate workflow automation.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 26 Jun 2025 19:06:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/google-ai-ultra-for-business</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/google-ai-ultra-for-business</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Migrate email and calendar content from Microsoft Exchange Online to Google Workspace</title>
+        <description>Google Workspace is rolling out a new migration tool that allows organizations to seamlessly transfer email and calendar content from Microsoft Exchange Online to Google Workspace. This tool aims to simplify the transition process for businesses moving from Microsoft&apos;s ecosystem to Google&apos;s cloud collaboration platform.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/migrate-email-calendar-content-from-microsoft-exchange-online-to-google-workspace.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/migrate-email-calendar-content-from-microsoft-exchange-online-to-google-workspace.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 6, 2025</title>
+        <description>Google Workspace Release Notes for June 6, 2025, announce the expansion of Companion Mode to Android and iOS for Google Meet and enhanced host controls for joining requests. Other updates include AI-powered PDF summary cards in Google Drive, the &quot;Help me create&quot; and &quot;Summarize responses&quot; features in Google Forms, and new migration tools for Microsoft Exchange Online content.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How project managers can become AI trailblazers</title>
+        <description>Project managers can become AI trailblazers by integrating generative AI tools, such as Gemini within Google Workspace, to enhance planning, execution, and communication. AI can assist with drafting project plans, summarizing status reports in Google Docs, managing risks, and automating routine tasks, allowing project managers to focus on strategic oversight and team leadership, thereby improving project outcomes and efficiency.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 05 Jun 2025 19:06:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/project-managers-can-become-ai-trailblazers</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/project-managers-can-become-ai-trailblazers</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Integrate Jira with Gmail to create, update, and track work items directly in your inbox</title>
+        <description>The Jira and Confluence apps are now integrated with Gmail, allowing users to receive notifications and interact with tasks and documents directly from their inbox. This integration streamlines workflows for project management and collaboration, reducing context switching for users of both Atlassian and Google services.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 02 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/jira-and-confluence-app-integrated-with-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/jira-and-confluence-app-integrated-with-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New Gemini summary cards now available in the Gmail app on Android and iOS devices </title>
+        <description>Gemini-powered summary cards are coming to the Gmail app, providing users with quick, AI-generated overviews of lengthy email threads without needing to open each message. This feature aims to boost mobile productivity by allowing users to rapidly triage and process their inbox content.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 29 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/gemini-summary-cards-gmail-app.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/gemini-summary-cards-gmail-app.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>May Workspace feature drop: New AI features for better collaboration and research, plus NotebookLM Mind Maps</title>
+        <description>The May Google Workspace feature drop introduces a suite of new AI capabilities, enhancing productivity across applications like Gmail, Docs, and Slides. These updates include advanced drafting features, intelligent summaries, and improved content generation with Gemini, designed to streamline workflows and foster creativity for users in their daily tasks.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Wed, 28 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/may-workspace-feature-drop-new-ai-features</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/may-workspace-feature-drop-new-ai-features</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - May 23, 2025</title>
+        <description>Google Workspace Release Notes for May 23, 2025, announce Gemini summaries in Google Chat available in four new languages and Gemini summary cards in the Gmail app. Other updates include improved Google Calendar interoperability with Microsoft Office 365, Gemini&apos;s ability to understand videos in Google Drive, and new video engagement insights for Google Drive.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Microsoft Office 365</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 23 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/release-notes-05-23-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/release-notes-05-23-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Spring clean your calendar with Workspace</title>
+        <description>This article offers practical tips for &apos;spring cleaning&apos; Google Calendar and overall Google Workspace to enhance productivity and reduce digital clutter. Recommendations include decluttering old events, utilizing focus time, streamlining notification settings, and regularly reviewing shared calendars to optimize scheduling and improve time management for a more efficient workday.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 22 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-spring-clean-your-calendar-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-spring-clean-your-calendar-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New ways Workspace with Gemini helps you do your best work — every day</title>
+        <description>Google Workspace is introducing new features and enhancements, particularly with Gemini integration, designed to empower users to do their best work through advanced AI assistance. These updates streamline tasks like drafting documents in Google Docs, analyzing data in Google Sheets, and generating presentations in Google Slides, enabling users to focus on higher-value activities and foster greater creativity.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Tue, 20 May 2025 20:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-ways-to-do-your-best-work</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-ways-to-do-your-best-work</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ask Gemini in Gmail on mobile to perform Google Calendar related actions</title>
+        <description>Gemini in Gmail on mobile devices can now reference Google Calendar, allowing users to quickly access and leverage their schedule information when composing emails or responding to messages. This integration enhances mobile productivity by providing contextual assistance for scheduling and communication directly within the email app.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 19 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/reference-google-calendar-using-gemini-in-gmail-on-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/reference-google-calendar-using-gemini-in-gmail-on-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Help, not hype: AI built for how you actually work</title>
+        <description>Google emphasizes Gemini&apos;s practical application for &apos;help, not hype,&apos; showcasing how its AI capabilities genuinely assist users within Google Workspace applications. Gemini&apos;s integration streamlines daily tasks such as drafting emails in Gmail, summarizing documents in Google Docs, and generating ideas for presentations, providing tangible productivity benefits and enabling users to focus on meaningful work.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Wed, 14 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/gemini-for-help-not-hype</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/gemini-for-help-not-hype</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Supercharging employee experience and reducing routine work with Gemini at ATB Financial</title>
+        <description>ATB Financial is supercharging its employee experience and significantly reducing routine work by integrating Gemini into Google Workspace across its operations. Gemini helps employees automate tasks like drafting communications and summarizing reports, allowing them to focus on strategic initiatives and customer engagement, leading to enhanced productivity and job satisfaction within the financial institution.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Tue, 13 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/supercharging-employee-experience-and-reducing-routine-work-gemini-atb-financial</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/supercharging-employee-experience-and-reducing-routine-work-gemini-atb-financial</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Wake Forest University redefines cybersecurity with Google Workspace for Education Plus</title>
+        <description>Wake Forest University is redefining its cybersecurity posture by implementing Google Workspace Education Plus, enhancing protection for its 8,700 students and staff. The advanced security features, including robust data loss prevention and sophisticated threat detection, help the university safeguard sensitive information, ensure compliance, and build a resilient digital environment against evolving cyber threats.</description>
+		
+		<tools>Google Workspace Education Plus</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Fri, 09 May 2025 20:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/wake-forest-university-redefines-cybersecurity-google-workspace-education-plus</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/wake-forest-university-redefines-cybersecurity-google-workspace-education-plus</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - May 9, 2025</title>
+        <description>The Google Workspace release notes for May 9, 2025, announced several new features including granular OAuth consent for Workspace add-ons, Gemini support in Google Vault for Education customers, and Gemini Live for in-depth two-way conversations. Users can now also generate custom video clips in Google Vids, while administrators gain the ability to pre-configure the Gemini app conversation history setting, and Gmail is updating its support for the 3DES encryption cipher for incoming SMTP connections.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/release-notes-05-09-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/release-notes-05-09-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Fullstory writes collaboration into its culture with Google Workspace and Gemini</title>
+        <description>FullStory is fostering a stronger collaboration culture by leveraging Google Workspace with Gemini, enhancing productivity and creative workflows across its global teams. Gemini assists FullStory employees in streamlining content creation, summarizing complex data, and improving communication, allowing them to focus on customer experience insights and product development, leading to more efficient and impactful outcomes.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 07 May 2025 21:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/fullstory-collaboration-culture-with-google-workspace-and-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/fullstory-collaboration-culture-with-google-workspace-and-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the prompt: How to create a Google Guides program to drive adoption of Workspace with Gemini</title>
+        <description>The Google Guides Program is designed to drive the adoption of Google Workspace with Gemini by equipping users with the knowledge and skills to move &apos;beyond the prompt.&apos; This initiative provides practical guidance, training, and best practices for leveraging AI across applications like Gmail and Docs, helping users maximize productivity and creativity while addressing potential challenges.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Tue, 06 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-google-guides-program-to-drive-adoption-workspace-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-google-guides-program-to-drive-adoption-workspace-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gmail will soon stop support for the 3DES encryption cipher for incoming SMTP connections</title>
+        <description>Gmail is deprecating support for the outdated and vulnerable 3DES encryption cipher for incoming SMTP connections, effective May 22, 2025, for rapid release and June 5, 2025, for scheduled release domains. This security enhancement aims to protect user data by ensuring only modern, robust encryption ciphers are used for email communication. Administrators should verify their systems support current encryption standards to avoid service disruption.</description>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Tue, 06 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/update-for-gmail-support-for-the-3des-encryption-cipher-for-incoming-smtp-connections.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/update-for-gmail-support-for-the-3des-encryption-cipher-for-incoming-smtp-connections.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google named a leader in IDC Marketscape: Worldwide Team Collaboration Applications 2024 Vendor Assessment</title>
+        <description>Google Workspace has been named a Leader in the IDC MarketScape: Worldwide Team Collaboration Applications 2024 Vendor Assessment, recognizing its robust suite of tools for enhancing teamwork and productivity. This acknowledgment highlights Google Workspace&apos;s strengths in integrating AI, fostering seamless communication, and supporting diverse organizational needs for effective collaboration.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 30 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/google-named-leader-idc-marketscape-worldwide-team-collaboration-applications</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/google-named-leader-idc-marketscape-worldwide-team-collaboration-applications</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Express yourself and quickly respond to emails with emojis reactions in Gmail</title>
+        <description>Gmail has introduced emoji reactions, allowing users to quickly and visually respond to emails without composing a full message, mirroring functionality in other messaging platforms. This feature is available on both web and mobile platforms for Google Workspace accounts, though it is not supported for client-side encrypted messages. The gradual rollout of emoji reactions began on April 30, 2025.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 29 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/emoji-reactions-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/emoji-reactions-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: My favorite ways to use Gemini at work</title>
+        <description>This article highlights favorite practical ways to use Gemini in daily work within Google Workspace, focusing on boosting personal productivity and streamlining common tasks. Examples include generating professional emails in Gmail, summarizing long documents in Google Docs, brainstorming ideas for presentations, and quickly extracting key information from various sources, making workflows more efficient and less time-consuming.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Mon, 28 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-my-favorite-ways-use-gemini-work</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-my-favorite-ways-use-gemini-work</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 25, 2025</title>
+        <description>The Google Workspace release notes for April 25, 2025, announced several updates, including the expansion of NotebookLM&apos;s Audio Overviews to 35 new languages and the introduction of out-of-domain file warnings in Drive, Docs, Sheets, and Slides for enhanced security. Additionally, Google Vids is now available for Business Starter, Enterprise Starter, and Nonprofits editions, while Gmail users can enjoy new emoji reactions.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Fri, 25 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-25-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-25-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Three best practices to simplify eDiscovery exports and litigation holds with Google Vault</title>
+        <description>Google Vault offers three best practices to simplify eDiscovery exports and litigation holds, crucial for legal and compliance teams managing data within Google Workspace. These practices include organizing data effectively, leveraging advanced search and export functionalities, and implementing consistent retention policies to ensure legal defensibility and streamline complex data requests.</description>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 24 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/three-best-practices-simplify-ediscovery-exports-and-litigation-holds-google-vault</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/three-best-practices-simplify-ediscovery-exports-and-litigation-holds-google-vault</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the Prompt: ATB Financial’s 5 tips to drive Workspace with Gemini adoption</title>
+        <description>ATB Financial shares five key tips for driving successful adoption of Google Workspace with Gemini, emphasizing change management, clear communication, and empowering employees. Strategies include creating internal champions, providing tailored training, celebrating early successes, and focusing on practical use cases that deliver immediate value to teams across the organization, fostering a culture of AI integration.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Thu, 24 Apr 2025 18:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/atb-financial-5-tips-to-drive-workspace-gemini-adoption</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/atb-financial-5-tips-to-drive-workspace-gemini-adoption</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>April Workspace feature drop: New AI features across Gemini, Chat, Gmail, and Slides to boost your productivity</title>
+        <description>The April Google Workspace feature drop introduces new AI enhancements across Gemini, Google Chat, Gmail, and Google Slides, aiming to boost productivity and collaboration. Updates include smarter drafting in Gmail, AI-powered summaries in Chat, and advanced content generation in Slides, enabling users to streamline workflows and create compelling content more efficiently.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/april-workspace-feature-drop-new-ai-features-across-gemini-chat-gmail-and-slides</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/april-workspace-feature-drop-new-ai-features-across-gemini-chat-gmail-and-slides</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data classifications labels for Gmail are now generally available</title>
+        <description>Gmail Data Classification Labels are now generally available, providing administrators with the ability to apply labels like &quot;Internal&quot; or &quot;Confidential&quot; to emails. This feature helps enforce Data Loss Prevention (DLP) rules, automate security policies, and educate users on sensitive data handling practices. Available for Google Workspace Enterprise Plus, Education Plus, and existing Drive and Chat classification labels, it enhances data security and compliance across organizations.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Frontline Plus: Enhanced Security and AI features for Frontline Workers</title>
+        <description>Google Workspace Frontline Plus is a new offering designed for frontline workers, enhancing Frontline Standard with advanced security and AI capabilities. This comprehensive suite includes sophisticated Data Loss Prevention (DLP), a security center, email encryption, AppSheet Core, and Gemini Business, providing robust tools for a critical workforce. Frontline Plus became available for purchase on April 24, 2025.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/introducing-frontline-plus-enhanced-security-ai-features.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/introducing-frontline-plus-enhanced-security-ai-features.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 18, 2025</title>
+        <description>The Google Workspace release notes for April 18, 2025, announced the general availability of data classification labels for Gmail, offering enhanced security. New high-quality templates were added to Google Slides, and Google Classroom gained new student group capabilities. The new Frontline Plus SKU was introduced with enhanced security and AI features, and Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and meeting transcripts.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 18 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-18-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-18-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New AI capabilities in Workspace to help every business drive results</title>
+        <description>Google Workspace is rolling out new AI features, primarily through Gemini, designed to drive tangible business results by boosting productivity and fostering innovation. These AI capabilities help automate tasks such as content drafting, data analysis, and summarizing information, enabling businesses to make faster decisions and improve efficiency across their operations, from small businesses to large enterprises.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Wed, 09 Apr 2025 15:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-ai-drives-business-results</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-ai-drives-business-results</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Help me write in Gmail now available in Japanese and Korean</title>
+        <description>Gemini&apos;s &quot;Help me write&quot; feature in Gmail is expanding its language support beyond English, enabling users to draft emails with AI-powered assistance in a wider array of languages. This makes the AI writing tool more accessible and useful for a global user base. The feature is available for Google Workspace Business, Enterprise, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/help-me-write-gmail-language-expansion.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/help-me-write-gmail-language-expansion.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 4, 2025</title>
+        <description>The Google Workspace release notes for April 4, 2025, detail significant updates including the Google Classroom API now supporting grading period management and Read Along allowing content uploads. Gemini&apos;s &quot;Help me write&quot; feature in Gmail and Docs, and Gemini summaries in Chat, received language expansions. Google Vids&apos; AI voiceovers were updated, and a beta for more Workspace data export options was launched. Additionally, NotebookLM and the Gemini app were designated core services for education, with updates to NotebookLM sources, and admins gained control over Workspace app access in Gemini.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How-to guide: Adopting Zero-Trust security with Google Workspace</title>
+        <description>This article outlines a strategic approach to adopting Zero Trust security principles within Google Workspace, emphasizing continuous verification and least privilege access. Key steps include implementing strong authentication with passkeys, micro-segmentation, and advanced threat detection, providing comprehensive guidance for organizations to enhance their cybersecurity posture and protect sensitive data from evolving threats.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 03 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/how-to-adopt-zero-trust-security</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/how-to-adopt-zero-trust-security</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Pre-configure the Google Workspace apps admin setting for the Gemini app ahead of general availability</title>
+        <description>Google Workspace administrators can now pre-configure user access to Google Workspace applications like Gmail, Drive, and Docs within Gemini, ahead of its general availability. This crucial administrative control enables organizations to proactively manage data access and enforce compliance policies before Gemini&apos;s full rollout. The feature is available for Google Workspace Business, Enterprise, Education, and Nonprofits editions, ensuring controlled AI integration.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/configure-access-to-google-workspace-apps-in-gemini-ahead-of-general-availability.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/configure-access-to-google-workspace-apps-in-gemini-ahead-of-general-availability.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New in Gmail: Making end-to-end encrypted emails easy to use for all organizations</title>
+        <description>Gmail is rolling out easy-to-use client-side end-to-end encryption for all businesses, significantly enhancing data privacy and security for sensitive communications. This feature allows organizations to maintain control over encryption keys, ensuring that even Google cannot access the content of encrypted emails, thereby meeting stringent compliance requirements for regulated industries within Google Workspace.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Tue, 01 Apr 2025 16:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/gmail-easy-end-to-end-encryption-all-businesses</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/gmail-easy-end-to-end-encryption-all-businesses</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 28, 2025</title>
+        <description>The Google Workspace release notes for March 28, 2025, introduced dynamic layouts for Google Meet and additional language support for Gemini in Drive&apos;s PDF viewer. Google Slides gained proportional scaling for objects, while Google Drive received new nudges for Gemini, and Gmail&apos;s &quot;Help me write&quot; expanded to more languages. Google Classroom&apos;s mobile app also expanded language support, and Google Drive now runs on ARM-compatible Windows PCs. Lastly, Google Vids received new &quot;Help me create&quot; capabilities.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Vids</tools>
+		
+        <pubDate>Fri, 28 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>March Workspace feature drop: More effective meetings, AI features for Vids, and more language capabilities</title>
+        <description>The March Google Workspace feature drop brings new AI capabilities and enhancements across various applications, significantly boosting productivity and collaboration. Key updates include smarter drafting in Gmail, improved data analysis in Google Sheets, and advanced content generation with Gemini, designed to streamline workflows and foster creativity for users.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Wed, 26 Mar 2025 19:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/march-workspace-feature-drop</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/march-workspace-feature-drop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Reviewing how you use your time</title>
+        <description>This article offers practical strategies for reviewing and optimizing time usage within Google Workspace to enhance productivity and focus. Tips include leveraging Google Calendar&apos;s time insights, tracking task completion in Google Tasks, and minimizing distractions by customizing notifications, helping users gain a clearer understanding of their workday and identify areas for efficiency improvement.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Mon, 24 Mar 2025 21:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-reviewing-how-you-use-your-time</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-reviewing-how-you-use-your-time</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Help me write in Gmail now available in three additional languages</title>
+        <description>Gemini&apos;s &quot;Help me write&quot; feature in Gmail is expanding its language support beyond English, enabling users to draft emails with AI-powered assistance in a wider array of languages. This makes the AI writing tool more accessible and useful for a global user base. The feature is available for Google Workspace Business, Enterprise, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 24 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/help-me-write-gmail-in-additional-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/help-me-write-gmail-in-additional-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 21, 2025</title>
+        <description>The Google Workspace release notes for March 21, 2025, announced new features including contextual smart replies for Business/Enterprise customers and enhancements to NotebookLM. Gemini integrations expanded with new languages for the Chat and Slides side panels, and a new &quot;Canvas&quot; interface for the Gemini App was introduced, alongside summaries of shared Workspace files in Google Chat and a new Gemini-powered summary building block in Google Docs. Gmail DLP was updated with sensitive content snippets and instant rule application, NotebookLM gained context-aware access, and a beta launched for converting client-side encrypted documents after Vault or Takeout export.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-21-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-21-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Contextual Smart Replies now available for Google Workspace Business and Enterprise editions</title>
+        <description>Contextual Smart Replies, an AI-powered feature offering intelligent, context-aware response suggestions, are now available to Google Workspace Business and Enterprise customers. This enhancement is designed to improve communication efficiency and speed across various channels, such as Google Chat and Gmail. By providing relevant response options, it helps users reply faster and maintain conversational flow, boosting productivity in professional settings.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 20 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/contextual-smart-replies-available-for-business-and-enterprise-customers.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/contextual-smart-replies-available-for-business-and-enterprise-customers.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gmail data loss prevention now supports “sensitive content snippets”</title>
+        <description>Gmail Data Loss Prevention (DLP) has been enhanced to provide administrators with sensitive content snippets, offering a small excerpt of flagged content when a DLP rule is triggered. This provides better context for policy violations without exposing the entire sensitive document, improving incident response and privacy. The feature is available for Google Workspace Enterprise Plus and Education Plus customers.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-sensitive-content-snippets.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-sensitive-content-snippets.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beta update: Data loss prevention rules based on classification labels are now applied instantly in Gmail on the web</title>
+        <description>Gmail Data Loss Prevention (DLP) rules and classification labels are now applied instantly, drastically reducing the latency between policy definition and enforcement. This ensures more immediate and effective protection against sensitive data leakage, enhancing organizational security posture. The improved real-time enforcement is available for Google Workspace Enterprise Plus and Education Plus customers.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-rules-classification-labels-now-applied-instantly-.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-rules-classification-labels-now-applied-instantly-.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 14, 2025</title>
+        <description>The Google Workspace release notes for March 14, 2025, announced several updates, including consent reconfirmation for under-18 Education users and AppSheet user authentication bypass. Gemini Gems (Deep Research) became available to more Workspace customers, while Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and transcripts. Authenticated AppSheet apps can now be embedded in Google Sites, and Google Docs client-side encryption supports export to Microsoft Word. More AI features rolled out for Business/Enterprise, Gemini side panel added four languages, and Google Meet hardware can view guest lists. Finally, Gemini in Drive gained file/folder creation, and Gemini in Gmail can add Calendar events.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sites</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>BLADE takes air travel to new heights with Google Workspace</title>
+        <description>BLADE, a leading urban air mobility company, is taking air travel to new heights by leveraging Google Workspace to streamline operations and enhance collaboration. Google Workspace, including Gmail, Google Calendar, and Google Meet, enables BLADE to manage complex logistics, coordinate flights, and communicate seamlessly across its global teams, supporting efficient customer service and rapid expansion.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 13 Mar 2025 20:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/blade-takes-air-travel-new-heights-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/blade-takes-air-travel-new-heights-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The future of work is here: Top Workspace sessions you don’t want to miss at Cloud Next ’25</title>
+        <description>Google Cloud Next &apos;25 highlighted top Google Workspace sessions focused on transforming work with AI, featuring deep dives into Gemini&apos;s capabilities and practical applications. Sessions covered topics like enhancing productivity in Google Docs and Sheets, improving collaboration with AI-powered features, and ensuring enterprise-grade security and compliance within the Workspace ecosystem.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 12 Mar 2025 19:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/top-workspace-sessions-at-cloud-next-25</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/top-workspace-sessions-at-cloud-next-25</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Quickly add events to Google Calendar based on your emails with Gemini in Gmail</title>
+        <description>Gemini&apos;s integration into Gmail now empowers users to add events to Google Calendar directly from email content using natural language prompts. This feature streamlines scheduling and task management by allowing users to create calendar entries without leaving their inbox. It is available to Google Workspace users with Gemini Business, Enterprise, or Education upgrades, as well as Gemini Advanced subscribers.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 10 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/add-events-to-google-calendar-using-gemini-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/add-events-to-google-calendar-using-gemini-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 7, 2025</title>
+        <description>The Google Workspace release notes for March 7, 2025, detailed updates including enhancements for generating meeting backgrounds with Gemini and the Gemini in Slides side panel supporting seven new languages. A Salesforce extension for Gemini in Gmail was introduced to streamline CRM interactions, and Google Calendar received improvements for better interoperability with Outlook.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 07 Mar 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-07-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-07-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Cloud named a Leader in the 2025 Forrester Data Security Platforms Wave</title>
+        <description>Google Cloud has been recognized as a Leader in The Forrester Wave™: Data Security Platforms, Q1 2025 report, underscoring its robust capabilities in data protection and security. This achievement highlights Google Cloud&apos;s comprehensive suite of tools, including those integrated with Google Workspace, for safeguarding sensitive data, ensuring compliance, and providing advanced threat protection for enterprises.</description>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 06 Mar 2025 00:03:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/google-cloud-named-leader-2025-forrester-data-security-platforms-wave</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/google-cloud-named-leader-2025-forrester-data-security-platforms-wave</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace with Gemini: 128 ways our customers are transforming how they work with AI</title>
+        <description>Google Workspace customers like ATB Financial, Equifax, and Augustana University are transforming their work with AI, leveraging Gemini to enhance productivity and innovation. These organizations use AI to automate routine tasks, streamline content creation in Docs and Gmail, accelerate data analysis in Sheets, and foster deeper collaboration, demonstrating significant operational efficiencies and business value across diverse industries.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 05 Mar 2025 21:03:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/how-our-customers-transform-work-with-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/how-our-customers-transform-work-with-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How to use the Salesforce extension for Gemini in Gmail</title>
+        <description>This article demonstrates how to use the Salesforce extension with Gemini in Gmail, streamlining workflows for sales and marketing professionals. By integrating these tools, users can leverage Gemini to draft personalized emails based on Salesforce CRM data, summarize customer interactions, and generate relevant follow-up content directly within Gmail, significantly boosting productivity and customer engagement.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 05 Mar 2025 20:03:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/how-use-salesforce-extension-gemini-gmail</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/how-use-salesforce-extension-gemini-gmail</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing the Salesforce for Gemini extension in Gmail</title>
+        <description>A new Salesforce extension for Gemini in Gmail is being introduced, enabling users to interact with Salesforce data directly from their inbox using Gemini&apos;s AI capabilities. This allows for tasks like summarizing customer emails or updating CRM records, significantly streamlining sales and customer service workflows. The integration enhances productivity by bringing critical CRM functionality into the email experience.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Mon, 03 Mar 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/salesforce-extension-gemini-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/salesforce-extension-gemini-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Workspace feature drop: 4 new ways to help you do your best work</title>
+        <description>The February Google Workspace feature drop introduces new AI enhancements and productivity features across its applications, aimed at improving collaboration and efficiency. Key updates include smarter content suggestions in Docs and Slides, advanced search capabilities, and refinements to existing AI tools like Gemini, designed to help users streamline tasks and foster creativity.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 26 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/february-workspace-feature-drop</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/february-workspace-feature-drop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Forum Virium Helsinki builds a thriving workplace with Google Workspace and Gemini</title>
+        <description>Forum Virium Helsinki, a municipal innovation company, is building a thriving workplace by leveraging Google Workspace to enhance collaboration and operational efficiency. The suite of tools, including Google Docs, Sheets, and Meet, enables their project-based teams to communicate seamlessly, manage projects effectively, and foster an innovative environment focused on developing smart city solutions for Helsinki.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 25 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/forum-virium-helsinki-builds-thriving-workplace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/forum-virium-helsinki-builds-thriving-workplace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the prompt: How Understood.org uses Gemini to reduce stress and save 10 hours per project</title>
+        <description>Understood.org, a non-profit organization, is leveraging Gemini within Google Workspace to significantly reduce stress and save up to 10 hours per project by automating tasks. By using Gemini to summarize research documents, draft communications, and generate content, Understood empowers its team to focus on strategic initiatives for neurodivergent individuals, demonstrating substantial productivity gains and improved workflow efficiency.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Fri, 21 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-how-understood-uses-gemini-reduce-stress-and-save-10-hours-project</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-how-understood-uses-gemini-reduce-stress-and-save-10-hours-project</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>From checkboxes to checkmates: How Google Workspace can help you achieve CMMC 2.0 compliance</title>
+        <description>Google Workspace helps organizations achieve CMMC 2.0 compliance by providing robust security features, data governance controls, and audit capabilities essential for handling Controlled Unclassified Information (CUI). The platform&apos;s integrated security, including advanced threat protection and data loss prevention, allows defense contractors and others to meet stringent government requirements, ensuring data integrity and confidentiality.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 10 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/checkboxes-checkmates-how-google-workspace-can-help-you-achieve-cmmc-20-compliance</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/checkboxes-checkmates-how-google-workspace-can-help-you-achieve-cmmc-20-compliance</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Three do’s and don’ts to get the most out of your migration to Google Workspace</title>
+        <description>This article outlines three crucial &apos;dos and don&apos;ts&apos; for a successful migration to Google Workspace, emphasizing planning, communication, and training. Key recommendations include thorough pre-migration assessment, phased rollout, and leveraging Google&apos;s migration tools, while advising against insufficient user training or neglecting data hygiene, ensuring a smooth transition and maximizing platform adoption.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Cloud Migration Services</tools>
+		
+        <pubDate>Thu, 06 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/three-dos-and-donts-get-most-out-your-migration-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/three-dos-and-donts-get-most-out-your-migration-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How-to guide: Defending against malware and phishing attacks</title>
+        <description>Google Workspace provides a comprehensive guide to defending against malware and phishing attacks, outlining proactive security measures and best practices for users and administrators. Recommendations include enabling advanced phishing protection in Gmail, utilizing Safe Browsing, implementing multi-factor authentication, and providing ongoing security awareness training to mitigate these prevalent cyber threats.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Safe Browsing</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Wed, 05 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/how-guide-defending-against-malware-and-phishing-attacks</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/how-guide-defending-against-malware-and-phishing-attacks</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the prompt: Question your way to better prompting</title>
+        <description>Google emphasizes a &apos;question your way to better prompting&apos; strategy to optimize generative AI interactions, encouraging users to iteratively refine their queries for improved results with Gemini. By asking follow-up questions, clarifying ambiguity, and experimenting with different phrasing, users can unlock more precise and valuable outputs from AI tools within Google Workspace, enhancing productivity and creative outcomes.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 30 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-question-your-way-better-prompting</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-question-your-way-better-prompting</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>3 ways to strengthen your new gen AI muscles</title>
+        <description>To strengthen new generative AI &apos;muscles,&apos; individuals and teams should actively experiment with AI tools like Gemini, practice prompt engineering, and integrate AI into daily workflows for continuous learning. This iterative approach helps users understand AI&apos;s capabilities and limitations, fostering skill development and maximizing productivity across Google Workspace applications.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 23 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/3-ways-strengthen-your-new-gen-ai-muscles</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/3-ways-strengthen-your-new-gen-ai-muscles</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Beating procrastination</title>
+        <description>This article offers practical strategies for beating procrastination and boosting productivity within Google Workspace, focusing on time management and task prioritization. Tips include breaking down large tasks, setting clear deadlines with Google Calendar, utilizing Google Tasks for checklist management, and leveraging focus time to minimize distractions, helping users maintain momentum and achieve goals more effectively.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 22 Jan 2025 22:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-productivity-column-beating-procrastination</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-productivity-column-beating-procrastination</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Sundogs rises to meet creative challenges at scale using Google Workspace with Gemini</title>
+        <description>Sundogs, a creative agency, is using Google Workspace with Gemini to meet creative challenges at scale, significantly enhancing its content creation and client communication workflows. Gemini helps Sundogs&apos; designers and marketers generate compelling copy, brainstorm ideas, and summarize client feedback, enabling faster project turnaround and greater creative output while maintaining high-quality standards.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 16 Jan 2025 22:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/sundogs-rises-meet-creative-challenges-scale-using-google-workspace-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/sundogs-rises-meet-creative-challenges-scale-using-google-workspace-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace enables the future of AI-powered work for every business</title>
+        <description>Google Workspace is empowering businesses with new AI capabilities, primarily through Gemini, designed to enhance productivity, streamline operations, and foster innovation across all sizes of organizations. These AI features are integrated into core applications like Gmail, Docs, and Sheets, enabling users to automate routine tasks, generate high-quality content, and gain deeper insights from their data.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Wed, 15 Jan 2025 16:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/empowering-businesses-with-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/empowering-businesses-with-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>4 ways Gemini for Workspace can help sellers and marketers spend more time doing what they do best</title>
+        <description>Gemini in Google Workspace offers four key ways to help sellers and marketers focus on their core competencies: automating content creation for emails and presentations, summarizing market research, analyzing sales data, and personalizing customer communications. This AI integration allows them to streamline routine tasks, enhance outreach strategies, and gain deeper insights, ultimately boosting productivity and customer engagement.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Thu, 09 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/4-ways-gemini-workspace-can-help-sellers-and-marketers-spend-more-time-doing-what-they-do-best</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/4-ways-gemini-workspace-can-help-sellers-and-marketers-spend-more-time-doing-what-they-do-best</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updated smart feature settings give users increased choice and control</title>
+        <description>Google Workspace is rolling out updated Smart Feature Settings that provide users with increased choice and control over how their data is used across various Google products. These granular controls allow individuals to manage data usage for AI-powered features, ensuring enhanced privacy and transparency while still benefiting from intelligent functionalities within applications like Gmail, Docs, and Calendar.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Tue, 07 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/updated-smart-feature-settings-give-users-increased-choice-and-control</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/updated-smart-feature-settings-give-users-increased-choice-and-control</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

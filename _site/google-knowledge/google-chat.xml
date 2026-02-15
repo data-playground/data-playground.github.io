@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Chat Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Introducing Figma in Google Chat</title>
+        <description>Google Chat is enhancing collaboration for design teams by integrating directly with Figma, enabling users to share design files and prototypes within their conversations. This integration facilitates immediate previews, streamlined feedback, and real-time notifications about design changes, significantly improving workflows for product development and creative projects. The aim is to reduce context switching and accelerate decision-making for teams leveraging both platforms.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 12 Feb 2026 17:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/introducing-figma-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/introducing-figma-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data loss prevention policies for Google Calendar now available in beta</title>
+        <description>Google is extending Data Loss Prevention (DLP) capabilities to Google Chat, allowing admins to create custom rules to prevent sensitive information from being shared within messages and spaces. This enhancement, available to specific Google Workspace Enterprise and Education customers, applies to all new and edited Chat messages to bolster data security, ensure compliance, and prevent data exfiltration. The feature is enabled by default and rolls out starting February 13, 2026.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 11 Feb 2026 16:15:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/data-loss-prevention-policies-for.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/data-loss-prevention-policies-for.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 6, 2026</title>
+        <description>The Google Workspace Weekly Recap for February 6, 2026, introduced several key updates, including enhanced Google Meet companion mode for more inclusive hybrid meetings available to all Workspace customers. Google Docs received new smart chips for improved project management, while Google Drive&apos;s AI-powered search within shared drives was refined for Business, Enterprise, Education, and Nonprofits. Additionally, Google Chat now supports custom emojis for all users, and the Google Workspace Admin Console gained granular external sharing security settings for Business Standard and higher editions.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace Admin Console</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 06 Feb 2026 17:43:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-06-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-06-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Get higher access to advanced AI in Google Workspace</title>
+        <description>Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data analysis in Google Sheets, and presentation creation in Google Slides, to a broader range of users and regions globally. The expansion underscores Google&apos;s commitment to integrating advanced artificial intelligence directly into daily workflows to boost productivity and foster creativity for its users.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 05 Feb 2026 18:02:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/google-workspace-ai-expanded-access.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/google-workspace-ai-expanded-access.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>January Workspace Drop: SOTA AI avatars in Vids, deeper insights in the Gemini app, and new app integrations in Chat</title>
+        <description>The January Workspace Drop introduces significant AI-powered enhancements across Google Workspace, prominently featuring Gemini integration in Google Docs, Sheets, Slides, Gmail, Meet, and Chat, enabling features like &quot;Help me write&quot; in Docs and AI-powered summarization in Chat. Updates also boost productivity with new organizing features and improved search in Google Drive, smart fill for data cleanup in Google Sheets, and enhanced collaboration tools in Google Meet&apos;s companion mode and picture-in-picture. These advancements aim to streamline workflows, enhance data management, and improve security within the Workspace ecosystem.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 28 Jan 2026 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/january-workspace-drop</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/january-workspace-drop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Granular OAuth consent in Google Chat apps</title>
+        <description>Google Chat is enhancing security and privacy by introducing granular OAuth consent for Chat apps, rolling out from January 2026. This allows users to grant specific data access permissions, such as reading or sending messages, to third-party apps instead of broad access. The update gives users and administrators more control over app permissions, requiring developers to update their apps to support these new granular scopes.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 21 Jan 2026 14:02:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/granular-oauth-consent-google-chat-apps.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/granular-oauth-consent-google-chat-apps.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Forward messages in Google Chat</title>
+        <description>Google Chat is introducing a highly requested feature allowing users to forward single or multiple messages to individuals or spaces within Chat, improving communication efficiency. This functionality streamlines information sharing across different conversations, making it easier to relay important details without retyping or copy-pasting. The new message forwarding option is set to roll out to all Google Workspace customers by January 2026.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 20 Jan 2026 18:48:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/forward-messages-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/forward-messages-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Maximize output, minimize effort: Google Workspace with Gemini helps you move work forward in meetings</title>
+        <description>Google Workspace is making Gemini&apos;s AI capabilities generally available to all paying customers, significantly enhancing meeting productivity with features like &quot;Take notes for me&quot; in Google Meet, which automatically generates summaries, key points, and action items. This integration also introduces &quot;Meet Companion Mode&quot; for improved participation and &quot;Translate in Google Meet&quot; for real-time multi-language captions, all built on Google&apos;s responsible AI principles to ensure data privacy and security. These AI-powered tools connect seamlessly with other Workspace apps, including Docs, Sheets, and Slides, to streamline workflows across various business and education editions.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 15 Jan 2026 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/google-workspace-with-gemini-helps-you-move-work-forward-in-meetings</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/google-workspace-with-gemini-helps-you-move-work-forward-in-meetings</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 9, 2026</title>
+        <description>Google Workspace&apos;s weekly recap for January 9, 2026, details several key updates: Google Chat is receiving enhanced file discovery features, while Google Meet gains more granular admin controls for external participant access and recording policies via the Google Admin console. Additionally, Google Drive is rolling out AI-powered suggestions for file organization, and Gemini integration in Google Docs is expanding to offer advanced summarization and draft generation capabilities, boosting AI-powered productivity.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Admin console</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 09 Jan 2026 20:08:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-09-2026.html.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-09-2026.html.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Emojis reactions in Gmail will now be on by default</title>
+        <description>Effective January 2026, emoji reactions in Gmail will be turned on by default for all users, enhancing email expressiveness and streamlining communication within Google Workspace. While the feature will be automatically enabled, users will still have the option to disable emoji reactions through their individual Gmail settings, offering flexibility for user preference.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 09 Jan 2026 17:04:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/emojis-reactions-in-gmail-will-be-on-by-default.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/emojis-reactions-in-gmail-will-be-on-by-default.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A breakthrough year for apps in Google Chat</title>
+        <description>Google is evolving its Chat app framework for Google Workspace, aiming for richer, more dynamic user experiences and developer capabilities by Q1 2025. This initiative will enable more interactive bots and seamless integrations with business applications directly within Google Chat, enhancing productivity and collaboration. Developers will need to update existing apps using new tools and migration guides to leverage these advancements.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Block messages from unknown senders in Google Chat</title>
+        <description>Google Chat is introducing a new security feature that allows users to automatically block direct messages from unknown senders, specifically those outside their organization or not in their contacts. This aims to reduce spam, mitigate phishing risks, and enhance user safety and focus within the communication platform.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 17 Dec 2025 17:04:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/block-messages-unknown-senders-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/block-messages-unknown-senders-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Keep your team informed: Introducing the Feeds app for Google Chat</title>
+        <description>Google Chat is launching a new &quot;Feeds&quot; app designed to aggregate and display content from diverse sources like news, RSS feeds, and project updates directly within chat spaces. This feature aims to streamline information flow, keep teams updated without leaving Google Chat, and enhance overall collaboration by centralizing relevant data.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 17 Dec 2025 15:04:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/introducing-feeds-app-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/introducing-feeds-app-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Boost your agency&apos;s efficiency: Take Google Workspace for a test drive</title>
+        <description>Google Cloud is offering public sector organizations a 60-day, no-cost &quot;Google Workspace Test Drive&quot; program to experience its capabilities for digital transformation and hybrid work. This program highlights secure collaboration, AI features like Gemini for Workspace, data loss prevention, and FedRAMP High authorization, allowing government agencies to evaluate tools like Gmail, Docs, Sheets, and Meet. The initiative aims to provide hands-on experience and support from Google Cloud experts to demonstrate enhanced productivity and compliance.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Gemini for Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Tue, 16 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/public-sector/take-google-workspace-for-a-test-drive</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/public-sector/take-google-workspace-for-a-test-drive</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 12, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of call queuing for Google Voice, automated compliance recording in Google Meet, and new multi-party approvals for critical actions in Google Vault. Additionally, Gmail now supports data classification headers and footers, and a new web address for Google Chat is being consolidated at chat.google.com.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Fri, 12 Dec 2025 20:34:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Schedule messages to be sent at a later time in Google Chat</title>
+        <description>Google Chat is introducing a &apos;Schedule Send&apos; feature, allowing users to compose messages and schedule them for later delivery, enhancing flexibility and productivity. This functionality is rolling out to all Google Workspace customers and users with personal Google Accounts starting December 16, 2025.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 11 Dec 2025 18:46:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/schedule-messages-send-later-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/schedule-messages-send-later-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A new web address for Google Chat</title>
+        <description>Google Chat is consolidating its web presence to a single dedicated URL, `chat.google.com`, with existing `mail.google.com/chat` and other `chat.google.com/` URLs redirecting to the new address. This change, rolling out from December 16, 2025, aims to simplify access and provide a more consistent user experience for all Google Chat users.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 11 Dec 2025 14:51:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/a-new-web-address-for-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/a-new-web-address-for-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New to Gmail: share emails in Google Chat</title>
+        <description>Users can now directly share emails from Gmail into Google Chat spaces and group messages, streamlining collaboration by allowing conversations to continue alongside relevant email content. This integration, launching December 16, 2025, enhances productivity and workflow by keeping communication consolidated.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 15:20:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/new-to-gmail-share-emails-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/new-to-gmail-share-emails-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Control whether users can request to join a space in Google Chat</title>
+        <description>Google Chat space managers now have enhanced control over external collaboration by being able to configure &apos;request to join&apos; settings, allowing them to manually approve or automatically accept requests from users outside their organization. This feature, rolling out from December 16, 2025, improves security and management of shared spaces for Google Workspace customers.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 14:58:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/control-request-to-join-google-chat-spaces.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/control-request-to-join-google-chat-spaces.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 28, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for November 28, 2025, highlights several key updates including granular OAuth consent for web apps and enhanced visibility of data classification labels in Google Drive for end-users. Other significant improvements include deeper integration with Egnyte, improved Meet streaming metrics, expanded language support for Drive video captions, and the introduction of Gemini in Google Classroom for higher education. These updates aim to boost security, collaboration, and accessibility across the Workspace suite.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Fri, 28 Nov 2025 14:13:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How Bison Coolers relies on Google to run its family business</title>
+        <description>Bison Coolers, a Texas-based family business manufacturing rotomolded coolers, transitioned from a costly Microsoft Exchange setup to Google Workspace to enhance collaboration and reduce IT overhead. Leveraging tools like Gmail, Google Drive, Docs, and Sheets, alongside Google Meet and Chat, the company streamlined communication, enabled remote work, and scaled from three to over 20 employees. This shift significantly improved productivity for traveling sales teams, provided cost savings, and bolstered disaster recovery capabilities for their growing business operations.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Thu, 27 Nov 2025 20:11:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/how-bison-coolers-relies-on-google-to-run-its-family-business</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/how-bison-coolers-relies-on-google-to-run-its-family-business</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 21, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for November 21, 2025, highlights updates including new Google Meet link behavior for recurring Google Calendar events, ensuring consistent meeting access. Other significant announcements cover enhancements to Google Workspace Nano Banana Pro, deeper collaboration capabilities between Google Workspace and Egnyte, the ability to preview unread Google Chat messages, and the integration of Gemini into Google Classroom for higher education. These updates aim to streamline workflows, improve communication, and enhance learning experiences.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Fri, 21 Nov 2025 21:22:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-21-2025_0882686089.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-21-2025_0882686089.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Preview unread Google Chat messages from the left-hand menu</title>
+        <description>Google Chat is introducing a new feature allowing users to preview unread messages by hovering over them, without marking the conversation as read. This functionality, available on web and desktop apps with mobile coming soon, aims to improve message triage and efficiency for all Google Workspace customers. The update is rolling out now, with a scheduled release starting December 9, 2025.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 21 Nov 2025 15:59:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/preview-unread-google-chat-messages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/preview-unread-google-chat-messages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 14, 2025</title>
+        <description>The weekly recap for November 7, 2025, highlights several Google Workspace updates, including new controls in Google Chat for restricting conversation creation and the ability to set sharing expirations for files and folders in Google Drive. Additionally, Google Calendar now supports secondary calendar management with dedicated owners, and Google Meet offers an option for longer meeting notes.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 14 Nov 2025 20:29:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025_0735443609.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025_0735443609.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Bringing inline threading to direct messages in Google Chat</title>
+        <description>Google Chat is introducing inline threading for direct messages, allowing users to respond directly to specific messages within a 1:1 or group chat. This feature improves conversation clarity and organization by keeping related replies grouped together, making it easier to follow discussions and manage multiple topics simultaneously.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Wed, 05 Nov 2025 22:28:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/inline-threading-direct-messages-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/inline-threading-direct-messages-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updated Chat header helps you navigate chat more quickly and easily</title>
+        <description>Google Chat is rolling out an updated header and navigation experience designed to improve user efficiency and accessibility across conversations. This redesign aims to simplify the interface, making it easier for users to find important chats, access features, and manage their communications within Google Workspace.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 04 Nov 2025 22:02:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/updated-chat-header-navigation.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/updated-chat-header-navigation.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Controls for restricting conversation creation in Google Chat available to more organizations</title>
+        <description>Google Chat is introducing new administrative controls that allow organizations to restrict who can create new conversations, improving communication governance. This feature provides IT administrators with granular control over chat initiation, helping to maintain order, prevent spam, and ensure relevant communication channels within Google Workspace.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 04 Nov 2025 15:05:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/controls-restricting-conversation-creation-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/controls-restricting-conversation-creation-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New to Google Meet: Continue your conversations in Google Chat</title>
+        <description>Google is enabling seamless transitions between Google Chat and Google Meet, allowing users to easily continue their text conversations with a video call or vice versa. This integration streamlines communication workflows, facilitating a more natural and efficient shift between different modes of collaboration within Google Workspace.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 03 Nov 2025 21:30:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/continue-conversations-google-chat-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/continue-conversations-google-chat-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 31, 2025</title>
+        <description>This weekly recap for October 31, 2025, covers recent Google Workspace updates including enhanced writing assistance with Gemini in Google Docs, improvements to Google Chat&apos;s Workday app integration, and more powerful pivot tables in Google Sheets&apos; Connected Sheets. The summary also touches on enhanced admin audit logs and new presentation generation capabilities via Gemini.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Sat, 01 Nov 2025 22:04:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-31-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-31-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Improving the Workday Google Chat app</title>
+        <description>The Workday app integration within Google Chat is receiving improvements to enhance HR and financial workflows, allowing users to access Workday functionalities directly from Chat. This update aims to streamline common tasks such as time-off requests, expense reporting, and accessing payslips, boosting productivity and collaboration within Google Workspace.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 31 Oct 2025 19:10:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/improving-workday-google-chat-app.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/improving-workday-google-chat-app.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 10, 2025</title>
+        <description>The Weekly Recap for October 10, 2025, highlights several Google Workspace updates, including new features for AppSheet and enhanced security controls for Calendar. It also covers improvements to Google Chat message reactions, summarizing a week of advancements in AI capabilities, no-code development, and communication tools.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 10 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-10-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-10-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Get more insight into how Chat apps are used within your organization</title>
+        <description>Google Chat administrators will now have access to more detailed insights into Chat app usage logs, improving visibility and control over application utilization within spaces. Rolling out from October 21, 2025, this enhancement enables better monitoring, troubleshooting, and compliance with organizational policies for improved app management.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/more-insight-chat-app-usage-logs.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/more-insight-chat-app-usage-logs.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 3, 2025</title>
+        <description>The Weekly Recap for October 3, 2025, highlights new features like Gemini in Chrome for AI-powered browsing and enhanced end-to-end encryption in Gmail. It also details the introduction of stickers in Google Chat, summarizing a week of advancements in AI, security, and communication tools.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chrome</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-03-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-03-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Express yourself with stickers in Google Chat</title>
+        <description>Google Chat is rolling out a new feature that allows users to send stickers in conversations, introducing a more expressive and personalized element to digital communication. Available from October 14, 2025, this update aims to enhance user engagement and facilitate more dynamic and enjoyable interactions within Google Chat spaces.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 02 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/send-stickers-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/send-stickers-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Quickly find and use Google Chat apps and Workspace actions with the redesigned integrations menu</title>
+        <description>Google Chat is introducing a redesigned menu to simplify finding and using Chat apps, making it easier to integrate third-party services and bots into conversations. Rolling out from October 14, 2025, this update aims to enhance user experience and improve the discoverability of productivity and automation tools within Google Chat.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Wed, 01 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/find-and-use-google-chat-apps-new-menu.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/find-and-use-google-chat-apps-new-menu.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Meet eCDN custom rules improvements for new and existing configurations</title>
+        <description>The Weekly Recap for September 26, 2025, highlights new features such as the Chat apps carousel, Markdown support, and code blocks in Google Chat. It also details enhancements to Gemini&apos;s collaboration features within Google Drive, summarizing recent improvements across communication and AI-powered document management.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/blog-post.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/blog-post.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Improve Chat apps with display carousels and richer text formatting</title>
+        <description>Google Chat is introducing new features including an apps carousel for easier discovery, markdown support for lists, and code blocks, enhancing both functionality and user experience. Rolling out from September 23, 2025, these updates aim to make conversations more organized, expressive, and conducive to technical discussions within Chat.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/chat-apps-carousel-markdown-list-code-block.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/chat-apps-carousel-markdown-list-code-block.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Changes to membership roles in Google Chat spaces to enable more flexible permissions</title>
+        <description>Google Chat is introducing new administrative roles for Chat spaces, Owner and Manager, to provide more granular control over conversations and memberships. Rolling out from September 23, 2025, this update aims to help organizations better manage large spaces, delegate responsibilities, and maintain order within their communication channels.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Mon, 29 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/new-role-chat-spaces-owner-manager.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/new-role-chat-spaces-owner-manager.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - September 26, 2025</title>
+        <description>The Weekly Recap for September 26, 2025, highlights new features such as the Chat apps carousel, Markdown support, and code blocks in Google Chat. It also details enhancements to Gemini&apos;s collaboration features within Google Drive, summarizing recent improvements across communication and AI-powered document management.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 26 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-26-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-26-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Refine Google Chat messages with Gemini to communicate with confidence and clarity</title>
+        <description>Gemini is integrating with Google Chat to help users refine their messages, offering AI-powered suggestions for tone, clarity, and conciseness. Rolling out from September 9, 2025, this feature aims to improve communication quality and efficiency, allowing users to craft more professional and impactful messages directly within Chat.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/refine-google-chat-messages-with-gemini.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/refine-google-chat-messages-with-gemini.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automatically install Chat apps to your conversations</title>
+        <description>Google Chat is introducing automatic app installation for Workspace administrators, allowing them to pre-deploy relevant chat applications to users or spaces. Rolling out from September 2, 2025, this feature streamlines app management and ensures that teams have access to necessary productivity and automation tools from the outset.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/automatic-google-chat-app-installation.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/automatic-google-chat-app-installation.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Get real-time push notifications for reactions on your messages in Google Chat</title>
+        <description>Google Chat is introducing push notifications for message reactions, ensuring users are promptly alerted to interactions on their messages. Rolling out from August 26, 2025, this feature aims to improve engagement and responsiveness in conversations, helping users stay informed about social feedback in real-time.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/push-notifications-for-reactions-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/push-notifications-for-reactions-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - August 22, 2025</title>
+        <description>The Weekly Recap for August 22, 2025, highlights the ability to edit Google Drive videos directly in Google Vids and new pre-configured appointment booking in Google Calendar. It also covers Gemini Live integration with Calendar, Tasks, and Keep, alongside ServiceNow integration with Google Chat and Sheets, showcasing advancements in video editing, scheduling, AI integration, and enterprise tools.</description>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Effortlessly work with ServiceNow data across Google Chat and Sheets</title>
+        <description>ServiceNow is integrating with Google Chat and Google Sheets, enabling seamless workflows between IT service management and Workspace collaboration tools. Rolling out from August 5, 2025, this integration allows users to manage service requests, update tickets, and analyze data directly from Chat and Sheets, significantly improving IT efficiency and communication.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 21 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/servicenow-google-chat-google-sheets.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/servicenow-google-chat-google-sheets.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Catch up on unread messages within a conversation in Google Chat</title>
+        <description>Gemini in Google Chat is introducing a feature to help users catch up on unread conversations by providing AI-generated summaries of missed messages. Rolling out from August 5, 2025, this functionality improves communication efficiency and reduces information overload by allowing users to quickly grasp the essence of past discussions.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Mon, 18 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/catch-up-unread-conversations-gemini-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/catch-up-unread-conversations-gemini-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New apps for Google Chat make teamwork more fluid and connected</title>
+        <description>Google Chat is introducing new apps and integrations designed to improve teamwork and streamline workflows, making it a more powerful collaboration hub within Google Workspace. These updates enable users to connect with essential business tools, automate tasks, and enhance communication, fostering a more efficient and productive team environment.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 13 Aug 2025 19:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-google-chat-apps-improve-teamwork</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-google-chat-apps-improve-teamwork</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing enhanced  interoperability between Google Chat and Microsoft Teams — powered by NextPlane</title>
+        <description>Google Chat is introducing enhanced interoperability features, allowing users to chat directly with individuals on external messaging platforms like Microsoft Teams, Slack, and Zoom Team Chat within the Google Chat interface. This aims to streamline communication and reduce context switching by integrating with other popular platforms.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/enhanced-chat-interoperability.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/enhanced-chat-interoperability.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Build and deploy a single app across Chat, Gmail, Calendar, Drive and more with the Workspace add-ons framework</title>
+        <description>Google Workspace is rolling out the capability for developers to build and deploy a single application that functions seamlessly across Google Chat, Google Docs, and Google Sheets. This new framework aims to streamline development and enhance app functionality within the Google Workspace ecosystem, reducing redundant development efforts for multi-platform integrations.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/build-and-deploy-single-app-across-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/build-and-deploy-single-app-across-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace named a Leader in Forrester Wave UCaaS 2025 Report</title>
+        <description>Google Workspace has been recognized as a Leader in The Forrester Wave™: Unified Communications as a Service (UCaaS), Q1 2025 report, highlighting its strong offerings in collaboration, communication, and AI integration. This recognition solidifies Google Workspace&apos;s position as a top choice for enterprises seeking comprehensive, AI-powered solutions to enhance productivity and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Tue, 29 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/workspace-named-leader-forrester-wave-ucaas-2025-report</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/workspace-named-leader-forrester-wave-ucaas-2025-report</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - July 18, 2025</title>
+        <description>Google Workspace Release Notes for July 18, 2025, highlight new features including the general availability of enhanced Google Chat interoperability with external platforms and Google Drive&apos;s AI classification updates with multi-model support. Other updates cover improved audit logs for Google Groups and Classroom, and increased Gemini 1.5 Pro rate limits for developers.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Groups</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gemini 1.5 Pro</tools>
+		
+        <pubDate>Fri, 18 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/release-notes-07-18-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/release-notes-07-18-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Lucidchart and Lucidspark apps in Google Chat </title>
+        <description>Lucidchart and Lucidspark have launched new Google Chat apps, allowing users to receive notifications and share diagrams, whiteboards, and visual content directly within Google Chat. This integration aims to enhance real-time collaboration and streamline workflows for visual communication within Google Workspace.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 10 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/lucidchart-and-lucidspark-google-chat-apps.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/lucidchart-and-lucidspark-google-chat-apps.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Achieving more with Google Workspace</title>
+        <description>This article provides practical tips for achieving more with Google Workspace, focusing on optimizing daily workflows and leveraging built-in collaboration features. Strategies include utilizing Google Calendar for efficient scheduling, organizing files in Google Drive, enhancing communication with Google Chat, and employing Smart Canvas to streamline document creation and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 01 Jul 2025 00:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace: Enabling FINRA compliance and enhanced capabilities for Financial Services organizations</title>
+        <description>Google Workspace is enhancing its capabilities to enable FINRA compliance for financial services firms, addressing stringent regulatory requirements for data retention, e-discovery, and secure communication. New features and integrations are designed to help organizations meet industry standards while leveraging Google Workspace&apos;s collaborative and AI-powered tools, like Gemini, for increased productivity and efficiency.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Mon, 30 Jun 2025 16:06:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/enabling-finra-compliance-and-enhanced-capabilities</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/enabling-finra-compliance-and-enhanced-capabilities</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>See summaries of even more file types directly in Google Chat</title>
+        <description>Google Chat is expanding its capability to provide AI-powered summaries of more shared file types, allowing users to quickly grasp the content of attached documents without opening them. This feature, leveraging Gemini, enhances productivity by making information more accessible within chat conversations.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 25 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/summaries-of-more-shared-files-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/summaries-of-more-shared-files-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updates to the GitHub app for Google Chat</title>
+        <description>The GitHub App for Google Chat is receiving updates to improve integration and notification capabilities, allowing developers to receive more relevant alerts and collaborate on code changes directly within Google Chat. This enhancement aims to streamline development workflows and foster better team communication.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 25 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/updates-to-github-app-for-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/updates-to-github-app-for-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 20, 2025</title>
+        <description>Google Workspace Release Notes for June 20, 2025, detail updates including more granular controls for multi-party approvals in admin actions and the rollout of Google AI Ultra for business users. Other highlights cover improved Gemini add-on management in the Admin console, updates to the GitHub App for Google Chat, and expanded AI summaries for shared files in Google Chat.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google AI Ultra</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Admin console</tools>
+		
+		<tools>GitHub App</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Fri, 20 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-20-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-20-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing the Comeen Workplace AI Agent for the Comeen Google Chat app </title>
+        <description>Comeen, a workplace experience platform, has launched an AI Agent Google Chat app that helps users manage their office environment, such as booking meeting rooms or finding desks, through natural language commands. This integration streamlines workplace operations and enhances employee productivity via an AI-powered assistant.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 13 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/ai-agent-comeen-google-chat-app%20.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/ai-agent-comeen-google-chat-app%20.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Preview summaries in the Google Chat home view with the help of Gemini in four additional languages</title>
+        <description>Google Chat&apos;s Gemini-powered summaries are now available in four new languages: French, German, Japanese, and Spanish, in addition to English. This expansion allows a broader international user base to quickly grasp the essence of lengthy chat conversations and shared documents, enhancing global collaboration and productivity.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 30 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/google-chat-gemini-summaries-available-in-four-new-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/google-chat-gemini-summaries-available-in-four-new-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - May 23, 2025</title>
+        <description>Google Workspace Release Notes for May 23, 2025, announce Gemini summaries in Google Chat available in four new languages and Gemini summary cards in the Gmail app. Other updates include improved Google Calendar interoperability with Microsoft Office 365, Gemini&apos;s ability to understand videos in Google Drive, and new video engagement insights for Google Drive.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Microsoft Office 365</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 23 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/release-notes-05-23-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/release-notes-05-23-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google named a leader in IDC Marketscape: Worldwide Team Collaboration Applications 2024 Vendor Assessment</title>
+        <description>Google Workspace has been named a Leader in the IDC MarketScape: Worldwide Team Collaboration Applications 2024 Vendor Assessment, recognizing its robust suite of tools for enhancing teamwork and productivity. This acknowledgment highlights Google Workspace&apos;s strengths in integrating AI, fostering seamless communication, and supporting diverse organizational needs for effective collaboration.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 30 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/google-named-leader-idc-marketscape-worldwide-team-collaboration-applications</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/google-named-leader-idc-marketscape-worldwide-team-collaboration-applications</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Three best practices to simplify eDiscovery exports and litigation holds with Google Vault</title>
+        <description>Google Vault offers three best practices to simplify eDiscovery exports and litigation holds, crucial for legal and compliance teams managing data within Google Workspace. These practices include organizing data effectively, leveraging advanced search and export functionalities, and implementing consistent retention policies to ensure legal defensibility and streamline complex data requests.</description>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 24 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/three-best-practices-simplify-ediscovery-exports-and-litigation-holds-google-vault</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/three-best-practices-simplify-ediscovery-exports-and-litigation-holds-google-vault</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>April Workspace feature drop: New AI features across Gemini, Chat, Gmail, and Slides to boost your productivity</title>
+        <description>The April Google Workspace feature drop introduces new AI enhancements across Gemini, Google Chat, Gmail, and Google Slides, aiming to boost productivity and collaboration. Updates include smarter drafting in Gmail, AI-powered summaries in Chat, and advanced content generation in Slides, enabling users to streamline workflows and create compelling content more efficiently.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/april-workspace-feature-drop-new-ai-features-across-gemini-chat-gmail-and-slides</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/april-workspace-feature-drop-new-ai-features-across-gemini-chat-gmail-and-slides</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data classifications labels for Gmail are now generally available</title>
+        <description>Gmail Data Classification Labels are now generally available, providing administrators with the ability to apply labels like &quot;Internal&quot; or &quot;Confidential&quot; to emails. This feature helps enforce Data Loss Prevention (DLP) rules, automate security policies, and educate users on sensitive data handling practices. Available for Google Workspace Enterprise Plus, Education Plus, and existing Drive and Chat classification labels, it enhances data security and compliance across organizations.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Preview summaries in the Google Chat home view now available in three additional languages</title>
+        <description>Gemini&apos;s AI-powered summarization feature within Google Chat is now accessible in additional languages beyond English, benefiting global teams with increased efficiency and comprehension. This allows users to quickly grasp the essence of chat conversations in their preferred language. The feature is available for Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 09 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/google-chat-gemini-summaries-available-in-new-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/google-chat-gemini-summaries-available-in-new-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 4, 2025</title>
+        <description>The Google Workspace release notes for April 4, 2025, detail significant updates including the Google Classroom API now supporting grading period management and Read Along allowing content uploads. Gemini&apos;s &quot;Help me write&quot; feature in Gmail and Docs, and Gemini summaries in Chat, received language expansions. Google Vids&apos; AI voiceovers were updated, and a beta for more Workspace data export options was launched. Additionally, NotebookLM and the Gemini app were designated core services for education, with updates to NotebookLM sources, and admins gained control over Workspace app access in Gemini.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 21, 2025</title>
+        <description>The Google Workspace release notes for March 21, 2025, announced new features including contextual smart replies for Business/Enterprise customers and enhancements to NotebookLM. Gemini integrations expanded with new languages for the Chat and Slides side panels, and a new &quot;Canvas&quot; interface for the Gemini App was introduced, alongside summaries of shared Workspace files in Google Chat and a new Gemini-powered summary building block in Google Docs. Gmail DLP was updated with sensitive content snippets and instant rule application, NotebookLM gained context-aware access, and a beta launched for converting client-side encrypted documents after Vault or Takeout export.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-21-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-21-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Contextual Smart Replies now available for Google Workspace Business and Enterprise editions</title>
+        <description>Contextual Smart Replies, an AI-powered feature offering intelligent, context-aware response suggestions, are now available to Google Workspace Business and Enterprise customers. This enhancement is designed to improve communication efficiency and speed across various channels, such as Google Chat and Gmail. By providing relevant response options, it helps users reply faster and maintain conversational flow, boosting productivity in professional settings.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Thu, 20 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/contextual-smart-replies-available-for-business-and-enterprise-customers.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/contextual-smart-replies-available-for-business-and-enterprise-customers.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>See summaries of shared Google Docs, Slides, or Sheets files directly in Google Chat</title>
+        <description>Google Chat will now automatically generate summaries of shared Google Workspace files, including Docs, Sheets, Slides, and PDFs, when they are linked in a chat conversation. This AI-powered feature enables users to quickly grasp the essence of a document without leaving Google Chat, significantly improving workflow efficiency. The feature is available for Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/summaries-of-shared-workspace-files-in-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/summaries-of-shared-workspace-files-in-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use Gemini in the side panel of Google Chat in additional languages</title>
+        <description>Gemini&apos;s integration within the Google Chat side panel is now available in new languages, allowing users to access AI assistance such as summarization and drafting directly within their chat conversations. This expansion enhances productivity and collaboration for global teams. The feature is available to Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/gemini-in-chat-side-panel-available-in-new-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gemini-in-chat-side-panel-available-in-new-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 28, 2025</title>
+        <description>The Google Workspace release notes for February 28, 2025, announced several updates, including expanded AI voiceovers in Google Vids and new inventory reporting for richer insights in Google Drive. Google Voice introduced SIP Link support in new countries, call delegation, and the ability to transfer personal numbers to Workspace accounts. Additionally, HubSpot integration with Google Chat was launched, and Google Drive now supports video transcripts.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Fri, 28 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/release-notes-02-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/release-notes-02-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Integrating HubSpot with Google Chat</title>
+        <description>Google Chat is integrating with HubSpot, enabling users to receive HubSpot notifications and interact with CRM data directly within their chat conversations. This integration streamlines sales and marketing workflows, enhancing team collaboration and efficiency. It allows for quick access to customer relationship management information without leaving the Google Chat environment, boosting productivity.</description>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 27 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/integrating-hubspot-with-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/integrating-hubspot-with-google-chat.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New Chat Usage Analytics Updates for Admins and Developers</title>
+        <description>Google Chat is receiving updates to its usage analytics, offering administrators more comprehensive data and insights into chat activity, adoption rates, and communication trends. These enhanced analytics assist with resource planning, policy enforcement, and understanding collaboration patterns within organizations. The feature is available for Google Workspace Enterprise Plus and Education Plus customers, improving IT oversight.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/chat-usage-analytics-updates.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/chat-usage-analytics-updates.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 21, 2025</title>
+        <description>The Google Workspace release notes for February 21, 2025, included updates to Chat usage analytics and the availability of Deep Research for Workspace in Gemini Advanced. Google Meet&apos;s &quot;Take notes for me&quot; feature gained transcript citations, and the Policy API reached general availability. Additionally, a tool to migrate data from Microsoft Teams to Google Chat was introduced, and Google Meet received call control updates.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google API</tools>
+		
+        <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/release-notes-02-21-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/release-notes-02-21-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Migrate data from Microsoft Teams channels to Google Chat spaces using CloudM</title>
+        <description>Google Workspace is introducing new tools designed to facilitate the migration of data from Microsoft Teams to Google Chat, streamlining the transition process for organizations moving to Google Workspace. This enables businesses to transfer their collaboration history, files, and content, ensuring continuity when switching from Microsoft 365. The feature simplifies a complex migration, promoting broader adoption of Google Chat.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 20 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/migrate-data-from-microsoft-teams-to-google-chat.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/migrate-data-from-microsoft-teams-to-google-chat.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

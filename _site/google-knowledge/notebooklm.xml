@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NotebookLM Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Take your notebooks further by adding NotebookLM as a source in the Gemini app</title>
+        <description>NotebookLM, Google&apos;s AI-powered research and note-taking tool, is significantly enhanced by integrating with Gemini 1.5 Pro, allowing it to summarize Google Docs, PDFs, and web content, and analyze multiple sources to answer complex questions. The updated platform introduces a &quot;Fact Check&quot; feature for source verification and leverages Google Drive for document sourcing, serving as a comprehensive AI assistant for students, researchers, and writers in over 200 countries.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 27 Jan 2026 16:07:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/take-notebooks-further-notebooklm-gemini.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/take-notebooks-further-notebooklm-gemini.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Transform sources into structured Data Tables in NotebookLM</title>
+        <description>NotebookLM is introducing a new feature, powered by Google&apos;s Gemini family of models, that transforms unstructured information from various source documents like PDFs, Google Docs, and web pages into structured data tables. This capability allows users to streamline research, analysis, and content creation by organizing and extracting actionable data directly within NotebookLM. Users gain control over column selection and table refinement, enhancing efficiency for researchers and creators by making information more accessible and useful.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Tue, 23 Dec 2025 15:14:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/transform-sources-structured-data-tables-notebooklm.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/transform-sources-structured-data-tables-notebooklm.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google AI Ultra for Business plan adds enhanced NotebookLM experience</title>
+        <description>Google is significantly enhancing NotebookLM with Gemini 1.5 Pro capabilities, specifically tailored for business users to deliver faster insights and process larger document sets securely within an enterprise-grade environment. This update boosts NotebookLM&apos;s ability to analyze information, generate summaries, and answer questions across extensive sources, integrated seamlessly with Google Workspace.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini 1.5 Pro</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 17:01:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/google-ai-ultra-business-enhanced-notebooklm.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/google-ai-ultra-business-enhanced-notebooklm.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Educators can now assign public notebooks in Google Classroom</title>
+        <description>Educators using NotebookLM can now assign public Notebooks to students, enabling them to leverage AI-powered summarization, question-answering, and content creation tools. This integration with Google Classroom allows for enhanced learning experiences directly within assignments, fostering critical thinking and research skills.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Classroom</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 15:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/educators-can-now-assign-public-notebooks.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/educators-can-now-assign-public-notebooks.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>October Workspace Drop: New AI-powered storytelling, research, and data protections</title>
+        <description>The October Google Workspace drop introduces new AI-powered features focused on storytelling, research, and data protection. Updates include AI-generated video creation in Google Vids, enhanced research capabilities in NotebookLM and Google Search, and advanced data protection measures like client-side encryption for Google Drive and Gmail to bolster security and compliance.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Search</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 29 Oct 2025 19:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/october-workspace-drop-ai-storytelling-research-and-data-protections</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/october-workspace-drop-ai-storytelling-research-and-data-protections</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How Augustana University is building its future with Google Workspace and NotebookLM</title>
+        <description>Augustana University is leveraging Google Workspace, including Google Docs and Google Classroom, along with NotebookLM, to enhance teaching, learning, and administrative efficiency for its 2,500 students and 500 staff. NotebookLM, powered by Gemini, allows students and faculty to rapidly synthesize information from vast academic sources, saving significant research time and fostering deeper understanding of complex topics.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 22 Oct 2025 22:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/augustana-university-building-future-with-google-workspace-and-notebooklm</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/augustana-university-building-future-with-google-workspace-and-notebooklm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Video Overviews in NotebookLM are now available to users of all ages</title>
+        <description>NotebookLM now generates video overviews from source documents, enhancing the learning experience with multimedia summaries. Additionally, Google has extended access to NotebookLM for users under 18 in education, specifically for those with Workspace for Education Plus and Teaching and Learning Upgrade licenses, rolling out from October 28, 2025.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/notebook-lm-video-overviews-under-18-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/notebook-lm-video-overviews-under-18-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Educators can now create and assign NotebookLM and Gems in Google Classroom</title>
+        <description>Educators can now create &quot;Gems&quot; and &quot;Notebooks&quot; directly within Google Classroom, streamlining the process of building and sharing AI-powered learning materials. Rolling out from September 16, 2025, this feature allows teachers to leverage AI for generating study guides, quizzes, and interactive content, seamlessly integrating these tools into their curriculum.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Thu, 25 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/educators-create-gems-notebooks-google-classroom.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/educators-create-gems-notebooks-google-classroom.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Build a deeper understanding of a topic with Learning Guide in Notebook LM</title>
+        <description>A new Learning Guide for NotebookLM is being released, specifically tailored for Google Workspace for Education users, to help educators and students maximize the AI tool&apos;s potential. Available from September 9, 2025, this guide provides comprehensive resources for using NotebookLM for research, study, and content creation, fostering effective learning strategies.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/learning-guide-notebook-lm-workspace-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/learning-guide-notebook-lm-workspace-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - September 12, 2025</title>
+        <description>The Weekly Recap for September 12, 2025, highlights Gemini summaries on the Drive Home page and NotebookLM&apos;s new flashcards and quizzes for education. It also covers condensed version history in Google Sheets and the beta launch of the Shared Signals Framework, detailing advancements in AI insights, data management, and security.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 12 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-12-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-12-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Educators and students can now create Flashcards, Quizzes and new Reports in NotebookLM</title>
+        <description>NotebookLM is adding new features such as flashcards, quizzes, and detailed reports, enhancing its utility as an AI-powered study tool for Google Education users. Rolling out from August 26, 2025, this expansion provides students with more interactive ways to learn and test their knowledge, while offering educators insights into student progress.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/flashcards-quizzes-reports-notebook-lm-google-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/flashcards-quizzes-reports-notebook-lm-google-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Public notebooks in partnership with OpenStax</title>
+        <description>NotebookLM is partnering with OpenStax to offer public Notebooks, providing free, high-quality educational resources integrated with AI-powered study tools. Rolling out from August 26, 2025, this collaboration expands access to open educational resources, enabling students to leverage AI for personalized learning with trusted academic content.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/public-notebooks-partnership-with-openstax.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/public-notebooks-partnership-with-openstax.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Work smarter: Discover our best AI productivity tools for enhanced efficiency</title>
+        <description>Google Workspace is showcasing its best AI productivity tools, including Gemini, NotebookLM, and Google Vids, designed to help users work smarter and enhance efficiency. These tools offer capabilities ranging from drafting content and summarizing documents to generating presentations and creating videos, empowering individuals and teams to automate routine tasks and focus on strategic initiatives.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Fri, 05 Sep 2025 22:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/work-smarter-discover-our-best-ai-productivity-tools-enhanced-efficiency</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/work-smarter-discover-our-best-ai-productivity-tools-enhanced-efficiency</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google AI Pro for Education subscription now available to Workspace for Education customers</title>
+        <description>Google is introducing &quot;Google AI Pro for Education,&quot; a suite of advanced AI tools and resources specifically designed for the education sector. Rolling out from August 19, 2025, this initiative aims to empower educators and students with cutting-edge AI capabilities for personalized learning, content creation, and administrative efficiency within Workspace for Education.</description>
+		
+		<tools>Google Workspace for Education</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+        <pubDate>Tue, 02 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/google-ai-pro-for-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/google-ai-pro-for-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>August Workspace Drop: Unlock insights and get up to speed quickly with new AI features in Sheets, NotebookLM, and more!</title>
+        <description>The August Google Workspace drop introduces significant AI-powered features, including enhanced capabilities in Google Sheets for data analysis and deeper integration of NotebookLM for advanced research. These updates aim to boost productivity by enabling users to automate data insights, summarize extensive documents, and generate content more efficiently across their daily workflows.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 27 Aug 2025 17:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/august-workspace-drop-ai-features-sheets-notebooklm</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/august-workspace-drop-ai-features-sheets-notebooklm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Recap - August 15, 2025</title>
+        <description>The Weekly Recap for August 18, 2025, highlights app access control request approval and the ability to replace or expand image backgrounds in Slides and Vids. It also covers sorting notes in Google Keep for Android, adding events to Gmail and Calendar via Gemini on mobile, and NotebookLM Gems LTI integration, detailing advancements in security, AI visual editing, mobile organization, and educational AI.</description>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 15 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-august-18-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-august-18-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Adding NotebookLM and Gems to Gemini Learning Tools Interoperability (LTI™)</title>
+        <description>NotebookLM Gems are integrating into the Gemini LTI (Learning Tools Interoperability) framework, allowing educators to seamlessly incorporate NotebookLM&apos;s AI-powered learning modules into their Learning Management Systems. Rolling out from August 12, 2025, this feature expands the reach of NotebookLM&apos;s tools, providing more personalized and interactive learning experiences through existing educational platforms.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/adding-notebooklm-gems-gemini-lti.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/adding-notebooklm-gems-gemini-lti.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>NotebookLM is now available to all education users</title>
+        <description>NotebookLM, an AI-powered note-taking and research assistant, is now generally available to all Google Workspace users globally, expanding beyond its initial beta for Education customers. This tool allows users to upload documents, PDFs, and Google Slides to generate summaries, outlines, and ask questions, enhancing productivity and knowledge management.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Mon, 04 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/notebooklm-is-now-available-to-all.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/notebooklm-is-now-available-to-all.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Video Overviews and upgrades to the Studio panel in NotebookLM</title>
+        <description>NotebookLM is introducing new features including Video Overviews that summarize key topics from YouTube videos, and an updated Studio panel for organizing sources, notes, and generated content. These enhancements aim to streamline research workflows, making it easier to digest video content and manage information within the AI-powered note-taking application.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>YouTube</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/video-overviews-studio-panel-updates-notebooklm.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/video-overviews-studio-panel-updates-notebooklm.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the prompt: Mastering the “deep end” with generative AI</title>
+        <description>Mastering the &apos;deep end&apos; of generative AI requires understanding advanced prompt engineering techniques, iterative refinement, and strategic application of models like Gemini across complex workflows. Google provides guidance for users to move beyond basic prompts, enabling them to harness generative AI for sophisticated tasks such as multi-modal content creation, complex problem-solving, and in-depth research within Google Workspace.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>NotebookLM</tools>
+		
+        <pubDate>Tue, 10 Jun 2025 19:06:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-mastering-deep-end-generative-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/beyond-prompt-mastering-deep-end-generative-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Infoxchange crafts tailored educational resources in hours instead of days with NotebookLM</title>
+        <description>Infoxchange, a non-profit technology provider, is significantly accelerating the creation of educational resources by using NotebookLM, powered by Gemini, within Google Workspace. This AI-powered research assistant enables Infoxchange to synthesize information and draft content in hours instead of days, drastically improving efficiency in developing digital literacy training for disadvantaged communities in Australia.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Wed, 04 Jun 2025 23:06:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/infoxchange-crafts-educational-resources-hours-instead-days-notebooklm</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/infoxchange-crafts-educational-resources-hours-instead-days-notebooklm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use NotebookLM to generate Audio Overviews more than 50 languages </title>
+        <description>NotebookLM&apos;s Audio Overviews feature is significantly expanding its language support to 35 new languages, including Spanish, French, German, Japanese, and Korean. This update enables users worldwide to listen to AI-generated summaries of their research sources in their preferred language. The enhancement is available to all NotebookLM users, improving accessibility and research efficiency.</description>
+		
+		<tools>NotebookLM</tools>
+		
+        <pubDate>Tue, 29 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/language-expansion-audio-overviews-notebooklm.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/language-expansion-audio-overviews-notebooklm.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 25, 2025</title>
+        <description>The Google Workspace release notes for April 25, 2025, announced several updates, including the expansion of NotebookLM&apos;s Audio Overviews to 35 new languages and the introduction of out-of-domain file warnings in Drive, Docs, Sheets, and Slides for enhanced security. Additionally, Google Vids is now available for Business Starter, Enterprise Starter, and Nonprofits editions, while Gmail users can enjoy new emoji reactions.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Fri, 25 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-25-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-25-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 4, 2025</title>
+        <description>The Google Workspace release notes for April 4, 2025, detail significant updates including the Google Classroom API now supporting grading period management and Read Along allowing content uploads. Gemini&apos;s &quot;Help me write&quot; feature in Gmail and Docs, and Gemini summaries in Chat, received language expansions. Google Vids&apos; AI voiceovers were updated, and a beta for more Workspace data export options was launched. Additionally, NotebookLM and the Gemini app were designated core services for education, with updates to NotebookLM sources, and admins gained control over Workspace app access in Gemini.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>NotebookLM and the Gemini app are now Core Services with enterprise-grade data protection for all education customers </title>
+        <description>NotebookLM and the Gemini App have been officially designated as core services for Google Workspace for Education customers, affirming their adherence to Google&apos;s strict privacy and security standards for educational environments. This designation guarantees no ads and no use of student data for advertising purposes, providing schools and districts with trusted, AI-powered tools for learning and productivity. This is a significant step for secure AI adoption in education.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/notebookLM-and-gemini-app-core-services-for-education-customers.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/notebookLM-and-gemini-app-core-services-for-education-customers.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing updates to sources for NotebookLM and NotebookLM Plus</title>
+        <description>NotebookLM and NotebookLM Plus are receiving updates to expand their supported sources, enabling users to import and analyze information from a wider array of file types and platforms. This enhancement significantly boosts the AI&apos;s capability to process diverse content and generate comprehensive insights. The update is available for all NotebookLM users, increasing its versatility for research and learning.</description>
+		
+		<tools>NotebookLM</tools>
+		
+        <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/updates-to-sources-for-NotebookLM-and-NotebookLMPlus.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/updates-to-sources-for-NotebookLM-and-NotebookLMPlus.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 21, 2025</title>
+        <description>The Google Workspace release notes for March 21, 2025, announced new features including contextual smart replies for Business/Enterprise customers and enhancements to NotebookLM. Gemini integrations expanded with new languages for the Chat and Slides side panels, and a new &quot;Canvas&quot; interface for the Gemini App was introduced, alongside summaries of shared Workspace files in Google Chat and a new Gemini-powered summary building block in Google Docs. Gmail DLP was updated with sensitive content snippets and instant rule application, NotebookLM gained context-aware access, and a beta launched for converting client-side encrypted documents after Vault or Takeout export.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-21-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-21-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New features available in NotebookLM and NotebookLM Plus</title>
+        <description>NotebookLM is rolling out new features, likely enhancing its AI capabilities for summarizing, querying, and organizing research materials, further solidifying its role as an AI-powered research assistant. These updates aim to improve the platform&apos;s utility and efficiency for users conducting in-depth research. The new features are available to all NotebookLM users, fostering more effective information synthesis.</description>
+		
+		<tools>NotebookLM</tools>
+		
+        <pubDate>Wed, 19 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/new-features-available-in-notebooklm.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/new-features-available-in-notebooklm.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Admins can now deploy Context-Aware Access for NotebookLM and NotebookLM Plus</title>
+        <description>NotebookLM is now integrating with Google Workspace&apos;s Context-Aware Access policies, enabling administrators to implement granular access controls based on user context such as device, location, or IP address. This enhances security and compliance for sensitive research data within NotebookLM. The feature is available for Google Workspace Enterprise Plus and Education Plus customers, ensuring secure access to AI-powered research tools.</description>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 17 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/context-aware-access-notebooklm-.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/context-aware-access-notebooklm-.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Meet Deep Research, your new AI research assistant</title>
+        <description>Google introduces &apos;Deep Research,&apos; an advanced AI research assistant designed to revolutionize how users gather and synthesize information, particularly within Google Workspace. Powered by generative AI, this tool can quickly analyze vast datasets, summarize complex documents, and generate insights, significantly enhancing the efficiency and depth of research for professionals and academics alike.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Search</tools>
+		
+        <pubDate>Thu, 06 Mar 2025 20:03:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/meet-deep-research-your-new-ai-research-assistant</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/meet-deep-research-your-new-ai-research-assistant</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How gen AI can help us make better decisions</title>
+        <description>Generative AI, particularly tools like Gemini within Google Workspace, can help us make better decisions by rapidly synthesizing vast amounts of information, identifying patterns, and simulating various scenarios. By automating data analysis in Google Sheets and generating comprehensive reports in Google Docs, AI empowers decision-makers with deeper insights and reduces cognitive load, leading to more informed and strategic outcomes.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>NotebookLM</tools>
+		
+        <pubDate>Thu, 20 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/how-gen-ai-can-help-us-make-better-decisions</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/how-gen-ai-can-help-us-make-better-decisions</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

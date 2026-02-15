@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Calendar Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Calendar event color labels now also accessible to users with “Make changes to events” permission</title>
+        <description>Google Calendar is rolling out an update to enhance the accessibility and ease of modifying event color labels directly within the calendar interface. This improvement allows Google Workspace users to more efficiently customize their event organization, promoting clearer schedule management and improved accessibility for diverse user needs. The update aims to streamline how users interact with their daily appointments and tasks in Google Calendar, often integrated with tools like Google Meet and Google Drive.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 28 Jan 2026 15:20:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/event-color-labels-accessible-make-changes-events.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/event-color-labels-accessible-make-changes-events.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Better suggestions for meeting times with Gemini in Google Calendar</title>
+        <description>Google Calendar is significantly enhancing meeting scheduling capabilities with new Gemini-powered suggestions, leveraging AI to recommend optimal times and attendees. This integration analyzes user availability, preferences, and meeting content to streamline the planning process, aiming to boost productivity and ensure more effective collaborations.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Mon, 26 Jan 2026 17:36:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/improved-meeting-suggestions-gemini-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/improved-meeting-suggestions-gemini-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automatic addition of owned secondary calendars to your calendar list</title>
+        <description>Google Calendar is rolling out an update that automatically adds user-owned secondary calendars to their calendar list, eliminating the previous manual addition process. This enhancement, available to all Google Workspace customers and personal Google Account users on web, Android, and iOS, improves discoverability and reduces friction for those managing multiple calendars for projects or teams. The rollout begins January 15, 2026, for Rapid Release domains and January 30, 2026, for Scheduled Release domains.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 19 Jan 2026 15:16:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/automatic-addition-owned-secondary-calendars.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/automatic-addition-owned-secondary-calendars.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 16, 2026</title>
+        <description>The Google Workspace Weekly Recap for January 16, 2026, highlighted significant updates including enhanced AI capabilities in Google Docs for summarizing and drafting, and improved collaboration features in Google Sheets with better version history and comment threading. Additionally, security enhancements were rolled out for Google Drive, focusing on advanced data loss prevention, alongside new integrations for Google Meet and ongoing developments with Gemini for Workspace.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 16 Jan 2026 21:09:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-16-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-16-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace audit log API enhancements now available</title>
+        <description>The Google Workspace Audit Log API is now Generally Available, offering administrators programmatic access to critical security logs from services like Google Drive, Google Calendar, Admin, Google Meet, and Google Groups. This API facilitates robust integration with Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) platforms, including Splunk and Microsoft Sentinel. The enhancement significantly improves an organization&apos;s visibility into Workspace activity, aiding in incident detection, response, and compliance efforts.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Groups</tools>
+		
+		<tools>Google Workspace Admin</tools>
+		
+        <pubDate>Sat, 20 Dec 2025 00:01:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/google-workspace-audit-log-api.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/google-workspace-audit-log-api.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 19, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for December 19, 2025, highlighted significant platform enhancements, including the rollout of Gemini-powered image generation directly within Workspace applications, designed with robust content safety features for all users. The recap also announced the General Availability of the Google Workspace Audit Log API, which provides administrators programmatic access to security logs from various Workspace services for improved threat detection and compliance. These updates collectively reinforce Google&apos;s ongoing commitment to advancing both productivity and security capabilities within its Workspace ecosystem.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace Audit Log API</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 21:09:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-19-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-19-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A breakthrough year for apps in Google Chat</title>
+        <description>Google is evolving its Chat app framework for Google Workspace, aiming for richer, more dynamic user experiences and developer capabilities by Q1 2025. This initiative will enable more interactive bots and seamless integrations with business applications directly within Google Chat, enhancing productivity and collaboration. Developers will need to update existing apps using new tools and migration guides to leverage these advancements.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 28, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for November 28, 2025, highlights several key updates including granular OAuth consent for web apps and enhanced visibility of data classification labels in Google Drive for end-users. Other significant improvements include deeper integration with Egnyte, improved Meet streaming metrics, expanded language support for Drive video captions, and the introduction of Gemini in Google Classroom for higher education. These updates aim to boost security, collaboration, and accessibility across the Workspace suite.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Fri, 28 Nov 2025 14:13:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 21, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for November 21, 2025, highlights updates including new Google Meet link behavior for recurring Google Calendar events, ensuring consistent meeting access. Other significant announcements cover enhancements to Google Workspace Nano Banana Pro, deeper collaboration capabilities between Google Workspace and Egnyte, the ability to preview unread Google Chat messages, and the integration of Gemini into Google Classroom for higher education. These updates aim to streamline workflows, improve communication, and enhance learning experiences.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Fri, 21 Nov 2025 21:22:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-21-2025_0882686089.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-21-2025_0882686089.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New Google Meet links when changing recurrence or start time of recurring Calendar events</title>
+        <description>Google Meet is improving link management for recurring Google Calendar events by ensuring that Meet links automatically update when an organizer modifies the event. This enhancement aims to prevent join issues and maintain consistency, reducing user confusion when accessing ongoing meetings. The feature is rolling out to all Google Workspace customers, with a full deployment expected by December 9, 2025.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 19 Nov 2025 19:10:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/google-meet-link-updates-for-recurring-calendar-events.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/google-meet-link-updates-for-recurring-calendar-events.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Single-sign on with custom OpenID Connect profiles now generally available</title>
+        <description>Google Workspace is enhancing its security and access management capabilities by introducing support for custom OpenID Connect (OIDC) providers for Single Sign-On (SSO), moving beyond traditional SAML-based identity providers. This update offers organizations greater flexibility to integrate existing OIDC-compliant identity providers for authenticating users across Google Workspace applications like Drive, Gmail, and Docs. The feature will be available to all Google Workspace editions, including Business Standard and Enterprise Plus, starting in late Q4 2025.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 18 Nov 2025 19:12:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/single-sign-on-with-custom-openid.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/single-sign-on-with-custom-openid.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Block off time to work on a task in Calendar</title>
+        <description>Google Calendar is introducing a new feature that enables users to block out dedicated time for tasks, similar to scheduling events. This enhancement aims to help individuals prioritize and allocate specific periods for task completion directly within their calendar, improving time management and overall productivity.</description>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Mon, 17 Nov 2025 14:56:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/block-time-for-tasks-google-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/block-time-for-tasks-google-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 14, 2025</title>
+        <description>The weekly recap for November 7, 2025, highlights several Google Workspace updates, including new controls in Google Chat for restricting conversation creation and the ability to set sharing expirations for files and folders in Google Drive. Additionally, Google Calendar now supports secondary calendar management with dedicated owners, and Google Meet offers an option for longer meeting notes.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 14 Nov 2025 20:29:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025_0735443609.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025_0735443609.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Improving secondary calendar management with dedicated owners</title>
+        <description>Google Calendar is enhancing its management capabilities for secondary calendars, allowing administrators to assign dedicated owners. This update provides greater control over scheduling, ensuring specific users are responsible for managing and maintaining particular calendars, thereby improving organization and accountability.</description>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 11 Nov 2025 21:10:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/secondary-calendar-management-with-dedicated-owners.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/secondary-calendar-management-with-dedicated-owners.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 7, 2025</title>
+        <description>This weekly recap for November 7, 2025, summarizes key updates across Google Workspace, including advancements in Google Meet for longer meeting notes, Google Drive&apos;s new migration tools from Dropbox, and enhanced secondary calendar management in Google Calendar. It highlights a range of improvements aimed at boosting productivity and collaboration for users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 07 Nov 2025 21:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use Help me schedule to easily set up a meeting time over email</title>
+        <description>Gemini in Gmail and Google Calendar is introducing a &quot;Help me schedule&quot; feature to streamline meeting coordination, rolling out from October 28, 2025. This AI-powered functionality assists users by suggesting optimal meeting times, managing invitations, and adding essential details, thereby significantly enhancing productivity for Workspace users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/help-me-schedule-meeting-gmail-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/help-me-schedule-meeting-gmail-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 10, 2025</title>
+        <description>The Weekly Recap for October 10, 2025, highlights several Google Workspace updates, including new features for AppSheet and enhanced security controls for Calendar. It also covers improvements to Google Chat message reactions, summarizing a week of advancements in AI capabilities, no-code development, and communication tools.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 10 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-10-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-10-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Enable &apos;take notes for me&apos; in Calendar, ahead of your meeting</title>
+        <description>Google Calendar is integrating an AI-powered &quot;Take notes for me&quot; feature, designed to automatically generate meeting summaries and action items. Rolling out from October 14, 2025, this enhancement aims to significantly boost meeting productivity by reducing the need for manual note-taking, ensuring efficient capture of key decisions and tasks.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 01 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/enable-take-notes-for-me-in-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/enable-take-notes-for-me-in-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Changes to Manage Google Meet hardware and calendars privilege</title>
+        <description>Google Meet hardware is undergoing changes to its Calendar administrative privileges, allowing for more granular control over device management and scheduling integration. Rolling out from September 2, 2025, this update aims to improve the security and efficiency of meeting room management for IT administrators.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/changes-meet-hardware-calendar-admin-privilege.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/changes-meet-hardware-calendar-admin-privilege.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Seamlessly join Google Meet conferences from any calendar app</title>
+        <description>Google Meet links will now be visible within other calendar applications, including Microsoft Outlook, improving meeting join experiences for users in mixed environments. Rolling out from September 2, 2025, this interoperability enhancement simplifies access to Google Meet calls regardless of the user&apos;s preferred calendar platform.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/meet-link-visible-other-calendar-apps-outlook.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/meet-link-visible-other-calendar-apps-outlook.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Enhancing meeting privacy for copied Calendar events</title>
+        <description>Google Calendar is implementing enhanced meeting privacy controls for duplicate events, ensuring that sensitive information isn&apos;t inadvertently shared across multiple identical calendar entries. Rolling out from September 2, 2025, this feature helps users maintain confidentiality and prevents accidental data exposure in complex scheduling scenarios.</description>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/enhanced-meeting-privacy-duplicate-calendar-events.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/enhanced-meeting-privacy-duplicate-calendar-events.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Stay on top of your schedule while on the go with Google Calendar</title>
+        <description>Google Calendar is introducing new features designed to help users stay on top of their schedules while on the go, enhancing mobile productivity and organization. Updates include improved glanceable widgets, faster event creation, and better integration with other Google Workspace apps to streamline time management and reduce scheduling friction for busy professionals.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 03 Sep 2025 19:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/stay-on-top-your-schedule-while-on-the-go-google-calendar</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/stay-on-top-your-schedule-while-on-the-go-google-calendar</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Let others easily book time with you using the new pre-configured Google Calendar booking page </title>
+        <description>Google Calendar is introducing pre-configured appointment booking pages, simplifying the process for users to set up and share their availability for meetings and consultations. Rolling out from August 5, 2025, this feature enhances personal and professional scheduling efficiency, making it easier for clients and colleagues to book time.</description>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/pre-configured-appointment-booking-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/pre-configured-appointment-booking-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - August 22, 2025</title>
+        <description>The Weekly Recap for August 22, 2025, highlights the ability to edit Google Drive videos directly in Google Vids and new pre-configured appointment booking in Google Calendar. It also covers Gemini Live integration with Calendar, Tasks, and Keep, alongside ServiceNow integration with Google Chat and Sheets, showcasing advancements in video editing, scheduling, AI integration, and enterprise tools.</description>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Incorporate information from Calendar, Tasks, and Keep in your conversations with Gemini Live</title>
+        <description>Gemini Live is integrating with Google Calendar, Tasks, and Keep, providing real-time AI assistance across scheduling, task management, and note-taking. Rolling out from August 5, 2025, this feature enhances personal organization and productivity by offering dynamic AI support for managing daily workflows and information.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Google Keep</tools>
+		
+        <pubDate>Thu, 21 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/gemini-live-google-calendar-tasks-keep.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/gemini-live-google-calendar-tasks-keep.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Recap - August 15, 2025</title>
+        <description>The Weekly Recap for August 18, 2025, highlights app access control request approval and the ability to replace or expand image backgrounds in Slides and Vids. It also covers sorting notes in Google Keep for Android, adding events to Gmail and Calendar via Gemini on mobile, and NotebookLM Gems LTI integration, detailing advancements in security, AI visual editing, mobile organization, and educational AI.</description>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 15 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-august-18-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-august-18-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Quickly add events to Google Calendar with Gemini in Gmail on mobile</title>
+        <description>Gemini on mobile devices now allows users to add events directly to Google Calendar from Gmail, streamlining event creation and scheduling. Rolling out from August 12, 2025, this feature leverages AI to parse email content and intelligently suggest calendar entries, significantly enhancing productivity for mobile users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Android</tools>
+		
+		<tools>iOS</tools>
+		
+        <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/add-events-gmail-calendar-gemini-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/add-events-gmail-calendar-gemini-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automatic Room Check-in in Google Meet with Proximity Detection</title>
+        <description>Google Meet is introducing automatic room check-in for Google Meet Hardware devices, utilizing ultrasonic signals to detect user presence and confirm meeting attendance. This feature aims to improve room utilization data and prevent abandoned meetings, automatically ending a meeting or releasing the room if no one checks in.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Mon, 04 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/automatic-room-check-in-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/automatic-room-check-in-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Our top 10 Workspace productivity tips</title>
+        <description>This article shares the top 10 productivity tips for maximizing Google Workspace, focusing on features that streamline workflows, enhance collaboration, and improve time management. Tips include leveraging smart canvases, utilizing focus time in Calendar, mastering keyboard shortcuts, and organizing files efficiently in Google Drive to boost individual and team efficiency.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 24 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-top-10-workspace-productivity-tips</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-top-10-workspace-productivity-tips</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Link your Google Calendar booking pages when composing emails in Gmail</title>
+        <description>Google Calendar booking pages can now be easily linked directly from Gmail, allowing users to share their availability for meetings more efficiently via email. This integration aims to streamline scheduling processes, making it simpler for recipients to book appointments without leaving their inbox.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 15 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/link-your-google-calendar-booking-pages-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/link-your-google-calendar-booking-pages-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - July 11, 2025</title>
+        <description>Google Workspace Release Notes for July 11, 2025, announce the general availability of the Microsoft SharePoint Online migration tool to Google Workspace and the &apos;Extract and Categorize with Gemini&apos; feature in AppSheet. Other updates include Gemini&apos;s availability in Google Docs on iOS and the ability to link Google Calendar booking pages in Gmail.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Microsoft SharePoint Online</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 11 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/release-notes-07-11-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/release-notes-07-11-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Achieving more with Google Workspace</title>
+        <description>This article provides practical tips for achieving more with Google Workspace, focusing on optimizing daily workflows and leveraging built-in collaboration features. Strategies include utilizing Google Calendar for efficient scheduling, organizing files in Google Drive, enhancing communication with Google Chat, and employing Smart Canvas to streamline document creation and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 01 Jul 2025 00:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>FINRA Compliance for Google Workspace: Google Drive and Calendar Updates</title>
+        <description>Google Workspace has achieved FINRA compliance for Google Drive and Google Calendar, making these services suitable for financial institutions requiring strict regulatory adherence. This certification ensures that data handling and record-keeping meet the high standards set by the Financial Industry Regulatory Authority.</description>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vault</tools>
+		
+        <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/google-workspace-finra-compliance-for-google-drive-and-calendar.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/google-workspace-finra-compliance-for-google-drive-and-calendar.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 27, 2025</title>
+        <description>Google Workspace Release Notes for June 27, 2025, announce the general availability of locked Google Groups and hardware key certificate management for Gmail&apos;s client-side encryption. Other updates include FINRA compliance for Google Drive and Calendar, and the availability of Google Vids and Gemini in Google Classroom for Education customers.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Groups</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Classroom</tools>
+		
+        <pubDate>Fri, 27 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-27-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-27-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Migrate email and calendar content from Microsoft Exchange Online to Google Workspace</title>
+        <description>Google Workspace is rolling out a new migration tool that allows organizations to seamlessly transfer email and calendar content from Microsoft Exchange Online to Google Workspace. This tool aims to simplify the transition process for businesses moving from Microsoft&apos;s ecosystem to Google&apos;s cloud collaboration platform.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/migrate-email-calendar-content-from-microsoft-exchange-online-to-google-workspace.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/migrate-email-calendar-content-from-microsoft-exchange-online-to-google-workspace.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 6, 2025</title>
+        <description>Google Workspace Release Notes for June 6, 2025, announce the expansion of Companion Mode to Android and iOS for Google Meet and enhanced host controls for joining requests. Other updates include AI-powered PDF summary cards in Google Drive, the &quot;Help me create&quot; and &quot;Summarize responses&quot; features in Google Forms, and new migration tools for Microsoft Exchange Online content.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Configure Calendar interoperability with Microsoft Office 365 using the Microsoft Graph API</title>
+        <description>Google Calendar is improving interoperability with Microsoft Office 365 calendars using the Microsoft Graph API, allowing for more seamless scheduling and presence updates between the two platforms. This enhancement simplifies cross-organizational collaboration and meeting coordination for mixed IT environments.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 28 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/calendar-interoperability-microsoft-office-365-with-microsoft-graph-api.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/calendar-interoperability-microsoft-office-365-with-microsoft-graph-api.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - May 23, 2025</title>
+        <description>Google Workspace Release Notes for May 23, 2025, announce Gemini summaries in Google Chat available in four new languages and Gemini summary cards in the Gmail app. Other updates include improved Google Calendar interoperability with Microsoft Office 365, Gemini&apos;s ability to understand videos in Google Drive, and new video engagement insights for Google Drive.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Microsoft Office 365</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 23 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/release-notes-05-23-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/release-notes-05-23-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Spring clean your calendar with Workspace</title>
+        <description>This article offers practical tips for &apos;spring cleaning&apos; Google Calendar and overall Google Workspace to enhance productivity and reduce digital clutter. Recommendations include decluttering old events, utilizing focus time, streamlining notification settings, and regularly reviewing shared calendars to optimize scheduling and improve time management for a more efficient workday.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 22 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-spring-clean-your-calendar-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-spring-clean-your-calendar-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ask Gemini in Gmail on mobile to perform Google Calendar related actions</title>
+        <description>Gemini in Gmail on mobile devices can now reference Google Calendar, allowing users to quickly access and leverage their schedule information when composing emails or responding to messages. This integration enhances mobile productivity by providing contextual assistance for scheduling and communication directly within the email app.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 19 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/reference-google-calendar-using-gemini-in-gmail-on-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/reference-google-calendar-using-gemini-in-gmail-on-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Reference your Google Calendar using Gemini in the side panel of Gmail in additional languages</title>
+        <description>Gemini can now reference Google Calendar information using additional languages beyond English, making the AI assistant more versatile for a global user base. This enhancement allows Google Workspace users with Gemini Business, Enterprise, or Education upgrades, and Gemini Advanced subscribers, to inquire about their schedules in their preferred language. This improves accessibility and productivity for international teams.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 09 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/reference-your-google-calendar-using-additional-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/reference-your-google-calendar-using-additional-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 4, 2025</title>
+        <description>The Google Workspace release notes for April 4, 2025, detail significant updates including the Google Classroom API now supporting grading period management and Read Along allowing content uploads. Gemini&apos;s &quot;Help me write&quot; feature in Gmail and Docs, and Gemini summaries in Chat, received language expansions. Google Vids&apos; AI voiceovers were updated, and a beta for more Workspace data export options was launched. Additionally, NotebookLM and the Gemini app were designated core services for education, with updates to NotebookLM sources, and admins gained control over Workspace app access in Gemini.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>NotebookLM</tools>
+		
+		<tools>Google Takeout</tools>
+		
+        <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-04-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Reviewing how you use your time</title>
+        <description>This article offers practical strategies for reviewing and optimizing time usage within Google Workspace to enhance productivity and focus. Tips include leveraging Google Calendar&apos;s time insights, tracking task completion in Google Tasks, and minimizing distractions by customizing notifications, helping users gain a clearer understanding of their workday and identify areas for efficiency improvement.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Mon, 24 Mar 2025 21:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-reviewing-how-you-use-your-time</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-reviewing-how-you-use-your-time</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 14, 2025</title>
+        <description>The Google Workspace release notes for March 14, 2025, announced several updates, including consent reconfirmation for under-18 Education users and AppSheet user authentication bypass. Gemini Gems (Deep Research) became available to more Workspace customers, while Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and transcripts. Authenticated AppSheet apps can now be embedded in Google Sites, and Google Docs client-side encryption supports export to Microsoft Word. More AI features rolled out for Business/Enterprise, Gemini side panel added four languages, and Google Meet hardware can view guest lists. Finally, Gemini in Drive gained file/folder creation, and Gemini in Gmail can add Calendar events.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sites</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>BLADE takes air travel to new heights with Google Workspace</title>
+        <description>BLADE, a leading urban air mobility company, is taking air travel to new heights by leveraging Google Workspace to streamline operations and enhance collaboration. Google Workspace, including Gmail, Google Calendar, and Google Meet, enables BLADE to manage complex logistics, coordinate flights, and communicate seamlessly across its global teams, supporting efficient customer service and rapid expansion.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 13 Mar 2025 20:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/blade-takes-air-travel-new-heights-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/blade-takes-air-travel-new-heights-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Quickly add events to Google Calendar based on your emails with Gemini in Gmail</title>
+        <description>Gemini&apos;s integration into Gmail now empowers users to add events to Google Calendar directly from email content using natural language prompts. This feature streamlines scheduling and task management by allowing users to create calendar entries without leaving their inbox. It is available to Google Workspace users with Gemini Business, Enterprise, or Education upgrades, as well as Gemini Advanced subscribers.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 10 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/add-events-to-google-calendar-using-gemini-in-gmail.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/add-events-to-google-calendar-using-gemini-in-gmail.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 7, 2025</title>
+        <description>The Google Workspace release notes for March 7, 2025, detailed updates including enhancements for generating meeting backgrounds with Gemini and the Gemini in Slides side panel supporting seven new languages. A Salesforce extension for Gemini in Gmail was introduced to streamline CRM interactions, and Google Calendar received improvements for better interoperability with Outlook.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 07 Mar 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-07-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-07-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Improving Google Calendar&apos;s interoperability with Microsoft Outlook</title>
+        <description>Google Calendar is implementing improvements to enhance its interoperability with Microsoft Outlook, aiming to streamline cross-platform scheduling in hybrid work environments. These enhancements include better handling of meeting invitations, free/busy information, and calendar updates, making it smoother for users to manage their schedules regardless of their preferred calendar application. This update addresses common pain points in mixed software ecosystems.</description>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Mon, 03 Mar 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/improving-google-calendars-interoperability-with-outlook.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/improving-google-calendars-interoperability-with-outlook.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Beating procrastination</title>
+        <description>This article offers practical strategies for beating procrastination and boosting productivity within Google Workspace, focusing on time management and task prioritization. Tips include breaking down large tasks, setting clear deadlines with Google Calendar, utilizing Google Tasks for checklist management, and leveraging focus time to minimize distractions, helping users maintain momentum and achieve goals more effectively.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 22 Jan 2025 22:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-productivity-column-beating-procrastination</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-productivity-column-beating-procrastination</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updated smart feature settings give users increased choice and control</title>
+        <description>Google Workspace is rolling out updated Smart Feature Settings that provide users with increased choice and control over how their data is used across various Google products. These granular controls allow individuals to manage data usage for AI-powered features, ensuring enhanced privacy and transparency while still benefiting from intelligent functionalities within applications like Gmail, Docs, and Calendar.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Tue, 07 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/updated-smart-feature-settings-give-users-increased-choice-and-control</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/updated-smart-feature-settings-give-users-increased-choice-and-control</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

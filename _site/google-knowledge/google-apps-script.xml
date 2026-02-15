@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 5, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of Workspace Studio for AI-powered solution creation, Gemini insights for Google Drive folders, and a refreshed user interface for Google Drive&apos;s web file viewer. Additionally, Google Meet hardware now supports BYOD functionality via Chrome OS touch controllers and introduces seamless room connection for meetings.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Chrome OS</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Apps Script</tools>
+		
+        <pubDate>Fri, 05 Dec 2025 20:55:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-05-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-05-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Now available: Create AI agents to automate work with Google Workspace Studio</title>
+        <description>Workspace Studio, an AI-powered hub, is now available for Google Workspace customers to discover, manage, and create generative AI solutions and custom workflows. It integrates with tools like AppSheet and Apps Script, enabling businesses to leverage AI to automate tasks and enhance productivity within Google Sheets, Docs, and other Workspace apps.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Apps Script</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 03 Dec 2025 17:17:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/workspace-studio.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/workspace-studio.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>From spreadsheet jockey to strategic advisor: My journey with AI-powered Google Sheets</title>
+        <description>Nick, a financial analyst, shares his journey using AI, specifically Google Sheets with Gemini integration, to transform his financial modeling and data analysis workflows. He leveraged Gemini to quickly analyze data, extract insights, and generate Apps Script code for automating repetitive tasks like updating P&amp;L statements. This significantly enhanced efficiency and reduced manual effort, allowing him to focus on strategic insights rather than data cleanup.</description>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Apps Script</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 13 Nov 2025 20:11:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/my-journey-with-ai-powered-google-sheets</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/my-journey-with-ai-powered-google-sheets</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Uber resolves issues faster with Google AppSheet and Google Apps Script</title>
+        <description>Uber is resolving issues faster by leveraging Google AppSheet and Google Apps Script to create custom applications that streamline internal operations and enhance productivity for its global workforce. These no-code and low-code solutions automate complex workflows, integrate with Google Workspace data sources like Google Sheets, and reduce manual intervention, improving efficiency across various departments.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Apps Script</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 28 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/uber-resolves-issues-faster-google-appsheet-and-google-apps-script</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/uber-resolves-issues-faster-google-appsheet-and-google-apps-script</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

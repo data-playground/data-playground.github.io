@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigQuery Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>SecOps data connector now available for Google Workspace for Education Plus and Standard</title>
+        <description>Google Workspace for Education Plus is introducing a new SecOps Data Connector, powered by Google Cloud&apos;s BigQuery, to stream audit logs and event data to leading Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) platforms. This allows Education Plus customers to centralize security monitoring, simplify threat detection, and enhance incident response by integrating with systems like Splunk, CrowdStrike, and Palo Alto Networks Cortex XSOAR. The initiative aims to bolster the security posture of educational institutions, making it easier to identify and mitigate cyber threats.</description>
+		
+		<tools>Google Workspace for Education Plus</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>BigQuery</tools>
+		
+        <pubDate>Wed, 14 Jan 2026 15:15:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/secops-data-connector-google-workspace-education.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/secops-data-connector-google-workspace-education.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>More powerful pivot tables in Connected Sheets</title>
+        <description>Google Sheets&apos; Connected Sheets feature is gaining more powerful pivot table capabilities, enabling users to perform advanced data analysis directly on data sourced from BigQuery and other external databases. This enhancement allows for more complex insights and robust reporting without leaving the familiar Sheets interface, boosting productivity for data analysts.</description>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 30 Oct 2025 14:39:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/powerful-pivot-tables-connected-sheets.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/powerful-pivot-tables-connected-sheets.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Export Gemini Audit logs to BigQuery</title>
+        <description>Google Workspace administrators can now export Gemini audit logs to BigQuery, providing enhanced capabilities for security investigations, compliance, and custom reporting on Gemini usage. This feature, available for Gemini for Google Workspace customers, allows for more granular analysis of AI interactions within the organization.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Admin console</tools>
+		
+		<tools>Gemini for Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Mon, 04 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/export-gemini-audit-logs-to-bigquery.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/export-gemini-audit-logs-to-bigquery.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

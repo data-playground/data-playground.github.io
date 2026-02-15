@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Tasks Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Google Keep reminders now saved to Tasks</title>
+        <description>Google Keep reminders will now be saved directly into Google Tasks, creating a unified and centralized system for managing to-do lists across Google Workspace. This update, rolling out from October 28, 2025, ensures consistent reminder visibility and enhances personal organization within the Workspace ecosystem.</description>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/google-keep-reminders-now-saved-to-tasks.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/google-keep-reminders-now-saved-to-tasks.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - August 22, 2025</title>
+        <description>The Weekly Recap for August 22, 2025, highlights the ability to edit Google Drive videos directly in Google Vids and new pre-configured appointment booking in Google Calendar. It also covers Gemini Live integration with Calendar, Tasks, and Keep, alongside ServiceNow integration with Google Chat and Sheets, showcasing advancements in video editing, scheduling, AI integration, and enterprise tools.</description>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Google Keep</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Incorporate information from Calendar, Tasks, and Keep in your conversations with Gemini Live</title>
+        <description>Gemini Live is integrating with Google Calendar, Tasks, and Keep, providing real-time AI assistance across scheduling, task management, and note-taking. Rolling out from August 5, 2025, this feature enhances personal organization and productivity by offering dynamic AI support for managing daily workflows and information.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Google Keep</tools>
+		
+        <pubDate>Thu, 21 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/gemini-live-google-calendar-tasks-keep.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/gemini-live-google-calendar-tasks-keep.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Reviewing how you use your time</title>
+        <description>This article offers practical strategies for reviewing and optimizing time usage within Google Workspace to enhance productivity and focus. Tips include leveraging Google Calendar&apos;s time insights, tracking task completion in Google Tasks, and minimizing distractions by customizing notifications, helping users gain a clearer understanding of their workday and identify areas for efficiency improvement.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Mon, 24 Mar 2025 21:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-reviewing-how-you-use-your-time</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-reviewing-how-you-use-your-time</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Beating procrastination</title>
+        <description>This article offers practical strategies for beating procrastination and boosting productivity within Google Workspace, focusing on time management and task prioritization. Tips include breaking down large tasks, setting clear deadlines with Google Calendar, utilizing Google Tasks for checklist management, and leveraging focus time to minimize distractions, helping users maintain momentum and achieve goals more effectively.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Tasks</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 22 Jan 2025 22:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-productivity-column-beating-procrastination</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-productivity-column-beating-procrastination</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

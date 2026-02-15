@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Forms Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>All Google Forms will now have granular controls over who can respond</title>
+        <description>Google Workspace is introducing new granular controls for Google Forms, empowering administrators with enhanced capabilities to manage response collection and sharing. This update allows admins to set specific limits on submissions and dictate how responses are stored and accessed, improving data privacy and organizational efficiency. The improvements are particularly beneficial for educational institutions and businesses handling sensitive information, streamlining form management and data compliance.</description>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 29 Jan 2026 21:34:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/granular-controls-google-forms-responses.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/granular-controls-google-forms-responses.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Set Google Forms to automatically stop accepting responses based on date and time or response count</title>
+        <description>Google Forms is introducing an enhanced feature allowing users greater control over response collection by enabling both manual and automatic closure of forms. Users will now be able to schedule forms to stop collecting responses on a specific date and time, or after reaching a predefined maximum number of submissions. This update provides significant benefits for educators, event planners, and businesses managing surveys, quizzes, and registrations, aiming to streamline data management and prevent over-collection within Google Forms.</description>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 12 Jan 2026 17:53:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/forms-stop-collecting-responses.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/forms-stop-collecting-responses.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Help me create in Google Forms now available in seven additional languages</title>
+        <description>Google Forms is expanding its &quot;Help me create&quot; AI feature, powered by Gemini, to support seven new languages including Spanish, French, German, Italian, Portuguese, Japanese, and Korean. This update enables users to generate forms, surveys, and quizzes from simple text prompts in more languages, significantly enhancing global accessibility and efficiency for form creation.</description>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Thu, 13 Nov 2025 14:07:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/help-me-create-google-forms-seven-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/help-me-create-google-forms-seven-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - September 19, 2025</title>
+        <description>The Weekly Recap for September 19, 2025, highlights the availability of Gemini in Chrome admin settings and new Gem sharing features within the Gemini app. It also covers proactive summaries for Google Forms and the &quot;Ask Gemini&quot; feature in Google Meet, detailing advancements in AI governance, collaboration, and data insights.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chrome</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-19-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-19-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Get proactive summaries of text responses in Forms</title>
+        <description>Gemini is now providing proactive summaries for Google Forms responses, offering quick insights into survey data and feedback. Rolling out from September 2, 2025, this feature helps users rapidly analyze large datasets from forms, identifying key trends and themes without manual review, thereby enhancing data analysis efficiency.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Forms</tools>
+		
+        <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/proactive-summaries-forms-gemini.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/proactive-summaries-forms-gemini.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ask Gemini in Google Forms to suggest new questions </title>
+        <description>Gemini in Google Forms is being updated to allow users to generate more targeted and relevant follow-up questions for existing forms or new forms based on specific topics. This feature, available to those with a Gemini for Google Workspace add-on, aims to improve survey design and data collection efficiency by leveraging AI suggestions.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Gemini for Google Workspace</tools>
+		
+        <pubDate>Wed, 06 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/gemini-google-forms-suggest-questions.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/gemini-google-forms-suggest-questions.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Adding granular control options for who can respond to existing Google Forms</title>
+        <description>Google Forms is introducing more granular controls for existing forms, allowing creators to manage permissions and settings with greater precision. This update enhances security and administrative oversight, ensuring that forms are distributed and accessed according to specific organizational needs.</description>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Admin console</tools>
+		
+        <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/add-granular-control-to-existing-google-forms.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/add-granular-control-to-existing-google-forms.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Adding new admin settings to control Google Form responses </title>
+        <description>Google Forms is introducing new admin settings to give organizations more control over how responses are collected and managed, including options for submission limits and data retention. These enhancements improve data governance and compliance capabilities for Google Forms usage within an enterprise.</description>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Admin console</tools>
+		
+        <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/new-admin-settings-to-control-google-forms-responses.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/new-admin-settings-to-control-google-forms-responses.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use Gemini in Google Forms to quickly create a new form</title>
+        <description>Google Forms is introducing a &quot;Help me create&quot; feature powered by Gemini, allowing users to generate new forms, question types, and survey content using natural language prompts. This AI-driven tool streamlines the form creation process, making it easier and faster to design effective surveys and data collection instruments.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/help-me-create-gemini-google-forms.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/help-me-create-gemini-google-forms.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use Gemini in Google Forms to summarize form responses </title>
+        <description>Gemini in Google Forms is being enhanced to summarize survey responses, providing quick insights and key themes from collected data. This AI-powered analysis tool helps users efficiently understand feedback and make data-driven decisions without manually sifting through numerous responses.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/summarize-responses-with-gemini-google-forms.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/summarize-responses-with-gemini-google-forms.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 6, 2025</title>
+        <description>Google Workspace Release Notes for June 6, 2025, announce the expansion of Companion Mode to Android and iOS for Google Meet and enhanced host controls for joining requests. Other updates include AI-powered PDF summary cards in Google Drive, the &quot;Help me create&quot; and &quot;Summarize responses&quot; features in Google Forms, and new migration tools for Microsoft Exchange Online content.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

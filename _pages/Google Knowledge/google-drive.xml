@@ -1,0 +1,35 @@
+---
+layout: empty
+permalink: google-knowledge/google-drive.xml
+---
+{%- comment -%}
+This comment and the whitespace stripping below (the minus signs) 
+will suck up the newline created by the YAML front matter.
+{%- endcomment -%}
+{%- assign google_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG | concat: site.data.data_playground_data.GOOGLE_APPS_UPDATES -%}
+{%- assign google_posts = google_posts | sort: 'published_date' | reverse -%}
+{%- assign current_tool = "Google Drive" -%}
+{%- assign filtered_posts = google_posts | where_exp: "post", "post.tools contains current_tool" -%}
+{%- assign cutoff_date = '2025-01-01 00:00:00' -%}
+{%- assign recent_posts = filtered_posts | where_exp: "post", "post.published_date > cutoff_date" -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ current_tool }} Knowledge  - RSS</title>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    {% for post in recent_posts %}
+      {% unless post.url contains 'feed' or post.url == '/index.html' %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.summary | xml_escape }}</description>
+		{% for tool in post.tools %}
+		<tools>{{ tool | xml_escape }}</tools>
+		{% endfor %}
+        <pubDate>{{ post.published_date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.link }}</link>
+        <guid isPermaLink="true">{{ post.link }}</guid>
+      </item>
+      {% endunless %}
+    {% endfor %}
+  </channel>
+</rss>

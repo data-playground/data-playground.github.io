@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Meet Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Control if new Meet hardware can join calls with a new on/off setting</title>
+        <description>Google Workspace admins can now control whether new Google Meet hardware automatically joins scheduled video calls or requires manual acceptance, enhancing flexibility for device management in shared spaces. This new setting, found in the Google Admin console under &quot;Device settings,&quot; prevents unexpected call joins and is rolling out to all Google Workspace customers starting February 3, 2026.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Wed, 11 Feb 2026 16:44:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/control-if-new-meet-hardware-join-calls.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/control-if-new-meet-hardware-join-calls.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Move shared content in Google Meet to a separate window with the “Open in new window” option</title>
+        <description>Google Meet is rolling out a new layout feature that allows users to move shared content, like screen shares, to a side panel, thereby optimizing the main stage for participant video feeds. This update, aimed at improving the meeting experience and participant engagement, is enabled by default for all Google Workspace customers and allows easy switching between main stage and side panel views. The rollout commences on February 3, 2026, over a 15-day period.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 11 Feb 2026 14:48:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/move-shared-content-in-google-meet-to.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/move-shared-content-in-google-meet-to.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 6, 2026</title>
+        <description>The Google Workspace Weekly Recap for February 6, 2026, introduced several key updates, including enhanced Google Meet companion mode for more inclusive hybrid meetings available to all Workspace customers. Google Docs received new smart chips for improved project management, while Google Drive&apos;s AI-powered search within shared drives was refined for Business, Enterprise, Education, and Nonprofits. Additionally, Google Chat now supports custom emojis for all users, and the Google Workspace Admin Console gained granular external sharing security settings for Business Standard and higher editions.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace Admin Console</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 06 Feb 2026 17:43:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-06-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-06-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Get higher access to advanced AI in Google Workspace</title>
+        <description>Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data analysis in Google Sheets, and presentation creation in Google Slides, to a broader range of users and regions globally. The expansion underscores Google&apos;s commitment to integrating advanced artificial intelligence directly into daily workflows to boost productivity and foster creativity for its users.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Thu, 05 Feb 2026 18:02:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/google-workspace-ai-expanded-access.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/google-workspace-ai-expanded-access.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Speech translation in Google Meet now generally available for businesses</title>
+        <description>Google Meet&apos;s real-time speech translation feature has reached General Availability (GA), facilitating seamless communication across language barriers during video conferences. This feature supports translation from English into several languages, including Spanish, French, Portuguese, and German, significantly benefiting global teams and international collaborations. Available to Google Workspace Enterprise Plus and Education Plus customers, it automatically translates spoken words into captions, enhancing meeting inclusivity and productivity.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 04 Feb 2026 14:04:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/speech-translation-meet-ga.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/speech-translation-meet-ga.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New built-in interoperability between Google Meet and Microsoft Teams</title>
+        <description>Google Meet hardware now offers general availability for Microsoft Teams interoperability, allowing users to join Teams meetings with a single tap using Pexip&apos;s Cloud Video Interop or direct guest join via WebRTC. This feature supports a range of compatible Google Meet devices from partners like Poly and Logitech, aiming to reduce friction and streamline collaboration in hybrid work environments.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 03 Feb 2026 13:39:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/meet-hardware-microsoft-teams-intero.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/meet-hardware-microsoft-teams-intero.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 30, 2026</title>
+        <description>The Google Workspace Weekly Recap for January 30, 2026, unveiled key enhancements including improved Smart Chips and templates in Google Docs, refined conditional formatting and pivot table controls in Google Sheets, and new presenter tools for Google Slides. Significant AI integration was noted with Google Meet gaining AI-powered noise cancellation and expanded live captions, while Gemini provided new summarization in Docs, email drafting in Gmail, and Q&amp;A in Sheets. Security was also boosted with enhanced suspicious activity alerts in Google Drive and new DLP policies via the Google Admin Console.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Admin Console</tools>
+		
+        <pubDate>Fri, 30 Jan 2026 20:50:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-30-2026_0645067218.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-30-2026_0645067218.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>January Workspace Drop: SOTA AI avatars in Vids, deeper insights in the Gemini app, and new app integrations in Chat</title>
+        <description>The January Workspace Drop introduces significant AI-powered enhancements across Google Workspace, prominently featuring Gemini integration in Google Docs, Sheets, Slides, Gmail, Meet, and Chat, enabling features like &quot;Help me write&quot; in Docs and AI-powered summarization in Chat. Updates also boost productivity with new organizing features and improved search in Google Drive, smart fill for data cleanup in Google Sheets, and enhanced collaboration tools in Google Meet&apos;s companion mode and picture-in-picture. These advancements aim to streamline workflows, enhance data management, and improve security within the Workspace ecosystem.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 28 Jan 2026 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/january-workspace-drop</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/january-workspace-drop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Calendar event color labels now also accessible to users with “Make changes to events” permission</title>
+        <description>Google Calendar is rolling out an update to enhance the accessibility and ease of modifying event color labels directly within the calendar interface. This improvement allows Google Workspace users to more efficiently customize their event organization, promoting clearer schedule management and improved accessibility for diverse user needs. The update aims to streamline how users interact with their daily appointments and tasks in Google Calendar, often integrated with tools like Google Meet and Google Drive.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 28 Jan 2026 15:20:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/event-color-labels-accessible-make-changes-events.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/event-color-labels-accessible-make-changes-events.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New admin controls for &quot;Take notes for me&quot; sharing settings in Google Meet</title>
+        <description>Google Meet is rolling out a new &quot;Take notes for me&quot; feature, enabling AI to automatically generate meeting summaries, capture key decisions, and identify action items for participants. This update includes new administrative controls within the Google Workspace Admin console, allowing organizations to manage the feature&apos;s deployment and settings to ensure tailored and compliant usage.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace Admin Console</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Mon, 26 Jan 2026 16:16:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/take-notes-for-me-meet-admin-settings.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/take-notes-for-me-meet-admin-settings.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 23, 2026</title>
+        <description>The Google Workspace weekly recap for January 23, 2026, highlights several key updates including enhanced Google Docs version history, AI-driven pivot table insights in Google Sheets, and new background customization options for Google Meet. Additionally, the recap covers improved security alerts for Google Drive sharing and expanded Gemini integrations across Workspace applications. These updates collectively aim to boost productivity, security, and collaboration for users across the enterprise.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Admin Console</tools>
+		
+        <pubDate>Fri, 23 Jan 2026 19:57:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-23-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-23-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ask Gemini in Google Meet is expanding to Workspace Business Standard customers, additional languages, and mobile usage</title>
+        <description>The &quot;Ask Gemini&quot; feature within Google Meet, enabling users to generate meeting recaps, action items, and custom summaries, is expanding its availability. Previously exclusive to higher-tier subscriptions, it will now roll out to Google Workspace Business Standard and Enterprise Essentials+ customers by January 2026. This extends advanced AI-powered meeting productivity tools to a broader user base.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 21 Jan 2026 17:36:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/ask-gemini-google-meet-expansion-business-standard.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/ask-gemini-google-meet-expansion-business-standard.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>View Google Meet usage metrics in Gemini reports dashboard</title>
+        <description>Google Workspace administrators can now monitor Google Meet usage metrics related to Gemini directly within the Admin Console&apos;s Gemini reports. This feature provides valuable insights into user engagement with Gemini&apos;s capabilities in Meet, such as recaps, action items, and summaries, helping admins assess adoption and impact. The reporting feature is expected to be available for all Google Workspace customers with Gemini enabled by January 2026.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Admin Console</tools>
+		
+        <pubDate>Tue, 20 Jan 2026 22:12:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/view-google-meet-usage-metrics-gemini-reports.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/view-google-meet-usage-metrics-gemini-reports.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Increasing flexibility when rebooting Google Meet hardware with &quot;Reboot when idle&quot;</title>
+        <description>Google Meet hardware devices will soon feature an automatic reboot capability when idle, enhancing reliability and ensuring optimal performance through regular restarts and efficient application of updates. Administrators can configure the specific idle time before a reboot and schedule preferred reboot windows via the Google Admin console. This update is rolling out to all Google Meet hardware, improving device maintenance and operational stability.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Admin Console</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 20 Jan 2026 17:04:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/google-meet-hardware-reboot-when-idle.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/google-meet-hardware-reboot-when-idle.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Neat now a certified Google Meet hardware partner</title>
+        <description>Neat devices, including the Neat Bar 2, Neat Board 50, Neat Frame, Neat Pad, and Neat Pulse, have officially received certification as Google Meet hardware, significantly expanding the range of compatible conference room solutions. This integration offers Google Workspace users more flexible and high-quality options for video conferencing, leveraging Neat&apos;s specialized hardware for seamless meeting experiences. The certification enhances the ecosystem for modern collaboration spaces.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 20 Jan 2026 16:34:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/neat-now-certified-google-meet-hardware.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/neat-now-certified-google-meet-hardware.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 16, 2026</title>
+        <description>The Google Workspace Weekly Recap for January 16, 2026, highlighted significant updates including enhanced AI capabilities in Google Docs for summarizing and drafting, and improved collaboration features in Google Sheets with better version history and comment threading. Additionally, security enhancements were rolled out for Google Drive, focusing on advanced data loss prevention, alongside new integrations for Google Meet and ongoing developments with Gemini for Workspace.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 16 Jan 2026 21:09:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-16-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-16-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Maximize output, minimize effort: Google Workspace with Gemini helps you move work forward in meetings</title>
+        <description>Google Workspace is making Gemini&apos;s AI capabilities generally available to all paying customers, significantly enhancing meeting productivity with features like &quot;Take notes for me&quot; in Google Meet, which automatically generates summaries, key points, and action items. This integration also introduces &quot;Meet Companion Mode&quot; for improved participation and &quot;Translate in Google Meet&quot; for real-time multi-language captions, all built on Google&apos;s responsible AI principles to ensure data privacy and security. These AI-powered tools connect seamlessly with other Workspace apps, including Docs, Sheets, and Slides, to streamline workflows across various business and education editions.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 15 Jan 2026 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/google-workspace-with-gemini-helps-you-move-work-forward-in-meetings</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/google-workspace-with-gemini-helps-you-move-work-forward-in-meetings</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automatic room check-in for Google Meet available on mobile devices</title>
+        <description>Google Meet on mobile devices is introducing an automatic room check-in feature, streamlining the meeting experience for hybrid work environments. This functionality allows users to be automatically recognized and checked into a meeting room when their mobile device detects a paired Google Meet hardware device, eliminating the need for manual check-ins. The update aims to enhance user productivity by ensuring seamless meeting participation and provides Google Workspace administrators with improved insights into room utilization.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet Hardware</tools>
+		
+        <pubDate>Tue, 13 Jan 2026 21:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/automatic-room-check-in-google-meet-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/automatic-room-check-in-google-meet-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ingredients to Video in Veo 3.1 now supports portrait-sized clips in Google Vids</title>
+        <description>Google is significantly enhancing the visual quality of video portrait feeds within Google Meet by leveraging advanced AI and machine learning capabilities. These improvements focus on optimizing various &apos;ingredients&apos; such as lighting, background processing, and noise reduction, ensuring participants appear polished and professional during video calls regardless of their environment. This initiative aims to deliver a superior and more engaging video conferencing experience for all Google Meet users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google AI</tools>
+		
+        <pubDate>Tue, 13 Jan 2026 17:10:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/ingredients-to-video-portrait-vids.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/ingredients-to-video-portrait-vids.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - January 9, 2026</title>
+        <description>Google Workspace&apos;s weekly recap for January 9, 2026, details several key updates: Google Chat is receiving enhanced file discovery features, while Google Meet gains more granular admin controls for external participant access and recording policies via the Google Admin console. Additionally, Google Drive is rolling out AI-powered suggestions for file organization, and Gemini integration in Google Docs is expanding to offer advanced summarization and draft generation capabilities, boosting AI-powered productivity.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Admin console</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 09 Jan 2026 20:08:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-09-2026.html.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/weekly-recap-01-09-2026.html.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>More user control for “Take notes for me” in Google Meet</title>
+        <description>Google Meet is introducing new, granular controls for its Gemini-powered &quot;Take notes for me&quot; feature, allowing users to actively manage privacy and access to AI-generated meeting summaries. These upcoming settings will empower participants to decide if the AI assistant records meeting notes, which are then seamlessly integrated with Google Docs within the broader Google Workspace ecosystem to enhance post-meeting productivity and information sharing. This update aims to provide greater user oversight and customization over AI functionality during virtual collaborations.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 08 Jan 2026 21:42:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/google-meet-take-notes-for-me-controls.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/google-meet-take-notes-for-me-controls.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Control Speech Translation in Google Meet for your users</title>
+        <description>Google Meet is introducing enhanced controls for speech translation, allowing meeting organizers to manage real-time translation settings, including enabling or disabling the feature and selecting specific language pairs. This update aims to improve accessibility and foster global collaboration by providing users with more granular control over spoken language translations to ensure seamless communication during virtual meetings.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 07 Jan 2026 17:20:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/01/control-speech-translation-in-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/01/control-speech-translation-in-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace audit log API enhancements now available</title>
+        <description>The Google Workspace Audit Log API is now Generally Available, offering administrators programmatic access to critical security logs from services like Google Drive, Google Calendar, Admin, Google Meet, and Google Groups. This API facilitates robust integration with Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) platforms, including Splunk and Microsoft Sentinel. The enhancement significantly improves an organization&apos;s visibility into Workspace activity, aiding in incident detection, response, and compliance efforts.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Groups</tools>
+		
+		<tools>Google Workspace Admin</tools>
+		
+        <pubDate>Sat, 20 Dec 2025 00:01:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/google-workspace-audit-log-api.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/google-workspace-audit-log-api.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How Bison Coolers relies on Google to run its family business</title>
+        <description>Bison Coolers, a premium outdoor gear manufacturer, revolutionized its operations by integrating Google Pixel 7 Pro and Pixel 8 Pro smartphones with Google Workspace for its employees. CEO Jeremy Ggoins, Operations Manager Brian Miller, and Digital Marketing Manager Jeff Minter utilize Pixel devices to streamline inventory management, quality control, and remote factory communications through Google Meet and secure Google Drive access, enhancing collaboration and problem-solving. This adoption provides field reps with secure data access and demonstration tools, improving overall efficiency and reducing operational downtime.</description>
+		
+		<tools>Pixel 7 Pro</tools>
+		
+		<tools>Pixel 8 Pro</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 21:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/pixel-for-bison-coolers</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/pixel-for-bison-coolers</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 19, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for December 19, 2025, highlighted significant platform enhancements, including the rollout of Gemini-powered image generation directly within Workspace applications, designed with robust content safety features for all users. The recap also announced the General Availability of the Google Workspace Audit Log API, which provides administrators programmatic access to security logs from various Workspace services for improved threat detection and compliance. These updates collectively reinforce Google&apos;s ongoing commitment to advancing both productivity and security capabilities within its Workspace ecosystem.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace Audit Log API</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 21:09:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-19-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-19-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A breakthrough year for apps in Google Chat</title>
+        <description>Google is evolving its Chat app framework for Google Workspace, aiming for richer, more dynamic user experiences and developer capabilities by Q1 2025. This initiative will enable more interactive bots and seamless integrations with business applications directly within Google Chat, enhancing productivity and collaboration. Developers will need to update existing apps using new tools and migration guides to leverage these advancements.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 19 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-google-chat-apps-2025</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Share your device’s audio when presenting in Google Meet</title>
+        <description>Google Meet is enhancing its presentation capabilities by allowing users to share all system audio from their device, beyond just individual browser tab audio. This feature is vital for presentations that incorporate audio from desktop applications or video players, ensuring all participants experience a complete multimedia presentation during virtual meetings.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 17 Dec 2025 14:29:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/share-devices-audio-when-presenting.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/share-devices-audio-when-presenting.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Share stereo sound with audio content in Google Meet</title>
+        <description>Google Meet is further enhancing its audio capabilities by introducing support for sharing stereo sound during meetings, building upon its existing audio sharing features. This update is especially beneficial for sharing music performances, high-fidelity audio, or professional multimedia content, providing a richer and more immersive auditory experience for all participants.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 16 Dec 2025 20:48:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/share-stereo-sound-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/share-stereo-sound-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Accelerate validation of Google Meet eCDN configuration at scale with Silent Test Mode</title>
+        <description>Google Meet is rolling out a new &quot;silent test&quot; feature that allows IT administrators to validate their Enterprise Content Delivery Network (ECDN) configuration without impacting live meetings. This proactive testing ensures optimal network performance and efficient bandwidth management for large-scale Google Meet deployments, enhancing overall stability.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 16 Dec 2025 20:42:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/validate-meet-ecdn-configuration-silent-test.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/validate-meet-ecdn-configuration-silent-test.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Boost your agency&apos;s efficiency: Take Google Workspace for a test drive</title>
+        <description>Google Cloud is offering public sector organizations a 60-day, no-cost &quot;Google Workspace Test Drive&quot; program to experience its capabilities for digital transformation and hybrid work. This program highlights secure collaboration, AI features like Gemini for Workspace, data loss prevention, and FedRAMP High authorization, allowing government agencies to evaluate tools like Gmail, Docs, Sheets, and Meet. The initiative aims to provide hands-on experience and support from Google Cloud experts to demonstrate enhanced productivity and compliance.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Gemini for Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Tue, 16 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/public-sector/take-google-workspace-for-a-test-drive</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/public-sector/take-google-workspace-for-a-test-drive</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 12, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of call queuing for Google Voice, automated compliance recording in Google Meet, and new multi-party approvals for critical actions in Google Vault. Additionally, Gmail now supports data classification headers and footers, and a new web address for Google Chat is being consolidated at chat.google.com.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Voice</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Vault</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Fri, 12 Dec 2025 20:34:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-12-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Beyond the hype: 5 practical ways to use AI-powered visual content at work</title>
+        <description>This Google Workspace blog post details five practical applications of AI in visual content, showcasing how generative AI features enhance productivity and collaboration across various industries. It highlights AI&apos;s role in streamlining content creation within Google Slides, intelligent organization in Google Photos, and dynamic presentations in Google Meet, aiding teams from marketing to education. These AI-powered tools empower users to quickly generate professional-quality visuals, summarize information, and improve content accessibility, making visual communication more impactful and efficient.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Photos</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 10 Dec 2025 22:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/beyond-the-hype-5-practical-ways-to-use-ai-powered-visual-content</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/beyond-the-hype-5-practical-ways-to-use-ai-powered-visual-content</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Implement automated compliance recording and transcripts for selected Google Meet users</title>
+        <description>Google Meet is rolling out automated compliance recording, allowing Google Workspace administrators to set policies for automatically recording video meetings for specific organizational units or groups. This feature, available to Google Workspace Enterprise Standard, Plus, Education Standard, and Plus customers, ensures adherence to regulatory requirements and internal policies.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 09 Dec 2025 16:15:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/automated-compliance-recording-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/automated-compliance-recording-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace is the “new default” for The Carbon Group&apos;s fractional C-suite services</title>
+        <description>The Carbon Group, an Australian financial services firm, transitioned 180 employees from Microsoft to Google Workspace, standardizing on tools like Google Sheets, Drive, Meet, Gmail, and Docs. This move significantly improved collaboration, security, and productivity across their 13 offices, enabling real-time file sharing, streamlined communication, and efficient onboarding of new team members. The shift has made Google Workspace the company&apos;s default platform, centralizing operations and enhancing the hybrid work experience.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Mon, 08 Dec 2025 23:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/google-workspace-is-the-new-default-for-the-carbon-group</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/google-workspace-is-the-new-default-for-the-carbon-group</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Invite external guests to Google Meet live streams or limit access for targeted internal live streaming</title>
+        <description>Google Meet now supports external live streaming, allowing organizations to broadcast meetings directly to a wider audience via YouTube or custom RTMP services, supporting up to 100,000 viewers. This feature, available to Google Workspace Enterprise Standard, Plus, Education Plus, and Teaching and Learning Upgrade customers, is ideal for large events and public broadcasts, with Q&amp;A and polling capabilities coming soon.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>YouTube</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 08 Dec 2025 21:56:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/external-live-streaming-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/external-live-streaming-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Meet now automatically opens picture-in-picture when screen sharing</title>
+        <description>Google Meet is enhancing the web user experience by automatically activating Picture-in-Picture (PiP) mode when users navigate away from the Meet tab. This ensures participants can continue viewing the speaker and captions without manual intervention, improving multitasking and engagement.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chrome</tools>
+		
+        <pubDate>Mon, 08 Dec 2025 21:48:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/automatic picture-in-picture in Meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/automatic picture-in-picture in Meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 5, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of Workspace Studio for AI-powered solution creation, Gemini insights for Google Drive folders, and a refreshed user interface for Google Drive&apos;s web file viewer. Additionally, Google Meet hardware now supports BYOD functionality via Chrome OS touch controllers and introduces seamless room connection for meetings.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Chrome OS</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Apps Script</tools>
+		
+        <pubDate>Fri, 05 Dec 2025 20:55:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-05-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-05-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>BYOD on Google Meet on Chrome OS touch controller rooms</title>
+        <description>Google Meet hardware devices with Chrome OS touch controllers now support Bring Your Own Device (BYOD) functionality, allowing users to connect their laptops via USB-C to utilize the room&apos;s camera, speaker, and microphone. This enhances interoperability and flexibility for hybrid meetings, supporting any meeting platform.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Chrome OS</tools>
+		
+        <pubDate>Fri, 05 Dec 2025 19:23:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/byod-google-meet-chrome-os-touch-controller.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/byod-google-meet-chrome-os-touch-controller.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Seamlessly join meetings on Google Meet hardware with “Connect room”</title>
+        <description>Google Meet hardware users can now leverage the new &apos;Connect room&apos; feature to wirelessly link their laptop to the room&apos;s hardware, enabling them to use the system&apos;s camera, microphone, and speakers while running the meeting from their personal device. This capability, rolling out to Chrome OS touch controllers, offers a streamlined and flexible meeting experience.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Chrome OS</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 20:53:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/seamlessly-join-meet-hardware-connect-room.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/seamlessly-join-meet-hardware-connect-room.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A refreshed user interface for Google Meet hardware touch controllers</title>
+        <description>Google Meet hardware touch controllers are receiving a refreshed user interface, aligning with Material Design 3 for a more intuitive, consistent, and user-friendly experience. This update, rolling out to all Chrome OS and Android touch controllers, simplifies meeting controls and enhances accessibility within conference rooms.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Chrome OS</tools>
+		
+		<tools>Android</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 20:24:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/refreshed-ui-google-meet-hardware-touch-controllers.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/refreshed-ui-google-meet-hardware-touch-controllers.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Meet translated captions now available in Cantonese</title>
+        <description>Google Meet is expanding its translated captions feature to include Cantonese, allowing users to understand conversations in real-time across language barriers during meetings. This enhances accessibility and fosters global communication for Google Workspace Business Plus, Enterprise, and Education Plus customers.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 16:01:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/google-meet-translated-captions-cantonese.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/google-meet-translated-captions-cantonese.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Choose your preferred caption language for Meet live streams on mobile devices</title>
+        <description>Mobile users watching Google Meet live streams can now select their preferred language for translated captions directly from their devices, providing a more inclusive viewing experience. This feature, available for Google Workspace Enterprise and Education Plus customers, enhances accessibility for a global audience.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 02 Dec 2025 15:48:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/choose-caption-language-meet-live-streams-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/choose-caption-language-meet-live-streams-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 28, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for November 28, 2025, highlights several key updates including granular OAuth consent for web apps and enhanced visibility of data classification labels in Google Drive for end-users. Other significant improvements include deeper integration with Egnyte, improved Meet streaming metrics, expanded language support for Drive video captions, and the introduction of Gemini in Google Classroom for higher education. These updates aim to boost security, collaboration, and accessibility across the Workspace suite.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Fri, 28 Nov 2025 14:13:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How Bison Coolers relies on Google to run its family business</title>
+        <description>Bison Coolers, a Texas-based family business manufacturing rotomolded coolers, transitioned from a costly Microsoft Exchange setup to Google Workspace to enhance collaboration and reduce IT overhead. Leveraging tools like Gmail, Google Drive, Docs, and Sheets, alongside Google Meet and Chat, the company streamlined communication, enabled remote work, and scaled from three to over 20 employees. This shift significantly improved productivity for traveling sales teams, provided cost savings, and bolstered disaster recovery capabilities for their growing business operations.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Thu, 27 Nov 2025 20:11:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/how-bison-coolers-relies-on-google-to-run-its-family-business</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/how-bison-coolers-relies-on-google-to-run-its-family-business</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>November Workspace Drop: Nano Banana Pro in Slides, Vids, and the Gemini app, plus AI to make meetings more impactful</title>
+        <description>Google Workspace is introducing a suite of new AI-powered features, including Google Vids, an AI-powered video creation app to generate scripts and storyboards from scratch, set to launch in Workspace Labs in 2024. Google Slides will gain a &apos;Help me visualize&apos; feature for generative AI image creation and Gemini integration for drafting, while Google Meet receives background music and enhanced audio capabilities, and Google Docs sees smart chip improvements. These updates aim to significantly boost productivity and creativity across the Workspace ecosystem.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Wed, 26 Nov 2025 20:11:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/november-workspace-drop-nano-banana-pro-in-slides-vids-and-more</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/november-workspace-drop-nano-banana-pro-in-slides-vids-and-more</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Fine-tune your network for Meet live streaming with extended quality metrics</title>
+        <description>Google Meet is rolling out enhanced live streaming metrics within the Quality Tool, allowing Workspace admins to access granular data on viewership, network bandwidth, and device performance for specific live stream events. These improvements, available for Business Standard and higher, Enterprise, and Education Plus customers, enable better troubleshooting and network optimization for large-scale virtual gatherings. The feature is currently rolling out, with a scheduled release starting December 9, 2025.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 26 Nov 2025 15:14:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/fine-tune-network-meet-live-streaming-metrics.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/fine-tune-network-meet-live-streaming-metrics.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 21, 2025</title>
+        <description>Google Workspace&apos;s weekly recap for November 21, 2025, highlights updates including new Google Meet link behavior for recurring Google Calendar events, ensuring consistent meeting access. Other significant announcements cover enhancements to Google Workspace Nano Banana Pro, deeper collaboration capabilities between Google Workspace and Egnyte, the ability to preview unread Google Chat messages, and the integration of Gemini into Google Classroom for higher education. These updates aim to streamline workflows, improve communication, and enhance learning experiences.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Fri, 21 Nov 2025 21:22:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-21-2025_0882686089.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-21-2025_0882686089.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New Google Meet links when changing recurrence or start time of recurring Calendar events</title>
+        <description>Google Meet is improving link management for recurring Google Calendar events by ensuring that Meet links automatically update when an organizer modifies the event. This enhancement aims to prevent join issues and maintain consistency, reducing user confusion when accessing ongoing meetings. The feature is rolling out to all Google Workspace customers, with a full deployment expected by December 9, 2025.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 19 Nov 2025 19:10:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/google-meet-link-updates-for-recurring-calendar-events.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/google-meet-link-updates-for-recurring-calendar-events.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 14, 2025</title>
+        <description>The weekly recap for November 7, 2025, highlights several Google Workspace updates, including new controls in Google Chat for restricting conversation creation and the ability to set sharing expirations for files and folders in Google Drive. Additionally, Google Calendar now supports secondary calendar management with dedicated owners, and Google Meet offers an option for longer meeting notes.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 14 Nov 2025 20:29:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025_0735443609.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025_0735443609.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Option for longer meeting notes with “take notes for me” in Google Meet</title>
+        <description>Google Meet is introducing the option for significantly longer meeting notes, expanding beyond the previous 2,500-character limit. These enhanced notes are automatically saved to Google Docs, improving the ability to capture detailed discussions and action items directly from the meeting interface.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+        <pubDate>Tue, 11 Nov 2025 21:11:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/option-longer-meeting-notes-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/option-longer-meeting-notes-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - November 7, 2025</title>
+        <description>This weekly recap for November 7, 2025, summarizes key updates across Google Workspace, including advancements in Google Meet for longer meeting notes, Google Drive&apos;s new migration tools from Dropbox, and enhanced secondary calendar management in Google Calendar. It highlights a range of improvements aimed at boosting productivity and collaboration for users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 07 Nov 2025 21:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/weekly-recap-11-07-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Use a wider range of emoji reactions in Google Meet</title>
+        <description>Google Meet is expanding its range of emoji reactions, offering users more diverse ways to express themselves during video calls without interrupting the speaker. This update enhances non-verbal communication and engagement, allowing participants to share quick feedback and sentiments in a more dynamic and interactive meeting environment.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 07 Nov 2025 18:15:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/more-emoji-reactions-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/more-emoji-reactions-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New to Google Meet: Continue your conversations in Google Chat</title>
+        <description>Google is enabling seamless transitions between Google Chat and Google Meet, allowing users to easily continue their text conversations with a video call or vice versa. This integration streamlines communication workflows, facilitating a more natural and efficient shift between different modes of collaboration within Google Workspace.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 03 Nov 2025 21:30:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/11/continue-conversations-google-chat-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/11/continue-conversations-google-chat-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing a new waiting rooms experience in Google Meet</title>
+        <description>Google Meet is rolling out enhanced waiting rooms, giving meeting hosts greater control over who enters a meeting, with options to admit, deny, or even chat with participants before they join. These new features improve security and privacy for virtual meetings, ensuring only authorized individuals can access sensitive discussions.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 23 Oct 2025 20:36:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/new-waiting-rooms-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/new-waiting-rooms-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ask Gemini in Google Meet coming to Workspace enterprise customers</title>
+        <description>Gemini is integrating with Google Meet, allowing participants to &quot;Ask Gemini&quot; directly within a meeting for real-time information, summaries, or to answer questions based on the meeting context or broader knowledge. This AI assistant enhances meeting productivity by providing instant insights and reducing the need to switch applications during a call.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 22 Oct 2025 17:11:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/ask-gemini-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/ask-gemini-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Break free from Microsoft 365’s lock-in, vulnerabilities, and outages with Google Workspace and partners</title>
+        <description>Google Workspace is presented as a robust alternative to Microsoft 365, offering superior business continuity and collaboration features through its integrated AI-powered applications. Recent enhancements, including new AI features for Gemini and improved security, aim to provide a reliable and efficient platform for organizations seeking to maintain seamless operations and enhance productivity.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 16 Oct 2025 15:10:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/m365-alternative-business-continuity</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/m365-alternative-business-continuity</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>AI-powered makeup in Google Meet</title>
+        <description>Google Meet is launching optional AI-powered virtual makeup features, enabling users to apply cosmetic enhancements during video calls. Rolling out from October 21, 2025, this aims to boost user confidence and enhance their appearance in virtual meetings without physical makeup, adding a personal touch to professional interactions.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 13 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/ai-powered-makeup-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/ai-powered-makeup-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Meet live captions are expanding to Cantonese</title>
+        <description>Google Meet is enhancing its accessibility by adding live captions in Cantonese, expanding support for more diverse users in virtual meetings. Rolling out from October 21, 2025, this update improves inclusivity for Cantonese speakers, facilitating clearer communication and participation in Google Meet calls.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/google-meet-live-captions-cantonese.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/google-meet-live-captions-cantonese.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Set timers in Google Meet on the web</title>
+        <description>Google Meet on the web is introducing a new feature that allows users to set timers directly within meetings, enhancing time management and agenda adherence. Rolling out from October 21, 2025, this functionality helps both hosts and participants maintain focus and improve the efficiency of virtual meetings.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/set-timers-in-google-meet-on-web.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/set-timers-in-google-meet-on-web.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Create custom, AI-generated meeting backgrounds on Mobile devices</title>
+        <description>Google Meet on mobile is introducing AI-generated backgrounds, allowing users to customize their video call environments with unique, context-aware imagery. Rolling out from October 14, 2025, this feature enhances personalization and privacy during mobile video calls, offering creative and dynamic virtual settings.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 01 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/generate-ai-backgrounds-google-meet-mobile.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/generate-ai-backgrounds-google-meet-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Microsoft Teams Interoperability with Pexip Connect</title>
+        <description>Google Meet hardware devices will now support direct guest join functionality for Microsoft Teams and Pexip meetings, significantly improving interoperability in hybrid work environments. Rolling out from September 30, 2025, this update allows organizations to maximize their existing Meet hardware investments by seamlessly participating in meetings hosted on other popular platforms.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/google-meet-hardware-microsoft-teams-pexip.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/google-meet-hardware-microsoft-teams-pexip.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - September 19, 2025</title>
+        <description>The Weekly Recap for September 19, 2025, highlights the availability of Gemini in Chrome admin settings and new Gem sharing features within the Gemini app. It also covers proactive summaries for Google Forms and the &quot;Ask Gemini&quot; feature in Google Meet, detailing advancements in AI governance, collaboration, and data insights.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chrome</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-19-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-19-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Changes to Manage Google Meet hardware and calendars privilege</title>
+        <description>Google Meet hardware is undergoing changes to its Calendar administrative privileges, allowing for more granular control over device management and scheduling integration. Rolling out from September 2, 2025, this update aims to improve the security and efficiency of meeting room management for IT administrators.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Admin console</tools>
+		
+        <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/changes-meet-hardware-calendar-admin-privilege.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/changes-meet-hardware-calendar-admin-privilege.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ask Gemini in Meet: Your Personal Meeting Assistant</title>
+        <description>Google Meet is integrating an &quot;Ask Gemini&quot; feature, allowing users to query the AI assistant for meeting-related information, summaries, or contextual help during calls. Rolling out from September 2, 2025, this feature aims to improve meeting efficiency and information recall by providing instant AI assistance without interrupting the flow of conversation.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/ask-gemini-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/ask-gemini-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Seamlessly join Google Meet conferences from any calendar app</title>
+        <description>Google Meet links will now be visible within other calendar applications, including Microsoft Outlook, improving meeting join experiences for users in mixed environments. Rolling out from September 2, 2025, this interoperability enhancement simplifies access to Google Meet calls regardless of the user&apos;s preferred calendar platform.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/meet-link-visible-other-calendar-apps-outlook.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/meet-link-visible-other-calendar-apps-outlook.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Zoppas Industries adopts Google Workspace with Gemini to boost global collaboration and efficiency</title>
+        <description>Zoppas Industries, a global leader in heating elements, has embraced Google Workspace with Gemini to enhance global collaboration and operational efficiency across its 16 factories in 10 countries. The AI assistant helps Zoppas streamline communication, automate tasks like summarizing documents, and improve decision-making, leading to significant productivity gains and fostering innovation within its diverse workforce.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 15 Sep 2025 22:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/zoppas-industries-workspace-with-gemini-global-collaboration-and-efficiency</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/zoppas-industries-workspace-with-gemini-global-collaboration-and-efficiency</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Stay on top of your schedule while on the go with Google Calendar</title>
+        <description>Google Calendar is introducing new features designed to help users stay on top of their schedules while on the go, enhancing mobile productivity and organization. Updates include improved glanceable widgets, faster event creation, and better integration with other Google Workspace apps to streamline time management and reduce scheduling friction for busy professionals.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 03 Sep 2025 19:09:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/stay-on-top-your-schedule-while-on-the-go-google-calendar</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/stay-on-top-your-schedule-while-on-the-go-google-calendar</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Collaboration in the age of AI</title>
+        <description>Collaboration in the age of AI is being transformed by tools like Gemini, which streamline workflows and foster more innovative teamwork across Google Workspace. AI assists with summarizing meetings, drafting communications in Gmail and Docs, and generating ideas, enabling teams to spend less time on routine tasks and more on strategic, creative problem-solving and deep collaboration.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 28 Aug 2025 19:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/collaboration-in-the-age-of-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/collaboration-in-the-age-of-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace with Gemini allows MERGE to build a more innovative, effective, and creative team</title>
+        <description>Merge, a company known for its digital solutions, is leveraging Google Workspace with Gemini to foster an innovative, effective, and creative team environment. Gemini helps Merge employees streamline content creation, summarize information, and enhance collaboration, enabling the team to focus on strategic initiatives and deliver more impactful results across their projects.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 19 Aug 2025 23:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/google-workspace-gemini-allows-merge-build-innovative-effective-and-creative-team</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/google-workspace-gemini-allows-merge-build-innovative-effective-and-creative-team</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Coming soon: A refreshed user interface for Google Meet hardware touch controllers, test it now in preview</title>
+        <description>Google Meet hardware touch controllers are receiving an early preview of a refreshed user interface for &quot;Rooms,&quot; designed to streamline meeting control and improve usability. Rolling out from July 29, 2025, this update aims to enhance the in-room meeting experience by making it more intuitive and efficient for starting and managing video conferences.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 18 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/early-preview-rooms-refreshed-ui-google-meet-hardware-touch-controllers_0734236953.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/early-preview-rooms-refreshed-ui-google-meet-hardware-touch-controllers_0734236953.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New apps for Google Chat make teamwork more fluid and connected</title>
+        <description>Google Chat is introducing new apps and integrations designed to improve teamwork and streamline workflows, making it a more powerful collaboration hub within Google Workspace. These updates enable users to connect with essential business tools, automate tasks, and enhance communication, fostering a more efficient and productive team environment.</description>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 13 Aug 2025 19:08:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/new-google-chat-apps-improve-teamwork</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/new-google-chat-apps-improve-teamwork</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Full screen for screen sharing</title>
+        <description>Google Meet is introducing an enhanced full-screen experience, optimizing the display for video calls and content sharing. Rolling out from August 12, 2025, this update aims to improve user focus and engagement during meetings by maximizing screen real estate and minimizing distractions, thereby enhancing the overall virtual meeting environment.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 11 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/full-screen-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/full-screen-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Meet logs will now show encryption type for call endpoints</title>
+        <description>Google Workspace will enhance audit logs for Google Meet by adding encryption type details for client-side encrypted (CSE) meetings, providing greater transparency and control for administrators. This update, rolling out starting August 19, 2025, will show whether a meeting uses Google-managed or external encryption keys via the Admin console and Reports API.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Admin console</tools>
+		
+		<tools>Reports API</tools>
+		
+        <pubDate>Thu, 07 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/meet-cse-audit-log-encryption-type.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/meet-cse-audit-log-encryption-type.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Language expansion for “suggested next steps” when using “Take Notes for Me” </title>
+        <description>Google Meet&apos;s &quot;Take notes for me&quot; feature, powered by Gemini, is expanding its language support to include French, German, Japanese, Portuguese, and Spanish, in addition to English, for summarizing meetings and suggesting next steps. This enhancement will also support the summarization of client-side encrypted meetings, aiming to boost productivity for a broader global user base.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 07 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/more-languages-suggested-next-steps-take-notes-google-meet-gemini.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/more-languages-suggested-next-steps-take-notes-google-meet-gemini.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Upcoming changes to reboot, alert, and log settings for Google Meet hardware devices</title>
+        <description>Google Meet Hardware is receiving updates to enhance manageability and monitoring, including a new setting to schedule reboots at specific times, an alert log for device issues, and time zone settings that sync with the Admin console. These improvements aim to simplify device management and ensure optimal performance for Google Meet rooms.</description>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Admin console</tools>
+		
+        <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/meet-hardware-settings-update-reboot-alert-log-time-zone.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/meet-hardware-settings-update-reboot-alert-log-time-zone.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automatic Room Check-in in Google Meet with Proximity Detection</title>
+        <description>Google Meet is introducing automatic room check-in for Google Meet Hardware devices, utilizing ultrasonic signals to detect user presence and confirm meeting attendance. This feature aims to improve room utilization data and prevent abandoned meetings, automatically ending a meeting or releasing the room if no one checks in.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Mon, 04 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/automatic-room-check-in-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/automatic-room-check-in-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace named a Leader in Forrester Wave UCaaS 2025 Report</title>
+        <description>Google Workspace has been recognized as a Leader in The Forrester Wave™: Unified Communications as a Service (UCaaS), Q1 2025 report, highlighting its strong offerings in collaboration, communication, and AI integration. This recognition solidifies Google Workspace&apos;s position as a top choice for enterprises seeking comprehensive, AI-powered solutions to enhance productivity and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Tue, 29 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/workspace-named-leader-forrester-wave-ucaas-2025-report</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/workspace-named-leader-forrester-wave-ucaas-2025-report</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Our top 10 Workspace productivity tips</title>
+        <description>This article shares the top 10 productivity tips for maximizing Google Workspace, focusing on features that streamline workflows, enhance collaboration, and improve time management. Tips include leveraging smart canvases, utilizing focus time in Calendar, mastering keyboard shortcuts, and organizing files efficiently in Google Drive to boost individual and team efficiency.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 24 Jul 2025 19:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-top-10-workspace-productivity-tips</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-top-10-workspace-productivity-tips</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title> Improved email notifications following Google Meet calls, plus new sharing controls for meeting hosts</title>
+        <description>Google Meet&apos;s &quot;Take notes for me&quot; feature is receiving improvements, including clearer email notifications for meeting summaries and enhanced host controls over who receives them. This update aims to provide more streamlined information sharing and better management of meeting follow-ups.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Mon, 07 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/take-notes-for-me-email-notification-improvements-plus-host-controls.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/take-notes-for-me-email-notification-improvements-plus-host-controls.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Live stream viewers can now send chat messages, plus additional host controls</title>
+        <description>Google Meet live stream viewers can now send chat messages during events, enhancing interaction, and hosts gain more controls over live stream participants and chat functionality. These updates aim to create a more engaging and manageable experience for large-scale presentations and webinars.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/google-meet-live-stream-viewers-can-now-send-chat-messages-and-more-host-controls.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/google-meet-live-stream-viewers-can-now-send-chat-messages-and-more-host-controls.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Join a client-side encrypted meeting from a Google Meet Hardware device</title>
+        <description>Google Meet Hardware devices can now join client-side encrypted (CSE) meetings, ensuring enhanced security and privacy for sensitive discussions. This feature extends end-to-end encryption to hardware-based meeting rooms, improving compliance and data protection for Google Workspace Enterprise Plus customers.</description>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/join-client-side-encrypted-meetings-from-google-meet-hardware.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/join-client-side-encrypted-meetings-from-google-meet-hardware.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Achieving more with Google Workspace</title>
+        <description>This article provides practical tips for achieving more with Google Workspace, focusing on optimizing daily workflows and leveraging built-in collaboration features. Strategies include utilizing Google Calendar for efficient scheduling, organizing files in Google Drive, enhancing communication with Google Chat, and employing Smart Canvas to streamline document creation and teamwork.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 01 Jul 2025 00:07:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-achieving-more-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Improving Google Meet hardware admin log events with more granular information</title>
+        <description>Google Meet Hardware is receiving improvements to its admin log events, providing more detailed information for troubleshooting and monitoring device health and usage. This enhancement allows administrators to more effectively manage and diagnose issues with their Google Meet room systems.</description>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Admin console</tools>
+		
+        <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/google-meet-hardware-admin-log-event-improvements.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/google-meet-hardware-admin-log-event-improvements.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Meet now offers customizable caption styling</title>
+        <description>Google Meet is rolling out customizable caption styling, allowing users to adjust the font size, color, and background of live captions to suit their preferences. This accessibility improvement enhances the meeting experience for individuals with diverse visual needs and preferences.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/customizable-caption-styling-for-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/customizable-caption-styling-for-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 13, 2025</title>
+        <description>Google Workspace Release Notes for June 13, 2025, highlight the availability of the Gemini app for all Google Workspace for Education users and expanded language support for Gemini in Google Sheets for chart generation. Other updates include new data migration log events in the Admin console, the ability to create Google Vids from Google Slides, and customizable caption styling for Google Meet.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini app</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Admin console</tools>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace for Education</tools>
+		
+        <pubDate>Fri, 13 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-13-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-13-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Join a meeting using “companion mode” from Android and iOS tablets</title>
+        <description>Google Meet&apos;s Companion Mode is expanding to Android and iOS devices, allowing users to access interactive features like polls, Q&amp;A, and hand raising from their mobile devices while in a meeting room. This mobile integration enhances hybrid meeting experiences by providing all participants with equal engagement opportunities.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 13 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/companion-mode-google-meet-android-ios.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/companion-mode-google-meet-android-ios.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New host management control for who can ask to join a meeting</title>
+        <description>Google Meet is introducing improved host management controls for handling &apos;ask to join&apos; requests, allowing hosts to more efficiently manage who enters their meetings. This update provides greater security and control over meeting access, reducing disruptions and enhancing meeting integrity.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 12 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/google-meet-host-management-control-for-asking-to-join-a-meeting.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/google-meet-host-management-control-for-asking-to-join-a-meeting.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - June 6, 2025</title>
+        <description>Google Workspace Release Notes for June 6, 2025, announce the expansion of Companion Mode to Android and iOS for Google Meet and enhanced host controls for joining requests. Other updates include AI-powered PDF summary cards in Google Drive, the &quot;Help me create&quot; and &quot;Summarize responses&quot; features in Google Forms, and new migration tools for Microsoft Exchange Online content.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Forms</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/release-notes-06-06-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Present content from camera in Google Meet</title>
+        <description>Google Meet is introducing the ability to present content directly from a camera, allowing users to share physical objects, whiteboards, or documents more easily during video calls. This feature enhances versatility for presentations and interactive discussions in both educational and professional settings.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 04 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/present-content-from-camera-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/present-content-from-camera-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Meet and Cisco Webex interoperability now includes presented content via a wired HDMI connection</title>
+        <description>Google Meet is improving interoperability with Cisco Webex, allowing users to present content via a wired HDMI connection from Google Meet Hardware to Webex meetings. This enhancement simplifies hybrid meeting setups, enabling seamless sharing of content across different video conferencing platforms.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 04 Jun 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/06/google-meet-cisco-webex-interoperability-present-via-wired-hdmi-connection.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/06/google-meet-cisco-webex-interoperability-present-via-wired-hdmi-connection.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - May 30, 2025</title>
+        <description>Google Workspace Release Notes for May 30, 2025, announce the ability to present content from a camera in Google Meet and support for suggestions in client-side encrypted Google Docs. Other updates include Gemini&apos;s capability to upload code folders and GitHub repositories, improved Google Meet and Cisco Webex interoperability, and the &quot;Catch me up&quot; feature in Google Drive.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>GitHub</tools>
+		
+        <pubDate>Fri, 30 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/release-notes-05-30-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/release-notes-05-30-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Because you asked: Spring clean your calendar with Workspace</title>
+        <description>This article offers practical tips for &apos;spring cleaning&apos; Google Calendar and overall Google Workspace to enhance productivity and reduce digital clutter. Recommendations include decluttering old events, utilizing focus time, streamlining notification settings, and regularly reviewing shared calendars to optimize scheduling and improve time management for a more efficient workday.</description>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Thu, 22 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/because-you-asked-spring-clean-your-calendar-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/because-you-asked-spring-clean-your-calendar-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Wake Forest University redefines cybersecurity with Google Workspace for Education Plus</title>
+        <description>Wake Forest University is redefining its cybersecurity posture by implementing Google Workspace Education Plus, enhancing protection for its 8,700 students and staff. The advanced security features, including robust data loss prevention and sophisticated threat detection, help the university safeguard sensitive information, ensure compliance, and build a resilient digital environment against evolving cyber threats.</description>
+		
+		<tools>Google Workspace Education Plus</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Cloud</tools>
+		
+        <pubDate>Fri, 09 May 2025 20:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/wake-forest-university-redefines-cybersecurity-google-workspace-education-plus</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/wake-forest-university-redefines-cybersecurity-google-workspace-education-plus</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Fullstory writes collaboration into its culture with Google Workspace and Gemini</title>
+        <description>FullStory is fostering a stronger collaboration culture by leveraging Google Workspace with Gemini, enhancing productivity and creative workflows across its global teams. Gemini assists FullStory employees in streamlining content creation, summarizing complex data, and improving communication, allowing them to focus on customer experience insights and product development, leading to more efficient and impactful outcomes.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 07 May 2025 21:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/fullstory-collaboration-culture-with-google-workspace-and-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/fullstory-collaboration-culture-with-google-workspace-and-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google named a leader in IDC Marketscape: Worldwide Team Collaboration Applications 2024 Vendor Assessment</title>
+        <description>Google Workspace has been named a Leader in the IDC MarketScape: Worldwide Team Collaboration Applications 2024 Vendor Assessment, recognizing its robust suite of tools for enhancing teamwork and productivity. This acknowledgment highlights Google Workspace&apos;s strengths in integrating AI, fostering seamless communication, and supporting diverse organizational needs for effective collaboration.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 30 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/google-named-leader-idc-marketscape-worldwide-team-collaboration-applications</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/google-named-leader-idc-marketscape-worldwide-team-collaboration-applications</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - April 18, 2025</title>
+        <description>The Google Workspace release notes for April 18, 2025, announced the general availability of data classification labels for Gmail, offering enhanced security. New high-quality templates were added to Google Slides, and Google Classroom gained new student group capabilities. The new Frontline Plus SKU was introduced with enhanced security and AI features, and Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and meeting transcripts.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Fri, 18 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/release-notes-04-18-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/release-notes-04-18-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updates for configuring your preferred language for “Take notes for me”, recorded captions, and meeting transcripts</title>
+        <description>Google Meet is significantly expanding language support for its AI-powered features, including &quot;Take notes for me,&quot; recorded captions, and meeting transcripts, to include 12 new languages, bringing the total to 21. Users can now configure their preferred language within Meet settings. This update enhances accessibility and productivity for Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Thu, 17 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/updates-for-configuring-your-preferred-language-take-notes-for-me-recorded-captions-meeting-transcripts-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/updates-for-configuring-your-preferred-language-take-notes-for-me-recorded-captions-meeting-transcripts-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>More choice for Google Meet hardware: Introducing our partnership with Neat</title>
+        <description>Google Meet Hardware is expanding its ecosystem by partnering with Neat, a leading video conferencing device manufacturer, offering customers more choice and flexibility for meeting room solutions. This collaboration integrates Neat&apos;s innovative devices with Google Meet, enhancing the video conferencing experience with advanced features and reliable hardware for seamless collaboration within Google Workspace.</description>
+		
+		<tools>Google Meet Hardware</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 10 Apr 2025 19:04:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/partners/more-choice-google-meet-hardware-introducing-our-partnership-neat</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/partners/more-choice-google-meet-hardware-introducing-our-partnership-neat</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Support for continuous framing on select Logitech Google Meet on ChromeOS</title>
+        <description>Google Meet is enhancing its video conferencing capabilities with the introduction of Continuous Framing for Logitech Series One Room Kits. This AI-powered feature automatically adjusts camera framing to ensure all participants remain optimally visible and positioned during meetings, even if they move. This significantly improves the in-room meeting experience by providing dynamic and intelligent camera control.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Tue, 01 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/continuous-framing-logitech-series-one-room-kits-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/continuous-framing-logitech-series-one-room-kits-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Improve communication and representation with Dynamic layouts in Google Meet</title>
+        <description>Google Meet is rolling out dynamic layouts that intelligently adjust participant tiles based on ongoing meeting activity and shared content. This enhancement aims to optimize screen space and improve visibility for all participants, making virtual meetings more engaging and efficient. The dynamic layouts are available to all Google Workspace users, improving the overall video conferencing experience.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 28 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/dynamic-layouts-for-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/dynamic-layouts-for-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 28, 2025</title>
+        <description>The Google Workspace release notes for March 28, 2025, introduced dynamic layouts for Google Meet and additional language support for Gemini in Drive&apos;s PDF viewer. Google Slides gained proportional scaling for objects, while Google Drive received new nudges for Gemini, and Gmail&apos;s &quot;Help me write&quot; expanded to more languages. Google Classroom&apos;s mobile app also expanded language support, and Google Drive now runs on ARM-compatible Windows PCs. Lastly, Google Vids received new &quot;Help me create&quot; capabilities.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Classroom</tools>
+		
+		<tools>Google Vids</tools>
+		
+        <pubDate>Fri, 28 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-28-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-28-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 14, 2025</title>
+        <description>The Google Workspace release notes for March 14, 2025, announced several updates, including consent reconfirmation for under-18 Education users and AppSheet user authentication bypass. Gemini Gems (Deep Research) became available to more Workspace customers, while Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and transcripts. Authenticated AppSheet apps can now be embedded in Google Sites, and Google Docs client-side encryption supports export to Microsoft Word. More AI features rolled out for Business/Enterprise, Gemini side panel added four languages, and Google Meet hardware can view guest lists. Finally, Gemini in Drive gained file/folder creation, and Gemini in Gmail can add Calendar events.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sites</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>BLADE takes air travel to new heights with Google Workspace</title>
+        <description>BLADE, a leading urban air mobility company, is taking air travel to new heights by leveraging Google Workspace to streamline operations and enhance collaboration. Google Workspace, including Gmail, Google Calendar, and Google Meet, enables BLADE to manage complex logistics, coordinate flights, and communicate seamlessly across its global teams, supporting efficient customer service and rapid expansion.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 13 Mar 2025 20:03:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/blade-takes-air-travel-new-heights-google-workspace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/blade-takes-air-travel-new-heights-google-workspace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>“Take notes for me” in Google Meet is available in seven additional languages</title>
+        <description>Google Meet&apos;s AI-powered &quot;Take notes for me&quot; feature is significantly expanding its language support to include additional languages, enabling the generation of meeting notes in diverse linguistic contexts. This enhancement boosts accessibility and productivity for global teams. The feature is available to Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/more-languages-for-take-notes-for-me-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/more-languages-for-take-notes-for-me-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>More languages are available for recorded captions and transcripts in Google Meet</title>
+        <description>Google Meet is expanding its language support for recorded captions and meeting transcripts, making meeting recordings more accessible and reviewable for a broader global audience. This enhancement benefits Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users. The update ensures comprehensive linguistic support for post-meeting analysis and compliance.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/more-languages-for-recorded-captions-and-transcripts-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/more-languages-for-recorded-captions-and-transcripts-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>View invited meeting participants on Google Meet hardware</title>
+        <description>Google Meet hardware devices, such as the Series One Room Kits, now enable users to view the meeting guest list directly from the in-room controller. This enhancement streamlines meeting management and improves participant awareness within physical meeting spaces. The feature facilitates better preparation and interaction for attendees joining from conference rooms.</description>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 10 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/view-the-meeting-guest-list-from-google-meet-hardware-devices.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/view-the-meeting-guest-list-from-google-meet-hardware-devices.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Enhancements for custom and AI-generated backgrounds in Google Meet</title>
+        <description>Google Meet is rolling out updates for its Gemini AI-powered feature that generates meeting backgrounds, enhancing the quality, variety, and customization options for virtual backgrounds. These improvements allow for more personalized and engaging virtual meeting environments. The updated feature is available to Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 06 Mar 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/updates-for-generating-meeting-backgrounds-with-gemini.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/updates-for-generating-meeting-backgrounds-with-gemini.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Workspace feature drop: 4 new ways to help you do your best work</title>
+        <description>The February Google Workspace feature drop introduces new AI enhancements and productivity features across its applications, aimed at improving collaboration and efficiency. Key updates include smarter content suggestions in Docs and Slides, advanced search capabilities, and refinements to existing AI tools like Gemini, designed to help users streamline tasks and foster creativity.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Wed, 26 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/february-workspace-feature-drop</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/february-workspace-feature-drop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Forum Virium Helsinki builds a thriving workplace with Google Workspace and Gemini</title>
+        <description>Forum Virium Helsinki, a municipal innovation company, is building a thriving workplace by leveraging Google Workspace to enhance collaboration and operational efficiency. The suite of tools, including Google Docs, Sheets, and Meet, enables their project-based teams to communicate seamlessly, manage projects effectively, and foster an innovative environment focused on developing smart city solutions for Helsinki.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 25 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/forum-virium-helsinki-builds-thriving-workplace</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/forum-virium-helsinki-builds-thriving-workplace</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 21, 2025</title>
+        <description>The Google Workspace release notes for February 21, 2025, included updates to Chat usage analytics and the availability of Deep Research for Workspace in Gemini Advanced. Google Meet&apos;s &quot;Take notes for me&quot; feature gained transcript citations, and the Policy API reached general availability. Additionally, a tool to migrate data from Microsoft Teams to Google Chat was introduced, and Google Meet received call control updates.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google API</tools>
+		
+        <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/release-notes-02-21-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/release-notes-02-21-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>“Take notes for me” in Google Meet now captures citations to transcripts</title>
+        <description>Google Meet&apos;s &quot;Take notes for me&quot; feature now includes transcript citations, directly linking AI-generated notes to specific moments within the meeting transcript. This enhancement improves the accuracy, verifiability, and contextual understanding of meeting summaries. The feature is available to Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users, making meeting documentation more robust.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Thu, 20 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/transcript-citations-take-notes-for-me-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/transcript-citations-take-notes-for-me-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updated design for Google Meet meeting controls on Android and iOS</title>
+        <description>Google Meet is implementing various call control updates, likely enhancing features for both hosts and participants to manage meetings more effectively. These improvements may include more intuitive muting, camera controls, and streamlined participant management. The updates aim to create a smoother, more controlled, and efficient virtual meeting experience for all Google Workspace users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 20 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/google-meet-call-control-updates.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/google-meet-call-control-updates.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>From checkboxes to checkmates: How Google Workspace can help you achieve CMMC 2.0 compliance</title>
+        <description>Google Workspace helps organizations achieve CMMC 2.0 compliance by providing robust security features, data governance controls, and audit capabilities essential for handling Controlled Unclassified Information (CUI). The platform&apos;s integrated security, including advanced threat protection and data loss prevention, allows defense contractors and others to meet stringent government requirements, ensuring data integrity and confidentiality.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Meet</tools>
+		
+        <pubDate>Mon, 10 Feb 2025 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/identity-and-security/checkboxes-checkmates-how-google-workspace-can-help-you-achieve-cmmc-20-compliance</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/identity-and-security/checkboxes-checkmates-how-google-workspace-can-help-you-achieve-cmmc-20-compliance</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

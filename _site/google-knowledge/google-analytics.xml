@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Analytics Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>The 5-minute data dashboard: Visualize and analyze with Google Sheets</title>
+        <description>This Google Workspace blog post outlines how to create a data dashboard in under five minutes using Google Sheets&apos; new AI-powered &quot;smart fill&quot; and &quot;smart cleanup&quot; features. These capabilities automate data preparation and organization, enabling users to quickly transform raw data from sources like Google Analytics into visual, actionable insights. The process simplifies data analysis, making it accessible for users to build dashboards without extensive manual data manipulation.</description>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Analytics</tools>
+		
+        <pubDate>Mon, 26 Jan 2026 23:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/5-minute-data-dashboard-visualize-and-analyze-with-sheets</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/5-minute-data-dashboard-visualize-and-analyze-with-sheets</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

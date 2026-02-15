@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AppSheet Knowledge  - RSS</title>
+    <link>http://localhost:4000/</link>
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - December 5, 2025</title>
+        <description>This week&apos;s Google Workspace updates include the launch of Workspace Studio for AI-powered solution creation, Gemini insights for Google Drive folders, and a refreshed user interface for Google Drive&apos;s web file viewer. Additionally, Google Meet hardware now supports BYOD functionality via Chrome OS touch controllers and introduces seamless room connection for meetings.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Chrome OS</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Apps Script</tools>
+		
+        <pubDate>Fri, 05 Dec 2025 20:55:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-05-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/weekly-recap-12-05-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Google Workspace Studio: Automate everyday work with AI agents</title>
+        <description>Google Workspace is introducing Google Workspace Studio and Agents, enabling organizations to build custom AI agents powered by Gemini to automate routine tasks and enhance productivity across various departments. These low-code/no-code agents, leveraging Google Cloud&apos;s AppSheet and Vertex AI, can perform functions like managing customer support requests, onboarding employees, or analyzing data within Workspace applications. The initiative aims to democratize AI development, allowing businesses to create tailored solutions for specific workflows without extensive coding expertise.</description>
+		
+		<tools>Google Workspace Studio</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Vertex AI</tools>
+		
+        <pubDate>Wed, 03 Dec 2025 20:12:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Now available: Create AI agents to automate work with Google Workspace Studio</title>
+        <description>Workspace Studio, an AI-powered hub, is now available for Google Workspace customers to discover, manage, and create generative AI solutions and custom workflows. It integrates with tools like AppSheet and Apps Script, enabling businesses to leverage AI to automate tasks and enhance productivity within Google Sheets, Docs, and other Workspace apps.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Apps Script</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 03 Dec 2025 17:17:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/12/workspace-studio.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/12/workspace-studio.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Extract, categorize, and summarize data in AppSheet with the power of Gemini</title>
+        <description>Gemini now integrates with AppSheet to provide new AI capabilities for extracting, categorizing, and summarizing unstructured text within no-code applications. This feature, available from October 28, 2025, leverages AI to streamline data processing from various sources, significantly improving efficiency and data utilization for AppSheet users.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>AppSheet</tools>
+		
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/gemini-in-appsheet-extract-categorize-summarize.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/gemini-in-appsheet-extract-categorize-summarize.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - October 10, 2025</title>
+        <description>The Weekly Recap for October 10, 2025, highlights several Google Workspace updates, including new features for AppSheet and enhanced security controls for Calendar. It also covers improvements to Google Chat message reactions, summarizing a week of advancements in AI capabilities, no-code development, and communication tools.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 10 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-10-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/weekly-recap-10-10-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>AI-Powered app summaries in the AppSheet Admin console</title>
+        <description>The AppSheet Admin Console will now provide AI-generated summaries of applications, offering administrators quick insights into app functionality and usage. Rolling out from September 9, 2025, this feature streamlines app management and governance by providing concise overviews, helping administrators understand and manage their no-code solutions more efficiently.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Admin console</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 24 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/ai-app-summaries-appsheet-admin-console.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/ai-app-summaries-appsheet-admin-console.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Now generally available: extract and categorize data in AppSheet with the power of Gemini</title>
+        <description>AppSheet&apos;s &quot;Extract and Categorize with Gemini&quot; feature is now generally available, enabling users to automatically extract and categorize unstructured data from various sources using AI. This capability, powered by Gemini, streamlines data processing and organization within AppSheet applications, enhancing automation and efficiency for businesses.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/appsheet-extract-and-categorize-with-gemini-generally-available.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/appsheet-extract-and-categorize-with-gemini-generally-available.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - July 11, 2025</title>
+        <description>Google Workspace Release Notes for July 11, 2025, announce the general availability of the Microsoft SharePoint Online migration tool to Google Workspace and the &apos;Extract and Categorize with Gemini&apos; feature in AppSheet. Other updates include Gemini&apos;s availability in Google Docs on iOS and the ability to link Google Calendar booking pages in Gmail.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Microsoft SharePoint Online</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Calendar</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 11 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/release-notes-07-11-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/release-notes-07-11-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>AppSheet Updates: New Licenses page in the AppSheet Admin Console and group based license controls for Enterprise Plus licenses </title>
+        <description>AppSheet is rolling out updates to its license management within the Google Workspace Admin console, providing administrators with more granular control and visibility over user licenses. These improvements aim to simplify the assignment and monitoring of AppSheet licenses across an organization.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Admin console</tools>
+		
+        <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/appsheet-license-management-updates.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/appsheet-license-management-updates.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Democratizing app development using AppSheet with Gemini</title>
+        <description>Google is democratizing app development by integrating Gemini into AppSheet, its no-code development platform, empowering citizen developers to create powerful applications with greater ease and speed. This AI integration allows users to build custom apps by simply describing their needs in natural language, automating complex logic and data connections to enhance business processes across Google Workspace.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Thu, 29 May 2025 19:05:00 -0400</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/democratizing-app-development-using-appsheet-gemini</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/democratizing-app-development-using-appsheet-gemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Extract and categorize data in AppSheet with the power of Gemini</title>
+        <description>AppSheet is integrating Gemini to enable users to automatically extract and categorize unstructured data from various sources using AI. This feature streamlines data processing workflows, making it easier for users to build intelligent applications without code and improve data organization.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 14 May 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/05/extract-and-categorize-data-in-appsheet-with-gemini.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/05/extract-and-categorize-data-in-appsheet-with-gemini.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Frontline Plus: Enhanced Security and AI features for Frontline Workers</title>
+        <description>Google Workspace Frontline Plus is a new offering designed for frontline workers, enhancing Frontline Standard with advanced security and AI capabilities. This comprehensive suite includes sophisticated Data Loss Prevention (DLP), a security center, email encryption, AppSheet Core, and Gemini Business, providing robust tools for a critical workforce. Frontline Plus became available for purchase on April 24, 2025.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Gmail</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/introducing-frontline-plus-enhanced-security-ai-features.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/introducing-frontline-plus-enhanced-security-ai-features.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - March 14, 2025</title>
+        <description>The Google Workspace release notes for March 14, 2025, announced several updates, including consent reconfirmation for under-18 Education users and AppSheet user authentication bypass. Gemini Gems (Deep Research) became available to more Workspace customers, while Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and transcripts. Authenticated AppSheet apps can now be embedded in Google Sites, and Google Docs client-side encryption supports export to Microsoft Word. More AI features rolled out for Business/Enterprise, Gemini side panel added four languages, and Google Meet hardware can view guest lists. Finally, Gemini in Drive gained file/folder creation, and Gemini in Gmail can add Calendar events.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Google Sites</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Calendar</tools>
+		
+        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing AppSheet User Pass</title>
+        <description>AppSheet is implementing a minor update to its user authentication process, likely aimed at streamlining login flows or improving integration with Google Workspace identity management. This change seeks to enhance the user experience and administrative ease for AppSheet applications. Further details on the specific impact for users and administrators were provided in the broader release notes.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/appsheet-user-pass.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/appsheet-user-pass.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Embed AppSheet apps directly in Google Sites</title>
+        <description>Authenticated AppSheet applications can now be seamlessly embedded directly into Google Sites, enabling robust integration of custom business apps within an easy-to-use website builder. This enhancement improves workflow, secures data access, and provides a unified experience for users needing interactive applications on their Google Sites. The feature streamlines internal tool deployment and access.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Sites</tools>
+		
+        <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/embed-authenticated-appsheet-apps-in-google-sites.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/embed-authenticated-appsheet-apps-in-google-sites.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Uber resolves issues faster with Google AppSheet and Google Apps Script</title>
+        <description>Uber is resolving issues faster by leveraging Google AppSheet and Google Apps Script to create custom applications that streamline internal operations and enhance productivity for its global workforce. These no-code and low-code solutions automate complex workflows, integrate with Google Workspace data sources like Google Sheets, and reduce manual intervention, improving efficiency across various departments.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Apps Script</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 28 Jan 2025 20:01:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/customer-stories/uber-resolves-issues-faster-google-appsheet-and-google-apps-script</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/customer-stories/uber-resolves-issues-faster-google-appsheet-and-google-apps-script</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
