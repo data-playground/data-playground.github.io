@@ -25,7 +25,7 @@ will suck up the newline created by the YAML front matter.
     {
       "title": {{ post.title | jsonify }},
       "summary": {{ post.summary | jsonify }},
-      "url": {{ site.url | append: site.baseurl | append: post.url | jsonify }},
+      "url": {{ post.link | jsonify }},
       "published_date": {{ post.published_date | jsonify }},
       "tools": {{ post.tools | jsonify }}
     }{% unless forloop.last %},{% endunless %}
