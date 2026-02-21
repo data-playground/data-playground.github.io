@@ -246,6 +246,21 @@
     
       
       <item>
+        <title>Introducing AppSheet User Pass</title>
+        <description>AppSheet is implementing a minor update to its user authentication process, likely aimed at streamlining login flows or improving integration with Google Workspace identity management. This change seeks to enhance the user experience and administrative ease for AppSheet applications. Further details on the specific impact for users and administrators were provided in the broader release notes.</description>
+		
+		<tools>AppSheet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/appsheet-user-pass.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/appsheet-user-pass.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Google Workspace Updates Weekly Recap - March 14, 2025</title>
         <description>The Google Workspace release notes for March 14, 2025, announced several updates, including consent reconfirmation for under-18 Education users and AppSheet user authentication bypass. Gemini Gems (Deep Research) became available to more Workspace customers, while Google Meet expanded language support for &quot;Take notes for me,&quot; recorded captions, and transcripts. Authenticated AppSheet apps can now be embedded in Google Sites, and Google Docs client-side encryption supports export to Microsoft Word. More AI features rolled out for Business/Enterprise, Gemini side panel added four languages, and Google Meet hardware can view guest lists. Finally, Gemini in Drive gained file/folder creation, and Gemini in Gmail can add Calendar events.</description>
 		
@@ -270,21 +285,6 @@
         <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/release-notes-03-14-2025.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Introducing AppSheet User Pass</title>
-        <description>AppSheet is implementing a minor update to its user authentication process, likely aimed at streamlining login flows or improving integration with Google Workspace identity management. This change seeks to enhance the user experience and administrative ease for AppSheet applications. Further details on the specific impact for users and administrators were provided in the broader release notes.</description>
-		
-		<tools>AppSheet</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Fri, 14 Mar 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/03/appsheet-user-pass.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/appsheet-user-pass.html</guid>
       </item>
       
     

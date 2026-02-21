@@ -408,6 +408,21 @@
     
       
       <item>
+        <title>Use Gemini to refine text in Slides</title>
+        <description>Gemini is now integrated into Google Slides to help users refine text, offering AI-powered suggestions for clarity, conciseness, and tone. Rolling out from August 19, 2025, this feature enhances presentation quality and efficiency by assisting users in crafting impactful content directly within their slides.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Slides</tools>
+		
+        <pubDate>Fri, 05 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/use-gemini-to-refine-text-in-slides.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/use-gemini-to-refine-text-in-slides.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Google Workspace Updates Weekly Recap - September 5, 2025</title>
         <description>The Weekly Recap for September 5, 2025, highlights Gemini&apos;s ability to refine text in Google Slides and create videos from Slides in Google Vids. It also covers the introduction of Google AI Pro for Education and a new document scanning UI in Google Drive mobile, showcasing advancements in AI-powered content creation, education, and mobile productivity.</description>
 		
@@ -424,21 +439,6 @@
         <pubDate>Fri, 05 Sep 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-05-2025.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/weekly-recap-09-05-2025.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Use Gemini to refine text in Slides</title>
-        <description>Gemini is now integrated into Google Slides to help users refine text, offering AI-powered suggestions for clarity, conciseness, and tone. Rolling out from August 19, 2025, this feature enhances presentation quality and efficiency by assisting users in crafting impactful content directly within their slides.</description>
-		
-		<tools>Gemini</tools>
-		
-		<tools>Google Slides</tools>
-		
-        <pubDate>Fri, 05 Sep 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/09/use-gemini-to-refine-text-in-slides.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/use-gemini-to-refine-text-in-slides.html</guid>
       </item>
       
     
@@ -1074,6 +1074,23 @@
     
       
       <item>
+        <title>Use Gemini in the side panel of Google Slides in even more languages</title>
+        <description>Gemini&apos;s integration within the Google Slides side panel is now available in many new languages, allowing users to leverage AI assistance for presentation tasks like generating slides and writing content in diverse linguistic contexts. This significantly enhances productivity and creative potential for a global audience. The feature is available to Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Slides</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/gemini-in-slides-side-panel-available-in-many-new-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gemini-in-slides-side-panel-available-in-many-new-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>See summaries of shared Google Docs, Slides, or Sheets files directly in Google Chat</title>
         <description>Google Chat will now automatically generate summaries of shared Google Workspace files, including Docs, Sheets, Slides, and PDFs, when they are linked in a chat conversation. This AI-powered feature enables users to quickly grasp the essence of a document without leaving Google Chat, significantly improving workflow efficiency. The feature is available for Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
 		
@@ -1090,23 +1107,6 @@
         <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/03/summaries-of-shared-workspace-files-in-google-chat.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/summaries-of-shared-workspace-files-in-google-chat.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Use Gemini in the side panel of Google Slides in even more languages</title>
-        <description>Gemini&apos;s integration within the Google Slides side panel is now available in many new languages, allowing users to leverage AI assistance for presentation tasks like generating slides and writing content in diverse linguistic contexts. This significantly enhances productivity and creative potential for a global audience. The feature is available to Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
-		
-		<tools>Gemini</tools>
-		
-		<tools>Google Slides</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/03/gemini-in-slides-side-panel-available-in-many-new-languages.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gemini-in-slides-side-panel-available-in-many-new-languages.html</guid>
       </item>
       
     

@@ -6,6 +6,96 @@
     
       
       <item>
+        <title>A human-in-the-loop approach to collaborating with gen AI</title>
+        <description>Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and &quot;Help me organize&quot; in Sheets, all powered by Gemini, emphasize human oversight and the ability to refine AI-generated content. This strategy aims to boost productivity responsibly while ensuring users maintain control, provide feedback, and uphold ethical standards in AI development.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Thu, 19 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/a-human-in-the-loop-approach-to-collaborating-with-gen-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/a-human-in-the-loop-approach-to-collaborating-with-gen-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Forecast data in Connected Sheets using BigQuery ML and TimesFM</title>
+        <description>Google has integrated advanced forecasting capabilities into Connected Sheets, enabling users to generate accurate time-series forecasts directly from Google Sheets using BigQuery ML&apos;s new TimesFM model. This feature simplifies predictive analytics for large datasets stored in BigQuery, requiring no extensive coding and accessible to Google Workspace Enterprise Plus, Enterprise Standard, Enterprise Essentials Plus, and Education Plus customers.</description>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Connected Sheets</tools>
+		
+		<tools>BigQuery ML</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 17 Feb 2026 21:27:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Minutes to insights: Google’s finance transformation with Connected Sheets and BigQuery</title>
+        <description>Google&apos;s finance team, led by Cloud Finance Lead Andrew Miller under CFO Ruth Porat, achieved a significant finance transformation by integrating Connected Sheets with BigQuery, replacing complex legacy systems. This initiative empowered 180 finance professionals to directly access and analyze 4.5 billion rows of real-time data monthly, processing over 100 trillion records, which resulted in an annual saving of 500,000 work hours. The new system drastically improved data accuracy, efficiency, and enabled more strategic decision-making across Google&apos;s global operations.</description>
+		
+		<tools>Connected Sheets</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Looker Studio</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 17 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/googles-finance-transformation-with-connected-sheets-and-bigquery</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/googles-finance-transformation-with-connected-sheets-and-bigquery</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 13, 2026</title>
+        <description>This week&apos;s Google Workspace recap highlighted new Gemini integration into Google Docs for enhanced content drafting and summarization, alongside bolstered security features in Google Drive, including advanced data loss prevention (DLP) for enterprise clients. Further updates included improved moderation tools and background effects for Google Meet, and mobile editing enhancements in Google Sheets, all rolling out across various Workspace editions on both rapid and scheduled release tracks.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 13 Feb 2026 20:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Get higher access to advanced AI in Google Workspace</title>
         <description>Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data analysis in Google Sheets, and presentation creation in Google Slides, to a broader range of users and regions globally. The expansion underscores Google&apos;s commitment to integrating advanced artificial intelligence directly into daily workflows to boost productivity and foster creativity for its users.</description>
 		
@@ -553,21 +643,6 @@
     
       
       <item>
-        <title>The AI function in Google Sheets is now enhanced with Google Search results for more up-to-date answers</title>
-        <description>Google Sheets is gaining enhanced AI functions powered by Google Search, enabling users to integrate real-time public data and broader web information directly into their spreadsheets. Rolling out from October 21, 2025, this feature allows for more dynamic and informed data analysis, expanding Sheets&apos; utility significantly.</description>
-		
-		<tools>Google Sheets</tools>
-		
-		<tools>Google Search</tools>
-		
-        <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/10/enhanced-ai-function-sheets-google-search.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/enhanced-ai-function-sheets-google-search.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Summarize shared files with Gemini in Google Chat, now available on mobile </title>
         <description>Gemini Chat on mobile devices now allows users to summarize files directly from Google Drive, including Google Docs, Sheets, and Slides, providing quick access to document insights on the go. This enhancement, available from October 28, 2025, significantly improves mobile productivity and information retrieval efficiency for Workspace users.</description>
 		
@@ -584,6 +659,21 @@
         <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/10/summarize-files-gemini-chat-on-mobile.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/summarize-files-gemini-chat-on-mobile.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The AI function in Google Sheets is now enhanced with Google Search results for more up-to-date answers</title>
+        <description>Google Sheets is gaining enhanced AI functions powered by Google Search, enabling users to integrate real-time public data and broader web information directly into their spreadsheets. Rolling out from October 21, 2025, this feature allows for more dynamic and informed data analysis, expanding Sheets&apos; utility significantly.</description>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Search</tools>
+		
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/10/enhanced-ai-function-sheets-google-search.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/10/enhanced-ai-function-sheets-google-search.html</guid>
       </item>
       
     

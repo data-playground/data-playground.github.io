@@ -6,6 +6,65 @@
     
       
       <item>
+        <title>New &apos;Take notes for me&apos; configuration in the Admin console for select Gemini Alpha customers</title>
+        <description>Google Workspace is introducing a new &quot;Take notes for me&quot; configuration in the Google Admin console, allowing admins of select Gemini Alpha customers to control user access to this AI-powered feature. This setting dictates whether users can enable automatic note, summary, action item, and next step generation from Google Meet sessions. The new control aims to provide administrators with enhanced management capabilities over AI features within their domain.</description>
+		
+		<tools>Google Admin console</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 19 Feb 2026 18:10:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/new-take-notes-for-me-configuration-in-admin-console-for-select-gemini-alpha-customers.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/new-take-notes-for-me-configuration-in-admin-console-for-select-gemini-alpha-customers.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>New user controls for Take notes for me</title>
+        <description>Google Workspace is rolling out user-level controls for the &quot;Take notes for me&quot; feature within Google Meet, enabling participants to manage this AI-powered notetaking capability. If an administrator has enabled the feature, users can find the setting in Meet&apos;s activity controls to opt-in or out of automatically generating notes, summaries, action items, and next steps from their meetings. This control, available to select Gemini Alpha customers, is off by default, empowering users with agency over their meeting data.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 19 Feb 2026 18:01:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/new-user-controls-for-take-notes-for-me.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/new-user-controls-for-take-notes-for-me.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 13, 2026</title>
+        <description>This week&apos;s Google Workspace recap highlighted new Gemini integration into Google Docs for enhanced content drafting and summarization, alongside bolstered security features in Google Drive, including advanced data loss prevention (DLP) for enterprise clients. Further updates included improved moderation tools and background effects for Google Meet, and mobile editing enhancements in Google Sheets, all rolling out across various Workspace editions on both rapid and scheduled release tracks.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 13 Feb 2026 20:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Control if new Meet hardware can join calls with a new on/off setting</title>
         <description>Google Workspace admins can now control whether new Google Meet hardware automatically joins scheduled video calls or requires manual acceptance, enhancing flexibility for device management in shared spaces. This new setting, found in the Google Admin console under &quot;Device settings,&quot; prevents unexpected call joins and is rolling out to all Google Workspace customers starting February 3, 2026.</description>
 		
@@ -1485,21 +1544,6 @@
     
       
       <item>
-        <title>Live stream viewers can now send chat messages, plus additional host controls</title>
-        <description>Google Meet live stream viewers can now send chat messages during events, enhancing interaction, and hosts gain more controls over live stream participants and chat functionality. These updates aim to create a more engaging and manageable experience for large-scale presentations and webinars.</description>
-		
-		<tools>Google Meet</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/07/google-meet-live-stream-viewers-can-now-send-chat-messages-and-more-host-controls.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/google-meet-live-stream-viewers-can-now-send-chat-messages-and-more-host-controls.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Join a client-side encrypted meeting from a Google Meet Hardware device</title>
         <description>Google Meet Hardware devices can now join client-side encrypted (CSE) meetings, ensuring enhanced security and privacy for sensitive discussions. This feature extends end-to-end encryption to hardware-based meeting rooms, improving compliance and data protection for Google Workspace Enterprise Plus customers.</description>
 		
@@ -1512,6 +1556,21 @@
         <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/07/join-client-side-encrypted-meetings-from-google-meet-hardware.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/join-client-side-encrypted-meetings-from-google-meet-hardware.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Live stream viewers can now send chat messages, plus additional host controls</title>
+        <description>Google Meet live stream viewers can now send chat messages during events, enhancing interaction, and hosts gain more controls over live stream participants and chat functionality. These updates aim to create a more engaging and manageable experience for large-scale presentations and webinars.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/google-meet-live-stream-viewers-can-now-send-chat-messages-and-more-host-controls.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/google-meet-live-stream-viewers-can-now-send-chat-messages-and-more-host-controls.html</guid>
       </item>
       
     
@@ -1961,23 +2020,6 @@
     
       
       <item>
-        <title>“Take notes for me” in Google Meet is available in seven additional languages</title>
-        <description>Google Meet&apos;s AI-powered &quot;Take notes for me&quot; feature is significantly expanding its language support to include additional languages, enabling the generation of meeting notes in diverse linguistic contexts. This enhancement boosts accessibility and productivity for global teams. The feature is available to Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
-		
-		<tools>Google Meet</tools>
-		
-		<tools>Google Workspace</tools>
-		
-		<tools>Gemini</tools>
-		
-        <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/03/more-languages-for-take-notes-for-me-in-google-meet.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/more-languages-for-take-notes-for-me-in-google-meet.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>More languages are available for recorded captions and transcripts in Google Meet</title>
         <description>Google Meet is expanding its language support for recorded captions and meeting transcripts, making meeting recordings more accessible and reviewable for a broader global audience. This enhancement benefits Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users. The update ensures comprehensive linguistic support for post-meeting analysis and compliance.</description>
 		
@@ -1990,6 +2032,23 @@
         <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/03/more-languages-for-recorded-captions-and-transcripts-in-google-meet.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/more-languages-for-recorded-captions-and-transcripts-in-google-meet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>“Take notes for me” in Google Meet is available in seven additional languages</title>
+        <description>Google Meet&apos;s AI-powered &quot;Take notes for me&quot; feature is significantly expanding its language support to include additional languages, enabling the generation of meeting notes in diverse linguistic contexts. This enhancement boosts accessibility and productivity for global teams. The feature is available to Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+        <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/more-languages-for-take-notes-for-me-in-google-meet.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/more-languages-for-take-notes-for-me-in-google-meet.html</guid>
       </item>
       
     
@@ -2092,6 +2151,21 @@
     
       
       <item>
+        <title>Updated design for Google Meet meeting controls on Android and iOS</title>
+        <description>Google Meet is implementing various call control updates, likely enhancing features for both hosts and participants to manage meetings more effectively. These improvements may include more intuitive muting, camera controls, and streamlined participant management. The updates aim to create a smoother, more controlled, and efficient virtual meeting experience for all Google Workspace users.</description>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 20 Feb 2025 00:00:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/02/google-meet-call-control-updates.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/google-meet-call-control-updates.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>“Take notes for me” in Google Meet now captures citations to transcripts</title>
         <description>Google Meet&apos;s &quot;Take notes for me&quot; feature now includes transcript citations, directly linking AI-generated notes to specific moments within the meeting transcript. This enhancement improves the accuracy, verifiability, and contextual understanding of meeting summaries. The feature is available to Google Workspace Business Standard, Plus, Enterprise Standard, Plus, Education Plus, Teaching and Learning Upgrade, and Gemini Add-on users, making meeting documentation more robust.</description>
 		
@@ -2104,21 +2178,6 @@
         <pubDate>Thu, 20 Feb 2025 00:00:00 -0500</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/02/transcript-citations-take-notes-for-me-google-meet.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/transcript-citations-take-notes-for-me-google-meet.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Updated design for Google Meet meeting controls on Android and iOS</title>
-        <description>Google Meet is implementing various call control updates, likely enhancing features for both hosts and participants to manage meetings more effectively. These improvements may include more intuitive muting, camera controls, and streamlined participant management. The updates aim to create a smoother, more controlled, and efficient virtual meeting experience for all Google Workspace users.</description>
-		
-		<tools>Google Meet</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Thu, 20 Feb 2025 00:00:00 -0500</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/02/google-meet-call-control-updates.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/02/google-meet-call-control-updates.html</guid>
       </item>
       
     

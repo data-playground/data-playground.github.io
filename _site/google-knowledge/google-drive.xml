@@ -6,6 +6,54 @@
     
       
       <item>
+        <title>Minutes to insights: Google’s finance transformation with Connected Sheets and BigQuery</title>
+        <description>Google&apos;s finance team, led by Cloud Finance Lead Andrew Miller under CFO Ruth Porat, achieved a significant finance transformation by integrating Connected Sheets with BigQuery, replacing complex legacy systems. This initiative empowered 180 finance professionals to directly access and analyze 4.5 billion rows of real-time data monthly, processing over 100 trillion records, which resulted in an annual saving of 500,000 work hours. The new system drastically improved data accuracy, efficiency, and enabled more strategic decision-making across Google&apos;s global operations.</description>
+		
+		<tools>Connected Sheets</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Looker Studio</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 17 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/googles-finance-transformation-with-connected-sheets-and-bigquery</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/googles-finance-transformation-with-connected-sheets-and-bigquery</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 13, 2026</title>
+        <description>This week&apos;s Google Workspace recap highlighted new Gemini integration into Google Docs for enhanced content drafting and summarization, alongside bolstered security features in Google Drive, including advanced data loss prevention (DLP) for enterprise clients. Further updates included improved moderation tools and background effects for Google Meet, and mobile editing enhancements in Google Sheets, all rolling out across various Workspace editions on both rapid and scheduled release tracks.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 13 Feb 2026 20:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Data loss prevention policies for Google Calendar now available in beta</title>
         <description>Google is extending Data Loss Prevention (DLP) capabilities to Google Chat, allowing admins to create custom rules to prevent sensitive information from being shared within messages and spaces. This enhancement, available to specific Google Workspace Enterprise and Education customers, applies to all new and edited Chat messages to bolster data security, ensure compliance, and prevent data exfiltration. The feature is enabled by default and rolls out starting February 13, 2026.</description>
 		
@@ -956,19 +1004,6 @@
     
       
       <item>
-        <title>Ransomware detection and file restoration for Google Drive available in beta</title>
-        <description>Google Drive is rolling out enhanced ransomware detection and simplified file restoration capabilities to bolster data security and recovery. Available from September 30, 2025, this feature protects against malicious attacks by identifying suspicious activity and enabling quick recovery of previous file versions.</description>
-		
-		<tools>Google Drive</tools>
-		
-        <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/09/ransomware-detection-file-restoration-google-drive.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/ransomware-detection-file-restoration-google-drive.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Meet eCDN custom rules improvements for new and existing configurations</title>
         <description>The Weekly Recap for September 26, 2025, highlights new features such as the Chat apps carousel, Markdown support, and code blocks in Google Chat. It also details enhancements to Gemini&apos;s collaboration features within Google Drive, summarizing recent improvements across communication and AI-powered document management.</description>
 		
@@ -983,6 +1018,19 @@
         <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/09/blog-post.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/blog-post.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ransomware detection and file restoration for Google Drive available in beta</title>
+        <description>Google Drive is rolling out enhanced ransomware detection and simplified file restoration capabilities to bolster data security and recovery. Available from September 30, 2025, this feature protects against malicious attacks by identifying suspicious activity and enabling quick recovery of previous file versions.</description>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/09/ransomware-detection-file-restoration-google-drive.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/09/ransomware-detection-file-restoration-google-drive.html</guid>
       </item>
       
     
@@ -1192,6 +1240,21 @@
     
       
       <item>
+        <title>Edit your Google Drive videos in your browser, using Google Vids</title>
+        <description>Google Vids now allows users to directly edit videos stored in Google Drive, streamlining the video production workflow within the Workspace ecosystem. Rolling out from August 5, 2025, this feature enables seamless content creation and collaboration by eliminating the need to download and re-upload video files for editing.</description>
+		
+		<tools>Google Vids</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/08/edit-google-drive-videos-in-vids.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/edit-google-drive-videos-in-vids.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Google Workspace Updates Weekly Recap - August 22, 2025</title>
         <description>The Weekly Recap for August 22, 2025, highlights the ability to edit Google Drive videos directly in Google Vids and new pre-configured appointment booking in Google Calendar. It also covers Gemini Live integration with Calendar, Tasks, and Keep, alongside ServiceNow integration with Google Chat and Sheets, showcasing advancements in video editing, scheduling, AI integration, and enterprise tools.</description>
 		
@@ -1216,21 +1279,6 @@
         <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/weekly-recap-08-22-2025.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Edit your Google Drive videos in your browser, using Google Vids</title>
-        <description>Google Vids now allows users to directly edit videos stored in Google Drive, streamlining the video production workflow within the Workspace ecosystem. Rolling out from August 5, 2025, this feature enables seamless content creation and collaboration by eliminating the need to download and re-upload video files for editing.</description>
-		
-		<tools>Google Vids</tools>
-		
-		<tools>Google Drive</tools>
-		
-        <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/08/edit-google-drive-videos-in-vids.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/08/edit-google-drive-videos-in-vids.html</guid>
       </item>
       
     
@@ -1459,6 +1507,21 @@
     
       
       <item>
+        <title>Drive IRM Update: More Control for File Owners and Shared Drive Managers</title>
+        <description>Google Drive is introducing more granular Information Rights Management (IRM) controls for file owners and Shared Drive managers, allowing them to restrict download, print, and copy options for specific users or groups. This enhancement provides greater control over sensitive data and improves data security within Google Drive.</description>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 08 Jul 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/07/more-irm-controls-for-file-owners-and-shared-drive-managers.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/more-irm-controls-for-file-owners-and-shared-drive-managers.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Search for embedded content in Google Sites</title>
         <description>Google Sites is enhancing its search capabilities to include embedded content, allowing users to find information within embedded Google Docs, Sheets, Slides, and other files. This update improves discoverability and efficiency when searching for specific information within a Google Site.</description>
 		
@@ -1475,21 +1538,6 @@
         <pubDate>Tue, 08 Jul 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/07/search-for-embedded-content-in-google-sites.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/search-for-embedded-content-in-google-sites.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Drive IRM Update: More Control for File Owners and Shared Drive Managers</title>
-        <description>Google Drive is introducing more granular Information Rights Management (IRM) controls for file owners and Shared Drive managers, allowing them to restrict download, print, and copy options for specific users or groups. This enhancement provides greater control over sensitive data and improves data security within Google Drive.</description>
-		
-		<tools>Google Drive</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Tue, 08 Jul 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/07/more-irm-controls-for-file-owners-and-shared-drive-managers.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/07/more-irm-controls-for-file-owners-and-shared-drive-managers.html</guid>
       </item>
       
     

@@ -12,19 +12,19 @@ var store = [{
         "teaser": null
       },{
         "title": "Bigquery",
-        "excerpt":"BigQuery Knowledge - RSS http://localhost:4000/ SecOps data connector now available for Google Workspace for Education Plus and Standard Google Workspace for Education Plus is introducing a new SecOps Data Connector, powered by Google Cloud&apos;s BigQuery, to stream audit logs and event data to leading Security Information and Event Management (SIEM)...","categories": [],
+        "excerpt":"BigQuery Knowledge - RSS http://localhost:4000/ Forecast data in Connected Sheets using BigQuery ML and TimesFM Google has integrated advanced forecasting capabilities into Connected Sheets, enabling users to generate accurate time-series forecasts directly from Google Sheets using BigQuery ML&apos;s new TimesFM model. This feature simplifies predictive analytics for large datasets stored...","categories": [],
         "tags": [],
         "url": "/google-knowledge/bigquery.xml",
         "teaser": null
       },{
         "title": "Gemini",
-        "excerpt":"Gemini Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of lengthy...","categories": [],
+        "excerpt":"Gemini Knowledge - RSS http://localhost:4000/ A human-in-the-loop approach to collaborating with gen AI Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and &quot;Help...","categories": [],
         "tags": [],
         "url": "/google-knowledge/gemini.xml",
         "teaser": null
       },{
         "title": "Gmail",
-        "excerpt":"Gmail Knowledge - RSS http://localhost:4000/ Get higher access to advanced AI in Google Workspace Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data...","categories": [],
+        "excerpt":"Gmail Knowledge - RSS http://localhost:4000/ A human-in-the-loop approach to collaborating with gen AI Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and &quot;Help...","categories": [],
         "tags": [],
         "url": "/google-knowledge/gmail.xml",
         "teaser": null
@@ -60,13 +60,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Google Docs",
-        "excerpt":"Google Docs Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of...","categories": [],
+        "excerpt":"Google Docs Knowledge - RSS http://localhost:4000/ A human-in-the-loop approach to collaborating with gen AI Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and...","categories": [],
         "tags": [],
         "url": "/google-knowledge/google-docs.xml",
         "teaser": null
       },{
         "title": "Google Drive",
-        "excerpt":"Google Drive Knowledge - RSS http://localhost:4000/ Data loss prevention policies for Google Calendar now available in beta Google is extending Data Loss Prevention (DLP) capabilities to Google Chat, allowing admins to create custom rules to prevent sensitive information from being shared within messages and spaces. This enhancement, available to specific...","categories": [],
+        "excerpt":"Google Drive Knowledge - RSS http://localhost:4000/ Minutes to insights: Google’s finance transformation with Connected Sheets and BigQuery Google&apos;s finance team, led by Cloud Finance Lead Andrew Miller under CFO Ruth Porat, achieved a significant finance transformation by integrating Connected Sheets with BigQuery, replacing complex legacy systems. This initiative empowered 180...","categories": [],
         "tags": [],
         "url": "/google-knowledge/google-drive.xml",
         "teaser": null
@@ -84,13 +84,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Google Meet",
-        "excerpt":"Google Meet Knowledge - RSS http://localhost:4000/ Control if new Meet hardware can join calls with a new on/off setting Google Workspace admins can now control whether new Google Meet hardware automatically joins scheduled video calls or requires manual acceptance, enhancing flexibility for device management in shared spaces. This new setting,...","categories": [],
+        "excerpt":"Google Meet Knowledge - RSS http://localhost:4000/ New &apos;Take notes for me&apos; configuration in the Admin console for select Gemini Alpha customers Google Workspace is introducing a new &quot;Take notes for me&quot; configuration in the Google Admin console, allowing admins of select Gemini Alpha customers to control user access to this...","categories": [],
         "tags": [],
         "url": "/google-knowledge/google-meet.xml",
         "teaser": null
       },{
         "title": "Google Sheets",
-        "excerpt":"Google Sheets Knowledge - RSS http://localhost:4000/ Get higher access to advanced AI in Google Workspace Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs,...","categories": [],
+        "excerpt":"Google Sheets Knowledge - RSS http://localhost:4000/ A human-in-the-loop approach to collaborating with gen AI Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and...","categories": [],
         "tags": [],
         "url": "/google-knowledge/google-sheets.xml",
         "teaser": null
@@ -120,7 +120,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Google Workspace",
-        "excerpt":"Google Workspace Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of...","categories": [],
+        "excerpt":"Google Workspace Knowledge - RSS http://localhost:4000/ A human-in-the-loop approach to collaborating with gen AI Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and...","categories": [],
         "tags": [],
         "url": "/google-knowledge/google-workspace.xml",
         "teaser": null
@@ -156,7 +156,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Google_knowledge",
-        "excerpt":"{ \"version\": \"https://jsonfeed.org/version/1\", \"title\": \"\"Data Playground\"\", \"home_page_url\": \"http://localhost:4000\", \"feed_url\": \"http://localhost:4000/feed.json\", \"description\": \"\"A place for data, analytics and automation enthusiasts\"\", \"author\": { \"name\": \"\"Pedro Mano\"\", \"url\": \"http://localhost:4000\" }, \"items\": [ { \"title\": \"Listen to audio summaries in Google Docs\", \"summary\": \"Google Workspace is introducing a new feature in Google Docs, allowing...","categories": [],
+        "excerpt":"{ \"version\": \"https://jsonfeed.org/version/1\", \"title\": \"\"Data Playground\"\", \"home_page_url\": \"http://localhost:4000\", \"feed_url\": \"http://localhost:4000/feed.json\", \"description\": \"\"A place for data, analytics and automation enthusiasts\"\", \"author\": { \"name\": \"\"Pedro Mano\"\", \"url\": \"http://localhost:4000\" }, \"items\": [ { \"title\": \"A human-in-the-loop approach to collaborating with gen AI\", \"summary\": \"Google Workspace is implementing a \\\"human in the loop\\\" approach...","categories": [],
         "tags": [],
         "url": "/google-knowledge.json",
         "teaser": null
@@ -168,7 +168,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Google_posts",
-        "excerpt":"Google Knowledge - RSS http://localhost:4000/ Listen to audio summaries in Google Docs Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of lengthy...","categories": [],
+        "excerpt":"Google Knowledge - RSS http://localhost:4000/ A human-in-the-loop approach to collaborating with gen AI Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and &quot;Help...","categories": [],
         "tags": [],
         "url": "/google-knowledge.xml",
         "teaser": null
@@ -177,6 +177,18 @@ var store = [{
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "/",
+        "teaser": null
+      },{
+        "title": "Jobs",
+        "excerpt":"{ \"version\": \"https://jsonfeed.org/version/1\", \"title\": \"\"Data Playground\"\", \"home_page_url\": \"http://localhost:4000\", \"feed_url\": \"http://localhost:4000/feed.json\", \"description\": \"\"A place for data, analytics and automation enthusiasts\"\", \"author\": { \"name\": \"\"Pedro Mano\"\", \"url\": \"http://localhost:4000\" }, \"items\": [ { \"title\": \"Field Solutions Architect, Applied Artificial Intelligence, Google Cloud\", \"company\": \"Google\", \"compensation\": \"$97,500 - $140,000\", \"remote\": \"true\", \"location\": \"Multiple locations...","categories": [],
+        "tags": [],
+        "url": "/jobs.json",
+        "teaser": null
+      },{
+        "title": "Jobs",
+        "excerpt":"JOBS http://localhost:4000/ Field Solutions Architect, Applied Artificial Intelligence, Google Cloud Google $97,500 - $140,000 true Multiple locations including New York, NY, USA; Atlanta, GA, USA 98 This role is a superb fit for Pedro given his deep involvement with Google&apos;s AI technologies. His experience with Gemini for AI enrichment, building...","categories": [],
+        "tags": [],
+        "url": "/jobs.xml",
         "teaser": null
       },{
         "title": "Posts by Language",

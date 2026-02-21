@@ -6,6 +6,44 @@
     
       
       <item>
+        <title>A human-in-the-loop approach to collaborating with gen AI</title>
+        <description>Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and &quot;Help me organize&quot; in Sheets, all powered by Gemini, emphasize human oversight and the ability to refine AI-generated content. This strategy aims to boost productivity responsibly while ensuring users maintain control, provide feedback, and uphold ethical standards in AI development.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Thu, 19 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/a-human-in-the-loop-approach-to-collaborating-with-gen-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/a-human-in-the-loop-approach-to-collaborating-with-gen-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>More personalized and proactive assistance in Gmail coming to business customers</title>
+        <description>Google is enhancing Gmail for business customers with new AI-powered features, including personalized email summaries, &quot;help me write&quot; for drafting, and suggested replies, all integrated with Gemini. These capabilities, part of Google Workspace, aim to boost productivity and streamline communication for users, initially rolling out in English with broader availability planned. The update focuses on providing more proactive and personalized assistance to improve workflow efficiency.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Thu, 19 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/product-announcements/more-personalized-and-proactive-assistance-in-gmail-coming-to-business-customers</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/product-announcements/more-personalized-and-proactive-assistance-in-gmail-coming-to-business-customers</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Get higher access to advanced AI in Google Workspace</title>
         <description>Google Workspace is significantly expanding access to its AI-powered features, including the Gemini model, across its suite of productivity applications. This initiative aims to bring enhanced capabilities, such as automated content generation in Google Docs, data analysis in Google Sheets, and presentation creation in Google Slides, to a broader range of users and regions globally. The expansion underscores Google&apos;s commitment to integrating advanced artificial intelligence directly into daily workflows to boost productivity and foster creativity for its users.</description>
 		
@@ -1628,25 +1666,6 @@
     
       
       <item>
-        <title>Data classifications labels for Gmail are now generally available</title>
-        <description>Gmail Data Classification Labels are now generally available, providing administrators with the ability to apply labels like &quot;Internal&quot; or &quot;Confidential&quot; to emails. This feature helps enforce Data Loss Prevention (DLP) rules, automate security policies, and educate users on sensitive data handling practices. Available for Google Workspace Enterprise Plus, Education Plus, and existing Drive and Chat classification labels, it enhances data security and compliance across organizations.</description>
-		
-		<tools>Gmail</tools>
-		
-		<tools>Google Workspace</tools>
-		
-		<tools>Google Drive</tools>
-		
-		<tools>Google Chat</tools>
-		
-        <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Introducing Frontline Plus: Enhanced Security and AI features for Frontline Workers</title>
         <description>Google Workspace Frontline Plus is a new offering designed for frontline workers, enhancing Frontline Standard with advanced security and AI capabilities. This comprehensive suite includes sophisticated Data Loss Prevention (DLP), a security center, email encryption, AppSheet Core, and Gemini Business, providing robust tools for a critical workforce. Frontline Plus became available for purchase on April 24, 2025.</description>
 		
@@ -1661,6 +1680,25 @@
         <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/04/introducing-frontline-plus-enhanced-security-ai-features.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/introducing-frontline-plus-enhanced-security-ai-features.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data classifications labels for Gmail are now generally available</title>
+        <description>Gmail Data Classification Labels are now generally available, providing administrators with the ability to apply labels like &quot;Internal&quot; or &quot;Confidential&quot; to emails. This feature helps enforce Data Loss Prevention (DLP) rules, automate security policies, and educate users on sensitive data handling practices. Available for Google Workspace Enterprise Plus, Education Plus, and existing Drive and Chat classification labels, it enhances data security and compliance across organizations.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Chat</tools>
+		
+        <pubDate>Wed, 23 Apr 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/04/data-classification-labels-for-gmail-generally-available.html</guid>
       </item>
       
     
@@ -1945,21 +1983,6 @@
     
       
       <item>
-        <title>Gmail data loss prevention now supports “sensitive content snippets”</title>
-        <description>Gmail Data Loss Prevention (DLP) has been enhanced to provide administrators with sensitive content snippets, offering a small excerpt of flagged content when a DLP rule is triggered. This provides better context for policy violations without exposing the entire sensitive document, improving incident response and privacy. The feature is available for Google Workspace Enterprise Plus and Education Plus customers.</description>
-		
-		<tools>Gmail</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-sensitive-content-snippets.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-sensitive-content-snippets.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Beta update: Data loss prevention rules based on classification labels are now applied instantly in Gmail on the web</title>
         <description>Gmail Data Loss Prevention (DLP) rules and classification labels are now applied instantly, drastically reducing the latency between policy definition and enforcement. This ensures more immediate and effective protection against sensitive data leakage, enhancing organizational security posture. The improved real-time enforcement is available for Google Workspace Enterprise Plus and Education Plus customers.</description>
 		
@@ -1970,6 +1993,21 @@
         <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-rules-classification-labels-now-applied-instantly-.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-rules-classification-labels-now-applied-instantly-.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gmail data loss prevention now supports “sensitive content snippets”</title>
+        <description>Gmail Data Loss Prevention (DLP) has been enhanced to provide administrators with sensitive content snippets, offering a small excerpt of flagged content when a DLP rule is triggered. This provides better context for policy violations without exposing the entire sensitive document, improving incident response and privacy. The feature is available for Google Workspace Enterprise Plus and Education Plus customers.</description>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-sensitive-content-snippets.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gmail-data-loss-prevention-sensitive-content-snippets.html</guid>
       </item>
       
     

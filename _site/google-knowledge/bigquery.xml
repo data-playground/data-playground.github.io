@@ -6,6 +6,52 @@
     
       
       <item>
+        <title>Forecast data in Connected Sheets using BigQuery ML and TimesFM</title>
+        <description>Google has integrated advanced forecasting capabilities into Connected Sheets, enabling users to generate accurate time-series forecasts directly from Google Sheets using BigQuery ML&apos;s new TimesFM model. This feature simplifies predictive analytics for large datasets stored in BigQuery, requiring no extensive coding and accessible to Google Workspace Enterprise Plus, Enterprise Standard, Enterprise Essentials Plus, and Education Plus customers.</description>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Connected Sheets</tools>
+		
+		<tools>BigQuery ML</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 17 Feb 2026 21:27:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Minutes to insights: Google’s finance transformation with Connected Sheets and BigQuery</title>
+        <description>Google&apos;s finance team, led by Cloud Finance Lead Andrew Miller under CFO Ruth Porat, achieved a significant finance transformation by integrating Connected Sheets with BigQuery, replacing complex legacy systems. This initiative empowered 180 finance professionals to directly access and analyze 4.5 billion rows of real-time data monthly, processing over 100 trillion records, which resulted in an annual saving of 500,000 work hours. The new system drastically improved data accuracy, efficiency, and enabled more strategic decision-making across Google&apos;s global operations.</description>
+		
+		<tools>Connected Sheets</tools>
+		
+		<tools>BigQuery</tools>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Cloud</tools>
+		
+		<tools>Looker Studio</tools>
+		
+		<tools>Google Drive</tools>
+		
+        <pubDate>Tue, 17 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/productivity-collaboration/googles-finance-transformation-with-connected-sheets-and-bigquery</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/productivity-collaboration/googles-finance-transformation-with-connected-sheets-and-bigquery</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>SecOps data connector now available for Google Workspace for Education Plus and Standard</title>
         <description>Google Workspace for Education Plus is introducing a new SecOps Data Connector, powered by Google Cloud&apos;s BigQuery, to stream audit logs and event data to leading Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) platforms. This allows Education Plus customers to centralize security monitoring, simplify threat detection, and enhance incident response by integrating with systems like Splunk, CrowdStrike, and Palo Alto Networks Cortex XSOAR. The initiative aims to bolster the security posture of educational institutions, making it easier to identify and mitigate cyber threats.</description>
 		

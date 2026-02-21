@@ -1,0 +1,32 @@
+{%- assign all_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG | concat: site.data.data_playground_data.GOOGLE_APPS_UPDATES -%}
+{%- assign filtered_posts = "" | split: "" -%}
+
+{%- for post in all_posts -%}
+  {%- assign match = false -%}
+  {%- for term in search_terms -%}
+    {%- if post.tools contains term -%}
+      {%- assign match = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if match -%}
+    {%- assign filtered_posts = filtered_posts | push: post -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ feed_title | xml_escape }}</title>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <description>Updates for {{ feed_title | xml_escape }}</description>
+    {%- for post in filtered_posts limit: 20 -%}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ site.url }}{{ site.baseurl }}{{ post.url | xml_escape }}</link>
+        <description>{{ post.summary | xml_escape }}</description>
+        <pubDate>{{ post.published_date | date_to_rfc822 }}</pubDate>
+        <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url | xml_escape }}</guid>
+      </item>
+    {%- endfor -%}
+  </channel>
+</rss>

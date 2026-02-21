@@ -1299,6 +1299,23 @@
     
       
       <item>
+        <title>Use Gemini in the side panel of Google Chat in additional languages</title>
+        <description>Gemini&apos;s integration within the Google Chat side panel is now available in new languages, allowing users to access AI assistance such as summarization and drafting directly within their chat conversations. This expansion enhances productivity and collaboration for global teams. The feature is available to Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Chat</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2025/03/gemini-in-chat-side-panel-available-in-new-languages.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gemini-in-chat-side-panel-available-in-new-languages.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>See summaries of shared Google Docs, Slides, or Sheets files directly in Google Chat</title>
         <description>Google Chat will now automatically generate summaries of shared Google Workspace files, including Docs, Sheets, Slides, and PDFs, when they are linked in a chat conversation. This AI-powered feature enables users to quickly grasp the essence of a document without leaving Google Chat, significantly improving workflow efficiency. The feature is available for Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
 		
@@ -1315,23 +1332,6 @@
         <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
         <link>http://workspaceupdates.googleblog.com/2025/03/summaries-of-shared-workspace-files-in-google-chat.html</link>
         <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/summaries-of-shared-workspace-files-in-google-chat.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Use Gemini in the side panel of Google Chat in additional languages</title>
-        <description>Gemini&apos;s integration within the Google Chat side panel is now available in new languages, allowing users to access AI assistance such as summarization and drafting directly within their chat conversations. This expansion enhances productivity and collaboration for global teams. The feature is available to Google Workspace Business, Enterprise, Education Plus, and Teaching and Learning Upgrade customers.</description>
-		
-		<tools>Gemini</tools>
-		
-		<tools>Google Chat</tools>
-		
-		<tools>Google Workspace</tools>
-		
-        <pubDate>Tue, 18 Mar 2025 00:00:00 -0400</pubDate>
-        <link>http://workspaceupdates.googleblog.com/2025/03/gemini-in-chat-side-panel-available-in-new-languages.html</link>
-        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2025/03/gemini-in-chat-side-panel-available-in-new-languages.html</guid>
       </item>
       
     

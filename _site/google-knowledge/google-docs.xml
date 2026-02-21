@@ -6,6 +6,50 @@
     
       
       <item>
+        <title>A human-in-the-loop approach to collaborating with gen AI</title>
+        <description>Google Workspace is implementing a &quot;human in the loop&quot; approach for generative AI, positioning AI as a collaborative tool rather than a replacement for human work. Features like &quot;Help me write&quot; in Docs and Gmail, and &quot;Help me organize&quot; in Sheets, all powered by Gemini, emphasize human oversight and the ability to refine AI-generated content. This strategy aims to boost productivity responsibly while ensuring users maintain control, provide feedback, and uphold ethical standards in AI development.</description>
+		
+		<tools>Google Workspace</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gmail</tools>
+		
+		<tools>Google Sheets</tools>
+		
+        <pubDate>Thu, 19 Feb 2026 20:02:00 -0500</pubDate>
+        <link>https://workspace.google.com/blog/ai-and-machine-learning/a-human-in-the-loop-approach-to-collaborating-with-gen-ai</link>
+        <guid isPermaLink="true">https://workspace.google.com/blog/ai-and-machine-learning/a-human-in-the-loop-approach-to-collaborating-with-gen-ai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Workspace Updates Weekly Recap - February 13, 2026</title>
+        <description>This week&apos;s Google Workspace recap highlighted new Gemini integration into Google Docs for enhanced content drafting and summarization, alongside bolstered security features in Google Drive, including advanced data loss prevention (DLP) for enterprise clients. Further updates included improved moderation tools and background effects for Google Meet, and mobile editing enhancements in Google Sheets, all rolling out across various Workspace editions on both rapid and scheduled release tracks.</description>
+		
+		<tools>Google Docs</tools>
+		
+		<tools>Gemini</tools>
+		
+		<tools>Google Drive</tools>
+		
+		<tools>Google Meet</tools>
+		
+		<tools>Google Sheets</tools>
+		
+		<tools>Google Workspace</tools>
+		
+        <pubDate>Fri, 13 Feb 2026 20:03:00 -0500</pubDate>
+        <link>http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</link>
+        <guid isPermaLink="true">http://workspaceupdates.googleblog.com/2026/02/weekly-recap-02-13-2026.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Listen to audio summaries in Google Docs</title>
         <description>Google Workspace is introducing a new feature in Google Docs, allowing users to listen to AI-generated audio summaries of their documents. Powered by Gemini, this innovation aims to boost productivity and accessibility by enabling quick comprehension of lengthy texts, whether users are multitasking or prefer auditory learning. The feature is designed to enhance how users interact with document content, rolling out initially to select Workspace editions.</description>
 		
