@@ -1,0 +1,40 @@
+---
+layout: empty
+permalink: jobs.json
+---
+{%- comment -%}
+This comment and the whitespace stripping below (the minus signs) 
+will suck up the newline created by the YAML front matter.
+{%- endcomment -%}
+{%- assign jobs = site.data.data_playground_data.JOBS -%}
+{%- assign cutoff_date = '2025-01-01' -%}
+{%- assign recent_jobs = jobs | where_exp: "job", "job.dt > cutoff_date" -%}
+{%- assign jobs = jobs | sort: 'fit_score' | reverse -%}
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ site.title | jsonify }}",
+  "home_page_url": "{{ site.url }}",
+  "feed_url": "{{ site.url }}/feed.json",
+  "description": "{{ site.description | jsonify }}",
+  "author": {
+    "name": "{{ site.author.name | jsonify }}",
+    "url": "{{ site.url }}"
+  },
+  "items": [
+    {% for job in jobs %}
+    {
+      "title": {{ job.job_title | jsonify }},
+      "company": {{ job.company | jsonify }},
+      "compensation": {{ job.compensation | jsonify }},
+      "remote": {{ job.remote | jsonify }},
+      "location": {{ job.location | jsonify }},
+      "fit_score": {{ job.fit_score | jsonify }},
+      "explanation": {{ job.explanation | jsonify }},
+      "qualification_analysis": {{ job.qualification_analysis | jsonify }},
+      "skill_gaps": {{ job.skill_gaps | jsonify }},
+      "pubDate": {{ job.dt | jsonify }},
+      "url": {{ job.link | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

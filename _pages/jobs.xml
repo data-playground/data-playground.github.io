@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: empty
 permalink: jobs.xml
@@ -34,4 +35,42 @@ will suck up the newline created by the YAML front matter.
       {% endunless %}
     {% endfor %}
   </channel>
+=======
+---
+layout: empty
+permalink: jobs.xml
+---
+{%- comment -%}
+This comment and the whitespace stripping below (the minus signs) 
+will suck up the newline created by the YAML front matter.
+{%- endcomment -%}
+{%- assign jobs = site.data.data_playground_data.JOBS -%}
+{%- assign cutoff_date = '2025-01-01' -%}
+{%- assign recent_jobs = jobs | where_exp: "job", "job.dt > cutoff_date" -%}
+{%- assign jobs = jobs | sort: 'fit_score' | reverse -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JOBS</title>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    {% for job in recent_jobs %}
+      {% unless job.link == '/index.html' %}
+      <item>
+        <title>{{ job.job_title | xml_escape }}</title>
+        <company>{{ job.company | xml_escape }}</company>
+        <compensation>{{ job.compensation | xml_escape }}</compensation>
+        <remote>{{ job.remote | xml_escape }}</remote>
+        <location>{{ job.location | xml_escape }}</location>
+        <fit_score>{{ job.fit_score | xml_escape }}</fit_score>
+        <explanation>{{ job.explanation | xml_escape }}</explanation>
+        <qualification_analysis>{{ job.qualification_analysis | xml_escape }}</qualification_analysis>
+        <skill_gaps>{{ job.skill_gaps | xml_escape }}</skill_gaps>
+        <pubDate>{{ job.dt | date_to_rfc822 }}</pubDate>
+        <link>{{ job.link | xml_escape }}</link>
+        <guid isPermaLink="true">{{ job.link | xml_escape }}</guid>
+      </item>
+      {% endunless %}
+    {% endfor %}
+  </channel>
+>>>>>>> 5e242e32dd53be93445f7527229725216ccd43ba
 </rss>

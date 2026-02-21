@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: empty
 permalink: google-knowledge.json
@@ -31,4 +32,39 @@ will suck up the newline created by the YAML front matter.
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
+=======
+---
+layout: empty
+permalink: google-knowledge.json
+---
+{%- comment -%}
+This comment and the whitespace stripping below (the minus signs) 
+will suck up the newline created by the YAML front matter.
+{%- endcomment -%}
+{%- assign google_posts = site.data.data_playground_data.GOOGLE_WORKSPACE_BLOG | concat: site.data.data_playground_data.GOOGLE_APPS_UPDATES -%}
+{%- assign google_posts = google_posts | sort: 'published_date' | reverse -%}
+{%- assign cutoff_date = '2025-01-01 00:00:00' -%}
+{%- assign recent_posts = google_posts | where_exp: "post", "post.published_date > cutoff_date" -%}
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ site.title | jsonify }}",
+  "home_page_url": "{{ site.url }}",
+  "feed_url": "{{ site.url }}/feed.json",
+  "description": "{{ site.description | jsonify }}",
+  "author": {
+    "name": "{{ site.author.name | jsonify }}",
+    "url": "{{ site.url }}"
+  },
+  "items": [
+    {% for post in recent_posts %}
+    {
+      "title": {{ post.title | jsonify }},
+      "summary": {{ post.summary | jsonify }},
+      "url": {{ post.link | jsonify }},
+      "published_date": {{ post.published_date | jsonify }},
+      "tools": {{ post.tools | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+>>>>>>> 5e242e32dd53be93445f7527229725216ccd43ba
 }
