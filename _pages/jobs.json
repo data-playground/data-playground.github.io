@@ -9,7 +9,7 @@ will suck up the newline created by the YAML front matter.
 {%- assign jobs = site.data.data_playground_data.JOBS -%}
 {%- assign cutoff_date = '2025-01-01' -%}
 {%- assign recent_jobs = jobs | where_exp: "job", "job.dt > cutoff_date" -%}
-{%- assign jobs = jobs | sort: 'fit_score' | reverse -%}
+{%- assign recent_jobs = recent_jobs | sort: 'fit_score' | reverse -%}
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "{{ site.title | jsonify }}",
