@@ -1,0 +1,13 @@
+{
+  "name": "boleiro",
+  "version": "0.1.0",
+  "description": "Boleiro: a text-only football (soccer) management game for the browser. No build step, no dependencies.",
+  "private": true,
+  "scripts": {
+    "start": "node tools/serve.js",
+    "test": "node tests/run.js",
+    "test:long": "node tests/run.js --long",
+    "build": "node tools/build-single.js"
+  },
+  "engines": { "node": ">=18" }
+}

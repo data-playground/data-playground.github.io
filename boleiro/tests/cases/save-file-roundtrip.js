@@ -1,0 +1,11 @@
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+await sleep(500);
+startGame(WSEL.slice(0,2),5);G.bc=100;
+for(let i=0;i<3;i++)await doRound?.();
+console.log('name',svFileName());
+const t=await pack(svSnap());console.log('pack len',t.length,t.slice(0,5));
+const me=G.t[G.me].name,sea=G.season,rd=G.round,bud=G.t[G.me].bud;
+G=null;
+let f={text:async()=>t};await svFromFile(f);
+console.log('restored',G&&G.t[G.me].name==me,G.season==sea,G.round==rd,G.t[G.me].bud==bud);
+await svFromFile({text:async()=>'garbage'});console.log('bad file msg',SVM);

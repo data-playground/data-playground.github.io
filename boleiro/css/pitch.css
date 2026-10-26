@@ -1,0 +1,12 @@
+/* Match log, score and pitch slots */
+.mut{color:var(--mut)}.bad{color:var(--red)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.grid button{text-align:left;padding:10px}
+#mlog{max-height:340px;overflow:auto;font-size:14px}
+#mlog div{padding:3px 0;border-bottom:1px dotted var(--bd)}
+.g{font-weight:700;color:var(--ac)}.c{color:var(--red)}.s{color:var(--ac2);font-weight:600}
+.score{font-family:"IBM Plex Mono",ui-monospace,monospace;font-weight:700;font-size:28px;text-align:center;margin:6px 0}
+.pitch{position:relative;width:100%;max-width:400px;aspect-ratio:3/4;margin:6px auto 10px;border-radius:8px;border:2px solid var(--pline);background:repeating-linear-gradient(0deg,var(--pitchA) 0 10%,var(--pitchB) 10% 20%)}
+.ln{position:absolute;border:2px solid var(--pline);box-sizing:border-box;pointer-events:none}
+.slot{position:absolute;transform:translate(-50%,-50%);min-width:58px;padding:3px 4px;font-size:11px;line-height:1.2;text-align:center;color:var(--slottext);background:var(--slot);border:2px solid var(--slottext);border-radius:7px}
+.slot .sp{opacity:.75;font-size:10px}.slot.fg{border-color:var(--good)}.slot.fa{border-color:var(--warn)}.slot.fr{border-color:var(--bad)}.slot.sel{outline:3px solid var(--slottext);outline-offset:1px}.slot{user-select:none}.ic{display:inline-block;min-width:1.3em}.slot.gh{opacity:.35;border-style:dashed}.slot[draggable=true],.chip,tr.pl[draggable=true]{cursor:grab}.chip{display:inline-block;margin:3px 4px 0 0;padding:4px 8px;border:1px solid var(--bd);border-radius:6px;font-size:12px}.chip.sel{outline:2px solid var(--ac)}tr[data-pk]{cursor:pointer}
